@@ -234,6 +234,8 @@ private slots:
 
     void on_torreFuegoButton_clicked();
 
+    void on_eliminarCursoButton_clicked();
+
 private:
     Ui::MainWindow *ui;
 };
