@@ -23,7 +23,7 @@ MainWindow::~MainWindow()
 
 void MainWindow::armarTableroCasillasNegras()
 {
-     QPixmap casillaNegra("../ImagenesProyecto2/casillaNegra.png");
+     QPixmap casillaNegra(":/new/prefix1/casillaNegra.png");
      ui->casilla00->setIcon(casillaNegra);
      ui->casilla02->setIcon(casillaNegra);
      ui->casilla04->setIcon(casillaNegra);
@@ -83,7 +83,7 @@ void MainWindow::armarTableroCasillasNegras()
 
 void MainWindow::armarTableroCasillasBlancas()
 {
-    QPixmap casillaBlanco("../ImagenesProyecto2/casillaBlanco.png");
+    QPixmap casillaBlanco(":/new/prefix1/casillaBlanco.png");
     ui->casilla01->setIcon(casillaBlanco);
     ui->casilla03->setIcon(casillaBlanco);
     ui->casilla05->setIcon(casillaBlanco);
@@ -144,10 +144,10 @@ void MainWindow::armarTableroCasillasBlancas()
 
 void MainWindow::asignarTorres()
 {
-    QPixmap torreArquera("../ImagenesProyecto2/torreArqueros.png");
-     QPixmap torreMago("../ImagenesProyecto2/torreMago.png");
-     QPixmap torreArtillero("../ImagenesProyecto2/torreArtillero.jpg");
-     QPixmap torreFuego("../ImagenesProyecto2/torreLanzaFuego.png");
+    QPixmap torreArquera(":/new/prefix1/torreArqueros.png");
+     QPixmap torreMago(":/new/prefix1/torreMago.png");
+     QPixmap torreArtillero(":/new/prefix1/torreArtillero.jpg");
+     QPixmap torreFuego(":/new/prefix1/torreLanzaFuego.png");
      ui->torreArqueraButton->setIcon(torreArquera);
      ui->torreMagoButton->setIcon(torreMago);
      ui->torreArtilleraButton->setIcon(torreArtillero);
@@ -201,694 +201,1292 @@ void MainWindow::on_casilla01_clicked()
 void MainWindow::on_casilla02_clicked()
 {
 
-    habilitatTorres();
+    casillaSeleccionada = "casilla02";
     casSelec =2;
+    habilitatTorres();
+<<<<<<< HEAD
+    casSelec =2;
+=======
+    QString to =casillaSeleccionada.right(2);
+>>>>>>> master
     p1.updatemapa(casSelec);
 }
 
 void MainWindow::on_casilla03_clicked()
 {
-    habilitatTorres();
+    casillaSeleccionada = "casilla03";
     casSelec =3;
+    habilitatTorres();
+<<<<<<< HEAD
+    casSelec =3;
+=======
+    QString to =casillaSeleccionada.right(2);
+>>>>>>> master
     p1.updatemapa(casSelec);
 }
 
 void MainWindow::on_casilla04_clicked()
 {
-    habilitatTorres();
+    casillaSeleccionada = "casilla04";
     casSelec =4;
+    habilitatTorres();
+<<<<<<< HEAD
+    casSelec =4;
+=======
+    QString to =casillaSeleccionada.right(2);
+>>>>>>> master
     p1.updatemapa(casSelec);
 }
 
 void MainWindow::on_casilla05_clicked()
 {
-    habilitatTorres();
+    casillaSeleccionada = "casilla05";
     casSelec =5;
+    habilitatTorres();
+<<<<<<< HEAD
+    casSelec =5;
+=======
+    QString to =casillaSeleccionada.right(2);
+>>>>>>> master
     p1.updatemapa(casSelec);
 }
 
 void MainWindow::on_casilla06_clicked()
 {
-    habilitatTorres();
+    casillaSeleccionada = "casilla06";
     casSelec =6;
+    habilitatTorres();
+<<<<<<< HEAD
+    casSelec =6;
+=======
+    QString to =casillaSeleccionada.right(2);
+>>>>>>> master
     p1.updatemapa(casSelec);
 }
 
 void MainWindow::on_casilla07_clicked()
 {
-    habilitatTorres();
+    casillaSeleccionada = "casilla07";
     casSelec =7;
+    habilitatTorres();
+<<<<<<< HEAD
+    casSelec =7;
+=======
+    QString to =casillaSeleccionada.right(2);
+>>>>>>> master
     p1.updatemapa(casSelec);
 }
 
 void MainWindow::on_casilla08_clicked()
 {
-    habilitatTorres();
+    casillaSeleccionada = "casilla08";
     casSelec =8;
+    habilitatTorres();
+<<<<<<< HEAD
+    casSelec =8;
+=======
+    QString to =casillaSeleccionada.right(2);
+>>>>>>> master
     p1.updatemapa(casSelec);
 }
 
 void MainWindow::on_casilla09_clicked()
 {
-    habilitatTorres();
+    casillaSeleccionada = "casilla09";
     casSelec =9;
+    habilitatTorres();
+<<<<<<< HEAD
+    casSelec =9;
+=======
+    QString to =casillaSeleccionada.right(2);
+>>>>>>> master
     p1.updatemapa(casSelec);
 }
 
 void MainWindow::on_casilla10_clicked()
 {
-    habilitatTorres();
+    casillaSeleccionada = "casilla10";
     casSelec =10;
+    habilitatTorres();
+<<<<<<< HEAD
+    casSelec =10;
+=======
+    QString to =casillaSeleccionada.right(2);
+>>>>>>> master
     p1.updatemapa(casSelec);
 }
 
 void MainWindow::on_casilla11_clicked()
 {
-    habilitatTorres();
+    casillaSeleccionada = "casilla11";
     casSelec =11;
+    habilitatTorres();
+<<<<<<< HEAD
+    casSelec =11;
+=======
+    QString to =casillaSeleccionada.right(2);
+>>>>>>> master
     p1.updatemapa(casSelec);
 }
 
 void MainWindow::on_casilla12_clicked()
 {
-    habilitatTorres();
+    casillaSeleccionada = "casilla12";
     casSelec =12;
+    habilitatTorres();
+<<<<<<< HEAD
+    casSelec =12;
+=======
+    QString to =casillaSeleccionada.right(2);
+>>>>>>> master
     p1.updatemapa(casSelec);
 }
 
 void MainWindow::on_casilla13_clicked()
 {
-    habilitatTorres();
+    casillaSeleccionada = "casilla13";
     casSelec =13;
+    habilitatTorres();
+<<<<<<< HEAD
+    casSelec =13;
+=======
+    QString to =casillaSeleccionada.right(2);
+>>>>>>> master
     p1.updatemapa(casSelec);
 }
 
 void MainWindow::on_casilla14_clicked()
 {
-    habilitatTorres();
+    casillaSeleccionada = "casilla14";
     casSelec =14;
+    habilitatTorres();
+<<<<<<< HEAD
+    casSelec =14;
+=======
+    QString to =casillaSeleccionada.right(2);
+>>>>>>> master
     p1.updatemapa(casSelec);
 }
 
 void MainWindow::on_casilla15_clicked()
 {
-    habilitatTorres();
+    casillaSeleccionada = "casilla15";
     casSelec =15;
+    habilitatTorres();
+<<<<<<< HEAD
+    casSelec =15;
+=======
+    QString to =casillaSeleccionada.right(2);
+>>>>>>> master
     p1.updatemapa(casSelec);
 }
 
 void MainWindow::on_casilla16_clicked()
 {
-    habilitatTorres();
+    casillaSeleccionada = "casilla16";
     casSelec =16;
+    habilitatTorres();
+<<<<<<< HEAD
+    casSelec =16;
+=======
+    QString to =casillaSeleccionada.right(2);
+>>>>>>> master
     p1.updatemapa(casSelec);
 }
 
 void MainWindow::on_casilla17_clicked()
 {
-    habilitatTorres();
+    casillaSeleccionada = "casilla17";
     casSelec =17;
+    habilitatTorres();
+<<<<<<< HEAD
+    casSelec =17;
+=======
+    QString to =casillaSeleccionada.right(2);
+>>>>>>> master
     p1.updatemapa(casSelec);
 }
 
 void MainWindow::on_casilla18_clicked()
 {
-    habilitatTorres();
+    casillaSeleccionada = "casilla18";
     casSelec =18;
+    habilitatTorres();
+<<<<<<< HEAD
+    casSelec =18;
+=======
+    QString to =casillaSeleccionada.right(2);
+>>>>>>> master
     p1.updatemapa(casSelec);
 }
 
 void MainWindow::on_casilla19_clicked()
 {
-    habilitatTorres();
+    casillaSeleccionada = "casilla19";
     casSelec =19;
+    habilitatTorres();
+<<<<<<< HEAD
+    casSelec =19;
+=======
+    QString to =casillaSeleccionada.right(2);
+>>>>>>> master
     p1.updatemapa(casSelec);
 }
 
 void MainWindow::on_casilla20_clicked()
 {
-    habilitatTorres();
+    casillaSeleccionada = "casilla20";
     casSelec =20;
+    habilitatTorres();
+<<<<<<< HEAD
+    casSelec =20;
+=======
+    QString to =casillaSeleccionada.right(2);
+>>>>>>> master
     p1.updatemapa(casSelec);
 }
 
 void MainWindow::on_casilla21_clicked()
 {
-    habilitatTorres();
+    casillaSeleccionada = "casilla21";
     casSelec =21;
+    habilitatTorres();
+<<<<<<< HEAD
+    casSelec =21;
+=======
+    QString to =casillaSeleccionada.right(2);
+>>>>>>> master
     p1.updatemapa(casSelec);
 }
 
 void MainWindow::on_casilla22_clicked()
 {
-    habilitatTorres();
+    casillaSeleccionada = "casilla22";
     casSelec =22;
+    habilitatTorres();
+<<<<<<< HEAD
+    casSelec =22;
+=======
+    QString to =casillaSeleccionada.right(2);
+>>>>>>> master
     p1.updatemapa(casSelec);
 }
 
 void MainWindow::on_casilla23_clicked()
 {
-    habilitatTorres();
+    casillaSeleccionada = "casilla23";
     casSelec =23;
+    habilitatTorres();
+<<<<<<< HEAD
+    casSelec =23;
+=======
+    QString to =casillaSeleccionada.right(2);
+>>>>>>> master
     p1.updatemapa(casSelec);
 }
 
 void MainWindow::on_casilla24_clicked()
 {
-    habilitatTorres();
+    casillaSeleccionada = "casilla24";
     casSelec =24;
+    habilitatTorres();
+<<<<<<< HEAD
+    casSelec =24;
+=======
+    QString to =casillaSeleccionada.right(2);
+>>>>>>> master
     p1.updatemapa(casSelec);
 }
 
 void MainWindow::on_casilla25_clicked()
 {
-    habilitatTorres();
+    casillaSeleccionada = "casilla25";
     casSelec =25;
+    habilitatTorres();
+<<<<<<< HEAD
+    casSelec =25;
+=======
+    QString to =casillaSeleccionada.right(2);
+>>>>>>> master
     p1.updatemapa(casSelec);
 }
 
 void MainWindow::on_casilla26_clicked()
 {
-    habilitatTorres();
+    casillaSeleccionada = "casilla26";
     casSelec =26;
+    habilitatTorres();
+<<<<<<< HEAD
+    casSelec =26;
+=======
+    QString to =casillaSeleccionada.right(2);
+>>>>>>> master
     p1.updatemapa(casSelec);
 }
 
 void MainWindow::on_casilla27_clicked()
 {
-    habilitatTorres();
+    casillaSeleccionada = "casilla27";
     casSelec =27;
+    habilitatTorres();
+<<<<<<< HEAD
+    casSelec =27;
+=======
+    QString to =casillaSeleccionada.right(2);
+>>>>>>> master
     p1.updatemapa(casSelec);
 }
 
 void MainWindow::on_casilla28_clicked()
 {
-    habilitatTorres();
+    casillaSeleccionada = "casilla28";
     casSelec =28;
+    habilitatTorres();
+<<<<<<< HEAD
+    casSelec =28;
+=======
+    QString to =casillaSeleccionada.right(2);
+>>>>>>> master
     p1.updatemapa(casSelec);
 }
 
 void MainWindow::on_casilla29_clicked()
 {
-    habilitatTorres();
+    casillaSeleccionada = "casilla29";
     casSelec =29;
+    habilitatTorres();
+<<<<<<< HEAD
+    casSelec =29;
+=======
+    QString to =casillaSeleccionada.right(2);
+>>>>>>> master
     p1.updatemapa(casSelec);
 }
 
 void MainWindow::on_casilla30_clicked()
 {
-    habilitatTorres();
+    casillaSeleccionada = "casilla30";
     casSelec =30;
+    habilitatTorres();
+<<<<<<< HEAD
+    casSelec =30;
+=======
+    QString to =casillaSeleccionada.right(2);
+>>>>>>> master
     p1.updatemapa(casSelec);
 }
 
 void MainWindow::on_casilla31_clicked()
 {
-    habilitatTorres();
+    casillaSeleccionada = "casilla31";
     casSelec =31;
+    habilitatTorres();
+<<<<<<< HEAD
+    casSelec =31;
+=======
+    QString to =casillaSeleccionada.right(2);
+>>>>>>> master
     p1.updatemapa(casSelec);
 }
 
 void MainWindow::on_casilla32_clicked()
 {
-    habilitatTorres();
+    casillaSeleccionada = "casilla32";
     casSelec =32;
+    habilitatTorres();
+<<<<<<< HEAD
+    casSelec =32;
+=======
+    QString to =casillaSeleccionada.right(2);
+>>>>>>> master
     p1.updatemapa(casSelec);
 }
 
 void MainWindow::on_casilla33_clicked()
 {
-    habilitatTorres();
+    casillaSeleccionada = "casilla33";
     casSelec =33;
+    habilitatTorres();
+<<<<<<< HEAD
+    casSelec =33;
+=======
+    QString to =casillaSeleccionada.right(2);
+>>>>>>> master
     p1.updatemapa(casSelec);
 }
 
 void MainWindow::on_casilla34_clicked()
 {
-    habilitatTorres();
+    casillaSeleccionada = "casilla34";
     casSelec =34;
+    habilitatTorres();
+<<<<<<< HEAD
+    casSelec =34;
+=======
+    QString to =casillaSeleccionada.right(2);
+>>>>>>> master
     p1.updatemapa(casSelec);
 }
 
 void MainWindow::on_casilla35_clicked()
 {
-    habilitatTorres();
+    casillaSeleccionada = "casilla35";
     casSelec =35;
+    habilitatTorres();
+<<<<<<< HEAD
+    casSelec =35;
+=======
+    QString to =casillaSeleccionada.right(2);
+>>>>>>> master
     p1.updatemapa(casSelec);
 }
 
 void MainWindow::on_casilla36_clicked()
 {
-    habilitatTorres();
+    casillaSeleccionada = "casilla36";
     casSelec =36;
+    habilitatTorres();
+<<<<<<< HEAD
+    casSelec =36;
+=======
+    QString to =casillaSeleccionada.right(2);
+>>>>>>> master
     p1.updatemapa(casSelec);
 }
 
 void MainWindow::on_casilla37_clicked()
 {
-    habilitatTorres();
+    casillaSeleccionada = "casilla37";
     casSelec =37;
+    habilitatTorres();
+<<<<<<< HEAD
+    casSelec =37;
+=======
+    QString to =casillaSeleccionada.right(2);
+>>>>>>> master
     p1.updatemapa(casSelec);
 }
 
 void MainWindow::on_casilla38_clicked()
 {
-    habilitatTorres();
+    casillaSeleccionada = "casilla38";
     casSelec =38;
+    habilitatTorres();
+<<<<<<< HEAD
+    casSelec =38;
+=======
+    QString to =casillaSeleccionada.right(2);
+>>>>>>> master
     p1.updatemapa(casSelec);
 }
 
 void MainWindow::on_casilla39_clicked()
 {
-    habilitatTorres();
+    casillaSeleccionada = "casilla39";
     casSelec =39;
+    habilitatTorres();
+<<<<<<< HEAD
+    casSelec =39;
+=======
+    QString to =casillaSeleccionada.right(2);
+>>>>>>> master
     p1.updatemapa(casSelec);
 }
 
 void MainWindow::on_casilla40_clicked()
 {
-    habilitatTorres();
+    casillaSeleccionada = "casilla40";
     casSelec =40;
+    habilitatTorres();
+<<<<<<< HEAD
+    casSelec =40;
+=======
+    QString to =casillaSeleccionada.right(2);
+>>>>>>> master
     p1.updatemapa(casSelec);
 }
 
 void MainWindow::on_casilla41_clicked()
 {
+<<<<<<< HEAD
    habilitatTorres();
    casSelec =41;
    p1.updatemapa(casSelec);
+=======
+    casillaSeleccionada = "casilla41";
+    casSelec =41;
+    habilitatTorres();
+    QString to =casillaSeleccionada.right(2);
+    p1.updatemapa(casSelec);
+>>>>>>> master
 }
 
 void MainWindow::on_casilla42_clicked()
 {
+<<<<<<< HEAD
    habilitatTorres();
    casSelec =42;
    p1.updatemapa(casSelec);
+=======
+    casillaSeleccionada = "casilla42";
+    casSelec =42;
+    habilitatTorres();
+    QString to =casillaSeleccionada.right(2);
+    p1.updatemapa(casSelec);
+>>>>>>> master
 }
 
 void MainWindow::on_casilla43_clicked()
 {
-    habilitatTorres();
+    casillaSeleccionada = "casilla43";
     casSelec =43;
+    habilitatTorres();
+<<<<<<< HEAD
+    casSelec =43;
+=======
+    QString to =casillaSeleccionada.right(2);
+>>>>>>> master
     p1.updatemapa(casSelec);
 }
 
 void MainWindow::on_casilla44_clicked()
 {
-    habilitatTorres();
+    casillaSeleccionada = "casilla44";
     casSelec =44;
+    habilitatTorres();
+<<<<<<< HEAD
+    casSelec =44;
+=======
+    QString to =casillaSeleccionada.right(2);
+>>>>>>> master
     p1.updatemapa(casSelec);
 }
 
 void MainWindow::on_casilla45_clicked()
 {
-    habilitatTorres();
+    casillaSeleccionada = "casilla45";
     casSelec =45;
+    habilitatTorres();
+<<<<<<< HEAD
+    casSelec =45;
+=======
+    QString to =casillaSeleccionada.right(2);
+>>>>>>> master
     p1.updatemapa(casSelec);
 }
 
 void MainWindow::on_casilla46_clicked()
 {
-    habilitatTorres();
+    casillaSeleccionada = "casilla46";
     casSelec =46;
+    habilitatTorres();
+<<<<<<< HEAD
+    casSelec =46;
+=======
+    QString to =casillaSeleccionada.right(2);
+>>>>>>> master
     p1.updatemapa(casSelec);
 }
 
 void MainWindow::on_casilla47_clicked()
 {
+<<<<<<< HEAD
    habilitatTorres();
    casSelec =47;
    p1.updatemapa(casSelec);
+=======
+    casillaSeleccionada = "casilla47";
+    casSelec =47;
+    habilitatTorres();
+    QString to =casillaSeleccionada.right(2);
+    p1.updatemapa(casSelec);
+>>>>>>> master
 }
 
 void MainWindow::on_casilla48_clicked()
 {
-    habilitatTorres();
+    casillaSeleccionada = "casilla48";
     casSelec =48;
+    habilitatTorres();
+<<<<<<< HEAD
+    casSelec =48;
+=======
+    QString to =casillaSeleccionada.right(2);
+>>>>>>> master
     p1.updatemapa(casSelec);
 }
 
 void MainWindow::on_casilla49_clicked()
 {
+<<<<<<< HEAD
    habilitatTorres();
    casSelec =49;
    p1.updatemapa(casSelec);
+=======
+    casillaSeleccionada = "casilla49";
+    casSelec =49;
+    habilitatTorres();
+    QString to =casillaSeleccionada.right(2);
+    p1.updatemapa(casSelec);
+>>>>>>> master
 }
 
 void MainWindow::on_casilla50_clicked()
 {
-    habilitatTorres();
+    casillaSeleccionada = "casilla50";
     casSelec =50;
+    habilitatTorres();
+<<<<<<< HEAD
+    casSelec =50;
+=======
+    QString to =casillaSeleccionada.right(2);
+>>>>>>> master
     p1.updatemapa(casSelec);
 }
 
 void MainWindow::on_casilla51_clicked()
 {
-    habilitatTorres();
+    casillaSeleccionada = "casilla51";
     casSelec =51;
+    habilitatTorres();
+<<<<<<< HEAD
+    casSelec =51;
+=======
+    QString to =casillaSeleccionada.right(2);
+>>>>>>> master
     p1.updatemapa(casSelec);
 }
 
 void MainWindow::on_casilla52_clicked()
 {
-    habilitatTorres();
+    casillaSeleccionada = "casilla52";
     casSelec =52;
+    habilitatTorres();
+<<<<<<< HEAD
+    casSelec =52;
+=======
+    QString to =casillaSeleccionada.right(2);
+>>>>>>> master
     p1.updatemapa(casSelec);
 }
 
 void MainWindow::on_casilla53_clicked()
 {
-    habilitatTorres();
+    casillaSeleccionada = "casilla53";
     casSelec =53;
+    habilitatTorres();
+<<<<<<< HEAD
+    casSelec =53;
+=======
+    QString to =casillaSeleccionada.right(2);
+>>>>>>> master
     p1.updatemapa(casSelec);
 }
 
 void MainWindow::on_casilla54_clicked()
 {
-    habilitatTorres();
+    casillaSeleccionada = "casilla54";
     casSelec =54;
+    habilitatTorres();
+<<<<<<< HEAD
+    casSelec =54;
+=======
+    QString to =casillaSeleccionada.right(2);
+>>>>>>> master
     p1.updatemapa(casSelec);
 }
 
 void MainWindow::on_casilla55_clicked()
 {
-    habilitatTorres();
+    casillaSeleccionada = "casilla55";
     casSelec =55;
+    habilitatTorres();
+<<<<<<< HEAD
+    casSelec =55;
+=======
+    QString to =casillaSeleccionada.right(2);
+>>>>>>> master
     p1.updatemapa(casSelec);
 }
 
 void MainWindow::on_casilla56_clicked()
 {
-    habilitatTorres();
+    casillaSeleccionada = "casilla56";
     casSelec =56;
+    habilitatTorres();
+<<<<<<< HEAD
+    casSelec =56;
+=======
+    QString to =casillaSeleccionada.right(2);
+>>>>>>> master
     p1.updatemapa(casSelec);
 }
 
 void MainWindow::on_casilla57_clicked()
 {
-    habilitatTorres();
+    casillaSeleccionada = "casilla57";
     casSelec =57;
+    habilitatTorres();
+<<<<<<< HEAD
+    casSelec =57;
+=======
+    QString to =casillaSeleccionada.right(2);
+>>>>>>> master
     p1.updatemapa(casSelec);
 }
 
 void MainWindow::on_casilla58_clicked()
 {
-    habilitatTorres();
+    casillaSeleccionada = "casilla58";
     casSelec =58;
+    habilitatTorres();
+<<<<<<< HEAD
+    casSelec =58;
+=======
+    QString to =casillaSeleccionada.right(2);
+>>>>>>> master
     p1.updatemapa(casSelec);
 }
 
 void MainWindow::on_casilla59_clicked()
 {
-    habilitatTorres();
+    casillaSeleccionada = "casilla59";
     casSelec =59;
+    habilitatTorres();
+<<<<<<< HEAD
+    casSelec =59;
+=======
+    QString to =casillaSeleccionada.right(2);
+>>>>>>> master
     p1.updatemapa(casSelec);
 }
 
 void MainWindow::on_casilla60_clicked()
 {
-    habilitatTorres();
+    casillaSeleccionada = "casilla60";
     casSelec =60;
+    habilitatTorres();
+<<<<<<< HEAD
+    casSelec =60;
+=======
+    QString to =casillaSeleccionada.right(2);
+>>>>>>> master
     p1.updatemapa(casSelec);
 }
 
 void MainWindow::on_casilla61_clicked()
 {
-    habilitatTorres();
+    casillaSeleccionada = "casilla61";
     casSelec =61;
+    habilitatTorres();
+<<<<<<< HEAD
+    casSelec =61;
+=======
+    QString to =casillaSeleccionada.right(2);
+>>>>>>> master
     p1.updatemapa(casSelec);
 }
 
 void MainWindow::on_casilla62_clicked()
 {
-    habilitatTorres();
+    casillaSeleccionada = "casilla62";
     casSelec =62;
+    habilitatTorres();
+<<<<<<< HEAD
+    casSelec =62;
+=======
+    QString to =casillaSeleccionada.right(2);
+>>>>>>> master
     p1.updatemapa(casSelec);
 }
 
 void MainWindow::on_casilla63_clicked()
 {
-    habilitatTorres();
+    casillaSeleccionada = "casilla63";
     casSelec =63;
+    habilitatTorres();
+<<<<<<< HEAD
+    casSelec =63;
+=======
+    QString to =casillaSeleccionada.right(2);
+>>>>>>> master
     p1.updatemapa(casSelec);
 }
 
 void MainWindow::on_casilla64_clicked()
 {
-    habilitatTorres();
+    casillaSeleccionada = "casilla64";
     casSelec =64;
+    habilitatTorres();
+<<<<<<< HEAD
+    casSelec =64;
+=======
+    QString to =casillaSeleccionada.right(2);
+>>>>>>> master
     p1.updatemapa(casSelec);
 }
 
 void MainWindow::on_casilla65_clicked()
 {
-    habilitatTorres();
+    casillaSeleccionada = "casilla65";
     casSelec =65;
+    habilitatTorres();
+<<<<<<< HEAD
+    casSelec =65;
+=======
+    QString to =casillaSeleccionada.right(2);
+>>>>>>> master
     p1.updatemapa(casSelec);
 }
 
 void MainWindow::on_casilla66_clicked()
 {
-    habilitatTorres();
+    casillaSeleccionada = "casilla66";
     casSelec =66;
+    habilitatTorres();
+<<<<<<< HEAD
+    casSelec =66;
+=======
+    QString to =casillaSeleccionada.right(2);
+>>>>>>> master
     p1.updatemapa(casSelec);
 }
 
 void MainWindow::on_casilla67_clicked()
 {
+<<<<<<< HEAD
    habilitatTorres();
    casSelec =67;
    p1.updatemapa(casSelec);
+=======
+    casillaSeleccionada = "casilla67";
+    casSelec =67;
+    habilitatTorres();
+    QString to =casillaSeleccionada.right(2);
+    p1.updatemapa(casSelec);
+>>>>>>> master
 }
 
 void MainWindow::on_casilla68_clicked()
 {
-    habilitatTorres();
+    casillaSeleccionada = "casilla68";
     casSelec =68;
+    habilitatTorres();
+<<<<<<< HEAD
+    casSelec =68;
+=======
+    QString to =casillaSeleccionada.right(2);
+>>>>>>> master
     p1.updatemapa(casSelec);
 }
 
 void MainWindow::on_casilla69_clicked()
 {
-    habilitatTorres();
+    casillaSeleccionada = "casilla69";
     casSelec =69;
+    habilitatTorres();
+<<<<<<< HEAD
+    casSelec =69;
+=======
+    QString to =casillaSeleccionada.right(2);
+>>>>>>> master
     p1.updatemapa(casSelec);
 }
 
 void MainWindow::on_casilla70_clicked()
 {
-    habilitatTorres();
+    casillaSeleccionada = "casilla70";
     casSelec =70;
+    habilitatTorres();
+<<<<<<< HEAD
+    casSelec =70;
+=======
+    QString to =casillaSeleccionada.right(2);
+>>>>>>> master
     p1.updatemapa(casSelec);
 }
 
 void MainWindow::on_casilla71_clicked()
 {
-    habilitatTorres();
+    casillaSeleccionada = "casilla71";
     casSelec =71;
+    habilitatTorres();
+<<<<<<< HEAD
+    casSelec =71;
+=======
+    QString to =casillaSeleccionada.right(2);
+>>>>>>> master
     p1.updatemapa(casSelec);
 }
 
 void MainWindow::on_casilla72_clicked()
 {
-    habilitatTorres();
+    casillaSeleccionada = "casilla72";
     casSelec =72;
+    habilitatTorres();
+<<<<<<< HEAD
+    casSelec =72;
+=======
+    QString to =casillaSeleccionada.right(2);
+>>>>>>> master
     p1.updatemapa(casSelec);
 }
 
 void MainWindow::on_casilla73_clicked()
 {
-    habilitatTorres();
+    casillaSeleccionada = "casilla73";
     casSelec =73;
+    habilitatTorres();
+<<<<<<< HEAD
+    casSelec =73;
+=======
+    QString to =casillaSeleccionada.right(2);
+>>>>>>> master
     p1.updatemapa(casSelec);
 }
 
 void MainWindow::on_casilla74_clicked()
 {
-    habilitatTorres();
+    casillaSeleccionada = "casilla74";
     casSelec =74;
+    habilitatTorres();
+<<<<<<< HEAD
+    casSelec =74;
+=======
+    QString to =casillaSeleccionada.right(2);
+>>>>>>> master
     p1.updatemapa(casSelec);
 }
 
 void MainWindow::on_casilla75_clicked()
 {
-    habilitatTorres();
+    casillaSeleccionada = "casilla75";
     casSelec =75;
+    habilitatTorres();
+<<<<<<< HEAD
+    casSelec =75;
+=======
+    QString to =casillaSeleccionada.right(2);
+>>>>>>> master
     p1.updatemapa(casSelec);
 }
 
 void MainWindow::on_casilla76_clicked()
 {
-    habilitatTorres();
+    casillaSeleccionada = "casilla76";
     casSelec =76;
+    habilitatTorres();
+<<<<<<< HEAD
+    casSelec =76;
+=======
+    QString to =casillaSeleccionada.right(2);
+>>>>>>> master
     p1.updatemapa(casSelec);
 }
 
 void MainWindow::on_casilla77_clicked()
 {
-    habilitatTorres();
+    casillaSeleccionada = "casilla77";
     casSelec =77;
+    habilitatTorres();
+<<<<<<< HEAD
+    casSelec =77;
+=======
+    QString to =casillaSeleccionada.right(2);
+>>>>>>> master
     p1.updatemapa(casSelec);
 }
 
 void MainWindow::on_casilla78_clicked()
 {
-    habilitatTorres();
+    casillaSeleccionada = "casilla78";
     casSelec =78;
+    habilitatTorres();
+<<<<<<< HEAD
+    casSelec =78;
+=======
+    QString to =casillaSeleccionada.right(2);
+>>>>>>> master
     p1.updatemapa(casSelec);
 }
 
 void MainWindow::on_casilla79_clicked()
 {
-    habilitatTorres();
+    casillaSeleccionada = "casilla79";
     casSelec =79;
+    habilitatTorres();
+<<<<<<< HEAD
+    casSelec =79;
+=======
+    QString to =casillaSeleccionada.right(2);
+>>>>>>> master
     p1.updatemapa(casSelec);
 }
 
 void MainWindow::on_casilla80_clicked()
 {
-    habilitatTorres();
+    casillaSeleccionada = "casilla80";
     casSelec =80;
+    habilitatTorres();
+<<<<<<< HEAD
+    casSelec =80;
+=======
+    QString to =casillaSeleccionada.right(2);
+>>>>>>> master
     p1.updatemapa(casSelec);
 }
 
 void MainWindow::on_casilla81_clicked()
 {
-    habilitatTorres();
+    casillaSeleccionada = "casilla81";
     casSelec =81;
+    habilitatTorres();
+<<<<<<< HEAD
+    casSelec =81;
+=======
+    QString to =casillaSeleccionada.right(2);
+>>>>>>> master
     p1.updatemapa(casSelec);
 }
 
 void MainWindow::on_casilla82_clicked()
 {
-    habilitatTorres();
+    casillaSeleccionada = "casilla82";
     casSelec =82;
+    habilitatTorres();
+<<<<<<< HEAD
+    casSelec =82;
+=======
+    QString to =casillaSeleccionada.right(2);
+>>>>>>> master
     p1.updatemapa(casSelec);
 }
 
 void MainWindow::on_casilla83_clicked()
 {
-    habilitatTorres();
+    casillaSeleccionada = "casilla83";
     casSelec =83;
+    habilitatTorres();
+<<<<<<< HEAD
+    casSelec =83;
+=======
+    QString to =casillaSeleccionada.right(2);
+>>>>>>> master
     p1.updatemapa(casSelec);
 }
 
 void MainWindow::on_casilla84_clicked()
 {
-    habilitatTorres();
+    casillaSeleccionada = "casilla84";
     casSelec =84;
+    habilitatTorres();
+<<<<<<< HEAD
+    casSelec =84;
+=======
+    QString to =casillaSeleccionada.right(2);
+>>>>>>> master
     p1.updatemapa(casSelec);
 }
 
 void MainWindow::on_casilla85_clicked()
 {
-    habilitatTorres();
+    casillaSeleccionada = "casilla85";
     casSelec =85;
+    habilitatTorres();
+<<<<<<< HEAD
+    casSelec =85;
+=======
+    QString to =casillaSeleccionada.right(2);
+>>>>>>> master
     p1.updatemapa(casSelec);
 }
 
 void MainWindow::on_casilla86_clicked()
 {
-    habilitatTorres();
+    casillaSeleccionada = "casilla86";
     casSelec =86;
+    habilitatTorres();
+<<<<<<< HEAD
+    casSelec =86;
+=======
+    QString to =casillaSeleccionada.right(2);
+>>>>>>> master
     p1.updatemapa(casSelec);
 }
 
 void MainWindow::on_casilla87_clicked()
 {
-    habilitatTorres();
+    casillaSeleccionada = "casilla87";
     casSelec =87;
+    habilitatTorres();
+<<<<<<< HEAD
+    casSelec =87;
+=======
+    QString to =casillaSeleccionada.right(2);
+>>>>>>> master
     p1.updatemapa(casSelec);
 }
 
 void MainWindow::on_casilla88_clicked()
 {
-    habilitatTorres();
+    casillaSeleccionada = "casilla88";
     casSelec =88;
+    habilitatTorres();
+<<<<<<< HEAD
+    casSelec =88;
+=======
+    QString to =casillaSeleccionada.right(2);
+>>>>>>> master
     p1.updatemapa(casSelec);
 }
 
 void MainWindow::on_casilla89_clicked()
 {
-    habilitatTorres();
+    casillaSeleccionada = "casilla89";
     casSelec =89;
+    habilitatTorres();
+<<<<<<< HEAD
+    casSelec =89;
+=======
+    QString to =casillaSeleccionada.right(2);
+>>>>>>> master
     p1.updatemapa(casSelec);
 }
 
 void MainWindow::on_casilla90_clicked()
 {
-    habilitatTorres();
+    casillaSeleccionada = "casilla90";
     casSelec =90;
+    habilitatTorres();
+<<<<<<< HEAD
+    casSelec =90;
+=======
+    QString to =casillaSeleccionada.right(2);
+>>>>>>> master
     p1.updatemapa(casSelec);
 }
 
 void MainWindow::on_casilla91_clicked()
 {
-    habilitatTorres();
+    casillaSeleccionada = "casilla91";
     casSelec =91;
+    habilitatTorres();
+<<<<<<< HEAD
+    casSelec =91;
+=======
+    QString to =casillaSeleccionada.right(2);
+>>>>>>> master
     p1.updatemapa(casSelec);
 }
 
 void MainWindow::on_casilla92_clicked()
 {
-    habilitatTorres();
+    casillaSeleccionada = "casilla92";
     casSelec =92;
+    habilitatTorres();
+<<<<<<< HEAD
+    casSelec =92;
+=======
+    QString to =casillaSeleccionada.right(2);
+>>>>>>> master
     p1.updatemapa(casSelec);
 }
 
 void MainWindow::on_casilla93_clicked()
 {
-    habilitatTorres();
+    casillaSeleccionada = "casilla93";
     casSelec =93;
+    habilitatTorres();
+<<<<<<< HEAD
+    casSelec =93;
+=======
+    QString to =casillaSeleccionada.right(2);
+>>>>>>> master
     p1.updatemapa(casSelec);
 }
 
 void MainWindow::on_casilla94_clicked()
 {
-    habilitatTorres();
+    casillaSeleccionada = "casilla94";
     casSelec =94;
+    habilitatTorres();
+<<<<<<< HEAD
+    casSelec =94;
+=======
+    QString to =casillaSeleccionada.right(2);
+>>>>>>> master
     p1.updatemapa(casSelec);
 }
 
 void MainWindow::on_casilla95_clicked()
 {
-    habilitatTorres();
+    casillaSeleccionada = "casilla95";
     casSelec =95;
+    habilitatTorres();
+<<<<<<< HEAD
+    casSelec =95;
+=======
+    QString to =casillaSeleccionada.right(2);
+>>>>>>> master
     p1.updatemapa(casSelec);
 }
 
 void MainWindow::on_casilla96_clicked()
 {
-    habilitatTorres();
+    casillaSeleccionada = "casilla96";
     casSelec =96;
+    habilitatTorres();
+<<<<<<< HEAD
+    casSelec =96;
+=======
+    QString to =casillaSeleccionada.right(2);
+>>>>>>> master
     p1.updatemapa(casSelec);
 }
 
 void MainWindow::on_casilla97_clicked()
 {
-    habilitatTorres();
+    casillaSeleccionada = "casilla97";
     casSelec =97;
+    habilitatTorres();
+<<<<<<< HEAD
+    casSelec =97;
+=======
+    QString to =casillaSeleccionada.right(2);
+>>>>>>> master
     p1.updatemapa(casSelec);
 
 }
 
 void MainWindow::on_casilla98_clicked()
 {
-    habilitatTorres();
+    casillaSeleccionada = "casilla98";
     casSelec =98;
+    habilitatTorres();
+<<<<<<< HEAD
+    casSelec =98;
+=======
+    QString to =casillaSeleccionada.right(2);
+>>>>>>> master
     p1.updatemapa(casSelec);
 }
 
 void MainWindow::on_casilla99_clicked()
 {
-    habilitatTorres();
+    casillaSeleccionada = "casilla99";
     casSelec =99;
+    habilitatTorres();
+<<<<<<< HEAD
+    casSelec =99;
+=======
+    QString to =casillaSeleccionada.right(2);
+>>>>>>> master
     p1.updatemapa(casSelec);
 }
 
 void MainWindow::on_torreArqueraButton_clicked()
 {
-    QPixmap torreArquera("../ImagenesProyecto2/torreArqueros.png");
+    QPixmap torreArquera(":/new/prefix1/torreArqueros.png");
 
     switch (casSelec) {
     case 0:
@@ -1303,7 +1901,7 @@ void MainWindow::on_torreArqueraButton_clicked()
 
 void MainWindow::on_torreMagoButton_clicked()
 {
-     QPixmap torreMago("../ImagenesProyecto2/torreMago.png");
+     QPixmap torreMago(":/new/prefix1/torreMago.png");
      switch (casSelec) {
          case 0:
              ui->casilla00->setIcon(torreMago);
@@ -1715,6 +2313,7 @@ void MainWindow::on_torreMagoButton_clicked()
 void MainWindow::on_torreArtilleraButton_clicked()
 {
 
+<<<<<<< HEAD
          QPixmap torreArtillero("../ImagenesProyecto2/torreArtillero.jpg");
          switch (casSelec) {
              case 0:
@@ -2120,11 +2719,418 @@ void MainWindow::on_torreArtilleraButton_clicked()
 
 
              }
+=======
+    QPixmap torreArtillera(":/new/prefix1/torreArtillero.jpg");
+
+    switch (casSelec) {
+    case 0:
+        ui->casilla00->setIcon(torreArtillera);
+            desabilitarTorres();
+            break;
+    case 1:
+        ui->casilla01->setIcon(torreArtillera);
+            desabilitarTorres();
+            break;
+    case 2:
+        ui->casilla02->setIcon(torreArtillera);
+            desabilitarTorres();
+            break;
+    case 3:
+        ui->casilla03->setIcon(torreArtillera);
+            desabilitarTorres();
+            break;
+    case 4:
+        ui->casilla04->setIcon(torreArtillera);
+            desabilitarTorres();
+            break;
+    case 5:
+        ui->casilla05->setIcon(torreArtillera);
+            desabilitarTorres();
+            break;
+    case 6:
+        ui->casilla06->setIcon(torreArtillera);
+            desabilitarTorres();
+            break;
+    case 7:
+        ui->casilla07->setIcon(torreArtillera);
+            desabilitarTorres();
+            break;
+    case 8:
+        ui->casilla08->setIcon(torreArtillera);
+            desabilitarTorres();
+            break;
+    case 9:
+        ui->casilla09->setIcon(torreArtillera);
+            desabilitarTorres();
+            break;
+    case 10:
+        ui->casilla10->setIcon(torreArtillera);
+            desabilitarTorres();
+            break;
+    case 11:
+        ui->casilla11->setIcon(torreArtillera);
+            desabilitarTorres();
+            break;
+    case 12:
+        ui->casilla12->setIcon(torreArtillera);
+            desabilitarTorres();
+            break;
+    case 13:
+        ui->casilla13->setIcon(torreArtillera);
+            desabilitarTorres();
+            break;
+    case 14:
+        ui->casilla14->setIcon(torreArtillera);
+            desabilitarTorres();
+            break;
+    case 15:
+        ui->casilla15->setIcon(torreArtillera);
+            desabilitarTorres();
+            break;
+    case 16:
+        ui->casilla16->setIcon(torreArtillera);
+            desabilitarTorres();
+            break;
+    case 17:
+        ui->casilla17->setIcon(torreArtillera);
+            desabilitarTorres();
+            break;
+    case 18:
+        ui->casilla18->setIcon(torreArtillera);
+            desabilitarTorres();
+            break;
+    case 19:
+        ui->casilla19->setIcon(torreArtillera);
+            desabilitarTorres();
+            break;
+    case 20:
+        ui->casilla20->setIcon(torreArtillera);
+            desabilitarTorres();
+            break;
+    case 21:
+        ui->casilla21->setIcon(torreArtillera);
+            desabilitarTorres();
+            break;
+    case 22:
+       ui->casilla22->setIcon(torreArtillera);
+           desabilitarTorres();
+           break;
+    case 23:
+            ui->casilla23->setIcon(torreArtillera);
+                desabilitarTorres();
+                break;
+    case 24:
+        ui->casilla24->setIcon(torreArtillera);
+                desabilitarTorres();
+                break;
+    case 25:
+            ui->casilla25->setIcon(torreArtillera);
+            desabilitarTorres();
+                break;
+    case 26:
+            ui->casilla26->setIcon(torreArtillera);
+                desabilitarTorres();
+                break;
+    case 27:
+            ui->casilla27->setIcon(torreArtillera);
+                desabilitarTorres();
+                break;
+    case 28:
+            ui->casilla28->setIcon(torreArtillera);
+                desabilitarTorres();
+                break;
+    case 29:
+            ui->casilla29->setIcon(torreArtillera);
+                desabilitarTorres();
+                break;
+    case 30:
+            ui->casilla30->setIcon(torreArtillera);
+                desabilitarTorres();
+                break;
+    case 31:
+            ui->casilla31->setIcon(torreArtillera);
+                desabilitarTorres();
+                break;
+    case 32:
+            ui->casilla32->setIcon(torreArtillera);
+                desabilitarTorres();
+                break;
+    case 33:
+            ui->casilla33->setIcon(torreArtillera);
+                desabilitarTorres();
+                break;
+    case 34:
+            ui->casilla34->setIcon(torreArtillera);
+                desabilitarTorres();
+                break;
+    case 35:
+            ui->casilla35->setIcon(torreArtillera);
+                desabilitarTorres();
+                break;
+    case 36:
+            ui->casilla36->setIcon(torreArtillera);
+                desabilitarTorres();
+                break;
+    case 37:
+            ui->casilla37->setIcon(torreArtillera);
+                desabilitarTorres();
+                break;
+    case 38:
+            ui->casilla38->setIcon(torreArtillera);
+                desabilitarTorres();
+                break;
+    case 39:
+            ui->casilla39->setIcon(torreArtillera);
+                desabilitarTorres();
+                break;
+    case 40:
+            ui->casilla40->setIcon(torreArtillera);
+                desabilitarTorres();
+                break;
+    case 41:
+            ui->casilla41->setIcon(torreArtillera);
+                desabilitarTorres();
+                break;
+    case 42:
+            ui->casilla42->setIcon(torreArtillera);
+                desabilitarTorres();
+                break;
+    case 43:
+            ui->casilla43->setIcon(torreArtillera);
+                desabilitarTorres();
+                break;
+    case 44:
+            ui->casilla44->setIcon(torreArtillera);
+                desabilitarTorres();
+                break;
+    case 45:
+            ui->casilla45->setIcon(torreArtillera);
+                desabilitarTorres();
+                break;
+    case 46:
+            ui->casilla46->setIcon(torreArtillera);
+                desabilitarTorres();
+                break;
+    case 47:
+            ui->casilla47->setIcon(torreArtillera);
+                desabilitarTorres();
+                break;
+    case 48:
+            ui->casilla48->setIcon(torreArtillera);
+                desabilitarTorres();
+                break;
+    case 49:
+            ui->casilla49->setIcon(torreArtillera);
+                desabilitarTorres();
+                break;
+    case 50:
+            ui->casilla50->setIcon(torreArtillera);
+                desabilitarTorres();
+                break;
+    case 51:
+            ui->casilla51->setIcon(torreArtillera);
+                desabilitarTorres();
+                break;
+    case 52:
+            ui->casilla52->setIcon(torreArtillera);
+                desabilitarTorres();
+                break;
+    case 53:
+            ui->casilla53->setIcon(torreArtillera);
+                desabilitarTorres();
+                break;
+    case 54:
+            ui->casilla54->setIcon(torreArtillera);
+                desabilitarTorres();
+                break;
+    case 55:
+            ui->casilla55->setIcon(torreArtillera);
+                desabilitarTorres();
+                break;
+    case 56:
+            ui->casilla56->setIcon(torreArtillera);
+                desabilitarTorres();
+                break;
+    case 57:
+            ui->casilla57->setIcon(torreArtillera);
+                desabilitarTorres();
+                break;
+    case 58:
+            ui->casilla58->setIcon(torreArtillera);
+                desabilitarTorres();
+                break;
+    case 59:
+            ui->casilla59->setIcon(torreArtillera);
+                desabilitarTorres();
+                break;
+    case 60:
+            ui->casilla60->setIcon(torreArtillera);
+                desabilitarTorres();
+                break;
+    case 61:
+            ui->casilla61->setIcon(torreArtillera);
+                desabilitarTorres();
+                break;
+    case 62:
+            ui->casilla62->setIcon(torreArtillera);
+                desabilitarTorres();
+                break;
+    case 63:
+            ui->casilla63->setIcon(torreArtillera);
+                desabilitarTorres();
+                break;
+    case 64:
+            ui->casilla64->setIcon(torreArtillera);
+                desabilitarTorres();
+                break;
+    case 65:
+            ui->casilla65->setIcon(torreArtillera);
+                desabilitarTorres();
+                break;
+    case 66:
+            ui->casilla66->setIcon(torreArtillera);
+                desabilitarTorres();
+                break;
+    case 67:
+            ui->casilla67->setIcon(torreArtillera);
+                desabilitarTorres();
+                break;
+    case 68:
+            ui->casilla68->setIcon(torreArtillera);
+                desabilitarTorres();
+                break;
+    case 69:
+            ui->casilla69->setIcon(torreArtillera);
+                desabilitarTorres();
+                break;
+    case 70:
+            ui->casilla70->setIcon(torreArtillera);
+                desabilitarTorres();
+                break;
+    case 71:
+            ui->casilla71->setIcon(torreArtillera);
+                desabilitarTorres();
+                break;
+    case 72:
+            ui->casilla72->setIcon(torreArtillera);
+                desabilitarTorres();
+                break;
+    case 73:
+            ui->casilla73->setIcon(torreArtillera);
+                desabilitarTorres();
+                break;
+    case 74:
+            ui->casilla74->setIcon(torreArtillera);
+                desabilitarTorres();
+                break;
+    case 75:
+            ui->casilla75->setIcon(torreArtillera);
+                desabilitarTorres();
+                break;
+    case 76:
+            ui->casilla76->setIcon(torreArtillera);
+                desabilitarTorres();
+                break;
+    case 77:
+            ui->casilla77->setIcon(torreArtillera);
+                desabilitarTorres();
+                break;
+    case 78:
+            ui->casilla78->setIcon(torreArtillera);
+                desabilitarTorres();
+                break;
+    case 79:
+            ui->casilla79->setIcon(torreArtillera);
+                desabilitarTorres();
+                break;
+    case 80:
+            ui->casilla80->setIcon(torreArtillera);
+                desabilitarTorres();
+                break;
+    case 81:
+            ui->casilla81->setIcon(torreArtillera);
+                desabilitarTorres();
+                break;
+    case 82:
+            ui->casilla82->setIcon(torreArtillera);
+                desabilitarTorres();
+                break;
+    case 83:
+            ui->casilla83->setIcon(torreArtillera);
+                desabilitarTorres();
+                break;
+    case 84:
+            ui->casilla84->setIcon(torreArtillera);
+                desabilitarTorres();
+                break;
+    case 85:
+            ui->casilla85->setIcon(torreArtillera);
+                desabilitarTorres();
+                break;
+    case 86:
+            ui->casilla86->setIcon(torreArtillera);
+                desabilitarTorres();
+                break;
+    case 87:
+            ui->casilla87->setIcon(torreArtillera);
+                desabilitarTorres();
+                break;
+    case 88:
+            ui->casilla88->setIcon(torreArtillera);
+                desabilitarTorres();
+                break;
+    case 89:
+            ui->casilla89->setIcon(torreArtillera);
+                desabilitarTorres();
+                break;
+    case 90:
+            ui->casilla90->setIcon(torreArtillera);
+                desabilitarTorres();
+                break;
+    case 91:
+            ui->casilla91->setIcon(torreArtillera);
+                desabilitarTorres();
+                break;
+    case 92:
+            ui->casilla92->setIcon(torreArtillera);
+                desabilitarTorres();
+                break;
+    case 93:
+            ui->casilla93->setIcon(torreArtillera);
+                desabilitarTorres();
+                break;
+    case 94:
+            ui->casilla94->setIcon(torreArtillera);
+                desabilitarTorres();
+                break;
+    case 95:
+            ui->casilla95->setIcon(torreArtillera);
+                desabilitarTorres();
+                break;
+    case 96:
+            ui->casilla96->setIcon(torreArtillera);
+                desabilitarTorres();
+                break;
+    case 97:
+            ui->casilla97->setIcon(torreArtillera);
+                desabilitarTorres();
+                break;
+    case 98:
+            ui->casilla98->setIcon(torreArtillera);
+                desabilitarTorres();
+                break;
+    case 99:
+            ui->casilla99->setIcon(torreArtillera);
+                desabilitarTorres();
+                break;
+    }
+>>>>>>> master
 }
 
 void MainWindow::on_torreFuegoButton_clicked()
 {
 
+<<<<<<< HEAD
     QPixmap torreFuego("../ImagenesProyecto2/torreLanzaFuego.png");
     switch (casSelec) {
                  case 0:
@@ -2530,4 +3536,818 @@ void MainWindow::on_torreFuegoButton_clicked()
 
 
                  }
+=======
+    QPixmap torreFuego(":/new/prefix1/torreLanzaFuego.png");
+
+    switch (casSelec) {
+    case 0:
+        ui->casilla00->setIcon(torreFuego);
+            desabilitarTorres();
+            break;
+    case 1:
+        ui->casilla01->setIcon(torreFuego);
+            desabilitarTorres();
+            break;
+    case 2:
+        ui->casilla02->setIcon(torreFuego);
+            desabilitarTorres();
+            break;
+    case 3:
+        ui->casilla03->setIcon(torreFuego);
+            desabilitarTorres();
+            break;
+    case 4:
+        ui->casilla04->setIcon(torreFuego);
+            desabilitarTorres();
+            break;
+    case 5:
+        ui->casilla05->setIcon(torreFuego);
+            desabilitarTorres();
+            break;
+    case 6:
+        ui->casilla06->setIcon(torreFuego);
+            desabilitarTorres();
+            break;
+    case 7:
+        ui->casilla07->setIcon(torreFuego);
+            desabilitarTorres();
+            break;
+    case 8:
+        ui->casilla08->setIcon(torreFuego);
+            desabilitarTorres();
+            break;
+    case 9:
+        ui->casilla09->setIcon(torreFuego);
+            desabilitarTorres();
+            break;
+    case 10:
+        ui->casilla10->setIcon(torreFuego);
+            desabilitarTorres();
+            break;
+    case 11:
+        ui->casilla11->setIcon(torreFuego);
+            desabilitarTorres();
+            break;
+    case 12:
+        ui->casilla12->setIcon(torreFuego);
+            desabilitarTorres();
+            break;
+    case 13:
+        ui->casilla13->setIcon(torreFuego);
+            desabilitarTorres();
+            break;
+    case 14:
+        ui->casilla14->setIcon(torreFuego);
+            desabilitarTorres();
+            break;
+    case 15:
+        ui->casilla15->setIcon(torreFuego);
+            desabilitarTorres();
+            break;
+    case 16:
+        ui->casilla16->setIcon(torreFuego);
+            desabilitarTorres();
+            break;
+    case 17:
+        ui->casilla17->setIcon(torreFuego);
+            desabilitarTorres();
+            break;
+    case 18:
+        ui->casilla18->setIcon(torreFuego);
+            desabilitarTorres();
+            break;
+    case 19:
+        ui->casilla19->setIcon(torreFuego);
+            desabilitarTorres();
+            break;
+    case 20:
+        ui->casilla20->setIcon(torreFuego);
+            desabilitarTorres();
+            break;
+    case 21:
+        ui->casilla21->setIcon(torreFuego);
+            desabilitarTorres();
+            break;
+    case 22:
+       ui->casilla22->setIcon(torreFuego);
+           desabilitarTorres();
+           break;
+    case 23:
+            ui->casilla23->setIcon(torreFuego);
+                desabilitarTorres();
+                break;
+    case 24:
+        ui->casilla24->setIcon(torreFuego);
+                desabilitarTorres();
+                break;
+    case 25:
+            ui->casilla25->setIcon(torreFuego);
+            desabilitarTorres();
+                break;
+    case 26:
+            ui->casilla26->setIcon(torreFuego);
+                desabilitarTorres();
+                break;
+    case 27:
+            ui->casilla27->setIcon(torreFuego);
+                desabilitarTorres();
+                break;
+    case 28:
+            ui->casilla28->setIcon(torreFuego);
+                desabilitarTorres();
+                break;
+    case 29:
+            ui->casilla29->setIcon(torreFuego);
+                desabilitarTorres();
+                break;
+    case 30:
+            ui->casilla30->setIcon(torreFuego);
+                desabilitarTorres();
+                break;
+    case 31:
+            ui->casilla31->setIcon(torreFuego);
+                desabilitarTorres();
+                break;
+    case 32:
+            ui->casilla32->setIcon(torreFuego);
+                desabilitarTorres();
+                break;
+    case 33:
+            ui->casilla33->setIcon(torreFuego);
+                desabilitarTorres();
+                break;
+    case 34:
+            ui->casilla34->setIcon(torreFuego);
+                desabilitarTorres();
+                break;
+    case 35:
+            ui->casilla35->setIcon(torreFuego);
+                desabilitarTorres();
+                break;
+    case 36:
+            ui->casilla36->setIcon(torreFuego);
+                desabilitarTorres();
+                break;
+    case 37:
+            ui->casilla37->setIcon(torreFuego);
+                desabilitarTorres();
+                break;
+    case 38:
+            ui->casilla38->setIcon(torreFuego);
+                desabilitarTorres();
+                break;
+    case 39:
+            ui->casilla39->setIcon(torreFuego);
+                desabilitarTorres();
+                break;
+    case 40:
+            ui->casilla40->setIcon(torreFuego);
+                desabilitarTorres();
+                break;
+    case 41:
+            ui->casilla41->setIcon(torreFuego);
+                desabilitarTorres();
+                break;
+    case 42:
+            ui->casilla42->setIcon(torreFuego);
+                desabilitarTorres();
+                break;
+    case 43:
+            ui->casilla43->setIcon(torreFuego);
+                desabilitarTorres();
+                break;
+    case 44:
+            ui->casilla44->setIcon(torreFuego);
+                desabilitarTorres();
+                break;
+    case 45:
+            ui->casilla45->setIcon(torreFuego);
+                desabilitarTorres();
+                break;
+    case 46:
+            ui->casilla46->setIcon(torreFuego);
+                desabilitarTorres();
+                break;
+    case 47:
+            ui->casilla47->setIcon(torreFuego);
+                desabilitarTorres();
+                break;
+    case 48:
+            ui->casilla48->setIcon(torreFuego);
+                desabilitarTorres();
+                break;
+    case 49:
+            ui->casilla49->setIcon(torreFuego);
+                desabilitarTorres();
+                break;
+    case 50:
+            ui->casilla50->setIcon(torreFuego);
+                desabilitarTorres();
+                break;
+    case 51:
+            ui->casilla51->setIcon(torreFuego);
+                desabilitarTorres();
+                break;
+    case 52:
+            ui->casilla52->setIcon(torreFuego);
+                desabilitarTorres();
+                break;
+    case 53:
+            ui->casilla53->setIcon(torreFuego);
+                desabilitarTorres();
+                break;
+    case 54:
+            ui->casilla54->setIcon(torreFuego);
+                desabilitarTorres();
+                break;
+    case 55:
+            ui->casilla55->setIcon(torreFuego);
+                desabilitarTorres();
+                break;
+    case 56:
+            ui->casilla56->setIcon(torreFuego);
+                desabilitarTorres();
+                break;
+    case 57:
+            ui->casilla57->setIcon(torreFuego);
+                desabilitarTorres();
+                break;
+    case 58:
+            ui->casilla58->setIcon(torreFuego);
+                desabilitarTorres();
+                break;
+    case 59:
+            ui->casilla59->setIcon(torreFuego);
+                desabilitarTorres();
+                break;
+    case 60:
+            ui->casilla60->setIcon(torreFuego);
+                desabilitarTorres();
+                break;
+    case 61:
+            ui->casilla61->setIcon(torreFuego);
+                desabilitarTorres();
+                break;
+    case 62:
+            ui->casilla62->setIcon(torreFuego);
+                desabilitarTorres();
+                break;
+    case 63:
+            ui->casilla63->setIcon(torreFuego);
+                desabilitarTorres();
+                break;
+    case 64:
+            ui->casilla64->setIcon(torreFuego);
+                desabilitarTorres();
+                break;
+    case 65:
+            ui->casilla65->setIcon(torreFuego);
+                desabilitarTorres();
+                break;
+    case 66:
+            ui->casilla66->setIcon(torreFuego);
+                desabilitarTorres();
+                break;
+    case 67:
+            ui->casilla67->setIcon(torreFuego);
+                desabilitarTorres();
+                break;
+    case 68:
+            ui->casilla68->setIcon(torreFuego);
+                desabilitarTorres();
+                break;
+    case 69:
+            ui->casilla69->setIcon(torreFuego);
+                desabilitarTorres();
+                break;
+    case 70:
+            ui->casilla70->setIcon(torreFuego);
+                desabilitarTorres();
+                break;
+    case 71:
+            ui->casilla71->setIcon(torreFuego);
+                desabilitarTorres();
+                break;
+    case 72:
+            ui->casilla72->setIcon(torreFuego);
+                desabilitarTorres();
+                break;
+    case 73:
+            ui->casilla73->setIcon(torreFuego);
+                desabilitarTorres();
+                break;
+    case 74:
+            ui->casilla74->setIcon(torreFuego);
+                desabilitarTorres();
+                break;
+    case 75:
+            ui->casilla75->setIcon(torreFuego);
+                desabilitarTorres();
+                break;
+    case 76:
+            ui->casilla76->setIcon(torreFuego);
+                desabilitarTorres();
+                break;
+    case 77:
+            ui->casilla77->setIcon(torreFuego);
+                desabilitarTorres();
+                break;
+    case 78:
+            ui->casilla78->setIcon(torreFuego);
+                desabilitarTorres();
+                break;
+    case 79:
+            ui->casilla79->setIcon(torreFuego);
+                desabilitarTorres();
+                break;
+    case 80:
+            ui->casilla80->setIcon(torreFuego);
+                desabilitarTorres();
+                break;
+    case 81:
+            ui->casilla81->setIcon(torreFuego);
+                desabilitarTorres();
+                break;
+    case 82:
+            ui->casilla82->setIcon(torreFuego);
+                desabilitarTorres();
+                break;
+    case 83:
+            ui->casilla83->setIcon(torreFuego);
+                desabilitarTorres();
+                break;
+    case 84:
+            ui->casilla84->setIcon(torreFuego);
+                desabilitarTorres();
+                break;
+    case 85:
+            ui->casilla85->setIcon(torreFuego);
+                desabilitarTorres();
+                break;
+    case 86:
+            ui->casilla86->setIcon(torreFuego);
+                desabilitarTorres();
+                break;
+    case 87:
+            ui->casilla87->setIcon(torreFuego);
+                desabilitarTorres();
+                break;
+    case 88:
+            ui->casilla88->setIcon(torreFuego);
+                desabilitarTorres();
+                break;
+    case 89:
+            ui->casilla89->setIcon(torreFuego);
+                desabilitarTorres();
+                break;
+    case 90:
+            ui->casilla90->setIcon(torreFuego);
+                desabilitarTorres();
+                break;
+    case 91:
+            ui->casilla91->setIcon(torreFuego);
+                desabilitarTorres();
+                break;
+    case 92:
+            ui->casilla92->setIcon(torreFuego);
+                desabilitarTorres();
+                break;
+    case 93:
+            ui->casilla93->setIcon(torreFuego);
+                desabilitarTorres();
+                break;
+    case 94:
+            ui->casilla94->setIcon(torreFuego);
+                desabilitarTorres();
+                break;
+    case 95:
+            ui->casilla95->setIcon(torreFuego);
+                desabilitarTorres();
+                break;
+    case 96:
+            ui->casilla96->setIcon(torreFuego);
+                desabilitarTorres();
+                break;
+    case 97:
+            ui->casilla97->setIcon(torreFuego);
+                desabilitarTorres();
+                break;
+    case 98:
+            ui->casilla98->setIcon(torreFuego);
+                desabilitarTorres();
+                break;
+    case 99:
+            ui->casilla99->setIcon(torreFuego);
+                desabilitarTorres();
+                break;
+    }
+}
+
+void MainWindow::on_eliminarCursoButton_clicked()
+{
+    QPixmap casillaBlanca(":/new/prefix1/casillaBlanco.png");
+    QPixmap casillaNegra(":/new/prefix1/casillaNegra.png");
+    switch (casSelec) {
+    case 0:
+        ui->casilla00->setIcon(casillaNegra);
+            desabilitarTorres();
+            break;
+    case 1:
+        ui->casilla01->setIcon(casillaBlanca);
+            desabilitarTorres();
+            break;
+    case 2:
+        ui->casilla02->setIcon(casillaNegra);
+            desabilitarTorres();
+            break;
+    case 3:
+        ui->casilla03->setIcon(casillaBlanca);
+            desabilitarTorres();
+            break;
+    case 4:
+        ui->casilla04->setIcon(casillaNegra);
+            desabilitarTorres();
+            break;
+    case 5:
+        ui->casilla05->setIcon(casillaBlanca);
+            desabilitarTorres();
+            break;
+    case 6:
+        ui->casilla06->setIcon(casillaNegra);
+            desabilitarTorres();
+            break;
+    case 7:
+        ui->casilla07->setIcon(casillaBlanca);
+            desabilitarTorres();
+            break;
+    case 8:
+        ui->casilla08->setIcon(casillaNegra);
+            desabilitarTorres();
+            break;
+    case 9:
+        ui->casilla09->setIcon(casillaBlanca);
+            desabilitarTorres();
+            break;
+    case 10:
+        ui->casilla10->setIcon(casillaBlanca);
+            desabilitarTorres();
+            break;
+    case 11:
+        ui->casilla11->setIcon(casillaNegra);
+            desabilitarTorres();
+            break;
+    case 12:
+        ui->casilla12->setIcon(casillaBlanca);
+            desabilitarTorres();
+            break;
+    case 13:
+        ui->casilla13->setIcon(casillaNegra);
+            desabilitarTorres();
+            break;
+    case 14:
+        ui->casilla14->setIcon(casillaBlanca);
+            desabilitarTorres();
+            break;
+    case 15:
+        ui->casilla15->setIcon(casillaNegra);
+            desabilitarTorres();
+            break;
+    case 16:
+        ui->casilla16->setIcon(casillaBlanca);
+            desabilitarTorres();
+            break;
+    case 17:
+        ui->casilla17->setIcon(casillaNegra);
+            desabilitarTorres();
+            break;
+    case 18:
+        ui->casilla18->setIcon(casillaBlanca);
+            desabilitarTorres();
+            break;
+    case 19:
+        ui->casilla19->setIcon(casillaNegra);
+            desabilitarTorres();
+            break;
+    case 20:
+        ui->casilla20->setIcon(casillaNegra);
+            desabilitarTorres();
+            break;
+    case 21:
+        ui->casilla21->setIcon(casillaBlanca);
+            desabilitarTorres();
+            break;
+    case 22:
+       ui->casilla22->setIcon(casillaNegra);
+           desabilitarTorres();
+           break;
+    case 23:
+            ui->casilla23->setIcon(casillaBlanca);
+                desabilitarTorres();
+                break;
+    case 24:
+        ui->casilla24->setIcon(casillaNegra);
+                desabilitarTorres();
+                break;
+    case 25:
+            ui->casilla25->setIcon(casillaBlanca);
+            desabilitarTorres();
+                break;
+    case 26:
+            ui->casilla26->setIcon(casillaNegra);
+                desabilitarTorres();
+                break;
+    case 27:
+            ui->casilla27->setIcon(casillaBlanca);
+                desabilitarTorres();
+                break;
+    case 28:
+            ui->casilla28->setIcon(casillaNegra);
+                desabilitarTorres();
+                break;
+    case 29:
+            ui->casilla29->setIcon(casillaBlanca);
+                desabilitarTorres();
+                break;
+    case 30:
+            ui->casilla30->setIcon(casillaBlanca);
+                desabilitarTorres();
+                break;
+    case 31:
+            ui->casilla31->setIcon(casillaNegra);
+                desabilitarTorres();
+                break;
+    case 32:
+            ui->casilla32->setIcon(casillaBlanca);
+                desabilitarTorres();
+                break;
+    case 33:
+            ui->casilla33->setIcon(casillaNegra);
+                desabilitarTorres();
+                break;
+    case 34:
+            ui->casilla34->setIcon(casillaBlanca);
+                desabilitarTorres();
+                break;
+    case 35:
+            ui->casilla35->setIcon(casillaNegra);
+                desabilitarTorres();
+                break;
+    case 36:
+            ui->casilla36->setIcon(casillaBlanca);
+                desabilitarTorres();
+                break;
+    case 37:
+            ui->casilla37->setIcon(casillaNegra);
+                desabilitarTorres();
+                break;
+    case 38:
+            ui->casilla38->setIcon(casillaBlanca);
+                desabilitarTorres();
+                break;
+    case 39:
+            ui->casilla39->setIcon(casillaNegra);
+                desabilitarTorres();
+                break;
+    case 40:
+            ui->casilla40->setIcon(casillaNegra);
+                desabilitarTorres();
+                break;
+    case 41:
+            ui->casilla41->setIcon(casillaBlanca);
+                desabilitarTorres();
+                break;
+    case 42:
+            ui->casilla42->setIcon(casillaNegra);
+                desabilitarTorres();
+                break;
+    case 43:
+            ui->casilla43->setIcon(casillaBlanca);
+                desabilitarTorres();
+                break;
+    case 44:
+            ui->casilla44->setIcon(casillaNegra);
+                desabilitarTorres();
+                break;
+    case 45:
+            ui->casilla45->setIcon(casillaBlanca);
+                desabilitarTorres();
+                break;
+    case 46:
+            ui->casilla46->setIcon(casillaNegra);
+                desabilitarTorres();
+                break;
+    case 47:
+            ui->casilla47->setIcon(casillaBlanca);
+                desabilitarTorres();
+                break;
+    case 48:
+            ui->casilla48->setIcon(casillaNegra);
+                desabilitarTorres();
+                break;
+    case 49:
+            ui->casilla49->setIcon(casillaBlanca);
+                desabilitarTorres();
+                break;
+    case 50:
+            ui->casilla50->setIcon(casillaBlanca);
+                desabilitarTorres();
+                break;
+    case 51:
+            ui->casilla51->setIcon(casillaNegra);
+                desabilitarTorres();
+                break;
+    case 52:
+            ui->casilla52->setIcon(casillaBlanca);
+                desabilitarTorres();
+                break;
+    case 53:
+            ui->casilla53->setIcon(casillaNegra);
+                desabilitarTorres();
+                break;
+    case 54:
+            ui->casilla54->setIcon(casillaBlanca);
+                desabilitarTorres();
+                break;
+    case 55:
+            ui->casilla55->setIcon(casillaNegra);
+                desabilitarTorres();
+                break;
+    case 56:
+            ui->casilla56->setIcon(casillaBlanca);
+                desabilitarTorres();
+                break;
+    case 57:
+            ui->casilla57->setIcon(casillaNegra);
+                desabilitarTorres();
+                break;
+    case 58:
+            ui->casilla58->setIcon(casillaBlanca);
+                desabilitarTorres();
+                break;
+    case 59:
+            ui->casilla59->setIcon(casillaNegra);
+                desabilitarTorres();
+                break;
+    case 60:
+            ui->casilla60->setIcon(casillaNegra);
+                desabilitarTorres();
+                break;
+    case 61:
+            ui->casilla61->setIcon(casillaBlanca);
+                desabilitarTorres();
+                break;
+    case 62:
+            ui->casilla62->setIcon(casillaNegra);
+                desabilitarTorres();
+                break;
+    case 63:
+            ui->casilla63->setIcon(casillaBlanca);
+                desabilitarTorres();
+                break;
+    case 64:
+            ui->casilla64->setIcon(casillaNegra);
+                desabilitarTorres();
+                break;
+    case 65:
+            ui->casilla65->setIcon(casillaBlanca);
+                desabilitarTorres();
+                break;
+    case 66:
+            ui->casilla66->setIcon(casillaNegra);
+                desabilitarTorres();
+                break;
+    case 67:
+            ui->casilla67->setIcon(casillaBlanca);
+                desabilitarTorres();
+                break;
+    case 68:
+            ui->casilla68->setIcon(casillaNegra);
+                desabilitarTorres();
+                break;
+    case 69:
+            ui->casilla69->setIcon(casillaBlanca);
+                desabilitarTorres();
+                break;
+    case 70:
+            ui->casilla70->setIcon(casillaBlanca);
+                desabilitarTorres();
+                break;
+    case 71:
+            ui->casilla71->setIcon(casillaNegra);
+                desabilitarTorres();
+                break;
+    case 72:
+            ui->casilla72->setIcon(casillaBlanca);
+                desabilitarTorres();
+                break;
+    case 73:
+            ui->casilla73->setIcon(casillaNegra);
+                desabilitarTorres();
+                break;
+    case 74:
+            ui->casilla74->setIcon(casillaBlanca);
+                desabilitarTorres();
+                break;
+    case 75:
+            ui->casilla75->setIcon(casillaNegra);
+                desabilitarTorres();
+                break;
+    case 76:
+            ui->casilla76->setIcon(casillaBlanca);
+                desabilitarTorres();
+                break;
+    case 77:
+            ui->casilla77->setIcon(casillaNegra);
+                desabilitarTorres();
+                break;
+    case 78:
+            ui->casilla78->setIcon(casillaBlanca);
+                desabilitarTorres();
+                break;
+    case 79:
+            ui->casilla79->setIcon(casillaBlanca);
+                desabilitarTorres();
+                break;
+    case 80:
+            ui->casilla80->setIcon(casillaNegra);
+                desabilitarTorres();
+                break;
+    case 81:
+            ui->casilla81->setIcon(casillaBlanca);
+                desabilitarTorres();
+                break;
+    case 82:
+            ui->casilla82->setIcon(casillaNegra);
+                desabilitarTorres();
+                break;
+    case 83:
+            ui->casilla83->setIcon(casillaBlanca);
+                desabilitarTorres();
+                break;
+    case 84:
+            ui->casilla84->setIcon(casillaNegra);
+                desabilitarTorres();
+                break;
+    case 85:
+            ui->casilla85->setIcon(casillaBlanca);
+                desabilitarTorres();
+                break;
+    case 86:
+            ui->casilla86->setIcon(casillaNegra);
+                desabilitarTorres();
+                break;
+    case 87:
+            ui->casilla87->setIcon(casillaBlanca);
+                desabilitarTorres();
+                break;
+    case 88:
+            ui->casilla88->setIcon(casillaNegra);
+                desabilitarTorres();
+                break;
+    case 89:
+            ui->casilla89->setIcon(casillaBlanca);
+                desabilitarTorres();
+                break;
+    case 90:
+            ui->casilla90->setIcon(casillaBlanca);
+                desabilitarTorres();
+                break;
+    case 91:
+            ui->casilla91->setIcon(casillaNegra);
+                desabilitarTorres();
+                break;
+    case 92:
+            ui->casilla92->setIcon(casillaBlanca);
+                desabilitarTorres();
+                break;
+    case 93:
+            ui->casilla93->setIcon(casillaNegra);
+                desabilitarTorres();
+                break;
+    case 94:
+            ui->casilla94->setIcon(casillaBlanca);
+                desabilitarTorres();
+                break;
+    case 95:
+            ui->casilla95->setIcon(casillaNegra);
+                desabilitarTorres();
+                break;
+    case 96:
+            ui->casilla96->setIcon(casillaBlanca);
+                desabilitarTorres();
+                break;
+    case 97:
+            ui->casilla97->setIcon(casillaNegra);
+                desabilitarTorres();
+                break;
+    case 98:
+            ui->casilla98->setIcon(casillaBlanca);
+                desabilitarTorres();
+                break;
+    case 99:
+            ui->casilla99->setIcon(casillaNegra);
+                desabilitarTorres();
+                break;
+    }
+>>>>>>> master
 }
