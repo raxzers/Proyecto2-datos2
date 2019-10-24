@@ -8,7 +8,7 @@
 
 class Player {
 private:
-    int credits;
+    int credits=100;
     int mapa[10][10]={{0,0,0,0,0,0,0,0,0,0},
                       {0,0,0,0,0,0,0,0,0,0},
                       {0,0,0,0,0,0,0,0,0,0},

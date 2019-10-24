@@ -11,6 +11,7 @@ MainWindow::MainWindow(QWidget *parent)
     armarTableroCasillasNegras();
     armarTableroCasillasBlancas();
     asignarTorres();
+    ui->cantCreditos->setText(QString::number(p1.getCredits()));
 
 }
 
@@ -525,9 +526,10 @@ void MainWindow::on_casilla00_clicked()
 {
 
     //00
-    if(checkCredits()){habilitatTorres();
+    casSelec =0;
+    if(checkCredits()){
         habilitatTorres();
-        casSelec =0;
+        //funcion de resta de creditos
         p1.updatemapa(casSelec);
 }
 
@@ -541,8 +543,11 @@ void MainWindow::on_casilla01_clicked()
 {
     //01
     casSelec =1;
-    habilitatTorres();
-    p1.updatemapa(casSelec);
+    if(checkCredits()){
+        habilitatTorres();
+        //funcion de resta de creditos
+        p1.updatemapa(casSelec);
+}
 
 
 }
@@ -552,1285 +557,1114 @@ void MainWindow::on_casilla02_clicked()
 
     //02
     casSelec =2;
-    habilitatTorres();
-
-    casSelec =2;
-
-
-
-    p1.updatemapa(casSelec);
+    if(checkCredits()){
+        habilitatTorres();
+        //funcion de resta de creditos
+        p1.updatemapa(casSelec);
+}
 }
 
 void MainWindow::on_casilla03_clicked()
 {
     //03
     casSelec =3;
-    habilitatTorres();
-
-    casSelec =3;
-
-
-
-    p1.updatemapa(casSelec);
+    if(checkCredits()){
+        habilitatTorres();
+        //funcion de resta de creditos
+        p1.updatemapa(casSelec);
+}
 }
 
 void MainWindow::on_casilla04_clicked()
 {
     //04
     casSelec =4;
-    habilitatTorres();
-
-    casSelec =4;
-
-
-
-    p1.updatemapa(casSelec);
+    if(checkCredits()){
+        habilitatTorres();
+        //funcion de resta de creditos
+        p1.updatemapa(casSelec);
+}
 }
 
 void MainWindow::on_casilla05_clicked()
 {
     //05
     casSelec =5;
-    habilitatTorres();
-
-    casSelec =5;
-
-
-
-    p1.updatemapa(casSelec);
+    if(checkCredits()){
+        habilitatTorres();
+        //funcion de resta de creditos
+        p1.updatemapa(casSelec);
+}
 }
 
 void MainWindow::on_casilla06_clicked()
 {
     //06
     casSelec =6;
-    habilitatTorres();
-
-    casSelec =6;
-
-
-
-    p1.updatemapa(casSelec);
+    if(checkCredits()){
+        habilitatTorres();
+        //funcion de resta de creditos
+        p1.updatemapa(casSelec);
+}
 }
 
 void MainWindow::on_casilla07_clicked()
 {
     //07
     casSelec =7;
-    habilitatTorres();
-
-    casSelec =7;
-
-
-
-    p1.updatemapa(casSelec);
+    if(checkCredits()){
+        habilitatTorres();
+        //funcion de resta de creditos
+        p1.updatemapa(casSelec);
+}
 }
 
 void MainWindow::on_casilla08_clicked()
 {
     //08
     casSelec =8;
-    habilitatTorres();
-
-    casSelec =8;
-
-
-
-    p1.updatemapa(casSelec);
+    if(checkCredits()){
+        habilitatTorres();
+        //funcion de resta de creditos
+        p1.updatemapa(casSelec);
+}
 }
 
 void MainWindow::on_casilla09_clicked()
 {
     //09
     casSelec =9;
-    habilitatTorres();
-
-    casSelec =9;
-
-
-
-    p1.updatemapa(casSelec);
+    if(checkCredits()){
+        habilitatTorres();
+        //funcion de resta de creditos
+        p1.updatemapa(casSelec);
+}
 }
 
 void MainWindow::on_casilla10_clicked()
 {
     //10
     casSelec =10;
-    habilitatTorres();
-
-    casSelec =10;
-
-
-
-    p1.updatemapa(casSelec);
+    if(checkCredits()){
+        habilitatTorres();
+        //funcion de resta de creditos
+        p1.updatemapa(casSelec);
+}
 }
 
 void MainWindow::on_casilla11_clicked()
 {
     //11
     casSelec =11;
-    habilitatTorres();
+    if(checkCredits()){
+        habilitatTorres();
+        //funcion de resta de creditos
+        p1.updatemapa(casSelec);
+}
 
-    casSelec =11;
 
-
-
-    p1.updatemapa(casSelec);
 }
 
 void MainWindow::on_casilla12_clicked()
 {
+
     //12
     casSelec =12;
-    habilitatTorres();
-
-    casSelec =12;
-
-
-
-    p1.updatemapa(casSelec);
+    if(checkCredits()){
+        habilitatTorres();
+        //funcion de resta de creditos
+        p1.updatemapa(casSelec);
+}
 }
 
 void MainWindow::on_casilla13_clicked()
 {
     //13
     casSelec =13;
-    habilitatTorres();
-
-    casSelec =13;
-
-
-
-    p1.updatemapa(casSelec);
+    if(checkCredits()){
+        habilitatTorres();
+        //funcion de resta de creditos
+        p1.updatemapa(casSelec);
+}
 }
 
 void MainWindow::on_casilla14_clicked()
 {
     //14
     casSelec =14;
-    habilitatTorres();
-
-    casSelec =14;
-
-
-
-    p1.updatemapa(casSelec);
+    if(checkCredits()){
+        habilitatTorres();
+        //funcion de resta de creditos
+        p1.updatemapa(casSelec);
+}
 }
 
 void MainWindow::on_casilla15_clicked()
 {
     //15
     casSelec =15;
-    habilitatTorres();
-
-    casSelec =15;
-
-
-
-    p1.updatemapa(casSelec);
+    if(checkCredits()){
+        habilitatTorres();
+        //funcion de resta de creditos
+        p1.updatemapa(casSelec);
+}
 }
 
 void MainWindow::on_casilla16_clicked()
 {
     //16
     casSelec =16;
-    habilitatTorres();
-
-    casSelec =16;
-
-
-
-    p1.updatemapa(casSelec);
+    if(checkCredits()){
+        habilitatTorres();
+        //funcion de resta de creditos
+        p1.updatemapa(casSelec);
+}
 }
 
 void MainWindow::on_casilla17_clicked()
 {
     //17
     casSelec =17;
-    habilitatTorres();
-
-    casSelec =17;
-
-
-
-    p1.updatemapa(casSelec);
+    if(checkCredits()){
+        habilitatTorres();
+        //funcion de resta de creditos
+        p1.updatemapa(casSelec);
+}
 }
 
 void MainWindow::on_casilla18_clicked()
 {
     //18
     casSelec =18;
-    habilitatTorres();
-
-    casSelec =18;
-
-
-
-    p1.updatemapa(casSelec);
+    if(checkCredits()){
+        habilitatTorres();
+        //funcion de resta de creditos
+        p1.updatemapa(casSelec);
+}
 }
 
 void MainWindow::on_casilla19_clicked()
 {
     //19
     casSelec =19;
-    habilitatTorres();
-
-    casSelec =19;
-
-
-
-    p1.updatemapa(casSelec);
+    if(checkCredits()){
+        habilitatTorres();
+        //funcion de resta de creditos
+        p1.updatemapa(casSelec);
+}
 }
 
 void MainWindow::on_casilla20_clicked()
 {
-    //20
+    //11
     casSelec =20;
-    habilitatTorres();
-
-    casSelec =20;
-
-
-
-    p1.updatemapa(casSelec);
+    if(checkCredits()){
+        habilitatTorres();
+        //funcion de resta de creditos
+        p1.updatemapa(casSelec);
+}
 }
 
 void MainWindow::on_casilla21_clicked()
 {
     //21
     casSelec =21;
-    habilitatTorres();
+    if(checkCredits()){
+        habilitatTorres();
+        //funcion de resta de creditos
+        p1.updatemapa(casSelec);
+}
 
-    casSelec =21;
 
-
-
-    p1.updatemapa(casSelec);
 }
 
 void MainWindow::on_casilla22_clicked()
 {
+
     //22
     casSelec =22;
-    habilitatTorres();
-
-    casSelec =22;
-
-
-
-    p1.updatemapa(casSelec);
+    if(checkCredits()){
+        habilitatTorres();
+        //funcion de resta de creditos
+        p1.updatemapa(casSelec);
+}
 }
 
 void MainWindow::on_casilla23_clicked()
 {
     //23
     casSelec =23;
-    habilitatTorres();
-
-    casSelec =23;
-
-
-
-    p1.updatemapa(casSelec);
+    if(checkCredits()){
+        habilitatTorres();
+        //funcion de resta de creditos
+        p1.updatemapa(casSelec);
+}
 }
 
 void MainWindow::on_casilla24_clicked()
 {
     //24
     casSelec =24;
-    habilitatTorres();
-
-    casSelec =24;
-
-
-
-    p1.updatemapa(casSelec);
+    if(checkCredits()){
+        habilitatTorres();
+        //funcion de resta de creditos
+        p1.updatemapa(casSelec);
+}
 }
 
 void MainWindow::on_casilla25_clicked()
 {
     //25
     casSelec =25;
-    habilitatTorres();
-
-    casSelec =25;
-
-
-
-    p1.updatemapa(casSelec);
+    if(checkCredits()){
+        habilitatTorres();
+        //funcion de resta de creditos
+        p1.updatemapa(casSelec);
+}
 }
 
 void MainWindow::on_casilla26_clicked()
 {
     //26
     casSelec =26;
-    habilitatTorres();
-
-    casSelec =26;
-
-
-
-    p1.updatemapa(casSelec);
+    if(checkCredits()){
+        habilitatTorres();
+        //funcion de resta de creditos
+        p1.updatemapa(casSelec);
+}
 }
 
 void MainWindow::on_casilla27_clicked()
 {
     //27
     casSelec =27;
-    habilitatTorres();
-
-    casSelec =27;
-
-
-
-    p1.updatemapa(casSelec);
+    if(checkCredits()){
+        habilitatTorres();
+        //funcion de resta de creditos
+        p1.updatemapa(casSelec);
+}
 }
 
 void MainWindow::on_casilla28_clicked()
 {
     //28
     casSelec =28;
-    habilitatTorres();
-
-    casSelec =28;
-
-
-
-    p1.updatemapa(casSelec);
+    if(checkCredits()){
+        habilitatTorres();
+        //funcion de resta de creditos
+        p1.updatemapa(casSelec);
+}
 }
 
 void MainWindow::on_casilla29_clicked()
 {
     //29
     casSelec =29;
-    habilitatTorres();
-
-    casSelec =29;
-
-
-
-    p1.updatemapa(casSelec);
+    if(checkCredits()){
+        habilitatTorres();
+        //funcion de resta de creditos
+        p1.updatemapa(casSelec);
+}
 }
 
 void MainWindow::on_casilla30_clicked()
 {
-    //30
+    //22
     casSelec =30;
-    habilitatTorres();
-
-    casSelec =30;
-
-
-
-    p1.updatemapa(casSelec);
+    if(checkCredits()){
+        habilitatTorres();
+        //funcion de resta de creditos
+        p1.updatemapa(casSelec);
 }
+}
+
+
 
 void MainWindow::on_casilla31_clicked()
 {
     //31
     casSelec =31;
-    habilitatTorres();
+    if(checkCredits()){
+        habilitatTorres();
+        //funcion de resta de creditos
+        p1.updatemapa(casSelec);
+}
 
-    casSelec =31;
 
-
-
-    p1.updatemapa(casSelec);
 }
 
 void MainWindow::on_casilla32_clicked()
 {
+
     //32
     casSelec =32;
-    habilitatTorres();
-
-    casSelec =32;
-
-
-
-    p1.updatemapa(casSelec);
+    if(checkCredits()){
+        habilitatTorres();
+        //funcion de resta de creditos
+        p1.updatemapa(casSelec);
+}
 }
 
 void MainWindow::on_casilla33_clicked()
 {
     //33
     casSelec =33;
-    habilitatTorres();
-
-    casSelec =33;
-
-
-
-    p1.updatemapa(casSelec);
+    if(checkCredits()){
+        habilitatTorres();
+        //funcion de resta de creditos
+        p1.updatemapa(casSelec);
+}
 }
 
 void MainWindow::on_casilla34_clicked()
 {
     //34
     casSelec =34;
-    habilitatTorres();
-
-    casSelec =34;
-
-
-
-    p1.updatemapa(casSelec);
+    if(checkCredits()){
+        habilitatTorres();
+        //funcion de resta de creditos
+        p1.updatemapa(casSelec);
+}
 }
 
 void MainWindow::on_casilla35_clicked()
 {
     //35
     casSelec =35;
-    habilitatTorres();
-
-    casSelec =35;
-
-
-
-    p1.updatemapa(casSelec);
+    if(checkCredits()){
+        habilitatTorres();
+        //funcion de resta de creditos
+        p1.updatemapa(casSelec);
+}
 }
 
 void MainWindow::on_casilla36_clicked()
 {
     //36
     casSelec =36;
-    habilitatTorres();
-
-    casSelec =36;
-
-
-
-    p1.updatemapa(casSelec);
+    if(checkCredits()){
+        habilitatTorres();
+        //funcion de resta de creditos
+        p1.updatemapa(casSelec);
+}
 }
 
 void MainWindow::on_casilla37_clicked()
 {
     //37
     casSelec =37;
-    habilitatTorres();
-
-    casSelec =37;
-
-
-
-    p1.updatemapa(casSelec);
+    if(checkCredits()){
+        habilitatTorres();
+        //funcion de resta de creditos
+        p1.updatemapa(casSelec);
+}
 }
 
 void MainWindow::on_casilla38_clicked()
 {
     //38
     casSelec =38;
-    habilitatTorres();
-
-    casSelec =38;
-
-
-
-    p1.updatemapa(casSelec);
+    if(checkCredits()){
+        habilitatTorres();
+        //funcion de resta de creditos
+        p1.updatemapa(casSelec);
+}
 }
 
 void MainWindow::on_casilla39_clicked()
 {
     //39
     casSelec =39;
-    habilitatTorres();
-
-    casSelec =39;
-
-
-
-    p1.updatemapa(casSelec);
+    if(checkCredits()){
+        habilitatTorres();
+        //funcion de resta de creditos
+        p1.updatemapa(casSelec);
+}
 }
 
 void MainWindow::on_casilla40_clicked()
 {
-    //40
+    //33
     casSelec =40;
-    habilitatTorres();
-
-    casSelec =40;
-
-
-
-    p1.updatemapa(casSelec);
+    if(checkCredits()){
+        habilitatTorres();
+        //funcion de resta de creditos
+        p1.updatemapa(casSelec);
 }
+}
+
+
 
 void MainWindow::on_casilla41_clicked()
 {
-
-   habilitatTorres();
-   casSelec =41;
-   p1.updatemapa(casSelec);
-
     //41
     casSelec =41;
-    habilitatTorres();
+    if(checkCredits()){
+        habilitatTorres();
+        //funcion de resta de creditos
+        p1.updatemapa(casSelec);
+}
 
-    p1.updatemapa(casSelec);
 
 }
 
 void MainWindow::on_casilla42_clicked()
 {
 
-   habilitatTorres();
-   casSelec =42;
-   p1.updatemapa(casSelec);
-
     //42
     casSelec =42;
-    habilitatTorres();
-
-    p1.updatemapa(casSelec);
-
+    if(checkCredits()){
+        habilitatTorres();
+        //funcion de resta de creditos
+        p1.updatemapa(casSelec);
+}
 }
 
 void MainWindow::on_casilla43_clicked()
 {
     //43
     casSelec =43;
-    habilitatTorres();
-
-    casSelec =43;
-
-
-
-    p1.updatemapa(casSelec);
+    if(checkCredits()){
+        habilitatTorres();
+        //funcion de resta de creditos
+        p1.updatemapa(casSelec);
+}
 }
 
 void MainWindow::on_casilla44_clicked()
 {
     //44
     casSelec =44;
-    habilitatTorres();
-
-    casSelec =44;
-
-
-
-    p1.updatemapa(casSelec);
+    if(checkCredits()){
+        habilitatTorres();
+        //funcion de resta de creditos
+        p1.updatemapa(casSelec);
+}
 }
 
 void MainWindow::on_casilla45_clicked()
 {
     //45
     casSelec =45;
-    habilitatTorres();
-
-    casSelec =45;
-
-
-
-    p1.updatemapa(casSelec);
+    if(checkCredits()){
+        habilitatTorres();
+        //funcion de resta de creditos
+        p1.updatemapa(casSelec);
+}
 }
 
 void MainWindow::on_casilla46_clicked()
 {
     //46
     casSelec =46;
-    habilitatTorres();
-
-    casSelec =46;
-
-
-
-    p1.updatemapa(casSelec);
+    if(checkCredits()){
+        habilitatTorres();
+        //funcion de resta de creditos
+        p1.updatemapa(casSelec);
+}
 }
 
 void MainWindow::on_casilla47_clicked()
 {
-
-   habilitatTorres();
-   casSelec =47;
-   p1.updatemapa(casSelec);
-
     //47
     casSelec =47;
-    habilitatTorres();
-
-    p1.updatemapa(casSelec);
-
+    if(checkCredits()){
+        habilitatTorres();
+        //funcion de resta de creditos
+        p1.updatemapa(casSelec);
+}
 }
 
 void MainWindow::on_casilla48_clicked()
 {
     //48
     casSelec =48;
-    habilitatTorres();
-
-    casSelec =48;
-
-
-
-    p1.updatemapa(casSelec);
+    if(checkCredits()){
+        habilitatTorres();
+        //funcion de resta de creditos
+        p1.updatemapa(casSelec);
+}
 }
 
 void MainWindow::on_casilla49_clicked()
 {
-
-   habilitatTorres();
-   casSelec =49;
-   p1.updatemapa(casSelec);
-
     //49
     casSelec =49;
-    habilitatTorres();
-
-    p1.updatemapa(casSelec);
-
+    if(checkCredits()){
+        habilitatTorres();
+        //funcion de resta de creditos
+        p1.updatemapa(casSelec);
+}
 }
 
 void MainWindow::on_casilla50_clicked()
 {
     //50
     casSelec =50;
-    habilitatTorres();
-
-    casSelec =50;
-
-
-
-    p1.updatemapa(casSelec);
+    if(checkCredits()){
+        habilitatTorres();
+        //funcion de resta de creditos
+        p1.updatemapa(casSelec);
 }
+}
+
+
 
 void MainWindow::on_casilla51_clicked()
 {
     //51
     casSelec =51;
-    habilitatTorres();
+    if(checkCredits()){
+        habilitatTorres();
+        //funcion de resta de creditos
+        p1.updatemapa(casSelec);
+}
 
-    casSelec =51;
 
-
-
-    p1.updatemapa(casSelec);
 }
 
 void MainWindow::on_casilla52_clicked()
 {
+
     //52
     casSelec =52;
-    habilitatTorres();
-
-    casSelec =52;
-
-
-
-    p1.updatemapa(casSelec);
+    if(checkCredits()){
+        habilitatTorres();
+        //funcion de resta de creditos
+        p1.updatemapa(casSelec);
+}
 }
 
 void MainWindow::on_casilla53_clicked()
 {
     //53
     casSelec =53;
-    habilitatTorres();
-
-    casSelec =53;
-
-
-
-    p1.updatemapa(casSelec);
+    if(checkCredits()){
+        habilitatTorres();
+        //funcion de resta de creditos
+        p1.updatemapa(casSelec);
+}
 }
 
 void MainWindow::on_casilla54_clicked()
 {
     //54
     casSelec =54;
-    habilitatTorres();
-
-    casSelec =54;
-
-
-
-    p1.updatemapa(casSelec);
+    if(checkCredits()){
+        habilitatTorres();
+        //funcion de resta de creditos
+        p1.updatemapa(casSelec);
+}
 }
 
 void MainWindow::on_casilla55_clicked()
 {
     //55
     casSelec =55;
-    habilitatTorres();
-
-    casSelec =55;
-
-
-
-    p1.updatemapa(casSelec);
+    if(checkCredits()){
+        habilitatTorres();
+        //funcion de resta de creditos
+        p1.updatemapa(casSelec);
+}
 }
 
 void MainWindow::on_casilla56_clicked()
 {
     //56
     casSelec =56;
-    habilitatTorres();
-
-    casSelec =56;
-
-
-
-    p1.updatemapa(casSelec);
+    if(checkCredits()){
+        habilitatTorres();
+        //funcion de resta de creditos
+        p1.updatemapa(casSelec);
+}
 }
 
 void MainWindow::on_casilla57_clicked()
 {
     //57
     casSelec =57;
-    habilitatTorres();
-
-    casSelec =57;
-
-
-
-    p1.updatemapa(casSelec);
+    if(checkCredits()){
+        habilitatTorres();
+        //funcion de resta de creditos
+        p1.updatemapa(casSelec);
+}
 }
 
 void MainWindow::on_casilla58_clicked()
 {
     //58
     casSelec =58;
-    habilitatTorres();
-
-    casSelec =58;
-
-
-
-    p1.updatemapa(casSelec);
+    if(checkCredits()){
+        habilitatTorres();
+        //funcion de resta de creditos
+        p1.updatemapa(casSelec);
+}
 }
 
 void MainWindow::on_casilla59_clicked()
 {
     //59
     casSelec =59;
-    habilitatTorres();
-
-    casSelec =59;
-
-
-
-    p1.updatemapa(casSelec);
+    if(checkCredits()){
+        habilitatTorres();
+        //funcion de resta de creditos
+        p1.updatemapa(casSelec);
+}
 }
 
 void MainWindow::on_casilla60_clicked()
 {
     //60
     casSelec =60;
-    habilitatTorres();
-
-    casSelec =60;
-
-
-
-    p1.updatemapa(casSelec);
+    if(checkCredits()){
+        habilitatTorres();
+        //funcion de resta de creditos
+        p1.updatemapa(casSelec);
 }
+}
+
+
 
 void MainWindow::on_casilla61_clicked()
 {
     //61
     casSelec =61;
-    habilitatTorres();
+    if(checkCredits()){
+        habilitatTorres();
+        //funcion de resta de creditos
+        p1.updatemapa(casSelec);
+}
 
-    casSelec =61;
 
-
-
-    p1.updatemapa(casSelec);
 }
 
 void MainWindow::on_casilla62_clicked()
 {
+
     //62
     casSelec =62;
-    habilitatTorres();
-
-    casSelec =62;
-
-
-
-    p1.updatemapa(casSelec);
+    if(checkCredits()){
+        habilitatTorres();
+        //funcion de resta de creditos
+        p1.updatemapa(casSelec);
+}
 }
 
 void MainWindow::on_casilla63_clicked()
 {
     //63
     casSelec =63;
-    habilitatTorres();
-
-    casSelec =63;
-
-
-
-    p1.updatemapa(casSelec);
+    if(checkCredits()){
+        habilitatTorres();
+        //funcion de resta de creditos
+        p1.updatemapa(casSelec);
+}
 }
 
 void MainWindow::on_casilla64_clicked()
 {
     //64
     casSelec =64;
-    habilitatTorres();
-
-    casSelec =64;
-
-
-
-    p1.updatemapa(casSelec);
+    if(checkCredits()){
+        habilitatTorres();
+        //funcion de resta de creditos
+        p1.updatemapa(casSelec);
+}
 }
 
 void MainWindow::on_casilla65_clicked()
 {
     //65
     casSelec =65;
-    habilitatTorres();
-
-    casSelec =65;
-
-
-
-    p1.updatemapa(casSelec);
+    if(checkCredits()){
+        habilitatTorres();
+        //funcion de resta de creditos
+        p1.updatemapa(casSelec);
+}
 }
 
 void MainWindow::on_casilla66_clicked()
 {
     //66
     casSelec =66;
-    habilitatTorres();
-
-    casSelec =66;
-
-
-
-    p1.updatemapa(casSelec);
+    if(checkCredits()){
+        habilitatTorres();
+        //funcion de resta de creditos
+        p1.updatemapa(casSelec);
+}
 }
 
 void MainWindow::on_casilla67_clicked()
 {
-
-   habilitatTorres();
-   casSelec =67;
-   p1.updatemapa(casSelec);
-
     //67
     casSelec =67;
-    habilitatTorres();
-
-    p1.updatemapa(casSelec);
-
+    if(checkCredits()){
+        habilitatTorres();
+        //funcion de resta de creditos
+        p1.updatemapa(casSelec);
+}
 }
 
 void MainWindow::on_casilla68_clicked()
 {
     //68
     casSelec =68;
-    habilitatTorres();
-
-    casSelec =68;
-
-
-
-    p1.updatemapa(casSelec);
+    if(checkCredits()){
+        habilitatTorres();
+        //funcion de resta de creditos
+        p1.updatemapa(casSelec);
+}
 }
 
 void MainWindow::on_casilla69_clicked()
 {
     //69
     casSelec =69;
-    habilitatTorres();
-
-    casSelec =69;
-
-
-
-    p1.updatemapa(casSelec);
+    if(checkCredits()){
+        habilitatTorres();
+        //funcion de resta de creditos
+        p1.updatemapa(casSelec);
+}
 }
 
 void MainWindow::on_casilla70_clicked()
 {
     //70
     casSelec =70;
-    habilitatTorres();
-
-    casSelec =70;
-
-
-
-    p1.updatemapa(casSelec);
+    if(checkCredits()){
+        habilitatTorres();
+        //funcion de resta de creditos
+        p1.updatemapa(casSelec);
 }
+}
+
+
 
 void MainWindow::on_casilla71_clicked()
 {
     //71
     casSelec =71;
-    habilitatTorres();
+    if(checkCredits()){
+        habilitatTorres();
+        //funcion de resta de creditos
+        p1.updatemapa(casSelec);
+}
 
-    casSelec =71;
 
-
-
-    p1.updatemapa(casSelec);
 }
 
 void MainWindow::on_casilla72_clicked()
 {
+
     //72
     casSelec =72;
-    habilitatTorres();
-
-    casSelec =72;
-
-
-
-    p1.updatemapa(casSelec);
+    if(checkCredits()){
+        habilitatTorres();
+        //funcion de resta de creditos
+        p1.updatemapa(casSelec);
+}
 }
 
 void MainWindow::on_casilla73_clicked()
 {
     //73
     casSelec =73;
-    habilitatTorres();
-
-    casSelec =73;
-
-
-
-    p1.updatemapa(casSelec);
+    if(checkCredits()){
+        habilitatTorres();
+        //funcion de resta de creditos
+        p1.updatemapa(casSelec);
+}
 }
 
 void MainWindow::on_casilla74_clicked()
 {
     //74
     casSelec =74;
-    habilitatTorres();
-
-    casSelec =74;
-
-
-
-    p1.updatemapa(casSelec);
+    if(checkCredits()){
+        habilitatTorres();
+        //funcion de resta de creditos
+        p1.updatemapa(casSelec);
+}
 }
 
 void MainWindow::on_casilla75_clicked()
 {
     //75
     casSelec =75;
-    habilitatTorres();
-
-    casSelec =75;
-
-
-
-    p1.updatemapa(casSelec);
+    if(checkCredits()){
+        habilitatTorres();
+        //funcion de resta de creditos
+        p1.updatemapa(casSelec);
+}
 }
 
 void MainWindow::on_casilla76_clicked()
 {
     //76
     casSelec =76;
-    habilitatTorres();
-
-    casSelec =76;
-
-
-
-    p1.updatemapa(casSelec);
+    if(checkCredits()){
+        habilitatTorres();
+        //funcion de resta de creditos
+        p1.updatemapa(casSelec);
+}
 }
 
 void MainWindow::on_casilla77_clicked()
 {
     //77
     casSelec =77;
-    habilitatTorres();
-
-    casSelec =77;
-
-
-
-    p1.updatemapa(casSelec);
+    if(checkCredits()){
+        habilitatTorres();
+        //funcion de resta de creditos
+        p1.updatemapa(casSelec);
+}
 }
 
 void MainWindow::on_casilla78_clicked()
 {
     //78
     casSelec =78;
-    habilitatTorres();
-
-    casSelec =78;
-
-
-
-    p1.updatemapa(casSelec);
+    if(checkCredits()){
+        habilitatTorres();
+        //funcion de resta de creditos
+        p1.updatemapa(casSelec);
+}
 }
 
 void MainWindow::on_casilla79_clicked()
 {
     //79
     casSelec =79;
-    habilitatTorres();
-
-    casSelec =79;
-
-
-
-    p1.updatemapa(casSelec);
+    if(checkCredits()){
+        habilitatTorres();
+        //funcion de resta de creditos
+        p1.updatemapa(casSelec);
+}
 }
 
 void MainWindow::on_casilla80_clicked()
 {
     //80
     casSelec =80;
-    habilitatTorres();
-
-    casSelec =80;
-
-
-
-    p1.updatemapa(casSelec);
+    if(checkCredits()){
+        habilitatTorres();
+        //funcion de resta de creditos
+        p1.updatemapa(casSelec);
 }
+}
+
 
 void MainWindow::on_casilla81_clicked()
 {
     //81
     casSelec =81;
-    habilitatTorres();
-
-    casSelec =81;
-
-
-
-    p1.updatemapa(casSelec);
+    if(checkCredits()){
+        habilitatTorres();
+        //funcion de resta de creditos
+        p1.updatemapa(casSelec);
+}
 }
 
 void MainWindow::on_casilla82_clicked()
 {
+
     //82
     casSelec =82;
-    habilitatTorres();
-
-    casSelec =82;
-
-
-
-    p1.updatemapa(casSelec);
+    if(checkCredits()){
+        habilitatTorres();
+        //funcion de resta de creditos
+        p1.updatemapa(casSelec);
+}
 }
 
 void MainWindow::on_casilla83_clicked()
 {
     //83
     casSelec =83;
-    habilitatTorres();
-
-    casSelec =83;
-
-
-
-    p1.updatemapa(casSelec);
+    if(checkCredits()){
+        habilitatTorres();
+        //funcion de resta de creditos
+        p1.updatemapa(casSelec);
+}
 }
 
 void MainWindow::on_casilla84_clicked()
 {
     //84
     casSelec =84;
-    habilitatTorres();
-
-    casSelec =84;
-
-
-
-    p1.updatemapa(casSelec);
+    if(checkCredits()){
+        habilitatTorres();
+        //funcion de resta de creditos
+        p1.updatemapa(casSelec);
+}
 }
 
 void MainWindow::on_casilla85_clicked()
 {
     //85
     casSelec =85;
-    habilitatTorres();
-
-    casSelec =85;
-
-
-
-    p1.updatemapa(casSelec);
+    if(checkCredits()){
+        habilitatTorres();
+        //funcion de resta de creditos
+        p1.updatemapa(casSelec);
+}
 }
 
 void MainWindow::on_casilla86_clicked()
 {
     //86
     casSelec =86;
-    habilitatTorres();
-
-    casSelec =86;
-
-
-
-    p1.updatemapa(casSelec);
+    if(checkCredits()){
+        habilitatTorres();
+        //funcion de resta de creditos
+        p1.updatemapa(casSelec);
+}
 }
 
 void MainWindow::on_casilla87_clicked()
 {
     //87
     casSelec =87;
-    habilitatTorres();
-
-    casSelec =87;
-
-
-
-    p1.updatemapa(casSelec);
+    if(checkCredits()){
+        habilitatTorres();
+        //funcion de resta de creditos
+        p1.updatemapa(casSelec);
+}
 }
 
 void MainWindow::on_casilla88_clicked()
 {
     //88
     casSelec =88;
-    habilitatTorres();
-
-    casSelec =88;
-
-
-
-    p1.updatemapa(casSelec);
+    if(checkCredits()){
+        habilitatTorres();
+        //funcion de resta de creditos
+        p1.updatemapa(casSelec);
+}
 }
 
 void MainWindow::on_casilla89_clicked()
 {
     //89
     casSelec =89;
-    habilitatTorres();
-
-    casSelec =89;
-
-
-
-    p1.updatemapa(casSelec);
+    if(checkCredits()){
+        habilitatTorres();
+        //funcion de resta de creditos
+        p1.updatemapa(casSelec);
+}
 }
 
 void MainWindow::on_casilla90_clicked()
 {
     //90
     casSelec =90;
-    habilitatTorres();
-
-    casSelec =90;
-
-
-
-    p1.updatemapa(casSelec);
+    if(checkCredits()){
+        habilitatTorres();
+        //funcion de resta de creditos
+        p1.updatemapa(casSelec);
+}
 }
 
 void MainWindow::on_casilla91_clicked()
 {
     //91
     casSelec =91;
-    habilitatTorres();
+    if(checkCredits()){
+        habilitatTorres();
+        //funcion de resta de creditos
+        p1.updatemapa(casSelec);
+}
 
-    casSelec =91;
 
-
-
-    p1.updatemapa(casSelec);
 }
 
 void MainWindow::on_casilla92_clicked()
 {
+
     //92
     casSelec =92;
-    habilitatTorres();
-
-    casSelec =92;
-
-
-
-    p1.updatemapa(casSelec);
+    if(checkCredits()){
+        habilitatTorres();
+        //funcion de resta de creditos
+        p1.updatemapa(casSelec);
+}
 }
 
 void MainWindow::on_casilla93_clicked()
 {
     //93
     casSelec =93;
-    habilitatTorres();
-
-    casSelec =93;
-
-
-
-    p1.updatemapa(casSelec);
+    if(checkCredits()){
+        habilitatTorres();
+        //funcion de resta de creditos
+        p1.updatemapa(casSelec);
+}
 }
 
 void MainWindow::on_casilla94_clicked()
 {
     //94
     casSelec =94;
-    habilitatTorres();
-
-    casSelec =94;
-
-
-
-    p1.updatemapa(casSelec);
+    if(checkCredits()){
+        habilitatTorres();
+        //funcion de resta de creditos
+        p1.updatemapa(casSelec);
+}
 }
 
 void MainWindow::on_casilla95_clicked()
 {
     //95
     casSelec =95;
-    habilitatTorres();
-
-    casSelec =95;
-
-
-
-    p1.updatemapa(casSelec);
+    if(checkCredits()){
+        habilitatTorres();
+        //funcion de resta de creditos
+        p1.updatemapa(casSelec);
+}
 }
 
 void MainWindow::on_casilla96_clicked()
 {
     //96
     casSelec =96;
-    habilitatTorres();
-
-    casSelec =96;
-
-
-
-    p1.updatemapa(casSelec);
+    if(checkCredits()){
+        habilitatTorres();
+        //funcion de resta de creditos
+        p1.updatemapa(casSelec);
+}
 }
 
 void MainWindow::on_casilla97_clicked()
 {
     //97
     casSelec =97;
-    habilitatTorres();
-
-    casSelec =97;
-
-
-
-    p1.updatemapa(casSelec);
-
+    if(checkCredits()){
+        habilitatTorres();
+        //funcion de resta de creditos
+        p1.updatemapa(casSelec);
+}
 }
 
 void MainWindow::on_casilla98_clicked()
 {
     //98
     casSelec =98;
-    habilitatTorres();
-
-    casSelec =98;
-
-
-
-    p1.updatemapa(casSelec);
+    if(checkCredits()){
+        habilitatTorres();
+        //funcion de resta de creditos
+        p1.updatemapa(casSelec);
+}
 }
 
 void MainWindow::on_casilla99_clicked()
 {
     //99
     casSelec =99;
-    habilitatTorres();
-
-    casSelec =99;
-
-
-
-    p1.updatemapa(casSelec);
+    if(checkCredits()){
+        habilitatTorres();
+        //funcion de resta de creditos
+        p1.updatemapa(casSelec);
+}
 }
 
 void MainWindow::on_torreArqueraButton_clicked()
