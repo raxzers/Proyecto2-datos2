@@ -23,6 +23,8 @@ public:
     void updatemapa(int P);
     std::string verMapa();
     //lista torres
+    int getCredits() const;
+    void setCredits(int value);
 };
 
 

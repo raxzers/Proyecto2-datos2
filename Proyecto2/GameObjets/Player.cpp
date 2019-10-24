@@ -4,6 +4,16 @@
 
 #include "Player.h"
 
+int Player::getCredits() const
+{
+    return credits;
+}
+
+void Player::setCredits(int value)
+{
+    credits = value;
+}
+
 void Player::updatemapa(int P)
 {
     this->mapa[P%10][P/10]=1;

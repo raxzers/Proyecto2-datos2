@@ -524,10 +524,12 @@ void MainWindow::ataqueTorreArquera(int casillaTorre, int casillaEstudiante)
 void MainWindow::on_casilla00_clicked()
 {
 
-    casillaSeleccionada = "casilla00";
-    habilitatTorres();
-    casSelec =0;
-    p1.updatemapa(casSelec);
+    //00
+    if(checkCredits()){habilitatTorres();
+        habilitatTorres();
+        casSelec =0;
+        p1.updatemapa(casSelec);
+}
 
 
 }
@@ -537,7 +539,7 @@ void MainWindow::on_casilla00_clicked()
 */
 void MainWindow::on_casilla01_clicked()
 {
-    casillaSeleccionada = "casilla01";
+    //01
     casSelec =1;
     habilitatTorres();
     p1.updatemapa(casSelec);
@@ -548,507 +550,507 @@ void MainWindow::on_casilla01_clicked()
 void MainWindow::on_casilla02_clicked()
 {
 
-    casillaSeleccionada = "casilla02";
+    //02
     casSelec =2;
     habilitatTorres();
 
     casSelec =2;
 
-    QString to =casillaSeleccionada.right(2);
+
 
     p1.updatemapa(casSelec);
 }
 
 void MainWindow::on_casilla03_clicked()
 {
-    casillaSeleccionada = "casilla03";
+    //03
     casSelec =3;
     habilitatTorres();
 
     casSelec =3;
 
-    QString to =casillaSeleccionada.right(2);
+
 
     p1.updatemapa(casSelec);
 }
 
 void MainWindow::on_casilla04_clicked()
 {
-    casillaSeleccionada = "casilla04";
+    //04
     casSelec =4;
     habilitatTorres();
 
     casSelec =4;
 
-    QString to =casillaSeleccionada.right(2);
+
 
     p1.updatemapa(casSelec);
 }
 
 void MainWindow::on_casilla05_clicked()
 {
-    casillaSeleccionada = "casilla05";
+    //05
     casSelec =5;
     habilitatTorres();
 
     casSelec =5;
 
-    QString to =casillaSeleccionada.right(2);
+
 
     p1.updatemapa(casSelec);
 }
 
 void MainWindow::on_casilla06_clicked()
 {
-    casillaSeleccionada = "casilla06";
+    //06
     casSelec =6;
     habilitatTorres();
 
     casSelec =6;
 
-    QString to =casillaSeleccionada.right(2);
+
 
     p1.updatemapa(casSelec);
 }
 
 void MainWindow::on_casilla07_clicked()
 {
-    casillaSeleccionada = "casilla07";
+    //07
     casSelec =7;
     habilitatTorres();
 
     casSelec =7;
 
-    QString to =casillaSeleccionada.right(2);
+
 
     p1.updatemapa(casSelec);
 }
 
 void MainWindow::on_casilla08_clicked()
 {
-    casillaSeleccionada = "casilla08";
+    //08
     casSelec =8;
     habilitatTorres();
 
     casSelec =8;
 
-    QString to =casillaSeleccionada.right(2);
+
 
     p1.updatemapa(casSelec);
 }
 
 void MainWindow::on_casilla09_clicked()
 {
-    casillaSeleccionada = "casilla09";
+    //09
     casSelec =9;
     habilitatTorres();
 
     casSelec =9;
 
-    QString to =casillaSeleccionada.right(2);
+
 
     p1.updatemapa(casSelec);
 }
 
 void MainWindow::on_casilla10_clicked()
 {
-    casillaSeleccionada = "casilla10";
+    //10
     casSelec =10;
     habilitatTorres();
 
     casSelec =10;
 
-    QString to =casillaSeleccionada.right(2);
+
 
     p1.updatemapa(casSelec);
 }
 
 void MainWindow::on_casilla11_clicked()
 {
-    casillaSeleccionada = "casilla11";
+    //11
     casSelec =11;
     habilitatTorres();
 
     casSelec =11;
 
-    QString to =casillaSeleccionada.right(2);
+
 
     p1.updatemapa(casSelec);
 }
 
 void MainWindow::on_casilla12_clicked()
 {
-    casillaSeleccionada = "casilla12";
+    //12
     casSelec =12;
     habilitatTorres();
 
     casSelec =12;
 
-    QString to =casillaSeleccionada.right(2);
+
 
     p1.updatemapa(casSelec);
 }
 
 void MainWindow::on_casilla13_clicked()
 {
-    casillaSeleccionada = "casilla13";
+    //13
     casSelec =13;
     habilitatTorres();
 
     casSelec =13;
 
-    QString to =casillaSeleccionada.right(2);
+
 
     p1.updatemapa(casSelec);
 }
 
 void MainWindow::on_casilla14_clicked()
 {
-    casillaSeleccionada = "casilla14";
+    //14
     casSelec =14;
     habilitatTorres();
 
     casSelec =14;
 
-    QString to =casillaSeleccionada.right(2);
+
 
     p1.updatemapa(casSelec);
 }
 
 void MainWindow::on_casilla15_clicked()
 {
-    casillaSeleccionada = "casilla15";
+    //15
     casSelec =15;
     habilitatTorres();
 
     casSelec =15;
 
-    QString to =casillaSeleccionada.right(2);
+
 
     p1.updatemapa(casSelec);
 }
 
 void MainWindow::on_casilla16_clicked()
 {
-    casillaSeleccionada = "casilla16";
+    //16
     casSelec =16;
     habilitatTorres();
 
     casSelec =16;
 
-    QString to =casillaSeleccionada.right(2);
+
 
     p1.updatemapa(casSelec);
 }
 
 void MainWindow::on_casilla17_clicked()
 {
-    casillaSeleccionada = "casilla17";
+    //17
     casSelec =17;
     habilitatTorres();
 
     casSelec =17;
 
-    QString to =casillaSeleccionada.right(2);
+
 
     p1.updatemapa(casSelec);
 }
 
 void MainWindow::on_casilla18_clicked()
 {
-    casillaSeleccionada = "casilla18";
+    //18
     casSelec =18;
     habilitatTorres();
 
     casSelec =18;
 
-    QString to =casillaSeleccionada.right(2);
+
 
     p1.updatemapa(casSelec);
 }
 
 void MainWindow::on_casilla19_clicked()
 {
-    casillaSeleccionada = "casilla19";
+    //19
     casSelec =19;
     habilitatTorres();
 
     casSelec =19;
 
-    QString to =casillaSeleccionada.right(2);
+
 
     p1.updatemapa(casSelec);
 }
 
 void MainWindow::on_casilla20_clicked()
 {
-    casillaSeleccionada = "casilla20";
+    //20
     casSelec =20;
     habilitatTorres();
 
     casSelec =20;
 
-    QString to =casillaSeleccionada.right(2);
+
 
     p1.updatemapa(casSelec);
 }
 
 void MainWindow::on_casilla21_clicked()
 {
-    casillaSeleccionada = "casilla21";
+    //21
     casSelec =21;
     habilitatTorres();
 
     casSelec =21;
 
-    QString to =casillaSeleccionada.right(2);
+
 
     p1.updatemapa(casSelec);
 }
 
 void MainWindow::on_casilla22_clicked()
 {
-    casillaSeleccionada = "casilla22";
+    //22
     casSelec =22;
     habilitatTorres();
 
     casSelec =22;
 
-    QString to =casillaSeleccionada.right(2);
+
 
     p1.updatemapa(casSelec);
 }
 
 void MainWindow::on_casilla23_clicked()
 {
-    casillaSeleccionada = "casilla23";
+    //23
     casSelec =23;
     habilitatTorres();
 
     casSelec =23;
 
-    QString to =casillaSeleccionada.right(2);
+
 
     p1.updatemapa(casSelec);
 }
 
 void MainWindow::on_casilla24_clicked()
 {
-    casillaSeleccionada = "casilla24";
+    //24
     casSelec =24;
     habilitatTorres();
 
     casSelec =24;
 
-    QString to =casillaSeleccionada.right(2);
+
 
     p1.updatemapa(casSelec);
 }
 
 void MainWindow::on_casilla25_clicked()
 {
-    casillaSeleccionada = "casilla25";
+    //25
     casSelec =25;
     habilitatTorres();
 
     casSelec =25;
 
-    QString to =casillaSeleccionada.right(2);
+
 
     p1.updatemapa(casSelec);
 }
 
 void MainWindow::on_casilla26_clicked()
 {
-    casillaSeleccionada = "casilla26";
+    //26
     casSelec =26;
     habilitatTorres();
 
     casSelec =26;
 
-    QString to =casillaSeleccionada.right(2);
+
 
     p1.updatemapa(casSelec);
 }
 
 void MainWindow::on_casilla27_clicked()
 {
-    casillaSeleccionada = "casilla27";
+    //27
     casSelec =27;
     habilitatTorres();
 
     casSelec =27;
 
-    QString to =casillaSeleccionada.right(2);
+
 
     p1.updatemapa(casSelec);
 }
 
 void MainWindow::on_casilla28_clicked()
 {
-    casillaSeleccionada = "casilla28";
+    //28
     casSelec =28;
     habilitatTorres();
 
     casSelec =28;
 
-    QString to =casillaSeleccionada.right(2);
+
 
     p1.updatemapa(casSelec);
 }
 
 void MainWindow::on_casilla29_clicked()
 {
-    casillaSeleccionada = "casilla29";
+    //29
     casSelec =29;
     habilitatTorres();
 
     casSelec =29;
 
-    QString to =casillaSeleccionada.right(2);
+
 
     p1.updatemapa(casSelec);
 }
 
 void MainWindow::on_casilla30_clicked()
 {
-    casillaSeleccionada = "casilla30";
+    //30
     casSelec =30;
     habilitatTorres();
 
     casSelec =30;
 
-    QString to =casillaSeleccionada.right(2);
+
 
     p1.updatemapa(casSelec);
 }
 
 void MainWindow::on_casilla31_clicked()
 {
-    casillaSeleccionada = "casilla31";
+    //31
     casSelec =31;
     habilitatTorres();
 
     casSelec =31;
 
-    QString to =casillaSeleccionada.right(2);
+
 
     p1.updatemapa(casSelec);
 }
 
 void MainWindow::on_casilla32_clicked()
 {
-    casillaSeleccionada = "casilla32";
+    //32
     casSelec =32;
     habilitatTorres();
 
     casSelec =32;
 
-    QString to =casillaSeleccionada.right(2);
+
 
     p1.updatemapa(casSelec);
 }
 
 void MainWindow::on_casilla33_clicked()
 {
-    casillaSeleccionada = "casilla33";
+    //33
     casSelec =33;
     habilitatTorres();
 
     casSelec =33;
 
-    QString to =casillaSeleccionada.right(2);
+
 
     p1.updatemapa(casSelec);
 }
 
 void MainWindow::on_casilla34_clicked()
 {
-    casillaSeleccionada = "casilla34";
+    //34
     casSelec =34;
     habilitatTorres();
 
     casSelec =34;
 
-    QString to =casillaSeleccionada.right(2);
+
 
     p1.updatemapa(casSelec);
 }
 
 void MainWindow::on_casilla35_clicked()
 {
-    casillaSeleccionada = "casilla35";
+    //35
     casSelec =35;
     habilitatTorres();
 
     casSelec =35;
 
-    QString to =casillaSeleccionada.right(2);
+
 
     p1.updatemapa(casSelec);
 }
 
 void MainWindow::on_casilla36_clicked()
 {
-    casillaSeleccionada = "casilla36";
+    //36
     casSelec =36;
     habilitatTorres();
 
     casSelec =36;
 
-    QString to =casillaSeleccionada.right(2);
+
 
     p1.updatemapa(casSelec);
 }
 
 void MainWindow::on_casilla37_clicked()
 {
-    casillaSeleccionada = "casilla37";
+    //37
     casSelec =37;
     habilitatTorres();
 
     casSelec =37;
 
-    QString to =casillaSeleccionada.right(2);
+
 
     p1.updatemapa(casSelec);
 }
 
 void MainWindow::on_casilla38_clicked()
 {
-    casillaSeleccionada = "casilla38";
+    //38
     casSelec =38;
     habilitatTorres();
 
     casSelec =38;
 
-    QString to =casillaSeleccionada.right(2);
+
 
     p1.updatemapa(casSelec);
 }
 
 void MainWindow::on_casilla39_clicked()
 {
-    casillaSeleccionada = "casilla39";
+    //39
     casSelec =39;
     habilitatTorres();
 
     casSelec =39;
 
-    QString to =casillaSeleccionada.right(2);
+
 
     p1.updatemapa(casSelec);
 }
 
 void MainWindow::on_casilla40_clicked()
 {
-    casillaSeleccionada = "casilla40";
+    //40
     casSelec =40;
     habilitatTorres();
 
     casSelec =40;
 
-    QString to =casillaSeleccionada.right(2);
+
 
     p1.updatemapa(casSelec);
 }
@@ -1060,10 +1062,10 @@ void MainWindow::on_casilla41_clicked()
    casSelec =41;
    p1.updatemapa(casSelec);
 
-    casillaSeleccionada = "casilla41";
+    //41
     casSelec =41;
     habilitatTorres();
-    QString to =casillaSeleccionada.right(2);
+
     p1.updatemapa(casSelec);
 
 }
@@ -1075,62 +1077,62 @@ void MainWindow::on_casilla42_clicked()
    casSelec =42;
    p1.updatemapa(casSelec);
 
-    casillaSeleccionada = "casilla42";
+    //42
     casSelec =42;
     habilitatTorres();
-    QString to =casillaSeleccionada.right(2);
+
     p1.updatemapa(casSelec);
 
 }
 
 void MainWindow::on_casilla43_clicked()
 {
-    casillaSeleccionada = "casilla43";
+    //43
     casSelec =43;
     habilitatTorres();
 
     casSelec =43;
 
-    QString to =casillaSeleccionada.right(2);
+
 
     p1.updatemapa(casSelec);
 }
 
 void MainWindow::on_casilla44_clicked()
 {
-    casillaSeleccionada = "casilla44";
+    //44
     casSelec =44;
     habilitatTorres();
 
     casSelec =44;
 
-    QString to =casillaSeleccionada.right(2);
+
 
     p1.updatemapa(casSelec);
 }
 
 void MainWindow::on_casilla45_clicked()
 {
-    casillaSeleccionada = "casilla45";
+    //45
     casSelec =45;
     habilitatTorres();
 
     casSelec =45;
 
-    QString to =casillaSeleccionada.right(2);
+
 
     p1.updatemapa(casSelec);
 }
 
 void MainWindow::on_casilla46_clicked()
 {
-    casillaSeleccionada = "casilla46";
+    //46
     casSelec =46;
     habilitatTorres();
 
     casSelec =46;
 
-    QString to =casillaSeleccionada.right(2);
+
 
     p1.updatemapa(casSelec);
 }
@@ -1142,23 +1144,23 @@ void MainWindow::on_casilla47_clicked()
    casSelec =47;
    p1.updatemapa(casSelec);
 
-    casillaSeleccionada = "casilla47";
+    //47
     casSelec =47;
     habilitatTorres();
-    QString to =casillaSeleccionada.right(2);
+
     p1.updatemapa(casSelec);
 
 }
 
 void MainWindow::on_casilla48_clicked()
 {
-    casillaSeleccionada = "casilla48";
+    //48
     casSelec =48;
     habilitatTorres();
 
     casSelec =48;
 
-    QString to =casillaSeleccionada.right(2);
+
 
     p1.updatemapa(casSelec);
 }
@@ -1170,231 +1172,231 @@ void MainWindow::on_casilla49_clicked()
    casSelec =49;
    p1.updatemapa(casSelec);
 
-    casillaSeleccionada = "casilla49";
+    //49
     casSelec =49;
     habilitatTorres();
-    QString to =casillaSeleccionada.right(2);
+
     p1.updatemapa(casSelec);
 
 }
 
 void MainWindow::on_casilla50_clicked()
 {
-    casillaSeleccionada = "casilla50";
+    //50
     casSelec =50;
     habilitatTorres();
 
     casSelec =50;
 
-    QString to =casillaSeleccionada.right(2);
+
 
     p1.updatemapa(casSelec);
 }
 
 void MainWindow::on_casilla51_clicked()
 {
-    casillaSeleccionada = "casilla51";
+    //51
     casSelec =51;
     habilitatTorres();
 
     casSelec =51;
 
-    QString to =casillaSeleccionada.right(2);
+
 
     p1.updatemapa(casSelec);
 }
 
 void MainWindow::on_casilla52_clicked()
 {
-    casillaSeleccionada = "casilla52";
+    //52
     casSelec =52;
     habilitatTorres();
 
     casSelec =52;
 
-    QString to =casillaSeleccionada.right(2);
+
 
     p1.updatemapa(casSelec);
 }
 
 void MainWindow::on_casilla53_clicked()
 {
-    casillaSeleccionada = "casilla53";
+    //53
     casSelec =53;
     habilitatTorres();
 
     casSelec =53;
 
-    QString to =casillaSeleccionada.right(2);
+
 
     p1.updatemapa(casSelec);
 }
 
 void MainWindow::on_casilla54_clicked()
 {
-    casillaSeleccionada = "casilla54";
+    //54
     casSelec =54;
     habilitatTorres();
 
     casSelec =54;
 
-    QString to =casillaSeleccionada.right(2);
+
 
     p1.updatemapa(casSelec);
 }
 
 void MainWindow::on_casilla55_clicked()
 {
-    casillaSeleccionada = "casilla55";
+    //55
     casSelec =55;
     habilitatTorres();
 
     casSelec =55;
 
-    QString to =casillaSeleccionada.right(2);
+
 
     p1.updatemapa(casSelec);
 }
 
 void MainWindow::on_casilla56_clicked()
 {
-    casillaSeleccionada = "casilla56";
+    //56
     casSelec =56;
     habilitatTorres();
 
     casSelec =56;
 
-    QString to =casillaSeleccionada.right(2);
+
 
     p1.updatemapa(casSelec);
 }
 
 void MainWindow::on_casilla57_clicked()
 {
-    casillaSeleccionada = "casilla57";
+    //57
     casSelec =57;
     habilitatTorres();
 
     casSelec =57;
 
-    QString to =casillaSeleccionada.right(2);
+
 
     p1.updatemapa(casSelec);
 }
 
 void MainWindow::on_casilla58_clicked()
 {
-    casillaSeleccionada = "casilla58";
+    //58
     casSelec =58;
     habilitatTorres();
 
     casSelec =58;
 
-    QString to =casillaSeleccionada.right(2);
+
 
     p1.updatemapa(casSelec);
 }
 
 void MainWindow::on_casilla59_clicked()
 {
-    casillaSeleccionada = "casilla59";
+    //59
     casSelec =59;
     habilitatTorres();
 
     casSelec =59;
 
-    QString to =casillaSeleccionada.right(2);
+
 
     p1.updatemapa(casSelec);
 }
 
 void MainWindow::on_casilla60_clicked()
 {
-    casillaSeleccionada = "casilla60";
+    //60
     casSelec =60;
     habilitatTorres();
 
     casSelec =60;
 
-    QString to =casillaSeleccionada.right(2);
+
 
     p1.updatemapa(casSelec);
 }
 
 void MainWindow::on_casilla61_clicked()
 {
-    casillaSeleccionada = "casilla61";
+    //61
     casSelec =61;
     habilitatTorres();
 
     casSelec =61;
 
-    QString to =casillaSeleccionada.right(2);
+
 
     p1.updatemapa(casSelec);
 }
 
 void MainWindow::on_casilla62_clicked()
 {
-    casillaSeleccionada = "casilla62";
+    //62
     casSelec =62;
     habilitatTorres();
 
     casSelec =62;
 
-    QString to =casillaSeleccionada.right(2);
+
 
     p1.updatemapa(casSelec);
 }
 
 void MainWindow::on_casilla63_clicked()
 {
-    casillaSeleccionada = "casilla63";
+    //63
     casSelec =63;
     habilitatTorres();
 
     casSelec =63;
 
-    QString to =casillaSeleccionada.right(2);
+
 
     p1.updatemapa(casSelec);
 }
 
 void MainWindow::on_casilla64_clicked()
 {
-    casillaSeleccionada = "casilla64";
+    //64
     casSelec =64;
     habilitatTorres();
 
     casSelec =64;
 
-    QString to =casillaSeleccionada.right(2);
+
 
     p1.updatemapa(casSelec);
 }
 
 void MainWindow::on_casilla65_clicked()
 {
-    casillaSeleccionada = "casilla65";
+    //65
     casSelec =65;
     habilitatTorres();
 
     casSelec =65;
 
-    QString to =casillaSeleccionada.right(2);
+
 
     p1.updatemapa(casSelec);
 }
 
 void MainWindow::on_casilla66_clicked()
 {
-    casillaSeleccionada = "casilla66";
+    //66
     casSelec =66;
     habilitatTorres();
 
     casSelec =66;
 
-    QString to =casillaSeleccionada.right(2);
+
 
     p1.updatemapa(casSelec);
 }
@@ -1406,400 +1408,400 @@ void MainWindow::on_casilla67_clicked()
    casSelec =67;
    p1.updatemapa(casSelec);
 
-    casillaSeleccionada = "casilla67";
+    //67
     casSelec =67;
     habilitatTorres();
-    QString to =casillaSeleccionada.right(2);
+
     p1.updatemapa(casSelec);
 
 }
 
 void MainWindow::on_casilla68_clicked()
 {
-    casillaSeleccionada = "casilla68";
+    //68
     casSelec =68;
     habilitatTorres();
 
     casSelec =68;
 
-    QString to =casillaSeleccionada.right(2);
+
 
     p1.updatemapa(casSelec);
 }
 
 void MainWindow::on_casilla69_clicked()
 {
-    casillaSeleccionada = "casilla69";
+    //69
     casSelec =69;
     habilitatTorres();
 
     casSelec =69;
 
-    QString to =casillaSeleccionada.right(2);
+
 
     p1.updatemapa(casSelec);
 }
 
 void MainWindow::on_casilla70_clicked()
 {
-    casillaSeleccionada = "casilla70";
+    //70
     casSelec =70;
     habilitatTorres();
 
     casSelec =70;
 
-    QString to =casillaSeleccionada.right(2);
+
 
     p1.updatemapa(casSelec);
 }
 
 void MainWindow::on_casilla71_clicked()
 {
-    casillaSeleccionada = "casilla71";
+    //71
     casSelec =71;
     habilitatTorres();
 
     casSelec =71;
 
-    QString to =casillaSeleccionada.right(2);
+
 
     p1.updatemapa(casSelec);
 }
 
 void MainWindow::on_casilla72_clicked()
 {
-    casillaSeleccionada = "casilla72";
+    //72
     casSelec =72;
     habilitatTorres();
 
     casSelec =72;
 
-    QString to =casillaSeleccionada.right(2);
+
 
     p1.updatemapa(casSelec);
 }
 
 void MainWindow::on_casilla73_clicked()
 {
-    casillaSeleccionada = "casilla73";
+    //73
     casSelec =73;
     habilitatTorres();
 
     casSelec =73;
 
-    QString to =casillaSeleccionada.right(2);
+
 
     p1.updatemapa(casSelec);
 }
 
 void MainWindow::on_casilla74_clicked()
 {
-    casillaSeleccionada = "casilla74";
+    //74
     casSelec =74;
     habilitatTorres();
 
     casSelec =74;
 
-    QString to =casillaSeleccionada.right(2);
+
 
     p1.updatemapa(casSelec);
 }
 
 void MainWindow::on_casilla75_clicked()
 {
-    casillaSeleccionada = "casilla75";
+    //75
     casSelec =75;
     habilitatTorres();
 
     casSelec =75;
 
-    QString to =casillaSeleccionada.right(2);
+
 
     p1.updatemapa(casSelec);
 }
 
 void MainWindow::on_casilla76_clicked()
 {
-    casillaSeleccionada = "casilla76";
+    //76
     casSelec =76;
     habilitatTorres();
 
     casSelec =76;
 
-    QString to =casillaSeleccionada.right(2);
+
 
     p1.updatemapa(casSelec);
 }
 
 void MainWindow::on_casilla77_clicked()
 {
-    casillaSeleccionada = "casilla77";
+    //77
     casSelec =77;
     habilitatTorres();
 
     casSelec =77;
 
-    QString to =casillaSeleccionada.right(2);
+
 
     p1.updatemapa(casSelec);
 }
 
 void MainWindow::on_casilla78_clicked()
 {
-    casillaSeleccionada = "casilla78";
+    //78
     casSelec =78;
     habilitatTorres();
 
     casSelec =78;
 
-    QString to =casillaSeleccionada.right(2);
+
 
     p1.updatemapa(casSelec);
 }
 
 void MainWindow::on_casilla79_clicked()
 {
-    casillaSeleccionada = "casilla79";
+    //79
     casSelec =79;
     habilitatTorres();
 
     casSelec =79;
 
-    QString to =casillaSeleccionada.right(2);
+
 
     p1.updatemapa(casSelec);
 }
 
 void MainWindow::on_casilla80_clicked()
 {
-    casillaSeleccionada = "casilla80";
+    //80
     casSelec =80;
     habilitatTorres();
 
     casSelec =80;
 
-    QString to =casillaSeleccionada.right(2);
+
 
     p1.updatemapa(casSelec);
 }
 
 void MainWindow::on_casilla81_clicked()
 {
-    casillaSeleccionada = "casilla81";
+    //81
     casSelec =81;
     habilitatTorres();
 
     casSelec =81;
 
-    QString to =casillaSeleccionada.right(2);
+
 
     p1.updatemapa(casSelec);
 }
 
 void MainWindow::on_casilla82_clicked()
 {
-    casillaSeleccionada = "casilla82";
+    //82
     casSelec =82;
     habilitatTorres();
 
     casSelec =82;
 
-    QString to =casillaSeleccionada.right(2);
+
 
     p1.updatemapa(casSelec);
 }
 
 void MainWindow::on_casilla83_clicked()
 {
-    casillaSeleccionada = "casilla83";
+    //83
     casSelec =83;
     habilitatTorres();
 
     casSelec =83;
 
-    QString to =casillaSeleccionada.right(2);
+
 
     p1.updatemapa(casSelec);
 }
 
 void MainWindow::on_casilla84_clicked()
 {
-    casillaSeleccionada = "casilla84";
+    //84
     casSelec =84;
     habilitatTorres();
 
     casSelec =84;
 
-    QString to =casillaSeleccionada.right(2);
+
 
     p1.updatemapa(casSelec);
 }
 
 void MainWindow::on_casilla85_clicked()
 {
-    casillaSeleccionada = "casilla85";
+    //85
     casSelec =85;
     habilitatTorres();
 
     casSelec =85;
 
-    QString to =casillaSeleccionada.right(2);
+
 
     p1.updatemapa(casSelec);
 }
 
 void MainWindow::on_casilla86_clicked()
 {
-    casillaSeleccionada = "casilla86";
+    //86
     casSelec =86;
     habilitatTorres();
 
     casSelec =86;
 
-    QString to =casillaSeleccionada.right(2);
+
 
     p1.updatemapa(casSelec);
 }
 
 void MainWindow::on_casilla87_clicked()
 {
-    casillaSeleccionada = "casilla87";
+    //87
     casSelec =87;
     habilitatTorres();
 
     casSelec =87;
 
-    QString to =casillaSeleccionada.right(2);
+
 
     p1.updatemapa(casSelec);
 }
 
 void MainWindow::on_casilla88_clicked()
 {
-    casillaSeleccionada = "casilla88";
+    //88
     casSelec =88;
     habilitatTorres();
 
     casSelec =88;
 
-    QString to =casillaSeleccionada.right(2);
+
 
     p1.updatemapa(casSelec);
 }
 
 void MainWindow::on_casilla89_clicked()
 {
-    casillaSeleccionada = "casilla89";
+    //89
     casSelec =89;
     habilitatTorres();
 
     casSelec =89;
 
-    QString to =casillaSeleccionada.right(2);
+
 
     p1.updatemapa(casSelec);
 }
 
 void MainWindow::on_casilla90_clicked()
 {
-    casillaSeleccionada = "casilla90";
+    //90
     casSelec =90;
     habilitatTorres();
 
     casSelec =90;
 
-    QString to =casillaSeleccionada.right(2);
+
 
     p1.updatemapa(casSelec);
 }
 
 void MainWindow::on_casilla91_clicked()
 {
-    casillaSeleccionada = "casilla91";
+    //91
     casSelec =91;
     habilitatTorres();
 
     casSelec =91;
 
-    QString to =casillaSeleccionada.right(2);
+
 
     p1.updatemapa(casSelec);
 }
 
 void MainWindow::on_casilla92_clicked()
 {
-    casillaSeleccionada = "casilla92";
+    //92
     casSelec =92;
     habilitatTorres();
 
     casSelec =92;
 
-    QString to =casillaSeleccionada.right(2);
+
 
     p1.updatemapa(casSelec);
 }
 
 void MainWindow::on_casilla93_clicked()
 {
-    casillaSeleccionada = "casilla93";
+    //93
     casSelec =93;
     habilitatTorres();
 
     casSelec =93;
 
-    QString to =casillaSeleccionada.right(2);
+
 
     p1.updatemapa(casSelec);
 }
 
 void MainWindow::on_casilla94_clicked()
 {
-    casillaSeleccionada = "casilla94";
+    //94
     casSelec =94;
     habilitatTorres();
 
     casSelec =94;
 
-    QString to =casillaSeleccionada.right(2);
+
 
     p1.updatemapa(casSelec);
 }
 
 void MainWindow::on_casilla95_clicked()
 {
-    casillaSeleccionada = "casilla95";
+    //95
     casSelec =95;
     habilitatTorres();
 
     casSelec =95;
 
-    QString to =casillaSeleccionada.right(2);
+
 
     p1.updatemapa(casSelec);
 }
 
 void MainWindow::on_casilla96_clicked()
 {
-    casillaSeleccionada = "casilla96";
+    //96
     casSelec =96;
     habilitatTorres();
 
     casSelec =96;
 
-    QString to =casillaSeleccionada.right(2);
+
 
     p1.updatemapa(casSelec);
 }
 
 void MainWindow::on_casilla97_clicked()
 {
-    casillaSeleccionada = "casilla97";
+    //97
     casSelec =97;
     habilitatTorres();
 
     casSelec =97;
 
-    QString to =casillaSeleccionada.right(2);
+
 
     p1.updatemapa(casSelec);
 
@@ -1807,26 +1809,26 @@ void MainWindow::on_casilla97_clicked()
 
 void MainWindow::on_casilla98_clicked()
 {
-    casillaSeleccionada = "casilla98";
+    //98
     casSelec =98;
     habilitatTorres();
 
     casSelec =98;
 
-    QString to =casillaSeleccionada.right(2);
+
 
     p1.updatemapa(casSelec);
 }
 
 void MainWindow::on_casilla99_clicked()
 {
-    casillaSeleccionada = "casilla99";
+    //99
     casSelec =99;
     habilitatTorres();
 
     casSelec =99;
 
-    QString to =casillaSeleccionada.right(2);
+
 
     p1.updatemapa(casSelec);
 }
@@ -2654,14 +2656,10 @@ void MainWindow::on_torreMagoButton_clicked()
 
          }
 
-
 }
 
 void MainWindow::on_torreArtilleraButton_clicked()
 {
-
-
-
 
     QPixmap torreArtillera(":/new/prefix1/torreArtillero.jpg");
 
@@ -3404,7 +3402,7 @@ QPixmap torreFuego(":/new/prefix1/torreLanzaFuego.png");
                          ui->casilla81->setIcon(torreFuego);
                              desabilitarTorres();
                              break;
-                 case 82:
+                 case 82 :
                          ui->casilla82->setIcon(torreFuego);
                              desabilitarTorres();
                              break;
@@ -3479,11 +3477,6 @@ QPixmap torreFuego(":/new/prefix1/torreLanzaFuego.png");
 
 
                  }
-
-
-
-
-
 
 }
 
@@ -3894,4 +3887,12 @@ void MainWindow::on_eliminarCursoButton_clicked()
                 break;
     }
 
+}
+
+bool MainWindow::checkCredits()
+{
+    if(p1.getCredits()==0){
+        return false;
+    }
+    return true;
 }

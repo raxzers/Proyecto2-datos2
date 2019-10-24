@@ -241,5 +241,6 @@ private slots:
 
 private:
     Ui::MainWindow *ui;
+    bool checkCredits();
 };
 #endif // MAINWINDOW_H
