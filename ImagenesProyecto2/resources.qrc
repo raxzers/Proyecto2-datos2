@@ -6,5 +6,6 @@
         <file>torreArtillero.jpg</file>
         <file>torreLanzaFuego.png</file>
         <file>torreMago.png</file>
+        <file>signoPregunta.png</file>
     </qresource>
 </RCC>

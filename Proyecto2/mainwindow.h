@@ -3,6 +3,7 @@
 
 #include <QMainWindow>
 #include "GameObjets/Player.h"
+#include <qlabel.h>
 
 QT_BEGIN_NAMESPACE
 namespace Ui { class MainWindow; }
@@ -20,6 +21,8 @@ public:
     void asignarTorres();
     void habilitatTorres();
     void desabilitarTorres();
+    void evaluarEstuduante(int casillaTorre, int casillaEstudiante, QString tipoTorre);
+    void ataqueTorreArquera(int casillaTorre, int casillaEstudiante);
     QString torreSeleccionada;
     QString casillaSeleccionada;
     Player p1=Player();
