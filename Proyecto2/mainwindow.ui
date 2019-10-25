@@ -2584,7 +2584,7 @@
     <property name="geometry">
      <rect>
       <x>410</x>
-      <y>100</y>
+      <y>80</y>
       <width>35</width>
       <height>35</height>
      </rect>
@@ -2597,7 +2597,7 @@
     <property name="geometry">
      <rect>
       <x>410</x>
-      <y>140</y>
+      <y>120</y>
       <width>35</width>
       <height>35</height>
      </rect>
@@ -2610,7 +2610,7 @@
     <property name="geometry">
      <rect>
       <x>410</x>
-      <y>140</y>
+      <y>160</y>
       <width>35</width>
       <height>35</height>
      </rect>
@@ -2623,7 +2623,7 @@
     <property name="geometry">
      <rect>
       <x>410</x>
-      <y>180</y>
+      <y>190</y>
       <width>35</width>
       <height>35</height>
      </rect>
@@ -2649,7 +2649,7 @@
     <property name="geometry">
      <rect>
       <x>410</x>
-      <y>270</y>
+      <y>260</y>
       <width>35</width>
       <height>35</height>
      </rect>
@@ -2662,7 +2662,7 @@
     <property name="geometry">
      <rect>
       <x>410</x>
-      <y>310</y>
+      <y>290</y>
       <width>35</width>
       <height>35</height>
      </rect>
@@ -2675,7 +2675,150 @@
     <property name="geometry">
      <rect>
       <x>410</x>
-      <y>360</y>
+      <y>330</y>
+      <width>35</width>
+      <height>35</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="zombie09">
+    <property name="geometry">
+     <rect>
+      <x>410</x>
+      <y>370</y>
+      <width>35</width>
+      <height>35</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="zombie10">
+    <property name="geometry">
+     <rect>
+      <x>410</x>
+      <y>400</y>
+      <width>35</width>
+      <height>35</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="zombie11">
+    <property name="geometry">
+     <rect>
+      <x>410</x>
+      <y>430</y>
+      <width>35</width>
+      <height>35</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="zombie12">
+    <property name="geometry">
+     <rect>
+      <x>410</x>
+      <y>470</y>
+      <width>35</width>
+      <height>35</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="zombie13">
+    <property name="geometry">
+     <rect>
+      <x>410</x>
+      <y>500</y>
+      <width>35</width>
+      <height>35</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="zombie14">
+    <property name="geometry">
+     <rect>
+      <x>410</x>
+      <y>540</y>
+      <width>35</width>
+      <height>35</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="zombie15">
+    <property name="geometry">
+     <rect>
+      <x>410</x>
+      <y>580</y>
+      <width>35</width>
+      <height>35</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="zombie16">
+    <property name="geometry">
+     <rect>
+      <x>410</x>
+      <y>610</y>
+      <width>35</width>
+      <height>35</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="zombie17">
+    <property name="geometry">
+     <rect>
+      <x>410</x>
+      <y>650</y>
+      <width>35</width>
+      <height>35</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="zombie18">
+    <property name="geometry">
+     <rect>
+      <x>420</x>
+      <y>680</y>
+      <width>35</width>
+      <height>35</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="zombie19">
+    <property name="geometry">
+     <rect>
+      <x>410</x>
+      <y>710</y>
       <width>35</width>
       <height>35</height>
      </rect>
