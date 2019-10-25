@@ -16,7 +16,7 @@ void Player::setCredits(int value)
 
 void Player::updatemapa(int P)
 {
-    this->mapa[P%10][P/10]=1;
+    this->mapa[P%10][P/10]=0;
 }
 
 std::string Player::verMapa()
