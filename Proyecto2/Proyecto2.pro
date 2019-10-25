@@ -20,6 +20,7 @@ SOURCES += \
     GameObjets/Creaturas.cpp \
     GameObjets/Player.cpp \
     GameObjets/Torre.cpp \
+    GameObjets/round.cpp \
     Util/xmlparser.cpp \
     main.cpp \
     mainwindow.cpp
@@ -29,6 +30,7 @@ HEADERS += \
     GameObjets/Creaturas.h \
     GameObjets/Player.h \
     GameObjets/Torre.h \
+    GameObjets/round.h \
     Util/Utilities.h \
     Util/xmlparser.h \
     mainwindow.h \

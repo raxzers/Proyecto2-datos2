@@ -4,6 +4,8 @@
 #include <QMainWindow>
 #include "GameObjets/Player.h"
 #include <qlabel.h>
+#include "GameObjets/round.h"
+#include "Util/xmlparser.h"
 
 QT_BEGIN_NAMESPACE
 namespace Ui { class MainWindow; }
@@ -28,6 +30,8 @@ public:
     QString casillaSeleccionada;
     Player p1=Player();
     int casSelec;
+    Round r= Round();
+    XMLParser xml1=XMLParser();
 
 private slots:
     void on_casilla00_clicked();

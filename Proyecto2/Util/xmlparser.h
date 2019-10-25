@@ -3,13 +3,17 @@
 #include <iostream>
 #include "GameObjets/Creaturas.h"
 #include "../sturctures/LinkedList.h"
+#include "../sturctures/Node.h"
 #include "boost/property_tree/ptree.hpp"
 #include "boost/property_tree/xml_parser.hpp"
 class XMLParser
 {
 public:
     XMLParser();
-    static std::string lcreat2XML(LinkedList<Creaturas> * lc);
+    std::string xmlPobl;
+     std::string lcreat2XML(LinkedList<Creaturas> * lc);
+     void createPob();
+     LinkedList<Creaturas> *pob= new LinkedList<Creaturas>();
 };
 
 #endif // XMLPARSER_H

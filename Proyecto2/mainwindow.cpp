@@ -3,6 +3,7 @@
 #include <QDebug>
 #include <iostream>
 
+
 MainWindow::MainWindow(QWidget *parent)
     : QMainWindow(parent)
     , ui(new Ui::MainWindow)
@@ -13,6 +14,8 @@ MainWindow::MainWindow(QWidget *parent)
     asignarTorres();
     ui->cantCreditos->setText(QString::number(p1.getCredits()));
 
+    QString mp= QString::fromStdString(xml1.xmlPobl);
+   qDebug() << mp;
 }
 
 MainWindow::~MainWindow()
@@ -10938,7 +10941,9 @@ void MainWindow::on_torreArqueraButton_clicked()
 
 
     }
-
+    int creditRest =p1.getCredits();
+    p1.setCredits(creditRest-=10);
+   ui->cantCreditos->setText(QString::number(p1.getCredits()));
 
 
 
@@ -11354,6 +11359,11 @@ void MainWindow::on_torreMagoButton_clicked()
 
          }
 
+
+     int creditRest =p1.getCredits();
+     p1.setCredits(creditRest-=20);
+    ui->cantCreditos->setText(QString::number(p1.getCredits()));
+
 \
 }
 
@@ -11765,6 +11775,9 @@ void MainWindow::on_torreArtilleraButton_clicked()
         break;
     }
 
+    int creditRest =p1.getCredits();
+    p1.setCredits(creditRest-=25);
+   ui->cantCreditos->setText(QString::number(p1.getCredits()));
 }
 
 void MainWindow::on_torreFuegoButton_clicked()
@@ -12177,6 +12190,9 @@ void MainWindow::on_torreFuegoButton_clicked()
 
                  }
 
+    int creditRest =p1.getCredits();
+    p1.setCredits(creditRest-=30);
+   ui->cantCreditos->setText(QString::number(p1.getCredits()));
 
 }
 
@@ -12587,11 +12603,16 @@ void MainWindow::on_eliminarCursoButton_clicked()
         break;
     }
 
+
+
+    int creditRest =p1.getCredits();
+    p1.setCredits(creditRest += 15);
+   ui->cantCreditos->setText(QString::number(p1.getCredits()));
 }
 
 bool MainWindow::checkCredits()
 {
-    if(p1.getCredits()==0){
+    if(p1.getCredits()<0){
         return false;
     }
     return true;

@@ -2,29 +2,29 @@
 
 XMLParser::XMLParser()
 {
-
+createPob();
 }
 
 std::string XMLParser::lcreat2XML(LinkedList<Creaturas> *lc)
 {
     boost::property_tree::ptree CreatTREE;
+        Node<Creaturas> *discreat=nullptr, *next;
 
-        Creaturas disGl;
         CreatTREE.put("id","Lcr");
-        disGl = lc->getFirst()->getData();
+        discreat = lc->getFirst();
         for(int i =0;i<20;i++){
-            disGl.display();
+            discreat->getData().fillSPECIAL();
 
 
-            boost::property_tree::ptree  & node= CreatTREE.add("lista.gladiador","");
-            node.put("tag",disGl.unTag);
-            node.put("Rart",disGl.atributo[4]);
-            node.put("Rarq",disGl.atributo[3]);
-            node.put("Rm",disGl.atributo[2]);
-            node.put("Rf",disGl.atributo[1]);
-            node.put("vel",disGl.atributo[0]);
-
-
+            boost::property_tree::ptree  & node= CreatTREE.add("lista.creaturas","");
+            node.put("tag",discreat->getData().unTag);
+            node.put("Rart",discreat->getData().atributo[4]);
+            node.put("Rarq",discreat->getData().atributo[3]);
+            node.put("Rm",discreat->getData().atributo[2]);
+            node.put("Rf",discreat->getData().atributo[1]);
+            node.put("vel",discreat->getData().atributo[0]);
+            next=discreat->getNext();
+            discreat=next;
 
 
         }
@@ -35,7 +35,17 @@ std::string XMLParser::lcreat2XML(LinkedList<Creaturas> *lc)
         boost::property_tree::write_xml(buf, CreatTREE, false);
         std::string creaturasXML=buf.str();
 
-        std::cout <<creaturasXML<<std::endl;
+
 
         return creaturasXML;
+}
+
+void XMLParser::createPob()
+{
+    for(int i=0;i<20;i++){
+        Creaturas c1= Creaturas("cr"+std::to_string(i));
+        pob->insertAtEnd(c1);
+    }
+
+   this->xmlPobl= lcreat2XML(pob);
 }

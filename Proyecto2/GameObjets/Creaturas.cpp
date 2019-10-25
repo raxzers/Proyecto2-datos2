@@ -16,6 +16,14 @@ Creaturas::Creaturas(std::string nm) {
     std::bitset<6> vel((unsigned)Utilities::random(1,10));
     std::bitset<6> Rm((unsigned)Utilities::random(1,10));
 
+    atributo[4]=Rart.to_ulong();
+    atributo[3]=Rarq.to_ulong();
+    atributo[2]=Rf.to_ulong();
+    atributo[1]=Rm.to_ulong();
+    atributo[0]=vel.to_ulong();
+
+
+
 
 
     std::string mystring =Rart.to_string();
@@ -73,7 +81,7 @@ std::string Creaturas::display() {
             j=0;
             sal.append(this->txt[caract]+" ");
             sal.append(std::to_string(tmp.to_ulong())+" ");
-            atributo[caract]=tmp.to_ulong();
+            this->atributo[caract]=tmp.to_ulong();
             tmp.reset();
             tmp[j]=set18[i];
             j++,caract++;
@@ -92,7 +100,28 @@ std::string Creaturas::display() {
 
 
 void Creaturas::fillSPECIAL() {
+    std::bitset<30> set18(this->atributos);
 
+
+    int j=0, caract=0;
+    std::bitset<6> tmp;
+    for(int i=0;i<set18.size()+1;i++){
+
+        if(j<6){
+            tmp[j]=set18[i];
+            j++;
+
+        }else{
+            j=0;
+            this->atributo[caract]=tmp.to_ulong();
+            tmp.reset();
+            tmp[j]=set18[i];
+            j++,caract++;
+
+        }
+
+
+    }
 }
 
 float Creaturas::calcFitn() {
