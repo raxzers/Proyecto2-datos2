@@ -20,6 +20,7 @@ SOURCES += \
     GameObjets/Creaturas.cpp \
     GameObjets/Player.cpp \
     GameObjets/Torre.cpp \
+    Util/xmlparser.cpp \
     main.cpp \
     mainwindow.cpp
 
@@ -29,6 +30,7 @@ HEADERS += \
     GameObjets/Player.h \
     GameObjets/Torre.h \
     Util/Utilities.h \
+    Util/xmlparser.h \
     mainwindow.h \
     sturctures/LinkedList.h \
     sturctures/Node.h
@@ -40,6 +42,13 @@ FORMS += \
 qnx: target.path = /tmp/$${TARGET}/bin
 else: unix:!android: target.path = /opt/$${TARGET}/bin
 !isEmpty(target.path): INSTALLS += target
+
+INCLUDEPATH += /usr/include/boost
+
+LIBS += -L/usr/include/boost -lboost_system
+LIBS += -L/usr/include/boost  -lboost_chrono
+LIBS += -L/usr/include/boost  -lboost_thread
+LIBS += -L/usr/include/boost  -lboost_timer
 
 RESOURCES += \
     ../ImagenesProyecto2/resources.qrc

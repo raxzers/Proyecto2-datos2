@@ -9856,8 +9856,6 @@ void MainWindow::on_casilla41_clicked()
 {
 
     casSelec =41;
-
-    casSelec =41;
     if(checkCredits()){
         habilitatTorres();
         //funcion de resta de creditos
@@ -10508,7 +10506,6 @@ void MainWindow::on_casilla98_clicked()
 {
 
     //98
-
     casSelec =98;
     if(checkCredits()){
         habilitatTorres();
@@ -10526,12 +10523,12 @@ void MainWindow::on_casilla99_clicked()
         //funcion de resta de creditos
         p1.updatemapa(casSelec);
 }
-
 }
 
 
-void MainWindow::on_torreArqueraButton_clicked()
-{
+
+
+void MainWindow::on_torreArqueraButton_clicked(){
     QPixmap torreArquera(":/new/prefix1/torreArqueros.png");
 
     switch (casSelec) {
@@ -10933,6 +10930,421 @@ void MainWindow::on_torreArqueraButton_clicked()
         break;
     case 99:
         ui->casilla99->setIcon(torreArquera);
+        desabilitarTorres();
+        break;
+
+
+    }
+
+
+
+
+
+
+}
+
+void MainWindow::on_torreMagoButton_clicked()
+{
+    QPixmap torreMago(":/new/prefix1/torreMago.png");
+    switch (casSelec) {
+    case 0:
+        ui->casilla00->setIcon(torreMago);
+        desabilitarTorres();
+        break;
+    case 1:
+        ui->casilla01->setIcon(torreMago);
+        desabilitarTorres();
+        break;
+    case 2:
+        ui->casilla02->setIcon(torreMago);
+        desabilitarTorres();
+        break;
+    case 3:
+        ui->casilla03->setIcon(torreMago);
+        desabilitarTorres();
+        break;
+    case 4:
+        ui->casilla04->setIcon(torreMago);
+        desabilitarTorres();
+        break;
+    case 5:
+        ui->casilla05->setIcon(torreMago);
+        desabilitarTorres();
+        break;
+    case 6:
+        ui->casilla06->setIcon(torreMago);
+        desabilitarTorres();
+        break;
+    case 7:
+        ui->casilla07->setIcon(torreMago);
+        desabilitarTorres();
+        break;
+    case 8:
+        ui->casilla08->setIcon(torreMago);
+        desabilitarTorres();
+        break;
+    case 9:
+        ui->casilla09->setIcon(torreMago);
+        desabilitarTorres();
+        break;
+    case 10:
+        ui->casilla10->setIcon(torreMago);
+        desabilitarTorres();
+        break;
+    case 11:
+        ui->casilla11->setIcon(torreMago);
+        desabilitarTorres();
+        break;
+    case 12:
+        ui->casilla12->setIcon(torreMago);
+        desabilitarTorres();
+        break;
+    case 13:
+        ui->casilla13->setIcon(torreMago);
+        desabilitarTorres();
+        break;
+    case 14:
+        ui->casilla14->setIcon(torreMago);
+        desabilitarTorres();
+        break;
+    case 15:
+        ui->casilla15->setIcon(torreMago);
+        desabilitarTorres();
+        break;
+    case 16:
+        ui->casilla16->setIcon(torreMago);
+        desabilitarTorres();
+        break;
+    case 17:
+        ui->casilla17->setIcon(torreMago);
+        desabilitarTorres();
+        break;
+    case 18:
+        ui->casilla18->setIcon(torreMago);
+        desabilitarTorres();
+        break;
+    case 19:
+        ui->casilla19->setIcon(torreMago);
+        desabilitarTorres();
+        break;
+    case 20:
+        ui->casilla20->setIcon(torreMago);
+        desabilitarTorres();
+        break;
+    case 21:
+        ui->casilla21->setIcon(torreMago);
+        desabilitarTorres();
+        break;
+    case 22:
+        ui->casilla22->setIcon(torreMago);
+        desabilitarTorres();
+        break;
+    case 23:
+        ui->casilla23->setIcon(torreMago);
+        desabilitarTorres();
+        break;
+    case 24:
+        ui->casilla24->setIcon(torreMago);
+        desabilitarTorres();
+        break;
+    case 25:
+        ui->casilla25->setIcon(torreMago);
+        desabilitarTorres();
+        break;
+    case 26:
+        ui->casilla26->setIcon(torreMago);
+        desabilitarTorres();
+        break;
+    case 27:
+        ui->casilla27->setIcon(torreMago);
+        desabilitarTorres();
+        break;
+    case 28:
+        ui->casilla28->setIcon(torreMago);
+        desabilitarTorres();
+        break;
+    case 29:
+        ui->casilla29->setIcon(torreMago);
+        desabilitarTorres();
+        break;
+    case 30:
+        ui->casilla30->setIcon(torreMago);
+        desabilitarTorres();
+        break;
+    case 31:
+        ui->casilla31->setIcon(torreMago);
+        desabilitarTorres();
+        break;
+    case 32:
+        ui->casilla32->setIcon(torreMago);
+        desabilitarTorres();
+        break;
+    case 33:
+        ui->casilla33->setIcon(torreMago);
+        desabilitarTorres();
+        break;
+    case 34:
+        ui->casilla34->setIcon(torreMago);
+        desabilitarTorres();
+        break;
+    case 35:
+        ui->casilla35->setIcon(torreMago);
+        desabilitarTorres();
+        break;
+    case 36:
+        ui->casilla36->setIcon(torreMago);
+        desabilitarTorres();
+        break;
+    case 37:
+        ui->casilla37->setIcon(torreMago);
+        desabilitarTorres();
+        break;
+    case 38:
+        ui->casilla38->setIcon(torreMago);
+        desabilitarTorres();
+        break;
+    case 39:
+        ui->casilla39->setIcon(torreMago);
+        desabilitarTorres();
+        break;
+    case 40:
+        ui->casilla40->setIcon(torreMago);
+        desabilitarTorres();
+        break;
+    case 41:
+        ui->casilla41->setIcon(torreMago);
+        desabilitarTorres();
+        break;
+    case 42:
+        ui->casilla42->setIcon(torreMago);
+        desabilitarTorres();
+        break;
+    case 43:
+        ui->casilla43->setIcon(torreMago);
+        desabilitarTorres();
+        break;
+    case 44:
+        ui->casilla44->setIcon(torreMago);
+        desabilitarTorres();
+        break;
+    case 45:
+        ui->casilla45->setIcon(torreMago);
+        desabilitarTorres();
+        break;
+    case 46:
+        ui->casilla46->setIcon(torreMago);
+        desabilitarTorres();
+        break;
+    case 47:
+        ui->casilla47->setIcon(torreMago);
+        desabilitarTorres();
+        break;
+    case 48:
+        ui->casilla48->setIcon(torreMago);
+        desabilitarTorres();
+        break;
+    case 49:
+        ui->casilla49->setIcon(torreMago);
+        desabilitarTorres();
+        break;
+    case 50:
+        ui->casilla50->setIcon(torreMago);
+        desabilitarTorres();
+        break;
+    case 51:
+        ui->casilla51->setIcon(torreMago);
+        desabilitarTorres();
+        break;
+    case 52:
+        ui->casilla52->setIcon(torreMago);
+        desabilitarTorres();
+        break;
+    case 53:
+        ui->casilla53->setIcon(torreMago);
+        desabilitarTorres();
+        break;
+    case 54:
+        ui->casilla54->setIcon(torreMago);
+        desabilitarTorres();
+        break;
+    case 55:
+        ui->casilla55->setIcon(torreMago);
+        desabilitarTorres();
+        break;
+    case 56:
+        ui->casilla56->setIcon(torreMago);
+        desabilitarTorres();
+        break;
+    case 57:
+        ui->casilla57->setIcon(torreMago);
+        desabilitarTorres();
+        break;
+    case 58:
+        ui->casilla58->setIcon(torreMago);
+        desabilitarTorres();
+        break;
+    case 59:
+        ui->casilla59->setIcon(torreMago);
+        desabilitarTorres();
+        break;
+    case 60:
+        ui->casilla60->setIcon(torreMago);
+        desabilitarTorres();
+        break;
+    case 61:
+        ui->casilla61->setIcon(torreMago);
+        desabilitarTorres();
+        break;
+    case 62:
+        ui->casilla62->setIcon(torreMago);
+        desabilitarTorres();
+        break;
+    case 63:
+        ui->casilla63->setIcon(torreMago);
+        desabilitarTorres();
+        break;
+    case 64:
+        ui->casilla64->setIcon(torreMago);
+        desabilitarTorres();
+        break;
+    case 65:
+        ui->casilla65->setIcon(torreMago);
+        desabilitarTorres();
+        break;
+    case 66:
+        ui->casilla66->setIcon(torreMago);
+        desabilitarTorres();
+        break;
+    case 67:
+        ui->casilla67->setIcon(torreMago);
+        desabilitarTorres();
+        break;
+    case 68:
+        ui->casilla68->setIcon(torreMago);
+        desabilitarTorres();
+        break;
+    case 69:
+        ui->casilla69->setIcon(torreMago);
+        desabilitarTorres();
+        break;
+    case 70:
+        ui->casilla70->setIcon(torreMago);
+        desabilitarTorres();
+        break;
+    case 71:
+        ui->casilla71->setIcon(torreMago);
+        desabilitarTorres();
+        break;
+    case 72:
+        ui->casilla72->setIcon(torreMago);
+        desabilitarTorres();
+        break;
+    case 73:
+        ui->casilla73->setIcon(torreMago);
+        desabilitarTorres();
+        break;
+    case 74:
+        ui->casilla74->setIcon(torreMago);
+        desabilitarTorres();
+        break;
+    case 75:
+        ui->casilla75->setIcon(torreMago);
+        desabilitarTorres();
+        break;
+    case 76:
+        ui->casilla76->setIcon(torreMago);
+        desabilitarTorres();
+        break;
+    case 77:
+        ui->casilla77->setIcon(torreMago);
+        desabilitarTorres();
+        break;
+    case 78:
+        ui->casilla78->setIcon(torreMago);
+        desabilitarTorres();
+        break;
+    case 79:
+        ui->casilla79->setIcon(torreMago);
+        desabilitarTorres();
+        break;
+    case 80:
+        ui->casilla80->setIcon(torreMago);
+        desabilitarTorres();
+        break;
+    case 81:
+        ui->casilla81->setIcon(torreMago);
+        desabilitarTorres();
+        break;
+    case 82:
+        ui->casilla82->setIcon(torreMago);
+        desabilitarTorres();
+        break;
+    case 83:
+        ui->casilla83->setIcon(torreMago);
+        desabilitarTorres();
+        break;
+    case 84:
+        ui->casilla84->setIcon(torreMago);
+        desabilitarTorres();
+        break;
+    case 85:
+        ui->casilla85->setIcon(torreMago);
+        desabilitarTorres();
+        break;
+    case 86:
+        ui->casilla86->setIcon(torreMago);
+        desabilitarTorres();
+        break;
+    case 87:
+        ui->casilla87->setIcon(torreMago);
+        desabilitarTorres();
+        break;
+    case 88:
+        ui->casilla88->setIcon(torreMago);
+        desabilitarTorres();
+        break;
+    case 89:
+        ui->casilla89->setIcon(torreMago);
+        desabilitarTorres();
+        break;
+    case 90:
+        ui->casilla90->setIcon(torreMago);
+        desabilitarTorres();
+        break;
+    case 91:
+        ui->casilla91->setIcon(torreMago);
+        desabilitarTorres();
+        break;
+    case 92:
+        ui->casilla92->setIcon(torreMago);
+        desabilitarTorres();
+        break;
+    case 93:
+        ui->casilla93->setIcon(torreMago);
+        desabilitarTorres();
+        break;
+    case 94:
+        ui->casilla94->setIcon(torreMago);
+        desabilitarTorres();
+        break;
+    case 95:
+        ui->casilla95->setIcon(torreMago);
+        desabilitarTorres();
+        break;
+    case 96:
+        ui->casilla96->setIcon(torreMago);
+        desabilitarTorres();
+        break;
+    case 97:
+        ui->casilla97->setIcon(torreMago);
+        desabilitarTorres();
+        break;
+    case 98:
+        ui->casilla98->setIcon(torreMago);
+        desabilitarTorres();
+        break;
+    case 99:
+        ui->casilla99->setIcon(torreMago);
         desabilitarTorres();
         break;
 
@@ -11354,7 +11766,8 @@ void MainWindow::on_torreMagoButton_clicked()
 
          }
 
-\
+=======
+>>>>>>> Stashed changes
 }
 
 void MainWindow::on_torreArtilleraButton_clicked()
@@ -11773,6 +12186,7 @@ void MainWindow::on_torreFuegoButton_clicked()
     QPixmap torreFuego(":/new/prefix1/torreLanzaFuego.png");
 
     switch (casSelec) {
+<<<<<<< Updated upstream
                  case 0:
                      ui->casilla00->setIcon(torreFuego);
                          desabilitarTorres();
@@ -12176,7 +12590,411 @@ void MainWindow::on_torreFuegoButton_clicked()
 
 
                  }
+=======
+    case 0:
+        ui->casilla00->setIcon(torreFuego);
+        desabilitarTorres();
+        break;
+    case 1:
+        ui->casilla01->setIcon(torreFuego);
+        desabilitarTorres();
+        break;
+    case 2:
+        ui->casilla02->setIcon(torreFuego);
+        desabilitarTorres();
+        break;
+    case 3:
+        ui->casilla03->setIcon(torreFuego);
+        desabilitarTorres();
+        break;
+    case 4:
+        ui->casilla04->setIcon(torreFuego);
+        desabilitarTorres();
+        break;
+    case 5:
+        ui->casilla05->setIcon(torreFuego);
+        desabilitarTorres();
+        break;
+    case 6:
+        ui->casilla06->setIcon(torreFuego);
+        desabilitarTorres();
+        break;
+    case 7:
+        ui->casilla07->setIcon(torreFuego);
+        desabilitarTorres();
+        break;
+    case 8:
+        ui->casilla08->setIcon(torreFuego);
+        desabilitarTorres();
+        break;
+    case 9:
+        ui->casilla09->setIcon(torreFuego);
+        desabilitarTorres();
+        break;
+    case 10:
+        ui->casilla10->setIcon(torreFuego);
+        desabilitarTorres();
+        break;
+    case 11:
+        ui->casilla11->setIcon(torreFuego);
+        desabilitarTorres();
+        break;
+    case 12:
+        ui->casilla12->setIcon(torreFuego);
+        desabilitarTorres();
+        break;
+    case 13:
+        ui->casilla13->setIcon(torreFuego);
+        desabilitarTorres();
+        break;
+    case 14:
+        ui->casilla14->setIcon(torreFuego);
+        desabilitarTorres();
+        break;
+    case 15:
+        ui->casilla15->setIcon(torreFuego);
+        desabilitarTorres();
+        break;
+    case 16:
+        ui->casilla16->setIcon(torreFuego);
+        desabilitarTorres();
+        break;
+    case 17:
+        ui->casilla17->setIcon(torreFuego);
+        desabilitarTorres();
+        break;
+    case 18:
+        ui->casilla18->setIcon(torreFuego);
+        desabilitarTorres();
+        break;
+    case 19:
+        ui->casilla19->setIcon(torreFuego);
+        desabilitarTorres();
+        break;
+    case 20:
+        ui->casilla20->setIcon(torreFuego);
+        desabilitarTorres();
+        break;
+    case 21:
+        ui->casilla21->setIcon(torreFuego);
+        desabilitarTorres();
+        break;
+    case 22:
+        ui->casilla22->setIcon(torreFuego);
+        desabilitarTorres();
+        break;
+    case 23:
+        ui->casilla23->setIcon(torreFuego);
+        desabilitarTorres();
+        break;
+    case 24:
+        ui->casilla24->setIcon(torreFuego);
+        desabilitarTorres();
+        break;
+    case 25:
+        ui->casilla25->setIcon(torreFuego);
+        desabilitarTorres();
+        break;
+    case 26:
+        ui->casilla26->setIcon(torreFuego);
+        desabilitarTorres();
+        break;
+    case 27:
+        ui->casilla27->setIcon(torreFuego);
+        desabilitarTorres();
+        break;
+    case 28:
+        ui->casilla28->setIcon(torreFuego);
+        desabilitarTorres();
+        break;
+    case 29:
+        ui->casilla29->setIcon(torreFuego);
+        desabilitarTorres();
+        break;
+    case 30:
+        ui->casilla30->setIcon(torreFuego);
+        desabilitarTorres();
+        break;
+    case 31:
+        ui->casilla31->setIcon(torreFuego);
+        desabilitarTorres();
+        break;
+    case 32:
+        ui->casilla32->setIcon(torreFuego);
+        desabilitarTorres();
+        break;
+    case 33:
+        ui->casilla33->setIcon(torreFuego);
+        desabilitarTorres();
+        break;
+    case 34:
+        ui->casilla34->setIcon(torreFuego);
+        desabilitarTorres();
+        break;
+    case 35:
+        ui->casilla35->setIcon(torreFuego);
+        desabilitarTorres();
+        break;
+    case 36:
+        ui->casilla36->setIcon(torreFuego);
+        desabilitarTorres();
+        break;
+    case 37:
+        ui->casilla37->setIcon(torreFuego);
+        desabilitarTorres();
+        break;
+    case 38:
+        ui->casilla38->setIcon(torreFuego);
+        desabilitarTorres();
+        break;
+    case 39:
+        ui->casilla39->setIcon(torreFuego);
+        desabilitarTorres();
+        break;
+    case 40:
+        ui->casilla40->setIcon(torreFuego);
+        desabilitarTorres();
+        break;
+    case 41:
+        ui->casilla41->setIcon(torreFuego);
+        desabilitarTorres();
+        break;
+    case 42:
+        ui->casilla42->setIcon(torreFuego);
+        desabilitarTorres();
+        break;
+    case 43:
+        ui->casilla43->setIcon(torreFuego);
+        desabilitarTorres();
+        break;
+    case 44:
+        ui->casilla44->setIcon(torreFuego);
+        desabilitarTorres();
+        break;
+    case 45:
+        ui->casilla45->setIcon(torreFuego);
+        desabilitarTorres();
+        break;
+    case 46:
+        ui->casilla46->setIcon(torreFuego);
+        desabilitarTorres();
+        break;
+    case 47:
+        ui->casilla47->setIcon(torreFuego);
+        desabilitarTorres();
+        break;
+    case 48:
+        ui->casilla48->setIcon(torreFuego);
+        desabilitarTorres();
+        break;
+    case 49:
+        ui->casilla49->setIcon(torreFuego);
+        desabilitarTorres();
+        break;
+    case 50:
+        ui->casilla50->setIcon(torreFuego);
+        desabilitarTorres();
+        break;
+    case 51:
+        ui->casilla51->setIcon(torreFuego);
+        desabilitarTorres();
+        break;
+    case 52:
+        ui->casilla52->setIcon(torreFuego);
+        desabilitarTorres();
+        break;
+    case 53:
+        ui->casilla53->setIcon(torreFuego);
+        desabilitarTorres();
+        break;
+    case 54:
+        ui->casilla54->setIcon(torreFuego);
+        desabilitarTorres();
+        break;
+    case 55:
+        ui->casilla55->setIcon(torreFuego);
+        desabilitarTorres();
+        break;
+    case 56:
+        ui->casilla56->setIcon(torreFuego);
+        desabilitarTorres();
+        break;
+    case 57:
+        ui->casilla57->setIcon(torreFuego);
+        desabilitarTorres();
+        break;
+    case 58:
+        ui->casilla58->setIcon(torreFuego);
+        desabilitarTorres();
+        break;
+    case 59:
+        ui->casilla59->setIcon(torreFuego);
+        desabilitarTorres();
+        break;
+    case 60:
+        ui->casilla60->setIcon(torreFuego);
+        desabilitarTorres();
+        break;
+    case 61:
+        ui->casilla61->setIcon(torreFuego);
+        desabilitarTorres();
+        break;
+    case 62:
+        ui->casilla62->setIcon(torreFuego);
+        desabilitarTorres();
+        break;
+    case 63:
+        ui->casilla63->setIcon(torreFuego);
+        desabilitarTorres();
+        break;
+    case 64:
+        ui->casilla64->setIcon(torreFuego);
+        desabilitarTorres();
+        break;
+    case 65:
+        ui->casilla65->setIcon(torreFuego);
+        desabilitarTorres();
+        break;
+    case 66:
+        ui->casilla66->setIcon(torreFuego);
+        desabilitarTorres();
+        break;
+    case 67:
+        ui->casilla67->setIcon(torreFuego);
+        desabilitarTorres();
+        break;
+    case 68:
+        ui->casilla68->setIcon(torreFuego);
+        desabilitarTorres();
+        break;
+    case 69:
+        ui->casilla69->setIcon(torreFuego);
+        desabilitarTorres();
+        break;
+    case 70:
+        ui->casilla70->setIcon(torreFuego);
+        desabilitarTorres();
+        break;
+    case 71:
+        ui->casilla71->setIcon(torreFuego);
+        desabilitarTorres();
+        break;
+    case 72:
+        ui->casilla72->setIcon(torreFuego);
+        desabilitarTorres();
+        break;
+    case 73:
+        ui->casilla73->setIcon(torreFuego);
+        desabilitarTorres();
+        break;
+    case 74:
+        ui->casilla74->setIcon(torreFuego);
+        desabilitarTorres();
+        break;
+    case 75:
+        ui->casilla75->setIcon(torreFuego);
+        desabilitarTorres();
+        break;
+    case 76:
+        ui->casilla76->setIcon(torreFuego);
+        desabilitarTorres();
+        break;
+    case 77:
+        ui->casilla77->setIcon(torreFuego);
+        desabilitarTorres();
+        break;
+    case 78:
+        ui->casilla78->setIcon(torreFuego);
+        desabilitarTorres();
+        break;
+    case 79:
+        ui->casilla79->setIcon(torreFuego);
+        desabilitarTorres();
+        break;
+    case 80:
+        ui->casilla80->setIcon(torreFuego);
+        desabilitarTorres();
+        break;
+    case 81:
+        ui->casilla81->setIcon(torreFuego);
+        desabilitarTorres();
+        break;
+    case 82:
+        ui->casilla82->setIcon(torreFuego);
+        desabilitarTorres();
+        break;
+    case 83:
+        ui->casilla83->setIcon(torreFuego);
+        desabilitarTorres();
+        break;
+    case 84:
+        ui->casilla84->setIcon(torreFuego);
+        desabilitarTorres();
+        break;
+    case 85:
+        ui->casilla85->setIcon(torreFuego);
+        desabilitarTorres();
+        break;
+    case 86:
+        ui->casilla86->setIcon(torreFuego);
+        desabilitarTorres();
+        break;
+    case 87:
+        ui->casilla87->setIcon(torreFuego);
+        desabilitarTorres();
+        break;
+    case 88:
+        ui->casilla88->setIcon(torreFuego);
+        desabilitarTorres();
+        break;
+    case 89:
+        ui->casilla89->setIcon(torreFuego);
+        desabilitarTorres();
+        break;
+    case 90:
+        ui->casilla90->setIcon(torreFuego);
+        desabilitarTorres();
+        break;
+    case 91:
+        ui->casilla91->setIcon(torreFuego);
+        desabilitarTorres();
+        break;
+    case 92:
+        ui->casilla92->setIcon(torreFuego);
+        desabilitarTorres();
+        break;
+    case 93:
+        ui->casilla93->setIcon(torreFuego);
+        desabilitarTorres();
+        break;
+    case 94:
+        ui->casilla94->setIcon(torreFuego);
+        desabilitarTorres();
+        break;
+    case 95:
+        ui->casilla95->setIcon(torreFuego);
+        desabilitarTorres();
+        break;
+    case 96:
+        ui->casilla96->setIcon(torreFuego);
+        desabilitarTorres();
+        break;
+    case 97:
+        ui->casilla97->setIcon(torreFuego);
+        desabilitarTorres();
+        break;
+    case 98:
+        ui->casilla98->setIcon(torreFuego);
+        desabilitarTorres();
+        break;
+    case 99:
+        ui->casilla99->setIcon(torreFuego);
+        desabilitarTorres();
+        break;
 
+
+    }
+>>>>>>> Stashed changes
 
 }
 
