@@ -17,6 +17,7 @@ std::string XMLParser::lcreat2XML(LinkedList<Creaturas> *lc)
 
 
             boost::property_tree::ptree  & node= CreatTREE.add("lista.creaturas","");
+            node.put("gen", discreat->getData().gen);
             node.put("tag",discreat->getData().unTag);
             node.put("Rart",discreat->getData().atributo[4]);
             node.put("Rarq",discreat->getData().atributo[3]);

@@ -12612,7 +12612,7 @@ void MainWindow::on_eliminarCursoButton_clicked()
 
 bool MainWindow::checkCredits()
 {
-    if(p1.getCredits()<0){
+    if(p1.getCredits()<=0){
         return false;
     }
     return true;
