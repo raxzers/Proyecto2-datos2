@@ -26,6 +26,8 @@ public:
     void evaluarEstuduante(int casillaTorre, int casillaEstudiante, QString tipoTorre);
     void ataqueTorreArquera(int casillaTorre, int casillaEstudiante);
     void ataqueTorreMago(int casillaTorre, int casillaEstudiante);
+    void ataqueTorreArtillero(int casillaTorre, int casillaEstudiante);
+    void moverEstudiante(int casillaActual, int casillaSiguiente, int numZombie);
     QString torreSeleccionada;
     QString casillaSeleccionada;
     Player p1=Player();

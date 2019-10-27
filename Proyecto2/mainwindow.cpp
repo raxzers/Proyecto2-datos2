@@ -182,6 +182,12 @@ void MainWindow::evaluarEstuduante(int casillaTorre, int casillaEstudiante, QStr
     if(tipoTorre == "TorreArquera"){
         ataqueTorreArquera(casillaTorre,casillaEstudiante);
     }
+    if(tipoTorre =="TorreMago"){
+        ataqueTorreMago(casillaTorre,casillaEstudiante);
+    }
+    if(tipoTorre == "TorreArtillero"){
+        ataqueTorreArtillero(casillaTorre,casillaEstudiante);
+    }
 
 }
 
@@ -9378,7 +9384,9927 @@ void MainWindow::ataqueTorreMago(int casillaTorre, int casillaEstudiante)
             break;
         }
     }
+    if(casillaEstudiante - casillaTorre==-19){
+        QLabel *lb = new QLabel;
+        lb->setVisible(false);
+        lb->setPixmap(signoPregunta);
+
+        switch (casillaEstudiante) {
+
+        case 1:
+            lb->setGeometry(ui->casilla01->x()+25,ui->casilla01->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 2:
+            lb->setGeometry(ui->casilla02->x()+25,ui->casilla02->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 3:
+            lb->setGeometry(ui->casilla03->x()+25,ui->casilla03->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 4:
+            lb->setGeometry(ui->casilla04->x()+25,ui->casilla04->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 5:
+            lb->setGeometry(ui->casilla05->x()+25,ui->casilla05->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 6:
+            lb->setGeometry(ui->casilla06->x()+25,ui->casilla06->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 7:
+            lb->setGeometry(ui->casilla07->x()+25,ui->casilla07->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 8:
+            lb->setGeometry(ui->casilla08->x()+25,ui->casilla08->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 9:
+            lb->setGeometry(ui->casilla09->x()+25,ui->casilla09->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 11:
+            lb->setGeometry(ui->casilla11->x()+25,ui->casilla11->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 12:
+            lb->setGeometry(ui->casilla12->x()+25,ui->casilla12->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 13:
+            lb->setGeometry(ui->casilla13->x()+25,ui->casilla13->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 14:
+            lb->setGeometry(ui->casilla14->x()+25,ui->casilla14->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 15:
+            lb->setGeometry(ui->casilla15->x()+25,ui->casilla15->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 16:
+            lb->setGeometry(ui->casilla16->x()+25,ui->casilla16->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 17:
+            lb->setGeometry(ui->casilla17->x()+25,ui->casilla17->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 18:
+            lb->setGeometry(ui->casilla18->x()+25,ui->casilla18->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 19:
+            lb->setGeometry(ui->casilla19->x()+25,ui->casilla19->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 21:
+            lb->setGeometry(ui->casilla21->x()+25,ui->casilla21->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 22:
+            lb->setGeometry(ui->casilla22->x()+25,ui->casilla22->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 23:
+            lb->setGeometry(ui->casilla23->x()+25,ui->casilla23->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 24:
+            lb->setGeometry(ui->casilla24->x()+25,ui->casilla24->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 25:
+            lb->setGeometry(ui->casilla25->x()+25,ui->casilla25->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 26:
+            lb->setGeometry(ui->casilla26->x()+25,ui->casilla26->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 27:
+            lb->setGeometry(ui->casilla27->x()+25,ui->casilla27->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 28:
+            lb->setGeometry(ui->casilla28->x()+25,ui->casilla28->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 29:
+            lb->setGeometry(ui->casilla29->x()+25,ui->casilla29->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 31:
+            lb->setGeometry(ui->casilla31->x()+25,ui->casilla31->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 32:
+            lb->setGeometry(ui->casilla32->x()+25,ui->casilla32->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 33:
+            lb->setGeometry(ui->casilla33->x()+25,ui->casilla33->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 34:
+            lb->setGeometry(ui->casilla34->x()+25,ui->casilla34->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 35:
+            lb->setGeometry(ui->casilla35->x()+25,ui->casilla35->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 36:
+            lb->setGeometry(ui->casilla36->x()+25,ui->casilla36->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 37:
+            lb->setGeometry(ui->casilla37->x()+25,ui->casilla37->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 38:
+            lb->setGeometry(ui->casilla38->x()+25,ui->casilla38->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 39:
+            lb->setGeometry(ui->casilla39->x()+25,ui->casilla39->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 41:
+            lb->setGeometry(ui->casilla41->x()+25,ui->casilla41->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 42:
+            lb->setGeometry(ui->casilla42->x()+25,ui->casilla42->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 43:
+            lb->setGeometry(ui->casilla43->x()+25,ui->casilla43->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 44:
+            lb->setGeometry(ui->casilla44->x()+25,ui->casilla44->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 45:
+            lb->setGeometry(ui->casilla45->x()+25,ui->casilla45->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 46:
+            lb->setGeometry(ui->casilla46->x()+25,ui->casilla46->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 47:
+            lb->setGeometry(ui->casilla47->x()+25,ui->casilla47->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 48:
+            lb->setGeometry(ui->casilla48->x()+25,ui->casilla48->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 49:
+            lb->setGeometry(ui->casilla49->x()+25,ui->casilla49->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 51:
+            lb->setGeometry(ui->casilla51->x()+25,ui->casilla51->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 52:
+            lb->setGeometry(ui->casilla52->x()+25,ui->casilla52->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 53:
+            lb->setGeometry(ui->casilla53->x()+25,ui->casilla53->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 54:
+            lb->setGeometry(ui->casilla54->x()+25,ui->casilla54->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 55:
+            lb->setGeometry(ui->casilla55->x()+25,ui->casilla55->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 56:
+            lb->setGeometry(ui->casilla56->x()+25,ui->casilla56->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 57:
+            lb->setGeometry(ui->casilla57->x()+25,ui->casilla57->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 58:
+            lb->setGeometry(ui->casilla58->x()+25,ui->casilla58->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 59:
+            lb->setGeometry(ui->casilla59->x()+25,ui->casilla59->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 61:
+            lb->setGeometry(ui->casilla61->x()+25,ui->casilla61->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 62:
+            lb->setGeometry(ui->casilla62->x()+25,ui->casilla62->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 63:
+            lb->setGeometry(ui->casilla63->x()+25,ui->casilla63->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 64:
+            lb->setGeometry(ui->casilla64->x()+25,ui->casilla64->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 65:
+            lb->setGeometry(ui->casilla65->x()+25,ui->casilla65->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 66:
+            lb->setGeometry(ui->casilla66->x()+25,ui->casilla66->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 67:
+            lb->setGeometry(ui->casilla67->x()+25,ui->casilla67->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 68:
+            lb->setGeometry(ui->casilla68->x()+25,ui->casilla68->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 69:
+            lb->setGeometry(ui->casilla69->x()+25,ui->casilla69->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 71:
+            lb->setGeometry(ui->casilla71->x()+25,ui->casilla71->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 72:
+            lb->setGeometry(ui->casilla72->x()+25,ui->casilla72->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 73:
+            lb->setGeometry(ui->casilla73->x()+25,ui->casilla73->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 74:
+            lb->setGeometry(ui->casilla74->x()+25,ui->casilla74->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 75:
+            lb->setGeometry(ui->casilla75->x()+25,ui->casilla75->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 76:
+            lb->setGeometry(ui->casilla76->x()+25,ui->casilla76->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 77:
+            lb->setGeometry(ui->casilla77->x()+25,ui->casilla77->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 78:
+            lb->setGeometry(ui->casilla78->x()+25,ui->casilla78->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 79:
+            lb->setGeometry(ui->casilla79->x()+25,ui->casilla79->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        }
+    }
+    if(casillaEstudiante - casillaTorre==-20){
+        QLabel *lb = new QLabel;
+        lb->setVisible(false);
+        lb->setPixmap(signoPregunta);
+
+        switch (casillaEstudiante) {
+
+        case 0:
+            lb->setGeometry(ui->casilla00->x()+25,ui->casilla00->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 1:
+            lb->setGeometry(ui->casilla01->x()+25,ui->casilla01->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 2:
+            lb->setGeometry(ui->casilla02->x()+25,ui->casilla02->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 3:
+            lb->setGeometry(ui->casilla03->x()+25,ui->casilla03->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 4:
+            lb->setGeometry(ui->casilla04->x()+25,ui->casilla04->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 5:
+            lb->setGeometry(ui->casilla05->x()+25,ui->casilla05->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 6:
+            lb->setGeometry(ui->casilla06->x()+25,ui->casilla06->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 7:
+            lb->setGeometry(ui->casilla07->x()+25,ui->casilla07->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 8:
+            lb->setGeometry(ui->casilla08->x()+25,ui->casilla08->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 9:
+            lb->setGeometry(ui->casilla09->x()+25,ui->casilla09->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 10:
+            lb->setGeometry(ui->casilla10->x()+25,ui->casilla10->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 11:
+            lb->setGeometry(ui->casilla11->x()+25,ui->casilla11->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 12:
+            lb->setGeometry(ui->casilla12->x()+25,ui->casilla12->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 13:
+            lb->setGeometry(ui->casilla13->x()+25,ui->casilla13->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 14:
+            lb->setGeometry(ui->casilla14->x()+25,ui->casilla14->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 15:
+            lb->setGeometry(ui->casilla15->x()+25,ui->casilla15->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 16:
+            lb->setGeometry(ui->casilla16->x()+25,ui->casilla16->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 17:
+            lb->setGeometry(ui->casilla17->x()+25,ui->casilla17->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 18:
+            lb->setGeometry(ui->casilla18->x()+25,ui->casilla18->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 19:
+            lb->setGeometry(ui->casilla19->x()+25,ui->casilla19->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 20:
+            lb->setGeometry(ui->casilla20->x()+25,ui->casilla20->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 21:
+            lb->setGeometry(ui->casilla21->x()+25,ui->casilla21->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 22:
+            lb->setGeometry(ui->casilla22->x()+25,ui->casilla22->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 23:
+            lb->setGeometry(ui->casilla23->x()+25,ui->casilla23->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 24:
+            lb->setGeometry(ui->casilla24->x()+25,ui->casilla24->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 25:
+            lb->setGeometry(ui->casilla25->x()+25,ui->casilla25->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 26:
+            lb->setGeometry(ui->casilla26->x()+25,ui->casilla26->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 27:
+            lb->setGeometry(ui->casilla27->x()+25,ui->casilla27->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 28:
+            lb->setGeometry(ui->casilla28->x()+25,ui->casilla28->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 29:
+            lb->setGeometry(ui->casilla29->x()+25,ui->casilla29->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 30:
+            lb->setGeometry(ui->casilla30->x()+25,ui->casilla30->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 31:
+            lb->setGeometry(ui->casilla31->x()+25,ui->casilla31->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 32:
+            lb->setGeometry(ui->casilla32->x()+25,ui->casilla32->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 33:
+            lb->setGeometry(ui->casilla33->x()+25,ui->casilla33->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 34:
+            lb->setGeometry(ui->casilla34->x()+25,ui->casilla34->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 35:
+            lb->setGeometry(ui->casilla35->x()+25,ui->casilla35->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 36:
+            lb->setGeometry(ui->casilla36->x()+25,ui->casilla36->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 37:
+            lb->setGeometry(ui->casilla37->x()+25,ui->casilla37->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 38:
+            lb->setGeometry(ui->casilla38->x()+25,ui->casilla38->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 39:
+            lb->setGeometry(ui->casilla39->x()+25,ui->casilla39->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 40:
+            lb->setGeometry(ui->casilla40->x()+25,ui->casilla40->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 41:
+            lb->setGeometry(ui->casilla41->x()+25,ui->casilla41->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 42:
+            lb->setGeometry(ui->casilla42->x()+25,ui->casilla42->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 43:
+            lb->setGeometry(ui->casilla43->x()+25,ui->casilla43->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 44:
+            lb->setGeometry(ui->casilla44->x()+25,ui->casilla44->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 45:
+            lb->setGeometry(ui->casilla45->x()+25,ui->casilla45->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 46:
+            lb->setGeometry(ui->casilla46->x()+25,ui->casilla46->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 47:
+            lb->setGeometry(ui->casilla47->x()+25,ui->casilla47->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 48:
+            lb->setGeometry(ui->casilla48->x()+25,ui->casilla48->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 49:
+            lb->setGeometry(ui->casilla49->x()+25,ui->casilla49->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 50:
+            lb->setGeometry(ui->casilla50->x()+25,ui->casilla50->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 51:
+            lb->setGeometry(ui->casilla51->x()+25,ui->casilla51->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 52:
+            lb->setGeometry(ui->casilla52->x()+25,ui->casilla52->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 53:
+            lb->setGeometry(ui->casilla53->x()+25,ui->casilla53->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 54:
+            lb->setGeometry(ui->casilla54->x()+25,ui->casilla54->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 55:
+            lb->setGeometry(ui->casilla55->x()+25,ui->casilla55->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 56:
+            lb->setGeometry(ui->casilla56->x()+25,ui->casilla56->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 57:
+            lb->setGeometry(ui->casilla57->x()+25,ui->casilla57->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 58:
+            lb->setGeometry(ui->casilla58->x()+25,ui->casilla58->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 59:
+            lb->setGeometry(ui->casilla59->x()+25,ui->casilla59->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 60:
+            lb->setGeometry(ui->casilla60->x()+25,ui->casilla60->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 61:
+            lb->setGeometry(ui->casilla61->x()+25,ui->casilla61->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 62:
+            lb->setGeometry(ui->casilla62->x()+25,ui->casilla62->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 63:
+            lb->setGeometry(ui->casilla63->x()+25,ui->casilla63->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 64:
+            lb->setGeometry(ui->casilla64->x()+25,ui->casilla64->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 65:
+            lb->setGeometry(ui->casilla65->x()+25,ui->casilla65->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 66:
+            lb->setGeometry(ui->casilla66->x()+25,ui->casilla66->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 67:
+            lb->setGeometry(ui->casilla67->x()+25,ui->casilla67->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 68:
+            lb->setGeometry(ui->casilla68->x()+25,ui->casilla68->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 69:
+            lb->setGeometry(ui->casilla69->x()+25,ui->casilla69->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 70:
+            lb->setGeometry(ui->casilla70->x()+25,ui->casilla70->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 71:
+            lb->setGeometry(ui->casilla71->x()+25,ui->casilla71->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 72:
+            lb->setGeometry(ui->casilla72->x()+25,ui->casilla72->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 73:
+            lb->setGeometry(ui->casilla73->x()+25,ui->casilla73->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 74:
+            lb->setGeometry(ui->casilla74->x()+25,ui->casilla74->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 75:
+            lb->setGeometry(ui->casilla75->x()+25,ui->casilla75->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 76:
+            lb->setGeometry(ui->casilla76->x()+25,ui->casilla76->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 77:
+            lb->setGeometry(ui->casilla77->x()+25,ui->casilla77->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 78:
+            lb->setGeometry(ui->casilla78->x()+25,ui->casilla78->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 79:
+            lb->setGeometry(ui->casilla79->x()+25,ui->casilla79->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+
+        }
+    }
+    if(casillaEstudiante - casillaTorre==-21){
+        QLabel *lb = new QLabel;
+        lb->setVisible(false);
+        lb->setPixmap(signoPregunta);
+
+        switch (casillaEstudiante) {
+
+        case 0:
+            lb->setGeometry(ui->casilla00->x()+25,ui->casilla00->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 1:
+            lb->setGeometry(ui->casilla01->x()+25,ui->casilla01->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 2:
+            lb->setGeometry(ui->casilla02->x()+25,ui->casilla02->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 3:
+            lb->setGeometry(ui->casilla03->x()+25,ui->casilla03->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 4:
+            lb->setGeometry(ui->casilla04->x()+25,ui->casilla04->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 5:
+            lb->setGeometry(ui->casilla05->x()+25,ui->casilla05->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 6:
+            lb->setGeometry(ui->casilla06->x()+25,ui->casilla06->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 7:
+            lb->setGeometry(ui->casilla07->x()+25,ui->casilla07->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 8:
+            lb->setGeometry(ui->casilla08->x()+25,ui->casilla08->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 10:
+            lb->setGeometry(ui->casilla10->x()+25,ui->casilla10->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 11:
+            lb->setGeometry(ui->casilla11->x()+25,ui->casilla11->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 12:
+            lb->setGeometry(ui->casilla12->x()+25,ui->casilla12->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 13:
+            lb->setGeometry(ui->casilla13->x()+25,ui->casilla13->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 14:
+            lb->setGeometry(ui->casilla14->x()+25,ui->casilla14->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 15:
+            lb->setGeometry(ui->casilla15->x()+25,ui->casilla15->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 16:
+            lb->setGeometry(ui->casilla16->x()+25,ui->casilla16->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 17:
+            lb->setGeometry(ui->casilla17->x()+25,ui->casilla17->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 18:
+            lb->setGeometry(ui->casilla18->x()+25,ui->casilla18->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 20:
+            lb->setGeometry(ui->casilla20->x()+25,ui->casilla20->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 21:
+            lb->setGeometry(ui->casilla21->x()+25,ui->casilla21->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 22:
+            lb->setGeometry(ui->casilla22->x()+25,ui->casilla22->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 23:
+            lb->setGeometry(ui->casilla23->x()+25,ui->casilla23->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 24:
+            lb->setGeometry(ui->casilla24->x()+25,ui->casilla24->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 25:
+            lb->setGeometry(ui->casilla25->x()+25,ui->casilla25->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 26:
+            lb->setGeometry(ui->casilla26->x()+25,ui->casilla26->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 27:
+            lb->setGeometry(ui->casilla27->x()+25,ui->casilla27->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 28:
+            lb->setGeometry(ui->casilla28->x()+25,ui->casilla28->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 30:
+            lb->setGeometry(ui->casilla30->x()+25,ui->casilla30->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 31:
+            lb->setGeometry(ui->casilla31->x()+25,ui->casilla31->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 32:
+            lb->setGeometry(ui->casilla32->x()+25,ui->casilla32->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 33:
+            lb->setGeometry(ui->casilla33->x()+25,ui->casilla33->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 34:
+            lb->setGeometry(ui->casilla34->x()+25,ui->casilla34->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 35:
+            lb->setGeometry(ui->casilla35->x()+25,ui->casilla35->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 36:
+            lb->setGeometry(ui->casilla36->x()+25,ui->casilla36->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 37:
+            lb->setGeometry(ui->casilla37->x()+25,ui->casilla37->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 38:
+            lb->setGeometry(ui->casilla38->x()+25,ui->casilla38->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 40:
+            lb->setGeometry(ui->casilla40->x()+25,ui->casilla40->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 41:
+            lb->setGeometry(ui->casilla41->x()+25,ui->casilla41->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 42:
+            lb->setGeometry(ui->casilla42->x()+25,ui->casilla42->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 43:
+            lb->setGeometry(ui->casilla43->x()+25,ui->casilla43->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 44:
+            lb->setGeometry(ui->casilla44->x()+25,ui->casilla44->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 45:
+            lb->setGeometry(ui->casilla45->x()+25,ui->casilla45->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 46:
+            lb->setGeometry(ui->casilla46->x()+25,ui->casilla46->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 47:
+            lb->setGeometry(ui->casilla47->x()+25,ui->casilla47->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 48:
+            lb->setGeometry(ui->casilla48->x()+25,ui->casilla48->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 50:
+            lb->setGeometry(ui->casilla50->x()+25,ui->casilla50->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 51:
+            lb->setGeometry(ui->casilla51->x()+25,ui->casilla51->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 52:
+            lb->setGeometry(ui->casilla52->x()+25,ui->casilla52->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 53:
+            lb->setGeometry(ui->casilla53->x()+25,ui->casilla53->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 54:
+            lb->setGeometry(ui->casilla54->x()+25,ui->casilla54->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 55:
+            lb->setGeometry(ui->casilla55->x()+25,ui->casilla55->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 56:
+            lb->setGeometry(ui->casilla56->x()+25,ui->casilla56->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 57:
+            lb->setGeometry(ui->casilla57->x()+25,ui->casilla57->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 58:
+            lb->setGeometry(ui->casilla58->x()+25,ui->casilla58->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 60:
+            lb->setGeometry(ui->casilla60->x()+25,ui->casilla60->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 61:
+            lb->setGeometry(ui->casilla61->x()+25,ui->casilla61->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 62:
+            lb->setGeometry(ui->casilla62->x()+25,ui->casilla62->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 63:
+            lb->setGeometry(ui->casilla63->x()+25,ui->casilla63->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 64:
+            lb->setGeometry(ui->casilla64->x()+25,ui->casilla64->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 65:
+            lb->setGeometry(ui->casilla65->x()+25,ui->casilla65->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 66:
+            lb->setGeometry(ui->casilla66->x()+25,ui->casilla66->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 67:
+            lb->setGeometry(ui->casilla67->x()+25,ui->casilla67->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 68:
+            lb->setGeometry(ui->casilla68->x()+25,ui->casilla68->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 70:
+            lb->setGeometry(ui->casilla70->x()+25,ui->casilla70->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 71:
+            lb->setGeometry(ui->casilla71->x()+25,ui->casilla71->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 72:
+            lb->setGeometry(ui->casilla72->x()+25,ui->casilla72->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 73:
+            lb->setGeometry(ui->casilla73->x()+25,ui->casilla73->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 74:
+            lb->setGeometry(ui->casilla74->x()+25,ui->casilla74->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 75:
+            lb->setGeometry(ui->casilla75->x()+25,ui->casilla75->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 76:
+            lb->setGeometry(ui->casilla76->x()+25,ui->casilla76->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 77:
+            lb->setGeometry(ui->casilla77->x()+25,ui->casilla77->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 78:
+            lb->setGeometry(ui->casilla78->x()+25,ui->casilla78->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+
+        }
+    }
+    if(casillaEstudiante - casillaTorre==-22){
+        QLabel *lb = new QLabel;
+        lb->setVisible(false);
+        lb->setPixmap(signoPregunta);
+
+        switch (casillaEstudiante) {
+
+        case 0:
+            lb->setGeometry(ui->casilla00->x()+25,ui->casilla00->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 1:
+            lb->setGeometry(ui->casilla01->x()+25,ui->casilla01->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 2:
+            lb->setGeometry(ui->casilla02->x()+25,ui->casilla02->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 3:
+            lb->setGeometry(ui->casilla03->x()+25,ui->casilla03->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 4:
+            lb->setGeometry(ui->casilla04->x()+25,ui->casilla04->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 5:
+            lb->setGeometry(ui->casilla05->x()+25,ui->casilla05->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 6:
+            lb->setGeometry(ui->casilla06->x()+25,ui->casilla06->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 7:
+            lb->setGeometry(ui->casilla07->x()+25,ui->casilla07->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 10:
+            lb->setGeometry(ui->casilla10->x()+25,ui->casilla10->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 11:
+            lb->setGeometry(ui->casilla11->x()+25,ui->casilla11->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 12:
+            lb->setGeometry(ui->casilla12->x()+25,ui->casilla12->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 13:
+            lb->setGeometry(ui->casilla13->x()+25,ui->casilla13->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 14:
+            lb->setGeometry(ui->casilla14->x()+25,ui->casilla14->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 15:
+            lb->setGeometry(ui->casilla15->x()+25,ui->casilla15->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 16:
+            lb->setGeometry(ui->casilla16->x()+25,ui->casilla16->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 17:
+            lb->setGeometry(ui->casilla17->x()+25,ui->casilla17->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 20:
+            lb->setGeometry(ui->casilla20->x()+25,ui->casilla20->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 21:
+            lb->setGeometry(ui->casilla21->x()+25,ui->casilla21->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 22:
+            lb->setGeometry(ui->casilla22->x()+25,ui->casilla22->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 23:
+            lb->setGeometry(ui->casilla23->x()+25,ui->casilla23->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 24:
+            lb->setGeometry(ui->casilla24->x()+25,ui->casilla24->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 25:
+            lb->setGeometry(ui->casilla25->x()+25,ui->casilla25->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 26:
+            lb->setGeometry(ui->casilla26->x()+25,ui->casilla26->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 27:
+            lb->setGeometry(ui->casilla27->x()+25,ui->casilla27->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 30:
+            lb->setGeometry(ui->casilla30->x()+25,ui->casilla30->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 31:
+            lb->setGeometry(ui->casilla31->x()+25,ui->casilla31->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 32:
+            lb->setGeometry(ui->casilla32->x()+25,ui->casilla32->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 33:
+            lb->setGeometry(ui->casilla33->x()+25,ui->casilla33->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 34:
+            lb->setGeometry(ui->casilla34->x()+25,ui->casilla34->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 35:
+            lb->setGeometry(ui->casilla35->x()+25,ui->casilla35->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 36:
+            lb->setGeometry(ui->casilla36->x()+25,ui->casilla36->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 37:
+            lb->setGeometry(ui->casilla37->x()+25,ui->casilla37->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 40:
+            lb->setGeometry(ui->casilla40->x()+25,ui->casilla40->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 41:
+            lb->setGeometry(ui->casilla41->x()+25,ui->casilla41->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 42:
+            lb->setGeometry(ui->casilla42->x()+25,ui->casilla42->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 43:
+            lb->setGeometry(ui->casilla43->x()+25,ui->casilla43->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 44:
+            lb->setGeometry(ui->casilla44->x()+25,ui->casilla44->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 45:
+            lb->setGeometry(ui->casilla45->x()+25,ui->casilla45->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 46:
+            lb->setGeometry(ui->casilla46->x()+25,ui->casilla46->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 47:
+            lb->setGeometry(ui->casilla47->x()+25,ui->casilla47->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 50:
+            lb->setGeometry(ui->casilla50->x()+25,ui->casilla50->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 51:
+            lb->setGeometry(ui->casilla51->x()+25,ui->casilla51->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 52:
+            lb->setGeometry(ui->casilla52->x()+25,ui->casilla52->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 53:
+            lb->setGeometry(ui->casilla53->x()+25,ui->casilla53->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 54:
+            lb->setGeometry(ui->casilla54->x()+25,ui->casilla54->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 55:
+            lb->setGeometry(ui->casilla55->x()+25,ui->casilla55->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 56:
+            lb->setGeometry(ui->casilla56->x()+25,ui->casilla56->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 57:
+            lb->setGeometry(ui->casilla57->x()+25,ui->casilla57->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 60:
+            lb->setGeometry(ui->casilla60->x()+25,ui->casilla60->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 61:
+            lb->setGeometry(ui->casilla61->x()+25,ui->casilla61->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 62:
+            lb->setGeometry(ui->casilla62->x()+25,ui->casilla62->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 63:
+            lb->setGeometry(ui->casilla63->x()+25,ui->casilla63->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 64:
+            lb->setGeometry(ui->casilla64->x()+25,ui->casilla64->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 65:
+            lb->setGeometry(ui->casilla65->x()+25,ui->casilla65->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 66:
+            lb->setGeometry(ui->casilla66->x()+25,ui->casilla66->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 67:
+            lb->setGeometry(ui->casilla67->x()+25,ui->casilla67->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 70:
+            lb->setGeometry(ui->casilla70->x()+25,ui->casilla70->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 71:
+            lb->setGeometry(ui->casilla71->x()+25,ui->casilla71->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 72:
+            lb->setGeometry(ui->casilla72->x()+25,ui->casilla72->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 73:
+            lb->setGeometry(ui->casilla73->x()+25,ui->casilla73->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 74:
+            lb->setGeometry(ui->casilla74->x()+25,ui->casilla74->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 75:
+            lb->setGeometry(ui->casilla75->x()+25,ui->casilla75->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 76:
+            lb->setGeometry(ui->casilla76->x()+25,ui->casilla76->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 77:
+            lb->setGeometry(ui->casilla77->x()+25,ui->casilla77->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+
+
+
+        }
+    }
 }
+
+void MainWindow::ataqueTorreArtillero(int casillaTorre, int casillaEstudiante)
+{
+    QPixmap signoPregunta(":/new/prefix1/signoPregunta.png");
+    if(casillaEstudiante - casillaTorre==11){
+        QLabel *lb = new QLabel;
+        lb->setVisible(false);
+        lb->setPixmap(signoPregunta);
+
+        switch (casillaEstudiante) {
+
+        case 11:
+            lb->setGeometry(ui->casilla11->x()+25,ui->casilla11->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 12:
+            lb->setGeometry(ui->casilla12->x()+25,ui->casilla12->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 13:
+            lb->setGeometry(ui->casilla13->x()+25,ui->casilla13->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 14:
+            lb->setGeometry(ui->casilla14->x()+25,ui->casilla14->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 15:
+            lb->setGeometry(ui->casilla15->x()+25,ui->casilla15->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 16:
+            lb->setGeometry(ui->casilla16->x()+25,ui->casilla16->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 17:
+            lb->setGeometry(ui->casilla17->x()+25,ui->casilla17->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 18:
+            lb->setGeometry(ui->casilla18->x()+25,ui->casilla18->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 19:
+            lb->setGeometry(ui->casilla19->x()+25,ui->casilla19->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 21:
+            lb->setGeometry(ui->casilla21->x()+25,ui->casilla21->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 22:
+            lb->setGeometry(ui->casilla22->x()+25,ui->casilla22->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 23:
+            lb->setGeometry(ui->casilla23->x()+25,ui->casilla23->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 24:
+            lb->setGeometry(ui->casilla24->x()+25,ui->casilla24->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 25:
+            lb->setGeometry(ui->casilla25->x()+25,ui->casilla25->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 26:
+            lb->setGeometry(ui->casilla26->x()+25,ui->casilla26->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 27:
+            lb->setGeometry(ui->casilla27->x()+25,ui->casilla27->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 28:
+            lb->setGeometry(ui->casilla28->x()+25,ui->casilla28->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 29:
+            lb->setGeometry(ui->casilla29->x()+25,ui->casilla29->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 31:
+            lb->setGeometry(ui->casilla31->x()+25,ui->casilla31->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 32:
+            lb->setGeometry(ui->casilla32->x()+25,ui->casilla32->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 33:
+            lb->setGeometry(ui->casilla33->x()+25,ui->casilla33->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 34:
+            lb->setGeometry(ui->casilla34->x()+25,ui->casilla34->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 35:
+            lb->setGeometry(ui->casilla35->x()+25,ui->casilla35->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 36:
+            lb->setGeometry(ui->casilla36->x()+25,ui->casilla36->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 37:
+            lb->setGeometry(ui->casilla37->x()+25,ui->casilla37->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 38:
+            lb->setGeometry(ui->casilla38->x()+25,ui->casilla38->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 39:
+            lb->setGeometry(ui->casilla39->x()+25,ui->casilla39->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 41:
+            lb->setGeometry(ui->casilla41->x()+25,ui->casilla41->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 42:
+            lb->setGeometry(ui->casilla42->x()+25,ui->casilla42->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 43:
+            lb->setGeometry(ui->casilla43->x()+25,ui->casilla43->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 44:
+            lb->setGeometry(ui->casilla44->x()+25,ui->casilla44->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 45:
+            lb->setGeometry(ui->casilla45->x()+25,ui->casilla45->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 46:
+            lb->setGeometry(ui->casilla46->x()+25,ui->casilla46->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 47:
+            lb->setGeometry(ui->casilla47->x()+25,ui->casilla47->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 48:
+            lb->setGeometry(ui->casilla48->x()+25,ui->casilla48->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 49:
+            lb->setGeometry(ui->casilla49->x()+25,ui->casilla49->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 51:
+            lb->setGeometry(ui->casilla51->x()+25,ui->casilla51->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 52:
+            lb->setGeometry(ui->casilla52->x()+25,ui->casilla52->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 53:
+            lb->setGeometry(ui->casilla53->x()+25,ui->casilla53->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 54:
+            lb->setGeometry(ui->casilla54->x()+25,ui->casilla54->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 55:
+            lb->setGeometry(ui->casilla55->x()+25,ui->casilla55->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 56:
+            lb->setGeometry(ui->casilla56->x()+25,ui->casilla56->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 57:
+            lb->setGeometry(ui->casilla57->x()+25,ui->casilla57->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 58:
+            lb->setGeometry(ui->casilla58->x()+25,ui->casilla58->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 59:
+            lb->setGeometry(ui->casilla59->x()+25,ui->casilla59->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 61:
+            lb->setGeometry(ui->casilla61->x()+25,ui->casilla61->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 62:
+            lb->setGeometry(ui->casilla62->x()+25,ui->casilla62->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 63:
+            lb->setGeometry(ui->casilla63->x()+25,ui->casilla63->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 64:
+            lb->setGeometry(ui->casilla64->x()+25,ui->casilla64->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 65:
+            lb->setGeometry(ui->casilla65->x()+25,ui->casilla65->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 66:
+            lb->setGeometry(ui->casilla66->x()+25,ui->casilla66->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 67:
+            lb->setGeometry(ui->casilla67->x()+25,ui->casilla67->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 68:
+            lb->setGeometry(ui->casilla68->x()+25,ui->casilla68->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 69:
+            lb->setGeometry(ui->casilla69->x()+25,ui->casilla69->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 71:
+            lb->setGeometry(ui->casilla71->x()+25,ui->casilla71->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 72:
+            lb->setGeometry(ui->casilla72->x()+25,ui->casilla72->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 73:
+            lb->setGeometry(ui->casilla73->x()+25,ui->casilla73->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 74:
+            lb->setGeometry(ui->casilla74->x()+25,ui->casilla74->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 75:
+            lb->setGeometry(ui->casilla75->x()+25,ui->casilla75->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 76:
+            lb->setGeometry(ui->casilla76->x()+25,ui->casilla76->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 77:
+            lb->setGeometry(ui->casilla77->x()+25,ui->casilla77->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 78:
+            lb->setGeometry(ui->casilla78->x()+25,ui->casilla78->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 79:
+            lb->setGeometry(ui->casilla79->x()+25,ui->casilla79->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 81:
+            lb->setGeometry(ui->casilla81->x()+25,ui->casilla81->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 82:
+            lb->setGeometry(ui->casilla82->x()+25,ui->casilla82->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 83:
+            lb->setGeometry(ui->casilla83->x()+25,ui->casilla83->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 84:
+            lb->setGeometry(ui->casilla84->x()+25,ui->casilla84->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 85:
+            lb->setGeometry(ui->casilla85->x()+25,ui->casilla85->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 86:
+            lb->setGeometry(ui->casilla86->x()+25,ui->casilla86->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 87:
+            lb->setGeometry(ui->casilla87->x()+25,ui->casilla87->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 88:
+            lb->setGeometry(ui->casilla88->x()+25,ui->casilla88->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 89:
+            lb->setGeometry(ui->casilla89->x()+25,ui->casilla89->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 91:
+            lb->setGeometry(ui->casilla91->x()+25,ui->casilla91->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 92:
+            lb->setGeometry(ui->casilla92->x()+25,ui->casilla92->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 93:
+            lb->setGeometry(ui->casilla93->x()+25,ui->casilla93->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 94:
+            lb->setGeometry(ui->casilla94->x()+25,ui->casilla94->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 95:
+            lb->setGeometry(ui->casilla95->x()+25,ui->casilla95->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 96:
+            lb->setGeometry(ui->casilla96->x()+25,ui->casilla96->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 97:
+            lb->setGeometry(ui->casilla97->x()+25,ui->casilla97->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 98:
+            lb->setGeometry(ui->casilla98->x()+25,ui->casilla98->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 99:
+            lb->setGeometry(ui->casilla99->x()+25,ui->casilla99->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        }
+    }
+    if(casillaEstudiante - casillaTorre==10){
+        QLabel *lb = new QLabel;
+        lb->setVisible(false);
+        lb->setPixmap(signoPregunta);
+
+        switch (casillaEstudiante) {
+
+        case 10:
+            lb->setGeometry(ui->casilla10->x()+25,ui->casilla10->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 11:
+            lb->setGeometry(ui->casilla11->x()+25,ui->casilla11->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 12:
+            lb->setGeometry(ui->casilla12->x()+25,ui->casilla12->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 13:
+            lb->setGeometry(ui->casilla13->x()+25,ui->casilla13->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 14:
+            lb->setGeometry(ui->casilla14->x()+25,ui->casilla14->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 15:
+            lb->setGeometry(ui->casilla15->x()+25,ui->casilla15->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 16:
+            lb->setGeometry(ui->casilla16->x()+25,ui->casilla16->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 17:
+            lb->setGeometry(ui->casilla17->x()+25,ui->casilla17->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 18:
+            lb->setGeometry(ui->casilla18->x()+25,ui->casilla18->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 19:
+            lb->setGeometry(ui->casilla19->x()+25,ui->casilla19->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 20:
+            lb->setGeometry(ui->casilla20->x()+25,ui->casilla20->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 21:
+            lb->setGeometry(ui->casilla21->x()+25,ui->casilla21->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 22:
+            lb->setGeometry(ui->casilla22->x()+25,ui->casilla22->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 23:
+            lb->setGeometry(ui->casilla23->x()+25,ui->casilla23->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 24:
+            lb->setGeometry(ui->casilla24->x()+25,ui->casilla24->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 25:
+            lb->setGeometry(ui->casilla25->x()+25,ui->casilla25->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 26:
+            lb->setGeometry(ui->casilla26->x()+25,ui->casilla26->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 27:
+            lb->setGeometry(ui->casilla27->x()+25,ui->casilla27->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 28:
+            lb->setGeometry(ui->casilla28->x()+25,ui->casilla28->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 29:
+            lb->setGeometry(ui->casilla29->x()+25,ui->casilla29->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 30:
+            lb->setGeometry(ui->casilla30->x()+25,ui->casilla30->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 31:
+            lb->setGeometry(ui->casilla31->x()+25,ui->casilla31->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 32:
+            lb->setGeometry(ui->casilla32->x()+25,ui->casilla32->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 33:
+            lb->setGeometry(ui->casilla33->x()+25,ui->casilla33->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 34:
+            lb->setGeometry(ui->casilla34->x()+25,ui->casilla34->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 35:
+            lb->setGeometry(ui->casilla35->x()+25,ui->casilla35->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 36:
+            lb->setGeometry(ui->casilla36->x()+25,ui->casilla36->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 37:
+            lb->setGeometry(ui->casilla37->x()+25,ui->casilla37->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 38:
+            lb->setGeometry(ui->casilla38->x()+25,ui->casilla38->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 39:
+            lb->setGeometry(ui->casilla39->x()+25,ui->casilla39->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 40:
+            lb->setGeometry(ui->casilla40->x()+25,ui->casilla40->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 41:
+            lb->setGeometry(ui->casilla41->x()+25,ui->casilla41->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 42:
+            lb->setGeometry(ui->casilla42->x()+25,ui->casilla42->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 43:
+            lb->setGeometry(ui->casilla43->x()+25,ui->casilla43->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 44:
+            lb->setGeometry(ui->casilla44->x()+25,ui->casilla44->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 45:
+            lb->setGeometry(ui->casilla45->x()+25,ui->casilla45->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 46:
+            lb->setGeometry(ui->casilla46->x()+25,ui->casilla46->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 47:
+            lb->setGeometry(ui->casilla47->x()+25,ui->casilla47->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 48:
+            lb->setGeometry(ui->casilla48->x()+25,ui->casilla48->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 49:
+            lb->setGeometry(ui->casilla49->x()+25,ui->casilla49->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 50:
+            lb->setGeometry(ui->casilla50->x()+25,ui->casilla50->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 51:
+            lb->setGeometry(ui->casilla51->x()+25,ui->casilla51->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 52:
+            lb->setGeometry(ui->casilla52->x()+25,ui->casilla52->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 53:
+            lb->setGeometry(ui->casilla53->x()+25,ui->casilla53->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 54:
+            lb->setGeometry(ui->casilla54->x()+25,ui->casilla54->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 55:
+            lb->setGeometry(ui->casilla55->x()+25,ui->casilla55->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 56:
+            lb->setGeometry(ui->casilla56->x()+25,ui->casilla56->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 57:
+            lb->setGeometry(ui->casilla57->x()+25,ui->casilla57->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 58:
+            lb->setGeometry(ui->casilla58->x()+25,ui->casilla58->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 59:
+            lb->setGeometry(ui->casilla59->x()+25,ui->casilla59->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 60:
+            lb->setGeometry(ui->casilla60->x()+25,ui->casilla60->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 61:
+            lb->setGeometry(ui->casilla61->x()+25,ui->casilla61->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 62:
+            lb->setGeometry(ui->casilla62->x()+25,ui->casilla62->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 63:
+            lb->setGeometry(ui->casilla63->x()+25,ui->casilla63->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 64:
+            lb->setGeometry(ui->casilla64->x()+25,ui->casilla64->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 65:
+            lb->setGeometry(ui->casilla65->x()+25,ui->casilla65->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 66:
+            lb->setGeometry(ui->casilla66->x()+25,ui->casilla66->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 67:
+            lb->setGeometry(ui->casilla67->x()+25,ui->casilla67->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 68:
+            lb->setGeometry(ui->casilla68->x()+25,ui->casilla68->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 69:
+            lb->setGeometry(ui->casilla69->x()+25,ui->casilla69->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 70:
+            lb->setGeometry(ui->casilla70->x()+25,ui->casilla70->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 71:
+            lb->setGeometry(ui->casilla71->x()+25,ui->casilla71->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 72:
+            lb->setGeometry(ui->casilla72->x()+25,ui->casilla72->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 73:
+            lb->setGeometry(ui->casilla73->x()+25,ui->casilla73->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 74:
+            lb->setGeometry(ui->casilla74->x()+25,ui->casilla74->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 75:
+            lb->setGeometry(ui->casilla75->x()+25,ui->casilla75->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 76:
+            lb->setGeometry(ui->casilla76->x()+25,ui->casilla76->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 77:
+            lb->setGeometry(ui->casilla77->x()+25,ui->casilla77->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 78:
+            lb->setGeometry(ui->casilla78->x()+25,ui->casilla78->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 79:
+            lb->setGeometry(ui->casilla79->x()+25,ui->casilla79->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 80:
+            lb->setGeometry(ui->casilla80->x()+25,ui->casilla80->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 81:
+            lb->setGeometry(ui->casilla81->x()+25,ui->casilla81->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 82:
+            lb->setGeometry(ui->casilla82->x()+25,ui->casilla82->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 83:
+            lb->setGeometry(ui->casilla83->x()+25,ui->casilla83->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 84:
+            lb->setGeometry(ui->casilla84->x()+25,ui->casilla84->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 85:
+            lb->setGeometry(ui->casilla85->x()+25,ui->casilla85->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 86:
+            lb->setGeometry(ui->casilla86->x()+25,ui->casilla86->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 87:
+            lb->setGeometry(ui->casilla87->x()+25,ui->casilla87->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 88:
+            lb->setGeometry(ui->casilla88->x()+25,ui->casilla88->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 89:
+            lb->setGeometry(ui->casilla89->x()+25,ui->casilla89->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 90:
+            lb->setGeometry(ui->casilla11->x()+25,ui->casilla11->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 91:
+            lb->setGeometry(ui->casilla91->x()+25,ui->casilla91->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 92:
+            lb->setGeometry(ui->casilla92->x()+25,ui->casilla92->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 93:
+            lb->setGeometry(ui->casilla93->x()+25,ui->casilla93->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 94:
+            lb->setGeometry(ui->casilla94->x()+25,ui->casilla94->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 95:
+            lb->setGeometry(ui->casilla95->x()+25,ui->casilla95->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 96:
+            lb->setGeometry(ui->casilla96->x()+25,ui->casilla96->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 97:
+            lb->setGeometry(ui->casilla97->x()+25,ui->casilla97->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 98:
+            lb->setGeometry(ui->casilla98->x()+25,ui->casilla98->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 99:
+            lb->setGeometry(ui->casilla99->x()+25,ui->casilla99->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        }
+    }
+
+    if(casillaEstudiante - casillaTorre==9){
+        QLabel *lb = new QLabel;
+        lb->setVisible(false);
+        lb->setPixmap(signoPregunta);
+
+        switch (casillaEstudiante) {
+
+        case 10:
+            lb->setGeometry(ui->casilla10->x()+25,ui->casilla10->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 11:
+            lb->setGeometry(ui->casilla11->x()+25,ui->casilla11->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 12:
+            lb->setGeometry(ui->casilla12->x()+25,ui->casilla12->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 13:
+            lb->setGeometry(ui->casilla13->x()+25,ui->casilla13->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 14:
+            lb->setGeometry(ui->casilla14->x()+25,ui->casilla14->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 15:
+            lb->setGeometry(ui->casilla15->x()+25,ui->casilla15->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 16:
+            lb->setGeometry(ui->casilla16->x()+25,ui->casilla16->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 17:
+            lb->setGeometry(ui->casilla17->x()+25,ui->casilla17->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 18:
+            lb->setGeometry(ui->casilla18->x()+25,ui->casilla18->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 20:
+            lb->setGeometry(ui->casilla20->x()+25,ui->casilla20->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 21:
+            lb->setGeometry(ui->casilla21->x()+25,ui->casilla21->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 22:
+            lb->setGeometry(ui->casilla22->x()+25,ui->casilla22->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 23:
+            lb->setGeometry(ui->casilla23->x()+25,ui->casilla23->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 24:
+            lb->setGeometry(ui->casilla24->x()+25,ui->casilla24->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 25:
+            lb->setGeometry(ui->casilla25->x()+25,ui->casilla25->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 26:
+            lb->setGeometry(ui->casilla26->x()+25,ui->casilla26->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 27:
+            lb->setGeometry(ui->casilla27->x()+25,ui->casilla27->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 28:
+            lb->setGeometry(ui->casilla28->x()+25,ui->casilla28->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 30:
+            lb->setGeometry(ui->casilla30->x()+25,ui->casilla30->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 31:
+            lb->setGeometry(ui->casilla31->x()+25,ui->casilla31->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 32:
+            lb->setGeometry(ui->casilla32->x()+25,ui->casilla32->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 33:
+            lb->setGeometry(ui->casilla33->x()+25,ui->casilla33->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 34:
+            lb->setGeometry(ui->casilla34->x()+25,ui->casilla34->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 35:
+            lb->setGeometry(ui->casilla35->x()+25,ui->casilla35->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 36:
+            lb->setGeometry(ui->casilla36->x()+25,ui->casilla36->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 37:
+            lb->setGeometry(ui->casilla37->x()+25,ui->casilla37->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 38:
+            lb->setGeometry(ui->casilla38->x()+25,ui->casilla38->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 40:
+            lb->setGeometry(ui->casilla40->x()+25,ui->casilla40->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 41:
+            lb->setGeometry(ui->casilla41->x()+25,ui->casilla41->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 42:
+            lb->setGeometry(ui->casilla42->x()+25,ui->casilla42->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 43:
+            lb->setGeometry(ui->casilla43->x()+25,ui->casilla43->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 44:
+            lb->setGeometry(ui->casilla44->x()+25,ui->casilla44->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 45:
+            lb->setGeometry(ui->casilla45->x()+25,ui->casilla45->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 46:
+            lb->setGeometry(ui->casilla46->x()+25,ui->casilla46->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 47:
+            lb->setGeometry(ui->casilla47->x()+25,ui->casilla47->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 48:
+            lb->setGeometry(ui->casilla48->x()+25,ui->casilla48->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 50:
+            lb->setGeometry(ui->casilla50->x()+25,ui->casilla50->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 51:
+            lb->setGeometry(ui->casilla51->x()+25,ui->casilla51->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 52:
+            lb->setGeometry(ui->casilla52->x()+25,ui->casilla52->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 53:
+            lb->setGeometry(ui->casilla53->x()+25,ui->casilla53->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 54:
+            lb->setGeometry(ui->casilla54->x()+25,ui->casilla54->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 55:
+            lb->setGeometry(ui->casilla55->x()+25,ui->casilla55->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 56:
+            lb->setGeometry(ui->casilla56->x()+25,ui->casilla56->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 57:
+            lb->setGeometry(ui->casilla57->x()+25,ui->casilla57->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 58:
+            lb->setGeometry(ui->casilla58->x()+25,ui->casilla58->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 60:
+            lb->setGeometry(ui->casilla60->x()+25,ui->casilla60->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 61:
+            lb->setGeometry(ui->casilla61->x()+25,ui->casilla61->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 62:
+            lb->setGeometry(ui->casilla62->x()+25,ui->casilla62->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 63:
+            lb->setGeometry(ui->casilla63->x()+25,ui->casilla63->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 64:
+            lb->setGeometry(ui->casilla64->x()+25,ui->casilla64->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 65:
+            lb->setGeometry(ui->casilla65->x()+25,ui->casilla65->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 66:
+            lb->setGeometry(ui->casilla66->x()+25,ui->casilla66->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 67:
+            lb->setGeometry(ui->casilla67->x()+25,ui->casilla67->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 68:
+            lb->setGeometry(ui->casilla68->x()+25,ui->casilla68->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 70:
+            lb->setGeometry(ui->casilla70->x()+25,ui->casilla70->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 71:
+            lb->setGeometry(ui->casilla71->x()+25,ui->casilla71->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 72:
+            lb->setGeometry(ui->casilla72->x()+25,ui->casilla72->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 73:
+            lb->setGeometry(ui->casilla73->x()+25,ui->casilla73->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 74:
+            lb->setGeometry(ui->casilla74->x()+25,ui->casilla74->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 75:
+            lb->setGeometry(ui->casilla75->x()+25,ui->casilla75->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 76:
+            lb->setGeometry(ui->casilla76->x()+25,ui->casilla76->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 77:
+            lb->setGeometry(ui->casilla77->x()+25,ui->casilla77->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 78:
+            lb->setGeometry(ui->casilla78->x()+25,ui->casilla78->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 80:
+            lb->setGeometry(ui->casilla80->x()+25,ui->casilla80->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 81:
+            lb->setGeometry(ui->casilla81->x()+25,ui->casilla81->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 82:
+            lb->setGeometry(ui->casilla82->x()+25,ui->casilla82->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 83:
+            lb->setGeometry(ui->casilla83->x()+25,ui->casilla83->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 84:
+            lb->setGeometry(ui->casilla84->x()+25,ui->casilla84->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 85:
+            lb->setGeometry(ui->casilla85->x()+25,ui->casilla85->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 86:
+            lb->setGeometry(ui->casilla86->x()+25,ui->casilla86->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 87:
+            lb->setGeometry(ui->casilla87->x()+25,ui->casilla87->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 88:
+            lb->setGeometry(ui->casilla88->x()+25,ui->casilla88->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 90:
+            lb->setGeometry(ui->casilla11->x()+25,ui->casilla11->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 91:
+            lb->setGeometry(ui->casilla91->x()+25,ui->casilla91->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 92:
+            lb->setGeometry(ui->casilla92->x()+25,ui->casilla92->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 93:
+            lb->setGeometry(ui->casilla93->x()+25,ui->casilla93->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 94:
+            lb->setGeometry(ui->casilla94->x()+25,ui->casilla94->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 95:
+            lb->setGeometry(ui->casilla95->x()+25,ui->casilla95->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 96:
+            lb->setGeometry(ui->casilla96->x()+25,ui->casilla96->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 97:
+            lb->setGeometry(ui->casilla97->x()+25,ui->casilla97->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 98:
+            lb->setGeometry(ui->casilla98->x()+25,ui->casilla98->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        }
+    }
+    if(casillaEstudiante - casillaTorre==1){
+        QLabel *lb = new QLabel;
+        lb->setVisible(false);
+        lb->setPixmap(signoPregunta);
+
+        switch (casillaEstudiante) {
+
+        case 1:
+            lb->setGeometry(ui->casilla01->x()+25,ui->casilla01->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 2:
+            lb->setGeometry(ui->casilla02->x()+25,ui->casilla02->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 3:
+            lb->setGeometry(ui->casilla03->x()+25,ui->casilla03->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 4:
+            lb->setGeometry(ui->casilla04->x()+25,ui->casilla04->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 5:
+            lb->setGeometry(ui->casilla05->x()+25,ui->casilla05->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 6:
+            lb->setGeometry(ui->casilla06->x()+25,ui->casilla06->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 7:
+            lb->setGeometry(ui->casilla07->x()+25,ui->casilla07->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 8:
+            lb->setGeometry(ui->casilla08->x()+25,ui->casilla08->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 9:
+            lb->setGeometry(ui->casilla09->x()+25,ui->casilla09->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 11:
+            lb->setGeometry(ui->casilla11->x()+25,ui->casilla11->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 12:
+            lb->setGeometry(ui->casilla12->x()+25,ui->casilla12->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 13:
+            lb->setGeometry(ui->casilla13->x()+25,ui->casilla13->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 14:
+            lb->setGeometry(ui->casilla14->x()+25,ui->casilla14->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 15:
+            lb->setGeometry(ui->casilla15->x()+25,ui->casilla15->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 16:
+            lb->setGeometry(ui->casilla16->x()+25,ui->casilla16->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 17:
+            lb->setGeometry(ui->casilla17->x()+25,ui->casilla17->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 18:
+            lb->setGeometry(ui->casilla18->x()+25,ui->casilla18->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 19:
+            lb->setGeometry(ui->casilla19->x()+25,ui->casilla19->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 21:
+            lb->setGeometry(ui->casilla21->x()+25,ui->casilla21->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 22:
+            lb->setGeometry(ui->casilla22->x()+25,ui->casilla22->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 23:
+            lb->setGeometry(ui->casilla23->x()+25,ui->casilla23->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 24:
+            lb->setGeometry(ui->casilla24->x()+25,ui->casilla24->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 25:
+            lb->setGeometry(ui->casilla25->x()+25,ui->casilla25->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 26:
+            lb->setGeometry(ui->casilla26->x()+25,ui->casilla26->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 27:
+            lb->setGeometry(ui->casilla27->x()+25,ui->casilla27->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 28:
+            lb->setGeometry(ui->casilla28->x()+25,ui->casilla28->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 29:
+            lb->setGeometry(ui->casilla29->x()+25,ui->casilla29->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 31:
+            lb->setGeometry(ui->casilla31->x()+25,ui->casilla31->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 32:
+            lb->setGeometry(ui->casilla32->x()+25,ui->casilla32->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 33:
+            lb->setGeometry(ui->casilla33->x()+25,ui->casilla33->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 34:
+            lb->setGeometry(ui->casilla34->x()+25,ui->casilla34->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 35:
+            lb->setGeometry(ui->casilla35->x()+25,ui->casilla35->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 36:
+            lb->setGeometry(ui->casilla36->x()+25,ui->casilla36->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 37:
+            lb->setGeometry(ui->casilla37->x()+25,ui->casilla37->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 38:
+            lb->setGeometry(ui->casilla38->x()+25,ui->casilla38->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 39:
+            lb->setGeometry(ui->casilla39->x()+25,ui->casilla39->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 41:
+            lb->setGeometry(ui->casilla41->x()+25,ui->casilla41->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 42:
+            lb->setGeometry(ui->casilla42->x()+25,ui->casilla42->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 43:
+            lb->setGeometry(ui->casilla43->x()+25,ui->casilla43->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 44:
+            lb->setGeometry(ui->casilla44->x()+25,ui->casilla44->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 45:
+            lb->setGeometry(ui->casilla45->x()+25,ui->casilla45->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 46:
+            lb->setGeometry(ui->casilla46->x()+25,ui->casilla46->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 47:
+            lb->setGeometry(ui->casilla47->x()+25,ui->casilla47->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 48:
+            lb->setGeometry(ui->casilla48->x()+25,ui->casilla48->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 49:
+            lb->setGeometry(ui->casilla49->x()+25,ui->casilla49->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 51:
+            lb->setGeometry(ui->casilla51->x()+25,ui->casilla51->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 52:
+            lb->setGeometry(ui->casilla52->x()+25,ui->casilla52->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 53:
+            lb->setGeometry(ui->casilla53->x()+25,ui->casilla53->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 54:
+            lb->setGeometry(ui->casilla54->x()+25,ui->casilla54->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 55:
+            lb->setGeometry(ui->casilla55->x()+25,ui->casilla55->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 56:
+            lb->setGeometry(ui->casilla56->x()+25,ui->casilla56->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 57:
+            lb->setGeometry(ui->casilla57->x()+25,ui->casilla57->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 58:
+            lb->setGeometry(ui->casilla58->x()+25,ui->casilla58->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 59:
+            lb->setGeometry(ui->casilla59->x()+25,ui->casilla59->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 61:
+            lb->setGeometry(ui->casilla61->x()+25,ui->casilla61->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 62:
+            lb->setGeometry(ui->casilla62->x()+25,ui->casilla62->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 63:
+            lb->setGeometry(ui->casilla63->x()+25,ui->casilla63->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 64:
+            lb->setGeometry(ui->casilla64->x()+25,ui->casilla64->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 65:
+            lb->setGeometry(ui->casilla65->x()+25,ui->casilla65->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 66:
+            lb->setGeometry(ui->casilla66->x()+25,ui->casilla66->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 67:
+            lb->setGeometry(ui->casilla67->x()+25,ui->casilla67->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 68:
+            lb->setGeometry(ui->casilla68->x()+25,ui->casilla68->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 69:
+            lb->setGeometry(ui->casilla69->x()+25,ui->casilla69->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 71:
+            lb->setGeometry(ui->casilla71->x()+25,ui->casilla71->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 72:
+            lb->setGeometry(ui->casilla72->x()+25,ui->casilla72->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 73:
+            lb->setGeometry(ui->casilla73->x()+25,ui->casilla73->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 74:
+            lb->setGeometry(ui->casilla74->x()+25,ui->casilla74->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 75:
+            lb->setGeometry(ui->casilla75->x()+25,ui->casilla75->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 76:
+            lb->setGeometry(ui->casilla76->x()+25,ui->casilla76->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 77:
+            lb->setGeometry(ui->casilla77->x()+25,ui->casilla77->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 78:
+            lb->setGeometry(ui->casilla78->x()+25,ui->casilla78->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 79:
+            lb->setGeometry(ui->casilla79->x()+25,ui->casilla79->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 81:
+            lb->setGeometry(ui->casilla81->x()+25,ui->casilla81->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 82:
+            lb->setGeometry(ui->casilla82->x()+25,ui->casilla82->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 83:
+            lb->setGeometry(ui->casilla83->x()+25,ui->casilla83->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 84:
+            lb->setGeometry(ui->casilla84->x()+25,ui->casilla84->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 85:
+            lb->setGeometry(ui->casilla85->x()+25,ui->casilla85->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 86:
+            lb->setGeometry(ui->casilla86->x()+25,ui->casilla86->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 87:
+            lb->setGeometry(ui->casilla87->x()+25,ui->casilla87->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 88:
+            lb->setGeometry(ui->casilla88->x()+25,ui->casilla88->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 89:
+            lb->setGeometry(ui->casilla89->x()+25,ui->casilla89->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 91:
+            lb->setGeometry(ui->casilla91->x()+25,ui->casilla91->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 92:
+            lb->setGeometry(ui->casilla92->x()+25,ui->casilla92->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 93:
+            lb->setGeometry(ui->casilla93->x()+25,ui->casilla93->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 94:
+            lb->setGeometry(ui->casilla94->x()+25,ui->casilla94->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 95:
+            lb->setGeometry(ui->casilla95->x()+25,ui->casilla95->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 96:
+            lb->setGeometry(ui->casilla96->x()+25,ui->casilla96->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 97:
+            lb->setGeometry(ui->casilla97->x()+25,ui->casilla97->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 98:
+            lb->setGeometry(ui->casilla98->x()+25,ui->casilla98->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 99:
+            lb->setGeometry(ui->casilla99->x()+25,ui->casilla99->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        }
+    }
+
+    if(casillaEstudiante - casillaTorre==-1){
+        QLabel *lb = new QLabel;
+        lb->setVisible(false);
+        lb->setPixmap(signoPregunta);
+
+        switch (casillaEstudiante) {
+
+        case 0:
+            lb->setGeometry(ui->casilla00->x()+25,ui->casilla00->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 1:
+            lb->setGeometry(ui->casilla01->x()+25,ui->casilla01->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 2:
+            lb->setGeometry(ui->casilla02->x()+25,ui->casilla02->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 3:
+            lb->setGeometry(ui->casilla03->x()+25,ui->casilla03->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 4:
+            lb->setGeometry(ui->casilla04->x()+25,ui->casilla04->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 5:
+            lb->setGeometry(ui->casilla05->x()+25,ui->casilla05->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 6:
+            lb->setGeometry(ui->casilla06->x()+25,ui->casilla06->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 7:
+            lb->setGeometry(ui->casilla07->x()+25,ui->casilla07->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 8:
+            lb->setGeometry(ui->casilla08->x()+25,ui->casilla08->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 10:
+            lb->setGeometry(ui->casilla10->x()+25,ui->casilla10->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 11:
+            lb->setGeometry(ui->casilla11->x()+25,ui->casilla11->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 12:
+            lb->setGeometry(ui->casilla12->x()+25,ui->casilla12->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 13:
+            lb->setGeometry(ui->casilla13->x()+25,ui->casilla13->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 14:
+            lb->setGeometry(ui->casilla14->x()+25,ui->casilla14->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 15:
+            lb->setGeometry(ui->casilla15->x()+25,ui->casilla15->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 16:
+            lb->setGeometry(ui->casilla16->x()+25,ui->casilla16->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 17:
+            lb->setGeometry(ui->casilla17->x()+25,ui->casilla17->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 18:
+            lb->setGeometry(ui->casilla18->x()+25,ui->casilla18->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 20:
+            lb->setGeometry(ui->casilla20->x()+25,ui->casilla20->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 21:
+            lb->setGeometry(ui->casilla21->x()+25,ui->casilla21->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 22:
+            lb->setGeometry(ui->casilla22->x()+25,ui->casilla22->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 23:
+            lb->setGeometry(ui->casilla23->x()+25,ui->casilla23->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 24:
+            lb->setGeometry(ui->casilla24->x()+25,ui->casilla24->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 25:
+            lb->setGeometry(ui->casilla25->x()+25,ui->casilla25->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 26:
+            lb->setGeometry(ui->casilla26->x()+25,ui->casilla26->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 27:
+            lb->setGeometry(ui->casilla27->x()+25,ui->casilla27->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 28:
+            lb->setGeometry(ui->casilla28->x()+25,ui->casilla28->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 30:
+            lb->setGeometry(ui->casilla30->x()+25,ui->casilla30->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 31:
+            lb->setGeometry(ui->casilla31->x()+25,ui->casilla31->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 32:
+            lb->setGeometry(ui->casilla32->x()+25,ui->casilla32->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 33:
+            lb->setGeometry(ui->casilla33->x()+25,ui->casilla33->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 34:
+            lb->setGeometry(ui->casilla34->x()+25,ui->casilla34->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 35:
+            lb->setGeometry(ui->casilla35->x()+25,ui->casilla35->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 36:
+            lb->setGeometry(ui->casilla36->x()+25,ui->casilla36->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 37:
+            lb->setGeometry(ui->casilla37->x()+25,ui->casilla37->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 38:
+            lb->setGeometry(ui->casilla38->x()+25,ui->casilla38->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 40:
+            lb->setGeometry(ui->casilla40->x()+25,ui->casilla40->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 41:
+            lb->setGeometry(ui->casilla41->x()+25,ui->casilla41->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 42:
+            lb->setGeometry(ui->casilla42->x()+25,ui->casilla42->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 43:
+            lb->setGeometry(ui->casilla43->x()+25,ui->casilla43->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 44:
+            lb->setGeometry(ui->casilla44->x()+25,ui->casilla44->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 45:
+            lb->setGeometry(ui->casilla45->x()+25,ui->casilla45->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 46:
+            lb->setGeometry(ui->casilla46->x()+25,ui->casilla46->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 47:
+            lb->setGeometry(ui->casilla47->x()+25,ui->casilla47->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 48:
+            lb->setGeometry(ui->casilla48->x()+25,ui->casilla48->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 50:
+            lb->setGeometry(ui->casilla50->x()+25,ui->casilla50->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 51:
+            lb->setGeometry(ui->casilla51->x()+25,ui->casilla51->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 52:
+            lb->setGeometry(ui->casilla52->x()+25,ui->casilla52->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 53:
+            lb->setGeometry(ui->casilla53->x()+25,ui->casilla53->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 54:
+            lb->setGeometry(ui->casilla54->x()+25,ui->casilla54->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 55:
+            lb->setGeometry(ui->casilla55->x()+25,ui->casilla55->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 56:
+            lb->setGeometry(ui->casilla56->x()+25,ui->casilla56->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 57:
+            lb->setGeometry(ui->casilla57->x()+25,ui->casilla57->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 58:
+            lb->setGeometry(ui->casilla58->x()+25,ui->casilla58->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 60:
+            lb->setGeometry(ui->casilla60->x()+25,ui->casilla60->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 61:
+            lb->setGeometry(ui->casilla61->x()+25,ui->casilla61->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 62:
+            lb->setGeometry(ui->casilla62->x()+25,ui->casilla62->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 63:
+            lb->setGeometry(ui->casilla63->x()+25,ui->casilla63->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 64:
+            lb->setGeometry(ui->casilla64->x()+25,ui->casilla64->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 65:
+            lb->setGeometry(ui->casilla65->x()+25,ui->casilla65->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 66:
+            lb->setGeometry(ui->casilla66->x()+25,ui->casilla66->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 67:
+            lb->setGeometry(ui->casilla67->x()+25,ui->casilla67->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 68:
+            lb->setGeometry(ui->casilla68->x()+25,ui->casilla68->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 70:
+            lb->setGeometry(ui->casilla70->x()+25,ui->casilla70->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 71:
+            lb->setGeometry(ui->casilla71->x()+25,ui->casilla71->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 72:
+            lb->setGeometry(ui->casilla72->x()+25,ui->casilla72->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 73:
+            lb->setGeometry(ui->casilla73->x()+25,ui->casilla73->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 74:
+            lb->setGeometry(ui->casilla74->x()+25,ui->casilla74->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 75:
+            lb->setGeometry(ui->casilla75->x()+25,ui->casilla75->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 76:
+            lb->setGeometry(ui->casilla76->x()+25,ui->casilla76->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 77:
+            lb->setGeometry(ui->casilla77->x()+25,ui->casilla77->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 78:
+            lb->setGeometry(ui->casilla78->x()+25,ui->casilla78->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 80:
+            lb->setGeometry(ui->casilla80->x()+25,ui->casilla80->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 81:
+            lb->setGeometry(ui->casilla81->x()+25,ui->casilla81->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 82:
+            lb->setGeometry(ui->casilla82->x()+25,ui->casilla82->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 83:
+            lb->setGeometry(ui->casilla83->x()+25,ui->casilla83->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 84:
+            lb->setGeometry(ui->casilla84->x()+25,ui->casilla84->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 85:
+            lb->setGeometry(ui->casilla85->x()+25,ui->casilla85->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 86:
+            lb->setGeometry(ui->casilla86->x()+25,ui->casilla86->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 87:
+            lb->setGeometry(ui->casilla87->x()+25,ui->casilla87->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 88:
+            lb->setGeometry(ui->casilla88->x()+25,ui->casilla88->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 90:
+            lb->setGeometry(ui->casilla90->x()+25,ui->casilla90->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 91:
+            lb->setGeometry(ui->casilla91->x()+25,ui->casilla91->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 92:
+            lb->setGeometry(ui->casilla92->x()+25,ui->casilla92->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 93:
+            lb->setGeometry(ui->casilla93->x()+25,ui->casilla93->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 94:
+            lb->setGeometry(ui->casilla94->x()+25,ui->casilla94->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 95:
+            lb->setGeometry(ui->casilla95->x()+25,ui->casilla95->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 96:
+            lb->setGeometry(ui->casilla96->x()+25,ui->casilla96->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 97:
+            lb->setGeometry(ui->casilla97->x()+25,ui->casilla97->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 98:
+            lb->setGeometry(ui->casilla98->x()+25,ui->casilla98->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+
+        }
+    }
+    if(casillaEstudiante - casillaTorre==-9){
+        QLabel *lb = new QLabel;
+        lb->setVisible(false);
+        lb->setPixmap(signoPregunta);
+
+        switch (casillaEstudiante) {
+
+
+        case 1:
+            lb->setGeometry(ui->casilla01->x()+25,ui->casilla01->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 2:
+            lb->setGeometry(ui->casilla02->x()+25,ui->casilla02->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 3:
+            lb->setGeometry(ui->casilla03->x()+25,ui->casilla03->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 4:
+            lb->setGeometry(ui->casilla04->x()+25,ui->casilla04->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 5:
+            lb->setGeometry(ui->casilla05->x()+25,ui->casilla05->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 6:
+            lb->setGeometry(ui->casilla06->x()+25,ui->casilla06->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 7:
+            lb->setGeometry(ui->casilla07->x()+25,ui->casilla07->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 8:
+            lb->setGeometry(ui->casilla08->x()+25,ui->casilla08->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 11:
+            lb->setGeometry(ui->casilla11->x()+25,ui->casilla11->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 12:
+            lb->setGeometry(ui->casilla12->x()+25,ui->casilla12->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 13:
+            lb->setGeometry(ui->casilla13->x()+25,ui->casilla13->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 14:
+            lb->setGeometry(ui->casilla14->x()+25,ui->casilla14->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 15:
+            lb->setGeometry(ui->casilla15->x()+25,ui->casilla15->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 16:
+            lb->setGeometry(ui->casilla16->x()+25,ui->casilla16->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 17:
+            lb->setGeometry(ui->casilla17->x()+25,ui->casilla17->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 18:
+            lb->setGeometry(ui->casilla18->x()+25,ui->casilla18->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 21:
+            lb->setGeometry(ui->casilla21->x()+25,ui->casilla21->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 22:
+            lb->setGeometry(ui->casilla22->x()+25,ui->casilla22->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 23:
+            lb->setGeometry(ui->casilla23->x()+25,ui->casilla23->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 24:
+            lb->setGeometry(ui->casilla24->x()+25,ui->casilla24->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 25:
+            lb->setGeometry(ui->casilla25->x()+25,ui->casilla25->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 26:
+            lb->setGeometry(ui->casilla26->x()+25,ui->casilla26->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 27:
+            lb->setGeometry(ui->casilla27->x()+25,ui->casilla27->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 28:
+            lb->setGeometry(ui->casilla28->x()+25,ui->casilla28->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 31:
+            lb->setGeometry(ui->casilla31->x()+25,ui->casilla31->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 32:
+            lb->setGeometry(ui->casilla32->x()+25,ui->casilla32->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 33:
+            lb->setGeometry(ui->casilla33->x()+25,ui->casilla33->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 34:
+            lb->setGeometry(ui->casilla34->x()+25,ui->casilla34->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 35:
+            lb->setGeometry(ui->casilla35->x()+25,ui->casilla35->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 36:
+            lb->setGeometry(ui->casilla36->x()+25,ui->casilla36->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 37:
+            lb->setGeometry(ui->casilla37->x()+25,ui->casilla37->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 38:
+            lb->setGeometry(ui->casilla38->x()+25,ui->casilla38->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 41:
+            lb->setGeometry(ui->casilla41->x()+25,ui->casilla41->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 42:
+            lb->setGeometry(ui->casilla42->x()+25,ui->casilla42->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 43:
+            lb->setGeometry(ui->casilla43->x()+25,ui->casilla43->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 44:
+            lb->setGeometry(ui->casilla44->x()+25,ui->casilla44->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 45:
+            lb->setGeometry(ui->casilla45->x()+25,ui->casilla45->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 46:
+            lb->setGeometry(ui->casilla46->x()+25,ui->casilla46->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 47:
+            lb->setGeometry(ui->casilla47->x()+25,ui->casilla47->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 48:
+            lb->setGeometry(ui->casilla48->x()+25,ui->casilla48->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 51:
+            lb->setGeometry(ui->casilla51->x()+25,ui->casilla51->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 52:
+            lb->setGeometry(ui->casilla52->x()+25,ui->casilla52->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 53:
+            lb->setGeometry(ui->casilla53->x()+25,ui->casilla53->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 54:
+            lb->setGeometry(ui->casilla54->x()+25,ui->casilla54->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 55:
+            lb->setGeometry(ui->casilla55->x()+25,ui->casilla55->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 56:
+            lb->setGeometry(ui->casilla56->x()+25,ui->casilla56->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 57:
+            lb->setGeometry(ui->casilla57->x()+25,ui->casilla57->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 58:
+            lb->setGeometry(ui->casilla58->x()+25,ui->casilla58->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 61:
+            lb->setGeometry(ui->casilla61->x()+25,ui->casilla61->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 62:
+            lb->setGeometry(ui->casilla62->x()+25,ui->casilla62->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 63:
+            lb->setGeometry(ui->casilla63->x()+25,ui->casilla63->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 64:
+            lb->setGeometry(ui->casilla64->x()+25,ui->casilla64->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 65:
+            lb->setGeometry(ui->casilla65->x()+25,ui->casilla65->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 66:
+            lb->setGeometry(ui->casilla66->x()+25,ui->casilla66->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 67:
+            lb->setGeometry(ui->casilla67->x()+25,ui->casilla67->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 68:
+            lb->setGeometry(ui->casilla68->x()+25,ui->casilla68->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 71:
+            lb->setGeometry(ui->casilla71->x()+25,ui->casilla71->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 72:
+            lb->setGeometry(ui->casilla72->x()+25,ui->casilla72->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 73:
+            lb->setGeometry(ui->casilla73->x()+25,ui->casilla73->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 74:
+            lb->setGeometry(ui->casilla74->x()+25,ui->casilla74->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 75:
+            lb->setGeometry(ui->casilla75->x()+25,ui->casilla75->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 76:
+            lb->setGeometry(ui->casilla76->x()+25,ui->casilla76->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 77:
+            lb->setGeometry(ui->casilla77->x()+25,ui->casilla77->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 78:
+            lb->setGeometry(ui->casilla78->x()+25,ui->casilla78->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 81:
+            lb->setGeometry(ui->casilla81->x()+25,ui->casilla81->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 82:
+            lb->setGeometry(ui->casilla82->x()+25,ui->casilla82->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 83:
+            lb->setGeometry(ui->casilla83->x()+25,ui->casilla83->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 84:
+            lb->setGeometry(ui->casilla84->x()+25,ui->casilla84->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 85:
+            lb->setGeometry(ui->casilla85->x()+25,ui->casilla85->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 86:
+            lb->setGeometry(ui->casilla86->x()+25,ui->casilla86->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 87:
+            lb->setGeometry(ui->casilla87->x()+25,ui->casilla87->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 88:
+            lb->setGeometry(ui->casilla88->x()+25,ui->casilla88->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        }
+    }
+    if(casillaEstudiante - casillaTorre==-10){
+        QLabel *lb = new QLabel;
+        lb->setVisible(false);
+        lb->setPixmap(signoPregunta);
+
+        switch (casillaEstudiante) {
+
+        case 0:
+            lb->setGeometry(ui->casilla00->x()+25,ui->casilla00->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 1:
+            lb->setGeometry(ui->casilla01->x()+25,ui->casilla01->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 2:
+            lb->setGeometry(ui->casilla02->x()+25,ui->casilla02->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 3:
+            lb->setGeometry(ui->casilla03->x()+25,ui->casilla03->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 4:
+            lb->setGeometry(ui->casilla04->x()+25,ui->casilla04->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 5:
+            lb->setGeometry(ui->casilla05->x()+25,ui->casilla05->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 6:
+            lb->setGeometry(ui->casilla06->x()+25,ui->casilla06->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 7:
+            lb->setGeometry(ui->casilla07->x()+25,ui->casilla07->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 8:
+            lb->setGeometry(ui->casilla08->x()+25,ui->casilla08->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 9:
+            lb->setGeometry(ui->casilla09->x()+25,ui->casilla09->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 10:
+            lb->setGeometry(ui->casilla10->x()+25,ui->casilla10->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 11:
+            lb->setGeometry(ui->casilla11->x()+25,ui->casilla11->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 12:
+            lb->setGeometry(ui->casilla12->x()+25,ui->casilla12->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 13:
+            lb->setGeometry(ui->casilla13->x()+25,ui->casilla13->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 14:
+            lb->setGeometry(ui->casilla14->x()+25,ui->casilla14->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 15:
+            lb->setGeometry(ui->casilla15->x()+25,ui->casilla15->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 16:
+            lb->setGeometry(ui->casilla16->x()+25,ui->casilla16->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 17:
+            lb->setGeometry(ui->casilla17->x()+25,ui->casilla17->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 18:
+            lb->setGeometry(ui->casilla18->x()+25,ui->casilla18->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 19:
+            lb->setGeometry(ui->casilla19->x()+25,ui->casilla19->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 20:
+            lb->setGeometry(ui->casilla20->x()+25,ui->casilla20->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 21:
+            lb->setGeometry(ui->casilla21->x()+25,ui->casilla21->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 22:
+            lb->setGeometry(ui->casilla22->x()+25,ui->casilla22->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 23:
+            lb->setGeometry(ui->casilla23->x()+25,ui->casilla23->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 24:
+            lb->setGeometry(ui->casilla24->x()+25,ui->casilla24->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 25:
+            lb->setGeometry(ui->casilla25->x()+25,ui->casilla25->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 26:
+            lb->setGeometry(ui->casilla26->x()+25,ui->casilla26->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 27:
+            lb->setGeometry(ui->casilla27->x()+25,ui->casilla27->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 28:
+            lb->setGeometry(ui->casilla28->x()+25,ui->casilla28->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 29:
+            lb->setGeometry(ui->casilla29->x()+25,ui->casilla29->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 30:
+            lb->setGeometry(ui->casilla30->x()+25,ui->casilla30->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 31:
+            lb->setGeometry(ui->casilla31->x()+25,ui->casilla31->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 32:
+            lb->setGeometry(ui->casilla32->x()+25,ui->casilla32->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 33:
+            lb->setGeometry(ui->casilla33->x()+25,ui->casilla33->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 34:
+            lb->setGeometry(ui->casilla34->x()+25,ui->casilla34->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 35:
+            lb->setGeometry(ui->casilla35->x()+25,ui->casilla35->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 36:
+            lb->setGeometry(ui->casilla36->x()+25,ui->casilla36->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 37:
+            lb->setGeometry(ui->casilla37->x()+25,ui->casilla37->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 38:
+            lb->setGeometry(ui->casilla38->x()+25,ui->casilla38->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 39:
+            lb->setGeometry(ui->casilla39->x()+25,ui->casilla39->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 40:
+            lb->setGeometry(ui->casilla40->x()+25,ui->casilla40->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 41:
+            lb->setGeometry(ui->casilla41->x()+25,ui->casilla41->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 42:
+            lb->setGeometry(ui->casilla42->x()+25,ui->casilla42->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 43:
+            lb->setGeometry(ui->casilla43->x()+25,ui->casilla43->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 44:
+            lb->setGeometry(ui->casilla44->x()+25,ui->casilla44->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 45:
+            lb->setGeometry(ui->casilla45->x()+25,ui->casilla45->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 46:
+            lb->setGeometry(ui->casilla46->x()+25,ui->casilla46->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 47:
+            lb->setGeometry(ui->casilla47->x()+25,ui->casilla47->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 48:
+            lb->setGeometry(ui->casilla48->x()+25,ui->casilla48->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 49:
+            lb->setGeometry(ui->casilla49->x()+25,ui->casilla49->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 50:
+            lb->setGeometry(ui->casilla50->x()+25,ui->casilla50->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 51:
+            lb->setGeometry(ui->casilla51->x()+25,ui->casilla51->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 52:
+            lb->setGeometry(ui->casilla52->x()+25,ui->casilla52->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 53:
+            lb->setGeometry(ui->casilla53->x()+25,ui->casilla53->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 54:
+            lb->setGeometry(ui->casilla54->x()+25,ui->casilla54->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 55:
+            lb->setGeometry(ui->casilla55->x()+25,ui->casilla55->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 56:
+            lb->setGeometry(ui->casilla56->x()+25,ui->casilla56->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 57:
+            lb->setGeometry(ui->casilla57->x()+25,ui->casilla57->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 58:
+            lb->setGeometry(ui->casilla58->x()+25,ui->casilla58->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 59:
+            lb->setGeometry(ui->casilla59->x()+25,ui->casilla59->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 60:
+            lb->setGeometry(ui->casilla60->x()+25,ui->casilla60->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 61:
+            lb->setGeometry(ui->casilla61->x()+25,ui->casilla61->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 62:
+            lb->setGeometry(ui->casilla62->x()+25,ui->casilla62->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 63:
+            lb->setGeometry(ui->casilla63->x()+25,ui->casilla63->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 64:
+            lb->setGeometry(ui->casilla64->x()+25,ui->casilla64->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 65:
+            lb->setGeometry(ui->casilla65->x()+25,ui->casilla65->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 66:
+            lb->setGeometry(ui->casilla66->x()+25,ui->casilla66->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 67:
+            lb->setGeometry(ui->casilla67->x()+25,ui->casilla67->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 68:
+            lb->setGeometry(ui->casilla68->x()+25,ui->casilla68->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 69:
+            lb->setGeometry(ui->casilla69->x()+25,ui->casilla69->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 70:
+            lb->setGeometry(ui->casilla70->x()+25,ui->casilla70->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 71:
+            lb->setGeometry(ui->casilla71->x()+25,ui->casilla71->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 72:
+            lb->setGeometry(ui->casilla72->x()+25,ui->casilla72->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 73:
+            lb->setGeometry(ui->casilla73->x()+25,ui->casilla73->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 74:
+            lb->setGeometry(ui->casilla74->x()+25,ui->casilla74->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 75:
+            lb->setGeometry(ui->casilla75->x()+25,ui->casilla75->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 76:
+            lb->setGeometry(ui->casilla76->x()+25,ui->casilla76->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 77:
+            lb->setGeometry(ui->casilla77->x()+25,ui->casilla77->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 78:
+            lb->setGeometry(ui->casilla78->x()+25,ui->casilla78->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 79:
+            lb->setGeometry(ui->casilla79->x()+25,ui->casilla79->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 80:
+            lb->setGeometry(ui->casilla80->x()+25,ui->casilla80->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 81:
+            lb->setGeometry(ui->casilla81->x()+25,ui->casilla81->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 82:
+            lb->setGeometry(ui->casilla82->x()+25,ui->casilla82->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 83:
+            lb->setGeometry(ui->casilla83->x()+25,ui->casilla83->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 84:
+            lb->setGeometry(ui->casilla84->x()+25,ui->casilla84->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 85:
+            lb->setGeometry(ui->casilla85->x()+25,ui->casilla85->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 86:
+            lb->setGeometry(ui->casilla86->x()+25,ui->casilla86->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 87:
+            lb->setGeometry(ui->casilla87->x()+25,ui->casilla87->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 88:
+            lb->setGeometry(ui->casilla88->x()+25,ui->casilla88->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 89:
+            lb->setGeometry(ui->casilla89->x()+25,ui->casilla89->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+
+        }
+    }
+    if(casillaEstudiante - casillaTorre==-11){
+        QLabel *lb = new QLabel;
+        lb->setVisible(false);
+        lb->setPixmap(signoPregunta);
+
+        switch (casillaEstudiante) {
+
+        case 0:
+            lb->setGeometry(ui->casilla00->x()+25,ui->casilla00->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 1:
+            lb->setGeometry(ui->casilla01->x()+25,ui->casilla01->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 2:
+            lb->setGeometry(ui->casilla02->x()+25,ui->casilla02->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 3:
+            lb->setGeometry(ui->casilla03->x()+25,ui->casilla03->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 4:
+            lb->setGeometry(ui->casilla04->x()+25,ui->casilla04->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 5:
+            lb->setGeometry(ui->casilla05->x()+25,ui->casilla05->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 6:
+            lb->setGeometry(ui->casilla06->x()+25,ui->casilla06->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 7:
+            lb->setGeometry(ui->casilla07->x()+25,ui->casilla07->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 8:
+            lb->setGeometry(ui->casilla08->x()+25,ui->casilla08->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 10:
+            lb->setGeometry(ui->casilla10->x()+25,ui->casilla10->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 11:
+            lb->setGeometry(ui->casilla11->x()+25,ui->casilla11->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 12:
+            lb->setGeometry(ui->casilla12->x()+25,ui->casilla12->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 13:
+            lb->setGeometry(ui->casilla13->x()+25,ui->casilla13->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 14:
+            lb->setGeometry(ui->casilla14->x()+25,ui->casilla14->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 15:
+            lb->setGeometry(ui->casilla15->x()+25,ui->casilla15->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 16:
+            lb->setGeometry(ui->casilla16->x()+25,ui->casilla16->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 17:
+            lb->setGeometry(ui->casilla17->x()+25,ui->casilla17->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 18:
+            lb->setGeometry(ui->casilla18->x()+25,ui->casilla18->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 20:
+            lb->setGeometry(ui->casilla20->x()+25,ui->casilla20->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 21:
+            lb->setGeometry(ui->casilla21->x()+25,ui->casilla21->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 22:
+            lb->setGeometry(ui->casilla22->x()+25,ui->casilla22->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 23:
+            lb->setGeometry(ui->casilla23->x()+25,ui->casilla23->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 24:
+            lb->setGeometry(ui->casilla24->x()+25,ui->casilla24->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 25:
+            lb->setGeometry(ui->casilla25->x()+25,ui->casilla25->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 26:
+            lb->setGeometry(ui->casilla26->x()+25,ui->casilla26->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 27:
+            lb->setGeometry(ui->casilla27->x()+25,ui->casilla27->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 28:
+            lb->setGeometry(ui->casilla28->x()+25,ui->casilla28->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 30:
+            lb->setGeometry(ui->casilla30->x()+25,ui->casilla30->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 31:
+            lb->setGeometry(ui->casilla31->x()+25,ui->casilla31->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 32:
+            lb->setGeometry(ui->casilla32->x()+25,ui->casilla32->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 33:
+            lb->setGeometry(ui->casilla33->x()+25,ui->casilla33->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 34:
+            lb->setGeometry(ui->casilla34->x()+25,ui->casilla34->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 35:
+            lb->setGeometry(ui->casilla35->x()+25,ui->casilla35->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 36:
+            lb->setGeometry(ui->casilla36->x()+25,ui->casilla36->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 37:
+            lb->setGeometry(ui->casilla37->x()+25,ui->casilla37->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 38:
+            lb->setGeometry(ui->casilla38->x()+25,ui->casilla38->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 40:
+            lb->setGeometry(ui->casilla40->x()+25,ui->casilla40->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 41:
+            lb->setGeometry(ui->casilla41->x()+25,ui->casilla41->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 42:
+            lb->setGeometry(ui->casilla42->x()+25,ui->casilla42->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 43:
+            lb->setGeometry(ui->casilla43->x()+25,ui->casilla43->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 44:
+            lb->setGeometry(ui->casilla44->x()+25,ui->casilla44->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 45:
+            lb->setGeometry(ui->casilla45->x()+25,ui->casilla45->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 46:
+            lb->setGeometry(ui->casilla46->x()+25,ui->casilla46->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 47:
+            lb->setGeometry(ui->casilla47->x()+25,ui->casilla47->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 48:
+            lb->setGeometry(ui->casilla48->x()+25,ui->casilla48->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 50:
+            lb->setGeometry(ui->casilla50->x()+25,ui->casilla50->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 51:
+            lb->setGeometry(ui->casilla51->x()+25,ui->casilla51->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 52:
+            lb->setGeometry(ui->casilla52->x()+25,ui->casilla52->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 53:
+            lb->setGeometry(ui->casilla53->x()+25,ui->casilla53->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 54:
+            lb->setGeometry(ui->casilla54->x()+25,ui->casilla54->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 55:
+            lb->setGeometry(ui->casilla55->x()+25,ui->casilla55->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 56:
+            lb->setGeometry(ui->casilla56->x()+25,ui->casilla56->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 57:
+            lb->setGeometry(ui->casilla57->x()+25,ui->casilla57->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 58:
+            lb->setGeometry(ui->casilla58->x()+25,ui->casilla58->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 60:
+            lb->setGeometry(ui->casilla60->x()+25,ui->casilla60->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 61:
+            lb->setGeometry(ui->casilla61->x()+25,ui->casilla61->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 62:
+            lb->setGeometry(ui->casilla62->x()+25,ui->casilla62->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 63:
+            lb->setGeometry(ui->casilla63->x()+25,ui->casilla63->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 64:
+            lb->setGeometry(ui->casilla64->x()+25,ui->casilla64->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 65:
+            lb->setGeometry(ui->casilla65->x()+25,ui->casilla65->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 66:
+            lb->setGeometry(ui->casilla66->x()+25,ui->casilla66->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 67:
+            lb->setGeometry(ui->casilla67->x()+25,ui->casilla67->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 68:
+            lb->setGeometry(ui->casilla68->x()+25,ui->casilla68->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 70:
+            lb->setGeometry(ui->casilla70->x()+25,ui->casilla70->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 71:
+            lb->setGeometry(ui->casilla71->x()+25,ui->casilla71->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 72:
+            lb->setGeometry(ui->casilla72->x()+25,ui->casilla72->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 73:
+            lb->setGeometry(ui->casilla73->x()+25,ui->casilla73->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 74:
+            lb->setGeometry(ui->casilla74->x()+25,ui->casilla74->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 75:
+            lb->setGeometry(ui->casilla75->x()+25,ui->casilla75->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 76:
+            lb->setGeometry(ui->casilla76->x()+25,ui->casilla76->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 77:
+            lb->setGeometry(ui->casilla77->x()+25,ui->casilla77->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 78:
+            lb->setGeometry(ui->casilla78->x()+25,ui->casilla78->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 80:
+            lb->setGeometry(ui->casilla80->x()+25,ui->casilla80->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 81:
+            lb->setGeometry(ui->casilla81->x()+25,ui->casilla81->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 82:
+            lb->setGeometry(ui->casilla82->x()+25,ui->casilla82->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 83:
+            lb->setGeometry(ui->casilla83->x()+25,ui->casilla83->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 84:
+            lb->setGeometry(ui->casilla84->x()+25,ui->casilla84->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 85:
+            lb->setGeometry(ui->casilla85->x()+25,ui->casilla85->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 86:
+            lb->setGeometry(ui->casilla86->x()+25,ui->casilla86->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 87:
+            lb->setGeometry(ui->casilla87->x()+25,ui->casilla87->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 88:
+            lb->setGeometry(ui->casilla88->x()+25,ui->casilla88->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        }
+    }
+
+    if(casillaEstudiante - casillaTorre==22){
+        QLabel *lb = new QLabel;
+        lb->setVisible(false);
+        lb->setPixmap(signoPregunta);
+
+        switch (casillaEstudiante) {
+
+        case 22:
+            lb->setGeometry(ui->casilla22->x()+25,ui->casilla22->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 23:
+            lb->setGeometry(ui->casilla23->x()+25,ui->casilla23->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 24:
+            lb->setGeometry(ui->casilla24->x()+25,ui->casilla24->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 25:
+            lb->setGeometry(ui->casilla25->x()+25,ui->casilla25->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 26:
+            lb->setGeometry(ui->casilla26->x()+25,ui->casilla26->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 27:
+            lb->setGeometry(ui->casilla27->x()+25,ui->casilla27->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 28:
+            lb->setGeometry(ui->casilla28->x()+25,ui->casilla28->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 29:
+            lb->setGeometry(ui->casilla29->x()+25,ui->casilla29->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 30:
+            lb->setGeometry(ui->casilla30->x()+25,ui->casilla30->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 31:
+            lb->setGeometry(ui->casilla31->x()+25,ui->casilla31->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 32:
+            lb->setGeometry(ui->casilla32->x()+25,ui->casilla32->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 33:
+            lb->setGeometry(ui->casilla33->x()+25,ui->casilla33->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 34:
+            lb->setGeometry(ui->casilla34->x()+25,ui->casilla34->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 35:
+            lb->setGeometry(ui->casilla35->x()+25,ui->casilla35->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 36:
+            lb->setGeometry(ui->casilla36->x()+25,ui->casilla36->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 37:
+            lb->setGeometry(ui->casilla37->x()+25,ui->casilla37->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 38:
+            lb->setGeometry(ui->casilla38->x()+25,ui->casilla38->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 39:
+            lb->setGeometry(ui->casilla39->x()+25,ui->casilla39->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 40:
+            lb->setGeometry(ui->casilla40->x()+25,ui->casilla40->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 41:
+            lb->setGeometry(ui->casilla41->x()+25,ui->casilla41->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 42:
+            lb->setGeometry(ui->casilla42->x()+25,ui->casilla42->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 43:
+            lb->setGeometry(ui->casilla43->x()+25,ui->casilla43->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 44:
+            lb->setGeometry(ui->casilla44->x()+25,ui->casilla44->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 45:
+            lb->setGeometry(ui->casilla45->x()+25,ui->casilla45->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 46:
+            lb->setGeometry(ui->casilla46->x()+25,ui->casilla46->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 47:
+            lb->setGeometry(ui->casilla47->x()+25,ui->casilla47->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 48:
+            lb->setGeometry(ui->casilla48->x()+25,ui->casilla48->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 49:
+            lb->setGeometry(ui->casilla49->x()+25,ui->casilla49->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 50:
+            lb->setGeometry(ui->casilla50->x()+25,ui->casilla50->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 51:
+            lb->setGeometry(ui->casilla51->x()+25,ui->casilla51->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 52:
+            lb->setGeometry(ui->casilla52->x()+25,ui->casilla52->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 53:
+            lb->setGeometry(ui->casilla53->x()+25,ui->casilla53->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 54:
+            lb->setGeometry(ui->casilla54->x()+25,ui->casilla54->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 55:
+            lb->setGeometry(ui->casilla55->x()+25,ui->casilla55->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 56:
+            lb->setGeometry(ui->casilla56->x()+25,ui->casilla56->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 57:
+            lb->setGeometry(ui->casilla57->x()+25,ui->casilla57->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 58:
+            lb->setGeometry(ui->casilla58->x()+25,ui->casilla58->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 59:
+            lb->setGeometry(ui->casilla59->x()+25,ui->casilla59->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 60:
+            lb->setGeometry(ui->casilla60->x()+25,ui->casilla60->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 61:
+            lb->setGeometry(ui->casilla61->x()+25,ui->casilla61->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 62:
+            lb->setGeometry(ui->casilla62->x()+25,ui->casilla62->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 63:
+            lb->setGeometry(ui->casilla63->x()+25,ui->casilla63->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 64:
+            lb->setGeometry(ui->casilla64->x()+25,ui->casilla64->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 65:
+            lb->setGeometry(ui->casilla65->x()+25,ui->casilla65->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 66:
+            lb->setGeometry(ui->casilla66->x()+25,ui->casilla66->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 67:
+            lb->setGeometry(ui->casilla67->x()+25,ui->casilla67->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 68:
+            lb->setGeometry(ui->casilla68->x()+25,ui->casilla68->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 69:
+            lb->setGeometry(ui->casilla69->x()+25,ui->casilla69->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 70:
+            lb->setGeometry(ui->casilla70->x()+25,ui->casilla70->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 71:
+            lb->setGeometry(ui->casilla71->x()+25,ui->casilla71->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 72:
+            lb->setGeometry(ui->casilla72->x()+25,ui->casilla72->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 73:
+            lb->setGeometry(ui->casilla73->x()+25,ui->casilla73->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 74:
+            lb->setGeometry(ui->casilla74->x()+25,ui->casilla74->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 75:
+            lb->setGeometry(ui->casilla75->x()+25,ui->casilla75->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 76:
+            lb->setGeometry(ui->casilla76->x()+25,ui->casilla76->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 77:
+            lb->setGeometry(ui->casilla77->x()+25,ui->casilla77->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 78:
+            lb->setGeometry(ui->casilla78->x()+25,ui->casilla78->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 79:
+            lb->setGeometry(ui->casilla79->x()+25,ui->casilla79->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 80:
+            lb->setGeometry(ui->casilla80->x()+25,ui->casilla80->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 81:
+            lb->setGeometry(ui->casilla81->x()+25,ui->casilla81->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 82:
+            lb->setGeometry(ui->casilla82->x()+25,ui->casilla82->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 83:
+            lb->setGeometry(ui->casilla83->x()+25,ui->casilla83->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 84:
+            lb->setGeometry(ui->casilla84->x()+25,ui->casilla84->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 85:
+            lb->setGeometry(ui->casilla85->x()+25,ui->casilla85->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 86:
+            lb->setGeometry(ui->casilla86->x()+25,ui->casilla86->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 87:
+            lb->setGeometry(ui->casilla87->x()+25,ui->casilla87->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 88:
+            lb->setGeometry(ui->casilla88->x()+25,ui->casilla88->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 89:
+            lb->setGeometry(ui->casilla89->x()+25,ui->casilla89->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 90:
+            lb->setGeometry(ui->casilla90->x()+25,ui->casilla90->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 91:
+            lb->setGeometry(ui->casilla91->x()+25,ui->casilla91->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 92:
+            lb->setGeometry(ui->casilla92->x()+25,ui->casilla92->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 93:
+            lb->setGeometry(ui->casilla93->x()+25,ui->casilla93->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 94:
+            lb->setGeometry(ui->casilla94->x()+25,ui->casilla94->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 95:
+            lb->setGeometry(ui->casilla95->x()+25,ui->casilla95->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 96:
+            lb->setGeometry(ui->casilla96->x()+25,ui->casilla96->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 97:
+            lb->setGeometry(ui->casilla97->x()+25,ui->casilla97->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 98:
+            lb->setGeometry(ui->casilla98->x()+25,ui->casilla98->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 99:
+            lb->setGeometry(ui->casilla99->x()+25,ui->casilla99->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+
+        }
+    }
+    if(casillaEstudiante - casillaTorre==21){
+        QLabel *lb = new QLabel;
+        lb->setVisible(false);
+        lb->setPixmap(signoPregunta);
+
+        switch (casillaEstudiante) {
+
+        case 21:
+            lb->setGeometry(ui->casilla21->x()+25,ui->casilla21->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 22:
+            lb->setGeometry(ui->casilla22->x()+25,ui->casilla22->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 23:
+            lb->setGeometry(ui->casilla23->x()+25,ui->casilla23->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 24:
+            lb->setGeometry(ui->casilla24->x()+25,ui->casilla24->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 25:
+            lb->setGeometry(ui->casilla25->x()+25,ui->casilla25->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 26:
+            lb->setGeometry(ui->casilla26->x()+25,ui->casilla26->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 27:
+            lb->setGeometry(ui->casilla27->x()+25,ui->casilla27->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 28:
+            lb->setGeometry(ui->casilla28->x()+25,ui->casilla28->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 29:
+            lb->setGeometry(ui->casilla29->x()+25,ui->casilla29->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 31:
+            lb->setGeometry(ui->casilla31->x()+25,ui->casilla31->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 32:
+            lb->setGeometry(ui->casilla32->x()+25,ui->casilla32->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 33:
+            lb->setGeometry(ui->casilla33->x()+25,ui->casilla33->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 34:
+            lb->setGeometry(ui->casilla34->x()+25,ui->casilla34->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 35:
+            lb->setGeometry(ui->casilla35->x()+25,ui->casilla35->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 36:
+            lb->setGeometry(ui->casilla36->x()+25,ui->casilla36->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 37:
+            lb->setGeometry(ui->casilla37->x()+25,ui->casilla37->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 38:
+            lb->setGeometry(ui->casilla38->x()+25,ui->casilla38->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 39:
+            lb->setGeometry(ui->casilla39->x()+25,ui->casilla39->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 41:
+            lb->setGeometry(ui->casilla41->x()+25,ui->casilla41->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 42:
+            lb->setGeometry(ui->casilla42->x()+25,ui->casilla42->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 43:
+            lb->setGeometry(ui->casilla43->x()+25,ui->casilla43->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 44:
+            lb->setGeometry(ui->casilla44->x()+25,ui->casilla44->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 45:
+            lb->setGeometry(ui->casilla45->x()+25,ui->casilla45->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 46:
+            lb->setGeometry(ui->casilla46->x()+25,ui->casilla46->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 47:
+            lb->setGeometry(ui->casilla47->x()+25,ui->casilla47->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 48:
+            lb->setGeometry(ui->casilla48->x()+25,ui->casilla48->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 49:
+            lb->setGeometry(ui->casilla49->x()+25,ui->casilla49->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 51:
+            lb->setGeometry(ui->casilla51->x()+25,ui->casilla51->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 52:
+            lb->setGeometry(ui->casilla52->x()+25,ui->casilla52->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 53:
+            lb->setGeometry(ui->casilla53->x()+25,ui->casilla53->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 54:
+            lb->setGeometry(ui->casilla54->x()+25,ui->casilla54->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 55:
+            lb->setGeometry(ui->casilla55->x()+25,ui->casilla55->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 56:
+            lb->setGeometry(ui->casilla56->x()+25,ui->casilla56->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 57:
+            lb->setGeometry(ui->casilla57->x()+25,ui->casilla57->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 58:
+            lb->setGeometry(ui->casilla58->x()+25,ui->casilla58->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 59:
+            lb->setGeometry(ui->casilla59->x()+25,ui->casilla59->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 61:
+            lb->setGeometry(ui->casilla61->x()+25,ui->casilla61->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 62:
+            lb->setGeometry(ui->casilla62->x()+25,ui->casilla62->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 63:
+            lb->setGeometry(ui->casilla63->x()+25,ui->casilla63->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 64:
+            lb->setGeometry(ui->casilla64->x()+25,ui->casilla64->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 65:
+            lb->setGeometry(ui->casilla65->x()+25,ui->casilla65->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 66:
+            lb->setGeometry(ui->casilla66->x()+25,ui->casilla66->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 67:
+            lb->setGeometry(ui->casilla67->x()+25,ui->casilla67->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 68:
+            lb->setGeometry(ui->casilla68->x()+25,ui->casilla68->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 69:
+            lb->setGeometry(ui->casilla69->x()+25,ui->casilla69->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 71:
+            lb->setGeometry(ui->casilla71->x()+25,ui->casilla71->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 72:
+            lb->setGeometry(ui->casilla72->x()+25,ui->casilla72->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 73:
+            lb->setGeometry(ui->casilla73->x()+25,ui->casilla73->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 74:
+            lb->setGeometry(ui->casilla74->x()+25,ui->casilla74->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 75:
+            lb->setGeometry(ui->casilla75->x()+25,ui->casilla75->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 76:
+            lb->setGeometry(ui->casilla76->x()+25,ui->casilla76->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 77:
+            lb->setGeometry(ui->casilla77->x()+25,ui->casilla77->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 78:
+            lb->setGeometry(ui->casilla78->x()+25,ui->casilla78->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 79:
+            lb->setGeometry(ui->casilla80->x()+25,ui->casilla79->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 81:
+            lb->setGeometry(ui->casilla81->x()+25,ui->casilla81->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 82:
+            lb->setGeometry(ui->casilla82->x()+25,ui->casilla82->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 83:
+            lb->setGeometry(ui->casilla83->x()+25,ui->casilla83->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 84:
+            lb->setGeometry(ui->casilla84->x()+25,ui->casilla84->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 85:
+            lb->setGeometry(ui->casilla85->x()+25,ui->casilla85->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 86:
+            lb->setGeometry(ui->casilla86->x()+25,ui->casilla86->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 87:
+            lb->setGeometry(ui->casilla87->x()+25,ui->casilla87->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 88:
+            lb->setGeometry(ui->casilla88->x()+25,ui->casilla88->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 89:
+            lb->setGeometry(ui->casilla90->x()+25,ui->casilla89->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 91:
+            lb->setGeometry(ui->casilla91->x()+25,ui->casilla91->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 92:
+            lb->setGeometry(ui->casilla92->x()+25,ui->casilla92->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 93:
+            lb->setGeometry(ui->casilla93->x()+25,ui->casilla93->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 94:
+            lb->setGeometry(ui->casilla94->x()+25,ui->casilla94->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 95:
+            lb->setGeometry(ui->casilla95->x()+25,ui->casilla95->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 96:
+            lb->setGeometry(ui->casilla96->x()+25,ui->casilla96->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 97:
+            lb->setGeometry(ui->casilla97->x()+25,ui->casilla97->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 98:
+            lb->setGeometry(ui->casilla98->x()+25,ui->casilla98->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+
+        }
+    }
+    if(casillaEstudiante - casillaTorre==20){
+        QLabel *lb = new QLabel;
+        lb->setVisible(false);
+        lb->setPixmap(signoPregunta);
+
+        switch (casillaEstudiante) {
+
+        case 20:
+            lb->setGeometry(ui->casilla20->x()+25,ui->casilla20->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 21:
+            lb->setGeometry(ui->casilla21->x()+25,ui->casilla21->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 22:
+            lb->setGeometry(ui->casilla22->x()+25,ui->casilla22->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 23:
+            lb->setGeometry(ui->casilla23->x()+25,ui->casilla23->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 24:
+            lb->setGeometry(ui->casilla24->x()+25,ui->casilla24->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 25:
+            lb->setGeometry(ui->casilla25->x()+25,ui->casilla25->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 26:
+            lb->setGeometry(ui->casilla26->x()+25,ui->casilla26->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 27:
+            lb->setGeometry(ui->casilla27->x()+25,ui->casilla27->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 28:
+            lb->setGeometry(ui->casilla28->x()+25,ui->casilla28->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 29:
+            lb->setGeometry(ui->casilla29->x()+25,ui->casilla29->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 30:
+            lb->setGeometry(ui->casilla30->x()+25,ui->casilla30->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 31:
+            lb->setGeometry(ui->casilla31->x()+25,ui->casilla31->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 32:
+            lb->setGeometry(ui->casilla32->x()+25,ui->casilla32->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 33:
+            lb->setGeometry(ui->casilla33->x()+25,ui->casilla33->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 34:
+            lb->setGeometry(ui->casilla34->x()+25,ui->casilla34->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 35:
+            lb->setGeometry(ui->casilla35->x()+25,ui->casilla35->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 36:
+            lb->setGeometry(ui->casilla36->x()+25,ui->casilla36->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 37:
+            lb->setGeometry(ui->casilla37->x()+25,ui->casilla37->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 38:
+            lb->setGeometry(ui->casilla38->x()+25,ui->casilla38->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 39:
+            lb->setGeometry(ui->casilla39->x()+25,ui->casilla39->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 40:
+            lb->setGeometry(ui->casilla40->x()+25,ui->casilla40->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 41:
+            lb->setGeometry(ui->casilla41->x()+25,ui->casilla41->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 42:
+            lb->setGeometry(ui->casilla42->x()+25,ui->casilla42->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 43:
+            lb->setGeometry(ui->casilla43->x()+25,ui->casilla43->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 44:
+            lb->setGeometry(ui->casilla44->x()+25,ui->casilla44->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 45:
+            lb->setGeometry(ui->casilla45->x()+25,ui->casilla45->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 46:
+            lb->setGeometry(ui->casilla46->x()+25,ui->casilla46->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 47:
+            lb->setGeometry(ui->casilla47->x()+25,ui->casilla47->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 48:
+            lb->setGeometry(ui->casilla48->x()+25,ui->casilla48->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 49:
+            lb->setGeometry(ui->casilla49->x()+25,ui->casilla49->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 50:
+            lb->setGeometry(ui->casilla50->x()+25,ui->casilla50->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 51:
+            lb->setGeometry(ui->casilla51->x()+25,ui->casilla51->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 52:
+            lb->setGeometry(ui->casilla52->x()+25,ui->casilla52->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 53:
+            lb->setGeometry(ui->casilla53->x()+25,ui->casilla53->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 54:
+            lb->setGeometry(ui->casilla54->x()+25,ui->casilla54->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 55:
+            lb->setGeometry(ui->casilla55->x()+25,ui->casilla55->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 56:
+            lb->setGeometry(ui->casilla56->x()+25,ui->casilla56->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 57:
+            lb->setGeometry(ui->casilla57->x()+25,ui->casilla57->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 58:
+            lb->setGeometry(ui->casilla58->x()+25,ui->casilla58->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 59:
+            lb->setGeometry(ui->casilla59->x()+25,ui->casilla59->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 60:
+            lb->setGeometry(ui->casilla60->x()+25,ui->casilla60->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 61:
+            lb->setGeometry(ui->casilla61->x()+25,ui->casilla61->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 62:
+            lb->setGeometry(ui->casilla62->x()+25,ui->casilla62->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 63:
+            lb->setGeometry(ui->casilla63->x()+25,ui->casilla63->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 64:
+            lb->setGeometry(ui->casilla64->x()+25,ui->casilla64->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 65:
+            lb->setGeometry(ui->casilla65->x()+25,ui->casilla65->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 66:
+            lb->setGeometry(ui->casilla66->x()+25,ui->casilla66->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 67:
+            lb->setGeometry(ui->casilla67->x()+25,ui->casilla67->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 68:
+            lb->setGeometry(ui->casilla68->x()+25,ui->casilla68->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 69:
+            lb->setGeometry(ui->casilla69->x()+25,ui->casilla69->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 70:
+            lb->setGeometry(ui->casilla70->x()+25,ui->casilla70->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 71:
+            lb->setGeometry(ui->casilla71->x()+25,ui->casilla71->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 72:
+            lb->setGeometry(ui->casilla72->x()+25,ui->casilla72->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 73:
+            lb->setGeometry(ui->casilla73->x()+25,ui->casilla73->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 74:
+            lb->setGeometry(ui->casilla74->x()+25,ui->casilla74->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 75:
+            lb->setGeometry(ui->casilla75->x()+25,ui->casilla75->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 76:
+            lb->setGeometry(ui->casilla76->x()+25,ui->casilla76->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 77:
+            lb->setGeometry(ui->casilla77->x()+25,ui->casilla77->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 78:
+            lb->setGeometry(ui->casilla78->x()+25,ui->casilla78->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 79:
+            lb->setGeometry(ui->casilla79->x()+25,ui->casilla79->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 80:
+            lb->setGeometry(ui->casilla80->x()+25,ui->casilla80->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 81:
+            lb->setGeometry(ui->casilla81->x()+25,ui->casilla81->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 82:
+            lb->setGeometry(ui->casilla82->x()+25,ui->casilla82->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 83:
+            lb->setGeometry(ui->casilla83->x()+25,ui->casilla83->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 84:
+            lb->setGeometry(ui->casilla84->x()+25,ui->casilla84->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 85:
+            lb->setGeometry(ui->casilla85->x()+25,ui->casilla85->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 86:
+            lb->setGeometry(ui->casilla86->x()+25,ui->casilla86->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 87:
+            lb->setGeometry(ui->casilla87->x()+25,ui->casilla87->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 88:
+            lb->setGeometry(ui->casilla88->x()+25,ui->casilla88->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 89:
+            lb->setGeometry(ui->casilla89->x()+25,ui->casilla89->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 90:
+            lb->setGeometry(ui->casilla90->x()+25,ui->casilla90->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 91:
+            lb->setGeometry(ui->casilla91->x()+25,ui->casilla91->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 92:
+            lb->setGeometry(ui->casilla92->x()+25,ui->casilla92->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 93:
+            lb->setGeometry(ui->casilla93->x()+25,ui->casilla93->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 94:
+            lb->setGeometry(ui->casilla94->x()+25,ui->casilla94->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 95:
+            lb->setGeometry(ui->casilla95->x()+25,ui->casilla95->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 96:
+            lb->setGeometry(ui->casilla96->x()+25,ui->casilla96->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 97:
+            lb->setGeometry(ui->casilla97->x()+25,ui->casilla97->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 98:
+            lb->setGeometry(ui->casilla98->x()+25,ui->casilla98->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 99:
+            lb->setGeometry(ui->casilla99->x()+25,ui->casilla99->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+
+        }
+    }
+    if(casillaEstudiante - casillaTorre==19){
+        QLabel *lb = new QLabel;
+        lb->setVisible(false);
+        lb->setPixmap(signoPregunta);
+
+        switch (casillaEstudiante) {
+
+        case 20:
+            lb->setGeometry(ui->casilla20->x()+25,ui->casilla20->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 21:
+            lb->setGeometry(ui->casilla21->x()+25,ui->casilla21->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 22:
+            lb->setGeometry(ui->casilla22->x()+25,ui->casilla22->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 23:
+            lb->setGeometry(ui->casilla23->x()+25,ui->casilla23->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 24:
+            lb->setGeometry(ui->casilla24->x()+25,ui->casilla24->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 25:
+            lb->setGeometry(ui->casilla25->x()+25,ui->casilla25->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 26:
+            lb->setGeometry(ui->casilla26->x()+25,ui->casilla26->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 27:
+            lb->setGeometry(ui->casilla27->x()+25,ui->casilla27->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 28:
+            lb->setGeometry(ui->casilla28->x()+25,ui->casilla28->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 30:
+            lb->setGeometry(ui->casilla30->x()+25,ui->casilla30->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 31:
+            lb->setGeometry(ui->casilla31->x()+25,ui->casilla31->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 32:
+            lb->setGeometry(ui->casilla32->x()+25,ui->casilla32->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 33:
+            lb->setGeometry(ui->casilla33->x()+25,ui->casilla33->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 34:
+            lb->setGeometry(ui->casilla34->x()+25,ui->casilla34->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 35:
+            lb->setGeometry(ui->casilla35->x()+25,ui->casilla35->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 36:
+            lb->setGeometry(ui->casilla36->x()+25,ui->casilla36->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 37:
+            lb->setGeometry(ui->casilla37->x()+25,ui->casilla37->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 38:
+            lb->setGeometry(ui->casilla38->x()+25,ui->casilla38->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 40:
+            lb->setGeometry(ui->casilla40->x()+25,ui->casilla40->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 41:
+            lb->setGeometry(ui->casilla41->x()+25,ui->casilla41->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 42:
+            lb->setGeometry(ui->casilla42->x()+25,ui->casilla42->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 43:
+            lb->setGeometry(ui->casilla43->x()+25,ui->casilla43->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 44:
+            lb->setGeometry(ui->casilla44->x()+25,ui->casilla44->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 45:
+            lb->setGeometry(ui->casilla45->x()+25,ui->casilla45->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 46:
+            lb->setGeometry(ui->casilla46->x()+25,ui->casilla46->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 47:
+            lb->setGeometry(ui->casilla47->x()+25,ui->casilla47->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 48:
+            lb->setGeometry(ui->casilla48->x()+25,ui->casilla48->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 50:
+            lb->setGeometry(ui->casilla50->x()+25,ui->casilla50->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 51:
+            lb->setGeometry(ui->casilla51->x()+25,ui->casilla51->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 52:
+            lb->setGeometry(ui->casilla52->x()+25,ui->casilla52->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 53:
+            lb->setGeometry(ui->casilla53->x()+25,ui->casilla53->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 54:
+            lb->setGeometry(ui->casilla54->x()+25,ui->casilla54->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 55:
+            lb->setGeometry(ui->casilla55->x()+25,ui->casilla55->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 56:
+            lb->setGeometry(ui->casilla56->x()+25,ui->casilla56->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 57:
+            lb->setGeometry(ui->casilla57->x()+25,ui->casilla57->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 58:
+            lb->setGeometry(ui->casilla58->x()+25,ui->casilla58->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 60:
+            lb->setGeometry(ui->casilla60->x()+25,ui->casilla60->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 61:
+            lb->setGeometry(ui->casilla61->x()+25,ui->casilla61->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 62:
+            lb->setGeometry(ui->casilla62->x()+25,ui->casilla62->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 63:
+            lb->setGeometry(ui->casilla63->x()+25,ui->casilla63->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 64:
+            lb->setGeometry(ui->casilla64->x()+25,ui->casilla64->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 65:
+            lb->setGeometry(ui->casilla65->x()+25,ui->casilla65->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 66:
+            lb->setGeometry(ui->casilla66->x()+25,ui->casilla66->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 67:
+            lb->setGeometry(ui->casilla67->x()+25,ui->casilla67->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 68:
+            lb->setGeometry(ui->casilla68->x()+25,ui->casilla68->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 70:
+            lb->setGeometry(ui->casilla70->x()+25,ui->casilla70->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 71:
+            lb->setGeometry(ui->casilla71->x()+25,ui->casilla71->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 72:
+            lb->setGeometry(ui->casilla72->x()+25,ui->casilla72->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 73:
+            lb->setGeometry(ui->casilla73->x()+25,ui->casilla73->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 74:
+            lb->setGeometry(ui->casilla74->x()+25,ui->casilla74->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 75:
+            lb->setGeometry(ui->casilla75->x()+25,ui->casilla75->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 76:
+            lb->setGeometry(ui->casilla76->x()+25,ui->casilla76->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 77:
+            lb->setGeometry(ui->casilla77->x()+25,ui->casilla77->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 78:
+            lb->setGeometry(ui->casilla78->x()+25,ui->casilla78->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 80:
+            lb->setGeometry(ui->casilla80->x()+25,ui->casilla80->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 81:
+            lb->setGeometry(ui->casilla81->x()+25,ui->casilla81->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 82:
+            lb->setGeometry(ui->casilla82->x()+25,ui->casilla82->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 83:
+            lb->setGeometry(ui->casilla83->x()+25,ui->casilla83->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 84:
+            lb->setGeometry(ui->casilla84->x()+25,ui->casilla84->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 85:
+            lb->setGeometry(ui->casilla85->x()+25,ui->casilla85->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 86:
+            lb->setGeometry(ui->casilla86->x()+25,ui->casilla86->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 87:
+            lb->setGeometry(ui->casilla87->x()+25,ui->casilla87->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 88:
+            lb->setGeometry(ui->casilla88->x()+25,ui->casilla88->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 90:
+            lb->setGeometry(ui->casilla90->x()+25,ui->casilla90->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 91:
+            lb->setGeometry(ui->casilla91->x()+25,ui->casilla91->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 92:
+            lb->setGeometry(ui->casilla92->x()+25,ui->casilla92->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 93:
+            lb->setGeometry(ui->casilla93->x()+25,ui->casilla93->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 94:
+            lb->setGeometry(ui->casilla94->x()+25,ui->casilla94->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 95:
+            lb->setGeometry(ui->casilla95->x()+25,ui->casilla95->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 96:
+            lb->setGeometry(ui->casilla96->x()+25,ui->casilla96->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 97:
+            lb->setGeometry(ui->casilla97->x()+25,ui->casilla97->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 98:
+            lb->setGeometry(ui->casilla98->x()+25,ui->casilla98->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+
+        }
+    }
+    if(casillaEstudiante - casillaTorre==18){
+        QLabel *lb = new QLabel;
+        lb->setVisible(false);
+        lb->setPixmap(signoPregunta);
+
+        switch (casillaEstudiante) {
+
+        case 20:
+            lb->setGeometry(ui->casilla20->x()+25,ui->casilla20->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 21:
+            lb->setGeometry(ui->casilla21->x()+25,ui->casilla21->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 22:
+            lb->setGeometry(ui->casilla22->x()+25,ui->casilla22->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 23:
+            lb->setGeometry(ui->casilla23->x()+25,ui->casilla23->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 24:
+            lb->setGeometry(ui->casilla24->x()+25,ui->casilla24->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 25:
+            lb->setGeometry(ui->casilla25->x()+25,ui->casilla25->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 26:
+            lb->setGeometry(ui->casilla26->x()+25,ui->casilla26->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 27:
+            lb->setGeometry(ui->casilla27->x()+25,ui->casilla27->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 30:
+            lb->setGeometry(ui->casilla30->x()+25,ui->casilla30->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 31:
+            lb->setGeometry(ui->casilla31->x()+25,ui->casilla31->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 32:
+            lb->setGeometry(ui->casilla32->x()+25,ui->casilla32->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 33:
+            lb->setGeometry(ui->casilla33->x()+25,ui->casilla33->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 34:
+            lb->setGeometry(ui->casilla34->x()+25,ui->casilla34->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 35:
+            lb->setGeometry(ui->casilla35->x()+25,ui->casilla35->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 36:
+            lb->setGeometry(ui->casilla36->x()+25,ui->casilla36->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 37:
+            lb->setGeometry(ui->casilla37->x()+25,ui->casilla37->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 40:
+            lb->setGeometry(ui->casilla40->x()+25,ui->casilla40->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 41:
+            lb->setGeometry(ui->casilla41->x()+25,ui->casilla41->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 42:
+            lb->setGeometry(ui->casilla42->x()+25,ui->casilla42->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 43:
+            lb->setGeometry(ui->casilla43->x()+25,ui->casilla43->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 44:
+            lb->setGeometry(ui->casilla44->x()+25,ui->casilla44->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 45:
+            lb->setGeometry(ui->casilla45->x()+25,ui->casilla45->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 46:
+            lb->setGeometry(ui->casilla46->x()+25,ui->casilla46->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 47:
+            lb->setGeometry(ui->casilla47->x()+25,ui->casilla47->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 50:
+            lb->setGeometry(ui->casilla50->x()+25,ui->casilla50->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 51:
+            lb->setGeometry(ui->casilla51->x()+25,ui->casilla51->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 52:
+            lb->setGeometry(ui->casilla52->x()+25,ui->casilla52->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 53:
+            lb->setGeometry(ui->casilla53->x()+25,ui->casilla53->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 54:
+            lb->setGeometry(ui->casilla54->x()+25,ui->casilla54->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 55:
+            lb->setGeometry(ui->casilla55->x()+25,ui->casilla55->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 56:
+            lb->setGeometry(ui->casilla56->x()+25,ui->casilla56->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 57:
+            lb->setGeometry(ui->casilla57->x()+25,ui->casilla57->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 60:
+            lb->setGeometry(ui->casilla60->x()+25,ui->casilla60->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 61:
+            lb->setGeometry(ui->casilla61->x()+25,ui->casilla61->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 62:
+            lb->setGeometry(ui->casilla62->x()+25,ui->casilla62->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 63:
+            lb->setGeometry(ui->casilla63->x()+25,ui->casilla63->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 64:
+            lb->setGeometry(ui->casilla64->x()+25,ui->casilla64->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 65:
+            lb->setGeometry(ui->casilla65->x()+25,ui->casilla65->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 66:
+            lb->setGeometry(ui->casilla66->x()+25,ui->casilla66->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 67:
+            lb->setGeometry(ui->casilla67->x()+25,ui->casilla67->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 70:
+            lb->setGeometry(ui->casilla70->x()+25,ui->casilla70->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 71:
+            lb->setGeometry(ui->casilla71->x()+25,ui->casilla71->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 72:
+            lb->setGeometry(ui->casilla72->x()+25,ui->casilla72->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 73:
+            lb->setGeometry(ui->casilla73->x()+25,ui->casilla73->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 74:
+            lb->setGeometry(ui->casilla74->x()+25,ui->casilla74->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 75:
+            lb->setGeometry(ui->casilla75->x()+25,ui->casilla75->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 76:
+            lb->setGeometry(ui->casilla76->x()+25,ui->casilla76->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 77:
+            lb->setGeometry(ui->casilla77->x()+25,ui->casilla77->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 80:
+            lb->setGeometry(ui->casilla80->x()+25,ui->casilla80->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 81:
+            lb->setGeometry(ui->casilla81->x()+25,ui->casilla81->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 82:
+            lb->setGeometry(ui->casilla82->x()+25,ui->casilla82->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 83:
+            lb->setGeometry(ui->casilla83->x()+25,ui->casilla83->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 84:
+            lb->setGeometry(ui->casilla84->x()+25,ui->casilla84->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 85:
+            lb->setGeometry(ui->casilla85->x()+25,ui->casilla85->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 86:
+            lb->setGeometry(ui->casilla86->x()+25,ui->casilla86->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 87:
+            lb->setGeometry(ui->casilla87->x()+25,ui->casilla87->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 90:
+            lb->setGeometry(ui->casilla90->x()+25,ui->casilla90->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 91:
+            lb->setGeometry(ui->casilla91->x()+25,ui->casilla91->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 92:
+            lb->setGeometry(ui->casilla92->x()+25,ui->casilla92->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 93:
+            lb->setGeometry(ui->casilla93->x()+25,ui->casilla93->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 94:
+            lb->setGeometry(ui->casilla94->x()+25,ui->casilla94->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 95:
+            lb->setGeometry(ui->casilla95->x()+25,ui->casilla95->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 96:
+            lb->setGeometry(ui->casilla96->x()+25,ui->casilla96->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 97:
+            lb->setGeometry(ui->casilla97->x()+25,ui->casilla97->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+
+        }
+    }
+    if(casillaEstudiante - casillaTorre==12){
+        QLabel *lb = new QLabel;
+        lb->setVisible(false);
+        lb->setPixmap(signoPregunta);
+
+        switch (casillaEstudiante) {
+
+        case 12:
+            lb->setGeometry(ui->casilla12->x()+25,ui->casilla12->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 13:
+            lb->setGeometry(ui->casilla13->x()+25,ui->casilla13->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 14:
+            lb->setGeometry(ui->casilla14->x()+25,ui->casilla14->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 15:
+            lb->setGeometry(ui->casilla15->x()+25,ui->casilla15->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 16:
+            lb->setGeometry(ui->casilla16->x()+25,ui->casilla16->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 17:
+            lb->setGeometry(ui->casilla17->x()+25,ui->casilla17->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 18:
+            lb->setGeometry(ui->casilla18->x()+25,ui->casilla18->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 19:
+            lb->setGeometry(ui->casilla19->x()+25,ui->casilla19->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 22:
+            lb->setGeometry(ui->casilla22->x()+25,ui->casilla22->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 23:
+            lb->setGeometry(ui->casilla23->x()+25,ui->casilla23->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 24:
+            lb->setGeometry(ui->casilla24->x()+25,ui->casilla24->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 25:
+            lb->setGeometry(ui->casilla25->x()+25,ui->casilla25->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 26:
+            lb->setGeometry(ui->casilla26->x()+25,ui->casilla26->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 27:
+            lb->setGeometry(ui->casilla27->x()+25,ui->casilla27->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 28:
+            lb->setGeometry(ui->casilla28->x()+25,ui->casilla28->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 29:
+            lb->setGeometry(ui->casilla29->x()+25,ui->casilla29->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 32:
+            lb->setGeometry(ui->casilla32->x()+25,ui->casilla32->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 33:
+            lb->setGeometry(ui->casilla33->x()+25,ui->casilla33->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 34:
+            lb->setGeometry(ui->casilla34->x()+25,ui->casilla34->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 35:
+            lb->setGeometry(ui->casilla35->x()+25,ui->casilla35->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 36:
+            lb->setGeometry(ui->casilla36->x()+25,ui->casilla36->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 37:
+            lb->setGeometry(ui->casilla37->x()+25,ui->casilla37->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 38:
+            lb->setGeometry(ui->casilla38->x()+25,ui->casilla38->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 39:
+            lb->setGeometry(ui->casilla39->x()+25,ui->casilla39->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 42:
+            lb->setGeometry(ui->casilla42->x()+25,ui->casilla42->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 43:
+            lb->setGeometry(ui->casilla43->x()+25,ui->casilla43->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 44:
+            lb->setGeometry(ui->casilla44->x()+25,ui->casilla44->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 45:
+            lb->setGeometry(ui->casilla45->x()+25,ui->casilla45->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 46:
+            lb->setGeometry(ui->casilla46->x()+25,ui->casilla46->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 47:
+            lb->setGeometry(ui->casilla47->x()+25,ui->casilla47->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 48:
+            lb->setGeometry(ui->casilla48->x()+25,ui->casilla48->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 49:
+            lb->setGeometry(ui->casilla49->x()+25,ui->casilla49->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 52:
+            lb->setGeometry(ui->casilla52->x()+25,ui->casilla52->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 53:
+            lb->setGeometry(ui->casilla53->x()+25,ui->casilla53->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 54:
+            lb->setGeometry(ui->casilla54->x()+25,ui->casilla54->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 55:
+            lb->setGeometry(ui->casilla55->x()+25,ui->casilla55->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 56:
+            lb->setGeometry(ui->casilla56->x()+25,ui->casilla56->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 57:
+            lb->setGeometry(ui->casilla57->x()+25,ui->casilla57->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 58:
+            lb->setGeometry(ui->casilla58->x()+25,ui->casilla58->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 59:
+            lb->setGeometry(ui->casilla59->x()+25,ui->casilla59->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 62:
+            lb->setGeometry(ui->casilla62->x()+25,ui->casilla62->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 63:
+            lb->setGeometry(ui->casilla63->x()+25,ui->casilla63->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 64:
+            lb->setGeometry(ui->casilla64->x()+25,ui->casilla64->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 65:
+            lb->setGeometry(ui->casilla65->x()+25,ui->casilla65->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 66:
+            lb->setGeometry(ui->casilla66->x()+25,ui->casilla66->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 67:
+            lb->setGeometry(ui->casilla67->x()+25,ui->casilla67->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 68:
+            lb->setGeometry(ui->casilla68->x()+25,ui->casilla68->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 69:
+            lb->setGeometry(ui->casilla69->x()+25,ui->casilla69->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 72:
+            lb->setGeometry(ui->casilla72->x()+25,ui->casilla72->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 73:
+            lb->setGeometry(ui->casilla73->x()+25,ui->casilla73->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 74:
+            lb->setGeometry(ui->casilla74->x()+25,ui->casilla74->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 75:
+            lb->setGeometry(ui->casilla75->x()+25,ui->casilla75->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 76:
+            lb->setGeometry(ui->casilla76->x()+25,ui->casilla76->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 77:
+            lb->setGeometry(ui->casilla77->x()+25,ui->casilla77->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 78:
+            lb->setGeometry(ui->casilla78->x()+25,ui->casilla78->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 79:
+            lb->setGeometry(ui->casilla79->x()+25,ui->casilla79->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 82:
+            lb->setGeometry(ui->casilla82->x()+25,ui->casilla82->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 83:
+            lb->setGeometry(ui->casilla83->x()+25,ui->casilla83->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 84:
+            lb->setGeometry(ui->casilla84->x()+25,ui->casilla84->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 85:
+            lb->setGeometry(ui->casilla85->x()+25,ui->casilla85->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 86:
+            lb->setGeometry(ui->casilla86->x()+25,ui->casilla86->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 87:
+            lb->setGeometry(ui->casilla87->x()+25,ui->casilla87->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 88:
+            lb->setGeometry(ui->casilla88->x()+25,ui->casilla88->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 89:
+            lb->setGeometry(ui->casilla89->x()+25,ui->casilla89->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 92:
+            lb->setGeometry(ui->casilla92->x()+25,ui->casilla92->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 93:
+            lb->setGeometry(ui->casilla93->x()+25,ui->casilla93->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 94:
+            lb->setGeometry(ui->casilla94->x()+25,ui->casilla94->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 95:
+            lb->setGeometry(ui->casilla95->x()+25,ui->casilla95->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 96:
+            lb->setGeometry(ui->casilla96->x()+25,ui->casilla96->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 97:
+            lb->setGeometry(ui->casilla97->x()+25,ui->casilla97->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 98:
+            lb->setGeometry(ui->casilla98->x()+25,ui->casilla98->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 99:
+            lb->setGeometry(ui->casilla99->x()+25,ui->casilla98->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+
+        }
+    }
+    if(casillaEstudiante - casillaTorre==8){
+        QLabel *lb = new QLabel;
+        lb->setVisible(false);
+        lb->setPixmap(signoPregunta);
+
+        switch (casillaEstudiante) {
+
+        case 10:
+            lb->setGeometry(ui->casilla10->x()+25,ui->casilla10->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 11:
+            lb->setGeometry(ui->casilla11->x()+25,ui->casilla11->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 12:
+            lb->setGeometry(ui->casilla12->x()+25,ui->casilla12->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 13:
+            lb->setGeometry(ui->casilla13->x()+25,ui->casilla13->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 14:
+            lb->setGeometry(ui->casilla14->x()+25,ui->casilla14->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 15:
+            lb->setGeometry(ui->casilla15->x()+25,ui->casilla15->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 16:
+            lb->setGeometry(ui->casilla16->x()+25,ui->casilla16->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 17:
+            lb->setGeometry(ui->casilla17->x()+25,ui->casilla17->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 20:
+            lb->setGeometry(ui->casilla20->x()+25,ui->casilla20->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 21:
+            lb->setGeometry(ui->casilla21->x()+25,ui->casilla21->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 22:
+            lb->setGeometry(ui->casilla22->x()+25,ui->casilla22->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 23:
+            lb->setGeometry(ui->casilla23->x()+25,ui->casilla23->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 24:
+            lb->setGeometry(ui->casilla24->x()+25,ui->casilla24->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 25:
+            lb->setGeometry(ui->casilla25->x()+25,ui->casilla25->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 26:
+            lb->setGeometry(ui->casilla26->x()+25,ui->casilla26->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 27:
+            lb->setGeometry(ui->casilla27->x()+25,ui->casilla27->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 30:
+            lb->setGeometry(ui->casilla30->x()+25,ui->casilla30->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 31:
+            lb->setGeometry(ui->casilla31->x()+25,ui->casilla31->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 32:
+            lb->setGeometry(ui->casilla32->x()+25,ui->casilla32->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 33:
+            lb->setGeometry(ui->casilla33->x()+25,ui->casilla33->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 34:
+            lb->setGeometry(ui->casilla34->x()+25,ui->casilla34->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 35:
+            lb->setGeometry(ui->casilla35->x()+25,ui->casilla35->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 36:
+            lb->setGeometry(ui->casilla36->x()+25,ui->casilla36->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 37:
+            lb->setGeometry(ui->casilla37->x()+25,ui->casilla37->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 40:
+            lb->setGeometry(ui->casilla40->x()+25,ui->casilla40->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 41:
+            lb->setGeometry(ui->casilla41->x()+25,ui->casilla41->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 42:
+            lb->setGeometry(ui->casilla42->x()+25,ui->casilla42->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 43:
+            lb->setGeometry(ui->casilla43->x()+25,ui->casilla43->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 44:
+            lb->setGeometry(ui->casilla44->x()+25,ui->casilla44->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 45:
+            lb->setGeometry(ui->casilla45->x()+25,ui->casilla45->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 46:
+            lb->setGeometry(ui->casilla46->x()+25,ui->casilla46->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 47:
+            lb->setGeometry(ui->casilla47->x()+25,ui->casilla47->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 50:
+            lb->setGeometry(ui->casilla50->x()+25,ui->casilla50->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 51:
+            lb->setGeometry(ui->casilla51->x()+25,ui->casilla51->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 52:
+            lb->setGeometry(ui->casilla52->x()+25,ui->casilla52->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 53:
+            lb->setGeometry(ui->casilla53->x()+25,ui->casilla53->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 54:
+            lb->setGeometry(ui->casilla54->x()+25,ui->casilla54->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 55:
+            lb->setGeometry(ui->casilla55->x()+25,ui->casilla55->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 56:
+            lb->setGeometry(ui->casilla56->x()+25,ui->casilla56->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 57:
+            lb->setGeometry(ui->casilla57->x()+25,ui->casilla57->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 60:
+            lb->setGeometry(ui->casilla60->x()+25,ui->casilla60->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 61:
+            lb->setGeometry(ui->casilla61->x()+25,ui->casilla61->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 62:
+            lb->setGeometry(ui->casilla62->x()+25,ui->casilla62->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 63:
+            lb->setGeometry(ui->casilla63->x()+25,ui->casilla63->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 64:
+            lb->setGeometry(ui->casilla64->x()+25,ui->casilla64->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 65:
+            lb->setGeometry(ui->casilla65->x()+25,ui->casilla65->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 66:
+            lb->setGeometry(ui->casilla66->x()+25,ui->casilla66->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 67:
+            lb->setGeometry(ui->casilla67->x()+25,ui->casilla67->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 70:
+            lb->setGeometry(ui->casilla70->x()+25,ui->casilla70->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 71:
+            lb->setGeometry(ui->casilla71->x()+25,ui->casilla71->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 72:
+            lb->setGeometry(ui->casilla72->x()+25,ui->casilla72->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 73:
+            lb->setGeometry(ui->casilla73->x()+25,ui->casilla73->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 74:
+            lb->setGeometry(ui->casilla74->x()+25,ui->casilla74->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 75:
+            lb->setGeometry(ui->casilla75->x()+25,ui->casilla75->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 76:
+            lb->setGeometry(ui->casilla76->x()+25,ui->casilla76->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 77:
+            lb->setGeometry(ui->casilla77->x()+25,ui->casilla77->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 80:
+            lb->setGeometry(ui->casilla80->x()+25,ui->casilla80->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 81:
+            lb->setGeometry(ui->casilla81->x()+25,ui->casilla81->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 82:
+            lb->setGeometry(ui->casilla82->x()+25,ui->casilla82->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 83:
+            lb->setGeometry(ui->casilla83->x()+25,ui->casilla83->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 84:
+            lb->setGeometry(ui->casilla84->x()+25,ui->casilla84->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 85:
+            lb->setGeometry(ui->casilla85->x()+25,ui->casilla85->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 86:
+            lb->setGeometry(ui->casilla86->x()+25,ui->casilla86->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 87:
+            lb->setGeometry(ui->casilla87->x()+25,ui->casilla87->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 90:
+            lb->setGeometry(ui->casilla90->x()+25,ui->casilla90->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 91:
+            lb->setGeometry(ui->casilla91->x()+25,ui->casilla91->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 92:
+            lb->setGeometry(ui->casilla92->x()+25,ui->casilla92->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 93:
+            lb->setGeometry(ui->casilla93->x()+25,ui->casilla93->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 94:
+            lb->setGeometry(ui->casilla94->x()+25,ui->casilla94->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 95:
+            lb->setGeometry(ui->casilla95->x()+25,ui->casilla95->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 96:
+            lb->setGeometry(ui->casilla96->x()+25,ui->casilla96->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 97:
+            lb->setGeometry(ui->casilla97->x()+25,ui->casilla97->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+
+        }
+    }
+    if(casillaEstudiante - casillaTorre==2){
+        QLabel *lb = new QLabel;
+        lb->setVisible(false);
+        lb->setPixmap(signoPregunta);
+
+        switch (casillaEstudiante) {
+
+        case 2:
+            lb->setGeometry(ui->casilla02->x()+25,ui->casilla02->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 3:
+            lb->setGeometry(ui->casilla03->x()+25,ui->casilla03->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 4:
+            lb->setGeometry(ui->casilla04->x()+25,ui->casilla04->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 5:
+            lb->setGeometry(ui->casilla05->x()+25,ui->casilla05->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 6:
+            lb->setGeometry(ui->casilla06->x()+25,ui->casilla06->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 7:
+            lb->setGeometry(ui->casilla07->x()+25,ui->casilla07->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 8:
+            lb->setGeometry(ui->casilla08->x()+25,ui->casilla08->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 9:
+            lb->setGeometry(ui->casilla09->x()+25,ui->casilla09->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 12:
+            lb->setGeometry(ui->casilla12->x()+25,ui->casilla12->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 13:
+            lb->setGeometry(ui->casilla13->x()+25,ui->casilla13->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 14:
+            lb->setGeometry(ui->casilla14->x()+25,ui->casilla14->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 15:
+            lb->setGeometry(ui->casilla15->x()+25,ui->casilla15->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 16:
+            lb->setGeometry(ui->casilla16->x()+25,ui->casilla16->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 17:
+            lb->setGeometry(ui->casilla17->x()+25,ui->casilla17->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 18:
+            lb->setGeometry(ui->casilla18->x()+25,ui->casilla18->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 19:
+            lb->setGeometry(ui->casilla19->x()+25,ui->casilla19->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 22:
+            lb->setGeometry(ui->casilla22->x()+25,ui->casilla22->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 23:
+            lb->setGeometry(ui->casilla23->x()+25,ui->casilla23->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 24:
+            lb->setGeometry(ui->casilla24->x()+25,ui->casilla24->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 25:
+            lb->setGeometry(ui->casilla25->x()+25,ui->casilla25->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 26:
+            lb->setGeometry(ui->casilla26->x()+25,ui->casilla26->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 27:
+            lb->setGeometry(ui->casilla27->x()+25,ui->casilla27->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 28:
+            lb->setGeometry(ui->casilla28->x()+25,ui->casilla28->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 29:
+            lb->setGeometry(ui->casilla29->x()+25,ui->casilla29->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 32:
+            lb->setGeometry(ui->casilla32->x()+25,ui->casilla32->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 33:
+            lb->setGeometry(ui->casilla33->x()+25,ui->casilla33->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 34:
+            lb->setGeometry(ui->casilla34->x()+25,ui->casilla34->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 35:
+            lb->setGeometry(ui->casilla35->x()+25,ui->casilla35->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 36:
+            lb->setGeometry(ui->casilla36->x()+25,ui->casilla36->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 37:
+            lb->setGeometry(ui->casilla37->x()+25,ui->casilla37->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 38:
+            lb->setGeometry(ui->casilla38->x()+25,ui->casilla38->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 39:
+            lb->setGeometry(ui->casilla39->x()+25,ui->casilla39->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 42:
+            lb->setGeometry(ui->casilla42->x()+25,ui->casilla42->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 43:
+            lb->setGeometry(ui->casilla43->x()+25,ui->casilla43->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 44:
+            lb->setGeometry(ui->casilla44->x()+25,ui->casilla44->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 45:
+            lb->setGeometry(ui->casilla45->x()+25,ui->casilla45->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 46:
+            lb->setGeometry(ui->casilla46->x()+25,ui->casilla46->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 47:
+            lb->setGeometry(ui->casilla47->x()+25,ui->casilla47->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 48:
+            lb->setGeometry(ui->casilla48->x()+25,ui->casilla48->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 49:
+            lb->setGeometry(ui->casilla49->x()+25,ui->casilla49->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 51:
+            lb->setGeometry(ui->casilla51->x()+25,ui->casilla51->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 52:
+            lb->setGeometry(ui->casilla52->x()+25,ui->casilla52->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 53:
+            lb->setGeometry(ui->casilla53->x()+25,ui->casilla53->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 54:
+            lb->setGeometry(ui->casilla54->x()+25,ui->casilla54->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 55:
+            lb->setGeometry(ui->casilla55->x()+25,ui->casilla55->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 56:
+            lb->setGeometry(ui->casilla56->x()+25,ui->casilla56->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 57:
+            lb->setGeometry(ui->casilla57->x()+25,ui->casilla57->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 58:
+            lb->setGeometry(ui->casilla58->x()+25,ui->casilla58->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 59:
+            lb->setGeometry(ui->casilla59->x()+25,ui->casilla59->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 62:
+            lb->setGeometry(ui->casilla62->x()+25,ui->casilla62->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 63:
+            lb->setGeometry(ui->casilla63->x()+25,ui->casilla63->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 64:
+            lb->setGeometry(ui->casilla64->x()+25,ui->casilla64->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 65:
+            lb->setGeometry(ui->casilla65->x()+25,ui->casilla65->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 66:
+            lb->setGeometry(ui->casilla66->x()+25,ui->casilla66->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 67:
+            lb->setGeometry(ui->casilla67->x()+25,ui->casilla67->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 68:
+            lb->setGeometry(ui->casilla68->x()+25,ui->casilla68->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 69:
+            lb->setGeometry(ui->casilla69->x()+25,ui->casilla69->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 72:
+            lb->setGeometry(ui->casilla72->x()+25,ui->casilla72->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 73:
+            lb->setGeometry(ui->casilla73->x()+25,ui->casilla73->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 74:
+            lb->setGeometry(ui->casilla74->x()+25,ui->casilla74->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 75:
+            lb->setGeometry(ui->casilla75->x()+25,ui->casilla75->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 76:
+            lb->setGeometry(ui->casilla76->x()+25,ui->casilla76->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 77:
+            lb->setGeometry(ui->casilla77->x()+25,ui->casilla77->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 78:
+            lb->setGeometry(ui->casilla78->x()+25,ui->casilla78->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 79:
+            lb->setGeometry(ui->casilla79->x()+25,ui->casilla79->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 82:
+            lb->setGeometry(ui->casilla82->x()+25,ui->casilla82->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 83:
+            lb->setGeometry(ui->casilla83->x()+25,ui->casilla83->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 84:
+            lb->setGeometry(ui->casilla84->x()+25,ui->casilla84->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 85:
+            lb->setGeometry(ui->casilla85->x()+25,ui->casilla85->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 86:
+            lb->setGeometry(ui->casilla86->x()+25,ui->casilla86->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 87:
+            lb->setGeometry(ui->casilla87->x()+25,ui->casilla87->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 88:
+            lb->setGeometry(ui->casilla88->x()+25,ui->casilla88->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 89:
+            lb->setGeometry(ui->casilla89->x()+25,ui->casilla89->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 92:
+            lb->setGeometry(ui->casilla92->x()+25,ui->casilla92->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 93:
+            lb->setGeometry(ui->casilla93->x()+25,ui->casilla93->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 94:
+            lb->setGeometry(ui->casilla94->x()+25,ui->casilla94->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 95:
+            lb->setGeometry(ui->casilla95->x()+25,ui->casilla95->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 96:
+            lb->setGeometry(ui->casilla96->x()+25,ui->casilla96->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 97:
+            lb->setGeometry(ui->casilla97->x()+25,ui->casilla97->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 98:
+            lb->setGeometry(ui->casilla98->x()+25,ui->casilla98->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 99:
+            lb->setGeometry(ui->casilla99->x()+25,ui->casilla99->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+
+        }
+    }
+    if(casillaEstudiante - casillaTorre==-2){
+        QLabel *lb = new QLabel;
+        lb->setVisible(false);
+        lb->setPixmap(signoPregunta);
+
+        switch (casillaEstudiante) {
+
+        case 0:
+            lb->setGeometry(ui->casilla00->x()+25,ui->casilla00->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 1:
+            lb->setGeometry(ui->casilla01->x()+25,ui->casilla01->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 2:
+            lb->setGeometry(ui->casilla02->x()+25,ui->casilla02->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 3:
+            lb->setGeometry(ui->casilla03->x()+25,ui->casilla03->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 4:
+            lb->setGeometry(ui->casilla04->x()+25,ui->casilla04->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 5:
+            lb->setGeometry(ui->casilla05->x()+25,ui->casilla05->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 6:
+            lb->setGeometry(ui->casilla06->x()+25,ui->casilla06->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 7:
+            lb->setGeometry(ui->casilla07->x()+25,ui->casilla07->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 10:
+            lb->setGeometry(ui->casilla10->x()+25,ui->casilla10->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 11:
+            lb->setGeometry(ui->casilla11->x()+25,ui->casilla11->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 12:
+            lb->setGeometry(ui->casilla12->x()+25,ui->casilla12->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 13:
+            lb->setGeometry(ui->casilla13->x()+25,ui->casilla13->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 14:
+            lb->setGeometry(ui->casilla14->x()+25,ui->casilla14->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 15:
+            lb->setGeometry(ui->casilla15->x()+25,ui->casilla15->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 16:
+            lb->setGeometry(ui->casilla16->x()+25,ui->casilla16->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 17:
+            lb->setGeometry(ui->casilla17->x()+25,ui->casilla17->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 20:
+            lb->setGeometry(ui->casilla20->x()+25,ui->casilla20->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 21:
+            lb->setGeometry(ui->casilla21->x()+25,ui->casilla21->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 22:
+            lb->setGeometry(ui->casilla22->x()+25,ui->casilla22->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 23:
+            lb->setGeometry(ui->casilla23->x()+25,ui->casilla23->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 24:
+            lb->setGeometry(ui->casilla24->x()+25,ui->casilla24->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 25:
+            lb->setGeometry(ui->casilla25->x()+25,ui->casilla25->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 26:
+            lb->setGeometry(ui->casilla26->x()+25,ui->casilla26->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 27:
+            lb->setGeometry(ui->casilla27->x()+25,ui->casilla27->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 30:
+            lb->setGeometry(ui->casilla30->x()+25,ui->casilla30->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 31:
+            lb->setGeometry(ui->casilla31->x()+25,ui->casilla31->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 32:
+            lb->setGeometry(ui->casilla32->x()+25,ui->casilla32->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 33:
+            lb->setGeometry(ui->casilla33->x()+25,ui->casilla33->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 34:
+            lb->setGeometry(ui->casilla34->x()+25,ui->casilla34->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 35:
+            lb->setGeometry(ui->casilla35->x()+25,ui->casilla35->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 36:
+            lb->setGeometry(ui->casilla36->x()+25,ui->casilla36->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 37:
+            lb->setGeometry(ui->casilla37->x()+25,ui->casilla37->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 40:
+            lb->setGeometry(ui->casilla40->x()+25,ui->casilla40->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 41:
+            lb->setGeometry(ui->casilla41->x()+25,ui->casilla41->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 42:
+            lb->setGeometry(ui->casilla42->x()+25,ui->casilla42->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 43:
+            lb->setGeometry(ui->casilla43->x()+25,ui->casilla43->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 44:
+            lb->setGeometry(ui->casilla44->x()+25,ui->casilla44->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 45:
+            lb->setGeometry(ui->casilla45->x()+25,ui->casilla45->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 46:
+            lb->setGeometry(ui->casilla46->x()+25,ui->casilla46->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 47:
+            lb->setGeometry(ui->casilla47->x()+25,ui->casilla47->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 50:
+            lb->setGeometry(ui->casilla50->x()+25,ui->casilla50->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 51:
+            lb->setGeometry(ui->casilla51->x()+25,ui->casilla51->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 52:
+            lb->setGeometry(ui->casilla52->x()+25,ui->casilla52->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 53:
+            lb->setGeometry(ui->casilla53->x()+25,ui->casilla53->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 54:
+            lb->setGeometry(ui->casilla54->x()+25,ui->casilla54->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 55:
+            lb->setGeometry(ui->casilla55->x()+25,ui->casilla55->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 56:
+            lb->setGeometry(ui->casilla56->x()+25,ui->casilla56->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 57:
+            lb->setGeometry(ui->casilla57->x()+25,ui->casilla57->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 60:
+            lb->setGeometry(ui->casilla60->x()+25,ui->casilla60->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 61:
+            lb->setGeometry(ui->casilla61->x()+25,ui->casilla61->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 62:
+            lb->setGeometry(ui->casilla62->x()+25,ui->casilla62->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 63:
+            lb->setGeometry(ui->casilla63->x()+25,ui->casilla63->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 64:
+            lb->setGeometry(ui->casilla64->x()+25,ui->casilla64->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 65:
+            lb->setGeometry(ui->casilla65->x()+25,ui->casilla65->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 66:
+            lb->setGeometry(ui->casilla66->x()+25,ui->casilla66->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 67:
+            lb->setGeometry(ui->casilla67->x()+25,ui->casilla67->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 70:
+            lb->setGeometry(ui->casilla70->x()+25,ui->casilla70->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 71:
+            lb->setGeometry(ui->casilla71->x()+25,ui->casilla71->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 72:
+            lb->setGeometry(ui->casilla72->x()+25,ui->casilla72->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 73:
+            lb->setGeometry(ui->casilla73->x()+25,ui->casilla73->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 74:
+            lb->setGeometry(ui->casilla74->x()+25,ui->casilla74->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 75:
+            lb->setGeometry(ui->casilla75->x()+25,ui->casilla75->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 76:
+            lb->setGeometry(ui->casilla76->x()+25,ui->casilla76->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 77:
+            lb->setGeometry(ui->casilla77->x()+25,ui->casilla77->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 80:
+            lb->setGeometry(ui->casilla80->x()+25,ui->casilla80->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 81:
+            lb->setGeometry(ui->casilla81->x()+25,ui->casilla81->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 82:
+            lb->setGeometry(ui->casilla82->x()+25,ui->casilla82->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 83:
+            lb->setGeometry(ui->casilla83->x()+25,ui->casilla83->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 84:
+            lb->setGeometry(ui->casilla84->x()+25,ui->casilla84->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 85:
+            lb->setGeometry(ui->casilla85->x()+25,ui->casilla85->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 86:
+            lb->setGeometry(ui->casilla86->x()+25,ui->casilla86->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 87:
+            lb->setGeometry(ui->casilla87->x()+25,ui->casilla87->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 90:
+            lb->setGeometry(ui->casilla90->x()+25,ui->casilla90->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 91:
+            lb->setGeometry(ui->casilla91->x()+25,ui->casilla91->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 92:
+            lb->setGeometry(ui->casilla92->x()+25,ui->casilla92->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 93:
+            lb->setGeometry(ui->casilla93->x()+25,ui->casilla93->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 94:
+            lb->setGeometry(ui->casilla94->x()+25,ui->casilla94->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 95:
+            lb->setGeometry(ui->casilla95->x()+25,ui->casilla95->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 96:
+            lb->setGeometry(ui->casilla96->x()+25,ui->casilla96->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 97:
+            lb->setGeometry(ui->casilla97->x()+25,ui->casilla97->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+
+        }
+    }
+    if(casillaEstudiante - casillaTorre==-8){
+        QLabel *lb = new QLabel;
+        lb->setVisible(false);
+        lb->setPixmap(signoPregunta);
+
+        switch (casillaEstudiante) {
+
+        case 2:
+            lb->setGeometry(ui->casilla02->x()+25,ui->casilla02->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 3:
+            lb->setGeometry(ui->casilla03->x()+25,ui->casilla03->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 4:
+            lb->setGeometry(ui->casilla04->x()+25,ui->casilla04->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 5:
+            lb->setGeometry(ui->casilla05->x()+25,ui->casilla05->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 6:
+            lb->setGeometry(ui->casilla06->x()+25,ui->casilla06->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 7:
+            lb->setGeometry(ui->casilla07->x()+25,ui->casilla07->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 8:
+            lb->setGeometry(ui->casilla08->x()+25,ui->casilla08->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 9:
+            lb->setGeometry(ui->casilla09->x()+25,ui->casilla09->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 12:
+            lb->setGeometry(ui->casilla12->x()+25,ui->casilla12->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 13:
+            lb->setGeometry(ui->casilla13->x()+25,ui->casilla13->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 14:
+            lb->setGeometry(ui->casilla14->x()+25,ui->casilla14->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 15:
+            lb->setGeometry(ui->casilla15->x()+25,ui->casilla15->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 16:
+            lb->setGeometry(ui->casilla16->x()+25,ui->casilla16->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 17:
+            lb->setGeometry(ui->casilla17->x()+25,ui->casilla17->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 18:
+            lb->setGeometry(ui->casilla18->x()+25,ui->casilla18->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 19:
+            lb->setGeometry(ui->casilla19->x()+25,ui->casilla19->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 22:
+            lb->setGeometry(ui->casilla22->x()+25,ui->casilla22->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 23:
+            lb->setGeometry(ui->casilla23->x()+25,ui->casilla23->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 24:
+            lb->setGeometry(ui->casilla24->x()+25,ui->casilla24->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 25:
+            lb->setGeometry(ui->casilla25->x()+25,ui->casilla25->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 26:
+            lb->setGeometry(ui->casilla26->x()+25,ui->casilla26->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 27:
+            lb->setGeometry(ui->casilla27->x()+25,ui->casilla27->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 28:
+            lb->setGeometry(ui->casilla28->x()+25,ui->casilla28->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 29:
+            lb->setGeometry(ui->casilla29->x()+25,ui->casilla29->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 32:
+            lb->setGeometry(ui->casilla32->x()+25,ui->casilla32->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 33:
+            lb->setGeometry(ui->casilla33->x()+25,ui->casilla33->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 34:
+            lb->setGeometry(ui->casilla34->x()+25,ui->casilla34->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 35:
+            lb->setGeometry(ui->casilla35->x()+25,ui->casilla35->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 36:
+            lb->setGeometry(ui->casilla36->x()+25,ui->casilla36->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 37:
+            lb->setGeometry(ui->casilla37->x()+25,ui->casilla37->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 38:
+            lb->setGeometry(ui->casilla38->x()+25,ui->casilla38->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 39:
+            lb->setGeometry(ui->casilla39->x()+25,ui->casilla39->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 42:
+            lb->setGeometry(ui->casilla42->x()+25,ui->casilla42->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 43:
+            lb->setGeometry(ui->casilla43->x()+25,ui->casilla43->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 44:
+            lb->setGeometry(ui->casilla44->x()+25,ui->casilla44->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 45:
+            lb->setGeometry(ui->casilla45->x()+25,ui->casilla45->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 46:
+            lb->setGeometry(ui->casilla46->x()+25,ui->casilla46->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 47:
+            lb->setGeometry(ui->casilla47->x()+25,ui->casilla47->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 48:
+            lb->setGeometry(ui->casilla48->x()+25,ui->casilla48->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 49:
+            lb->setGeometry(ui->casilla49->x()+25,ui->casilla49->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 52:
+            lb->setGeometry(ui->casilla52->x()+25,ui->casilla52->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 53:
+            lb->setGeometry(ui->casilla53->x()+25,ui->casilla53->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 54:
+            lb->setGeometry(ui->casilla54->x()+25,ui->casilla54->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 55:
+            lb->setGeometry(ui->casilla55->x()+25,ui->casilla55->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 56:
+            lb->setGeometry(ui->casilla56->x()+25,ui->casilla56->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 57:
+            lb->setGeometry(ui->casilla57->x()+25,ui->casilla57->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 58:
+            lb->setGeometry(ui->casilla58->x()+25,ui->casilla58->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 59:
+            lb->setGeometry(ui->casilla59->x()+25,ui->casilla59->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 62:
+            lb->setGeometry(ui->casilla62->x()+25,ui->casilla62->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 63:
+            lb->setGeometry(ui->casilla63->x()+25,ui->casilla63->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 64:
+            lb->setGeometry(ui->casilla64->x()+25,ui->casilla64->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 65:
+            lb->setGeometry(ui->casilla65->x()+25,ui->casilla65->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 66:
+            lb->setGeometry(ui->casilla66->x()+25,ui->casilla66->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 67:
+            lb->setGeometry(ui->casilla67->x()+25,ui->casilla67->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 68:
+            lb->setGeometry(ui->casilla68->x()+25,ui->casilla68->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 69:
+            lb->setGeometry(ui->casilla69->x()+25,ui->casilla69->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 72:
+            lb->setGeometry(ui->casilla72->x()+25,ui->casilla72->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 73:
+            lb->setGeometry(ui->casilla73->x()+25,ui->casilla73->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 74:
+            lb->setGeometry(ui->casilla74->x()+25,ui->casilla74->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 75:
+            lb->setGeometry(ui->casilla75->x()+25,ui->casilla75->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 76:
+            lb->setGeometry(ui->casilla76->x()+25,ui->casilla76->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 77:
+            lb->setGeometry(ui->casilla77->x()+25,ui->casilla77->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 78:
+            lb->setGeometry(ui->casilla78->x()+25,ui->casilla78->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 79:
+            lb->setGeometry(ui->casilla79->x()+25,ui->casilla79->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 82:
+            lb->setGeometry(ui->casilla82->x()+25,ui->casilla82->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 83:
+            lb->setGeometry(ui->casilla83->x()+25,ui->casilla83->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 84:
+            lb->setGeometry(ui->casilla84->x()+25,ui->casilla84->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 85:
+            lb->setGeometry(ui->casilla85->x()+25,ui->casilla85->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 86:
+            lb->setGeometry(ui->casilla86->x()+25,ui->casilla86->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 87:
+            lb->setGeometry(ui->casilla87->x()+25,ui->casilla87->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 88:
+            lb->setGeometry(ui->casilla88->x()+25,ui->casilla88->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 89:
+            lb->setGeometry(ui->casilla89->x()+25,ui->casilla89->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+
+        }
+    }
+    if(casillaEstudiante - casillaTorre==-12){
+        QLabel *lb = new QLabel;
+        lb->setVisible(false);
+        lb->setPixmap(signoPregunta);
+
+        switch (casillaEstudiante) {
+
+        case 0:
+            lb->setGeometry(ui->casilla00->x()+25,ui->casilla00->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 1:
+            lb->setGeometry(ui->casilla01->x()+25,ui->casilla01->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 2:
+            lb->setGeometry(ui->casilla02->x()+25,ui->casilla02->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 3:
+            lb->setGeometry(ui->casilla03->x()+25,ui->casilla03->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 4:
+            lb->setGeometry(ui->casilla04->x()+25,ui->casilla04->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 5:
+            lb->setGeometry(ui->casilla05->x()+25,ui->casilla05->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 6:
+            lb->setGeometry(ui->casilla06->x()+25,ui->casilla06->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 7:
+            lb->setGeometry(ui->casilla07->x()+25,ui->casilla07->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 10:
+            lb->setGeometry(ui->casilla10->x()+25,ui->casilla10->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 11:
+            lb->setGeometry(ui->casilla11->x()+25,ui->casilla11->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 12:
+            lb->setGeometry(ui->casilla12->x()+25,ui->casilla12->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 13:
+            lb->setGeometry(ui->casilla13->x()+25,ui->casilla13->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 14:
+            lb->setGeometry(ui->casilla14->x()+25,ui->casilla14->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 15:
+            lb->setGeometry(ui->casilla15->x()+25,ui->casilla15->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 16:
+            lb->setGeometry(ui->casilla16->x()+25,ui->casilla16->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 17:
+            lb->setGeometry(ui->casilla17->x()+25,ui->casilla17->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 20:
+            lb->setGeometry(ui->casilla20->x()+25,ui->casilla20->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 21:
+            lb->setGeometry(ui->casilla21->x()+25,ui->casilla21->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 22:
+            lb->setGeometry(ui->casilla22->x()+25,ui->casilla22->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 23:
+            lb->setGeometry(ui->casilla23->x()+25,ui->casilla23->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 24:
+            lb->setGeometry(ui->casilla24->x()+25,ui->casilla24->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 25:
+            lb->setGeometry(ui->casilla25->x()+25,ui->casilla25->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 26:
+            lb->setGeometry(ui->casilla26->x()+25,ui->casilla26->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 27:
+            lb->setGeometry(ui->casilla27->x()+25,ui->casilla27->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 30:
+            lb->setGeometry(ui->casilla30->x()+25,ui->casilla30->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 31:
+            lb->setGeometry(ui->casilla31->x()+25,ui->casilla31->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 32:
+            lb->setGeometry(ui->casilla32->x()+25,ui->casilla32->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 33:
+            lb->setGeometry(ui->casilla33->x()+25,ui->casilla33->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 34:
+            lb->setGeometry(ui->casilla34->x()+25,ui->casilla34->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 35:
+            lb->setGeometry(ui->casilla35->x()+25,ui->casilla35->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 36:
+            lb->setGeometry(ui->casilla36->x()+25,ui->casilla36->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 37:
+            lb->setGeometry(ui->casilla37->x()+25,ui->casilla37->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 40:
+            lb->setGeometry(ui->casilla40->x()+25,ui->casilla40->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 41:
+            lb->setGeometry(ui->casilla41->x()+25,ui->casilla41->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 42:
+            lb->setGeometry(ui->casilla42->x()+25,ui->casilla42->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 43:
+            lb->setGeometry(ui->casilla43->x()+25,ui->casilla43->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 44:
+            lb->setGeometry(ui->casilla44->x()+25,ui->casilla44->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 45:
+            lb->setGeometry(ui->casilla45->x()+25,ui->casilla45->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 46:
+            lb->setGeometry(ui->casilla46->x()+25,ui->casilla46->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 47:
+            lb->setGeometry(ui->casilla47->x()+25,ui->casilla47->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 50:
+            lb->setGeometry(ui->casilla50->x()+25,ui->casilla50->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 51:
+            lb->setGeometry(ui->casilla51->x()+25,ui->casilla51->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 52:
+            lb->setGeometry(ui->casilla52->x()+25,ui->casilla52->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 53:
+            lb->setGeometry(ui->casilla53->x()+25,ui->casilla53->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 54:
+            lb->setGeometry(ui->casilla54->x()+25,ui->casilla54->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 55:
+            lb->setGeometry(ui->casilla55->x()+25,ui->casilla55->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 56:
+            lb->setGeometry(ui->casilla56->x()+25,ui->casilla56->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 57:
+            lb->setGeometry(ui->casilla57->x()+25,ui->casilla57->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 60:
+            lb->setGeometry(ui->casilla60->x()+25,ui->casilla60->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 61:
+            lb->setGeometry(ui->casilla61->x()+25,ui->casilla61->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 62:
+            lb->setGeometry(ui->casilla62->x()+25,ui->casilla62->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 63:
+            lb->setGeometry(ui->casilla63->x()+25,ui->casilla63->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 64:
+            lb->setGeometry(ui->casilla64->x()+25,ui->casilla64->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 65:
+            lb->setGeometry(ui->casilla65->x()+25,ui->casilla65->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 66:
+            lb->setGeometry(ui->casilla66->x()+25,ui->casilla66->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 67:
+            lb->setGeometry(ui->casilla67->x()+25,ui->casilla67->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 70:
+            lb->setGeometry(ui->casilla70->x()+25,ui->casilla70->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 71:
+            lb->setGeometry(ui->casilla71->x()+25,ui->casilla71->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 72:
+            lb->setGeometry(ui->casilla72->x()+25,ui->casilla72->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 73:
+            lb->setGeometry(ui->casilla73->x()+25,ui->casilla73->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 74:
+            lb->setGeometry(ui->casilla74->x()+25,ui->casilla74->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 75:
+            lb->setGeometry(ui->casilla75->x()+25,ui->casilla75->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 76:
+            lb->setGeometry(ui->casilla76->x()+25,ui->casilla76->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 77:
+            lb->setGeometry(ui->casilla77->x()+25,ui->casilla77->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 80:
+            lb->setGeometry(ui->casilla80->x()+25,ui->casilla80->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 81:
+            lb->setGeometry(ui->casilla81->x()+25,ui->casilla81->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 82:
+            lb->setGeometry(ui->casilla82->x()+25,ui->casilla82->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 83:
+            lb->setGeometry(ui->casilla83->x()+25,ui->casilla83->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 84:
+            lb->setGeometry(ui->casilla84->x()+25,ui->casilla84->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 85:
+            lb->setGeometry(ui->casilla85->x()+25,ui->casilla85->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 86:
+            lb->setGeometry(ui->casilla86->x()+25,ui->casilla86->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 87:
+            lb->setGeometry(ui->casilla87->x()+25,ui->casilla87->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+
+        }
+    }
+    if(casillaEstudiante - casillaTorre==-18){
+        QLabel *lb = new QLabel;
+        lb->setVisible(false);
+        lb->setPixmap(signoPregunta);
+
+        switch (casillaEstudiante) {
+
+        case 2:
+            lb->setGeometry(ui->casilla02->x()+25,ui->casilla02->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 3:
+            lb->setGeometry(ui->casilla03->x()+25,ui->casilla03->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 4:
+            lb->setGeometry(ui->casilla04->x()+25,ui->casilla04->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 5:
+            lb->setGeometry(ui->casilla05->x()+25,ui->casilla05->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 6:
+            lb->setGeometry(ui->casilla06->x()+25,ui->casilla06->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 7:
+            lb->setGeometry(ui->casilla07->x()+25,ui->casilla07->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 8:
+            lb->setGeometry(ui->casilla08->x()+25,ui->casilla08->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 9:
+            lb->setGeometry(ui->casilla09->x()+25,ui->casilla09->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 12:
+            lb->setGeometry(ui->casilla12->x()+25,ui->casilla12->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 13:
+            lb->setGeometry(ui->casilla13->x()+25,ui->casilla13->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 14:
+            lb->setGeometry(ui->casilla14->x()+25,ui->casilla14->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 15:
+            lb->setGeometry(ui->casilla15->x()+25,ui->casilla15->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 16:
+            lb->setGeometry(ui->casilla16->x()+25,ui->casilla16->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 17:
+            lb->setGeometry(ui->casilla17->x()+25,ui->casilla17->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 18:
+            lb->setGeometry(ui->casilla18->x()+25,ui->casilla18->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 19:
+            lb->setGeometry(ui->casilla19->x()+25,ui->casilla19->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 23:
+            lb->setGeometry(ui->casilla23->x()+25,ui->casilla23->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 24:
+            lb->setGeometry(ui->casilla24->x()+25,ui->casilla24->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 25:
+            lb->setGeometry(ui->casilla25->x()+25,ui->casilla25->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 26:
+            lb->setGeometry(ui->casilla26->x()+25,ui->casilla26->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 27:
+            lb->setGeometry(ui->casilla27->x()+25,ui->casilla27->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 28:
+            lb->setGeometry(ui->casilla28->x()+25,ui->casilla28->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 29:
+            lb->setGeometry(ui->casilla29->x()+25,ui->casilla29->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 32:
+            lb->setGeometry(ui->casilla32->x()+25,ui->casilla32->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 33:
+            lb->setGeometry(ui->casilla33->x()+25,ui->casilla33->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 34:
+            lb->setGeometry(ui->casilla34->x()+25,ui->casilla34->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 35:
+            lb->setGeometry(ui->casilla35->x()+25,ui->casilla35->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 36:
+            lb->setGeometry(ui->casilla36->x()+25,ui->casilla36->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 37:
+            lb->setGeometry(ui->casilla37->x()+25,ui->casilla37->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 38:
+            lb->setGeometry(ui->casilla38->x()+25,ui->casilla38->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 39:
+            lb->setGeometry(ui->casilla39->x()+25,ui->casilla39->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 42:
+            lb->setGeometry(ui->casilla42->x()+25,ui->casilla42->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 43:
+            lb->setGeometry(ui->casilla43->x()+25,ui->casilla43->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 44:
+            lb->setGeometry(ui->casilla44->x()+25,ui->casilla44->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 45:
+            lb->setGeometry(ui->casilla45->x()+25,ui->casilla45->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 46:
+            lb->setGeometry(ui->casilla46->x()+25,ui->casilla46->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 47:
+            lb->setGeometry(ui->casilla47->x()+25,ui->casilla47->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 48:
+            lb->setGeometry(ui->casilla48->x()+25,ui->casilla48->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 49:
+            lb->setGeometry(ui->casilla49->x()+25,ui->casilla49->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+
+        case 52:
+            lb->setGeometry(ui->casilla52->x()+25,ui->casilla52->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 53:
+            lb->setGeometry(ui->casilla53->x()+25,ui->casilla53->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 54:
+            lb->setGeometry(ui->casilla54->x()+25,ui->casilla54->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 55:
+            lb->setGeometry(ui->casilla55->x()+25,ui->casilla55->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 56:
+            lb->setGeometry(ui->casilla56->x()+25,ui->casilla56->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 57:
+            lb->setGeometry(ui->casilla57->x()+25,ui->casilla57->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 58:
+            lb->setGeometry(ui->casilla58->x()+25,ui->casilla58->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 59:
+            lb->setGeometry(ui->casilla59->x()+25,ui->casilla59->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 62:
+            lb->setGeometry(ui->casilla62->x()+25,ui->casilla62->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 63:
+            lb->setGeometry(ui->casilla63->x()+25,ui->casilla63->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 64:
+            lb->setGeometry(ui->casilla64->x()+25,ui->casilla64->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 65:
+            lb->setGeometry(ui->casilla65->x()+25,ui->casilla65->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 66:
+            lb->setGeometry(ui->casilla66->x()+25,ui->casilla66->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 67:
+            lb->setGeometry(ui->casilla67->x()+25,ui->casilla67->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 68:
+            lb->setGeometry(ui->casilla68->x()+25,ui->casilla68->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 69:
+            lb->setGeometry(ui->casilla69->x()+25,ui->casilla69->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 72:
+            lb->setGeometry(ui->casilla72->x()+25,ui->casilla72->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 73:
+            lb->setGeometry(ui->casilla73->x()+25,ui->casilla73->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 74:
+            lb->setGeometry(ui->casilla74->x()+25,ui->casilla74->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 75:
+            lb->setGeometry(ui->casilla75->x()+25,ui->casilla75->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 76:
+            lb->setGeometry(ui->casilla76->x()+25,ui->casilla76->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 77:
+            lb->setGeometry(ui->casilla77->x()+25,ui->casilla77->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 78:
+            lb->setGeometry(ui->casilla78->x()+25,ui->casilla78->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 79:
+            lb->setGeometry(ui->casilla79->x()+25,ui->casilla79->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        }
+    }
+    if(casillaEstudiante - casillaTorre==-19){
+        QLabel *lb = new QLabel;
+        lb->setVisible(false);
+        lb->setPixmap(signoPregunta);
+
+        switch (casillaEstudiante) {
+
+        case 1:
+            lb->setGeometry(ui->casilla01->x()+25,ui->casilla01->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 2:
+            lb->setGeometry(ui->casilla02->x()+25,ui->casilla02->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 3:
+            lb->setGeometry(ui->casilla03->x()+25,ui->casilla03->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 4:
+            lb->setGeometry(ui->casilla04->x()+25,ui->casilla04->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 5:
+            lb->setGeometry(ui->casilla05->x()+25,ui->casilla05->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 6:
+            lb->setGeometry(ui->casilla06->x()+25,ui->casilla06->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 7:
+            lb->setGeometry(ui->casilla07->x()+25,ui->casilla07->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 8:
+            lb->setGeometry(ui->casilla08->x()+25,ui->casilla08->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 9:
+            lb->setGeometry(ui->casilla09->x()+25,ui->casilla09->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 11:
+            lb->setGeometry(ui->casilla11->x()+25,ui->casilla11->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 12:
+            lb->setGeometry(ui->casilla12->x()+25,ui->casilla12->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 13:
+            lb->setGeometry(ui->casilla13->x()+25,ui->casilla13->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 14:
+            lb->setGeometry(ui->casilla14->x()+25,ui->casilla14->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 15:
+            lb->setGeometry(ui->casilla15->x()+25,ui->casilla15->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 16:
+            lb->setGeometry(ui->casilla16->x()+25,ui->casilla16->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 17:
+            lb->setGeometry(ui->casilla17->x()+25,ui->casilla17->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 18:
+            lb->setGeometry(ui->casilla18->x()+25,ui->casilla18->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 19:
+            lb->setGeometry(ui->casilla19->x()+25,ui->casilla19->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 21:
+            lb->setGeometry(ui->casilla21->x()+25,ui->casilla21->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 22:
+            lb->setGeometry(ui->casilla22->x()+25,ui->casilla22->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 23:
+            lb->setGeometry(ui->casilla23->x()+25,ui->casilla23->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 24:
+            lb->setGeometry(ui->casilla24->x()+25,ui->casilla24->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 25:
+            lb->setGeometry(ui->casilla25->x()+25,ui->casilla25->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 26:
+            lb->setGeometry(ui->casilla26->x()+25,ui->casilla26->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 27:
+            lb->setGeometry(ui->casilla27->x()+25,ui->casilla27->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 28:
+            lb->setGeometry(ui->casilla28->x()+25,ui->casilla28->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 29:
+            lb->setGeometry(ui->casilla29->x()+25,ui->casilla29->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 31:
+            lb->setGeometry(ui->casilla31->x()+25,ui->casilla31->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 32:
+            lb->setGeometry(ui->casilla32->x()+25,ui->casilla32->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 33:
+            lb->setGeometry(ui->casilla33->x()+25,ui->casilla33->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 34:
+            lb->setGeometry(ui->casilla34->x()+25,ui->casilla34->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 35:
+            lb->setGeometry(ui->casilla35->x()+25,ui->casilla35->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 36:
+            lb->setGeometry(ui->casilla36->x()+25,ui->casilla36->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 37:
+            lb->setGeometry(ui->casilla37->x()+25,ui->casilla37->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 38:
+            lb->setGeometry(ui->casilla38->x()+25,ui->casilla38->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 39:
+            lb->setGeometry(ui->casilla39->x()+25,ui->casilla39->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 41:
+            lb->setGeometry(ui->casilla41->x()+25,ui->casilla41->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 42:
+            lb->setGeometry(ui->casilla42->x()+25,ui->casilla42->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 43:
+            lb->setGeometry(ui->casilla43->x()+25,ui->casilla43->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 44:
+            lb->setGeometry(ui->casilla44->x()+25,ui->casilla44->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 45:
+            lb->setGeometry(ui->casilla45->x()+25,ui->casilla45->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 46:
+            lb->setGeometry(ui->casilla46->x()+25,ui->casilla46->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 47:
+            lb->setGeometry(ui->casilla47->x()+25,ui->casilla47->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 48:
+            lb->setGeometry(ui->casilla48->x()+25,ui->casilla48->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 49:
+            lb->setGeometry(ui->casilla49->x()+25,ui->casilla49->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 51:
+            lb->setGeometry(ui->casilla51->x()+25,ui->casilla51->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 52:
+            lb->setGeometry(ui->casilla52->x()+25,ui->casilla52->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 53:
+            lb->setGeometry(ui->casilla53->x()+25,ui->casilla53->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 54:
+            lb->setGeometry(ui->casilla54->x()+25,ui->casilla54->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 55:
+            lb->setGeometry(ui->casilla55->x()+25,ui->casilla55->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 56:
+            lb->setGeometry(ui->casilla56->x()+25,ui->casilla56->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 57:
+            lb->setGeometry(ui->casilla57->x()+25,ui->casilla57->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 58:
+            lb->setGeometry(ui->casilla58->x()+25,ui->casilla58->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 59:
+            lb->setGeometry(ui->casilla59->x()+25,ui->casilla59->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 61:
+            lb->setGeometry(ui->casilla61->x()+25,ui->casilla61->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 62:
+            lb->setGeometry(ui->casilla62->x()+25,ui->casilla62->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 63:
+            lb->setGeometry(ui->casilla63->x()+25,ui->casilla63->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 64:
+            lb->setGeometry(ui->casilla64->x()+25,ui->casilla64->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 65:
+            lb->setGeometry(ui->casilla65->x()+25,ui->casilla65->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 66:
+            lb->setGeometry(ui->casilla66->x()+25,ui->casilla66->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 67:
+            lb->setGeometry(ui->casilla67->x()+25,ui->casilla67->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 68:
+            lb->setGeometry(ui->casilla68->x()+25,ui->casilla68->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 69:
+            lb->setGeometry(ui->casilla69->x()+25,ui->casilla69->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 71:
+            lb->setGeometry(ui->casilla71->x()+25,ui->casilla71->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 72:
+            lb->setGeometry(ui->casilla72->x()+25,ui->casilla72->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 73:
+            lb->setGeometry(ui->casilla73->x()+25,ui->casilla73->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 74:
+            lb->setGeometry(ui->casilla74->x()+25,ui->casilla74->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 75:
+            lb->setGeometry(ui->casilla75->x()+25,ui->casilla75->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 76:
+            lb->setGeometry(ui->casilla76->x()+25,ui->casilla76->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 77:
+            lb->setGeometry(ui->casilla77->x()+25,ui->casilla77->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 78:
+            lb->setGeometry(ui->casilla78->x()+25,ui->casilla78->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 79:
+            lb->setGeometry(ui->casilla79->x()+25,ui->casilla79->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        }
+    }
+    if(casillaEstudiante - casillaTorre==-20){
+        QLabel *lb = new QLabel;
+        lb->setVisible(false);
+        lb->setPixmap(signoPregunta);
+
+        switch (casillaEstudiante) {
+
+        case 0:
+            lb->setGeometry(ui->casilla00->x()+25,ui->casilla00->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 1:
+            lb->setGeometry(ui->casilla01->x()+25,ui->casilla01->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 2:
+            lb->setGeometry(ui->casilla02->x()+25,ui->casilla02->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 3:
+            lb->setGeometry(ui->casilla03->x()+25,ui->casilla03->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 4:
+            lb->setGeometry(ui->casilla04->x()+25,ui->casilla04->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 5:
+            lb->setGeometry(ui->casilla05->x()+25,ui->casilla05->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 6:
+            lb->setGeometry(ui->casilla06->x()+25,ui->casilla06->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 7:
+            lb->setGeometry(ui->casilla07->x()+25,ui->casilla07->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 8:
+            lb->setGeometry(ui->casilla08->x()+25,ui->casilla08->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 9:
+            lb->setGeometry(ui->casilla09->x()+25,ui->casilla09->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 10:
+            lb->setGeometry(ui->casilla10->x()+25,ui->casilla10->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 11:
+            lb->setGeometry(ui->casilla11->x()+25,ui->casilla11->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 12:
+            lb->setGeometry(ui->casilla12->x()+25,ui->casilla12->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 13:
+            lb->setGeometry(ui->casilla13->x()+25,ui->casilla13->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 14:
+            lb->setGeometry(ui->casilla14->x()+25,ui->casilla14->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 15:
+            lb->setGeometry(ui->casilla15->x()+25,ui->casilla15->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 16:
+            lb->setGeometry(ui->casilla16->x()+25,ui->casilla16->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 17:
+            lb->setGeometry(ui->casilla17->x()+25,ui->casilla17->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 18:
+            lb->setGeometry(ui->casilla18->x()+25,ui->casilla18->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 19:
+            lb->setGeometry(ui->casilla19->x()+25,ui->casilla19->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 20:
+            lb->setGeometry(ui->casilla20->x()+25,ui->casilla20->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 21:
+            lb->setGeometry(ui->casilla21->x()+25,ui->casilla21->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 22:
+            lb->setGeometry(ui->casilla22->x()+25,ui->casilla22->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 23:
+            lb->setGeometry(ui->casilla23->x()+25,ui->casilla23->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 24:
+            lb->setGeometry(ui->casilla24->x()+25,ui->casilla24->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 25:
+            lb->setGeometry(ui->casilla25->x()+25,ui->casilla25->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 26:
+            lb->setGeometry(ui->casilla26->x()+25,ui->casilla26->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 27:
+            lb->setGeometry(ui->casilla27->x()+25,ui->casilla27->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 28:
+            lb->setGeometry(ui->casilla28->x()+25,ui->casilla28->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 29:
+            lb->setGeometry(ui->casilla29->x()+25,ui->casilla29->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 30:
+            lb->setGeometry(ui->casilla30->x()+25,ui->casilla30->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 31:
+            lb->setGeometry(ui->casilla31->x()+25,ui->casilla31->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 32:
+            lb->setGeometry(ui->casilla32->x()+25,ui->casilla32->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 33:
+            lb->setGeometry(ui->casilla33->x()+25,ui->casilla33->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 34:
+            lb->setGeometry(ui->casilla34->x()+25,ui->casilla34->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 35:
+            lb->setGeometry(ui->casilla35->x()+25,ui->casilla35->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 36:
+            lb->setGeometry(ui->casilla36->x()+25,ui->casilla36->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 37:
+            lb->setGeometry(ui->casilla37->x()+25,ui->casilla37->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 38:
+            lb->setGeometry(ui->casilla38->x()+25,ui->casilla38->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 39:
+            lb->setGeometry(ui->casilla39->x()+25,ui->casilla39->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 40:
+            lb->setGeometry(ui->casilla40->x()+25,ui->casilla40->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 41:
+            lb->setGeometry(ui->casilla41->x()+25,ui->casilla41->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 42:
+            lb->setGeometry(ui->casilla42->x()+25,ui->casilla42->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 43:
+            lb->setGeometry(ui->casilla43->x()+25,ui->casilla43->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 44:
+            lb->setGeometry(ui->casilla44->x()+25,ui->casilla44->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 45:
+            lb->setGeometry(ui->casilla45->x()+25,ui->casilla45->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 46:
+            lb->setGeometry(ui->casilla46->x()+25,ui->casilla46->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 47:
+            lb->setGeometry(ui->casilla47->x()+25,ui->casilla47->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 48:
+            lb->setGeometry(ui->casilla48->x()+25,ui->casilla48->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 49:
+            lb->setGeometry(ui->casilla49->x()+25,ui->casilla49->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 50:
+            lb->setGeometry(ui->casilla50->x()+25,ui->casilla50->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 51:
+            lb->setGeometry(ui->casilla51->x()+25,ui->casilla51->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 52:
+            lb->setGeometry(ui->casilla52->x()+25,ui->casilla52->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 53:
+            lb->setGeometry(ui->casilla53->x()+25,ui->casilla53->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 54:
+            lb->setGeometry(ui->casilla54->x()+25,ui->casilla54->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 55:
+            lb->setGeometry(ui->casilla55->x()+25,ui->casilla55->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 56:
+            lb->setGeometry(ui->casilla56->x()+25,ui->casilla56->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 57:
+            lb->setGeometry(ui->casilla57->x()+25,ui->casilla57->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 58:
+            lb->setGeometry(ui->casilla58->x()+25,ui->casilla58->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 59:
+            lb->setGeometry(ui->casilla59->x()+25,ui->casilla59->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 60:
+            lb->setGeometry(ui->casilla60->x()+25,ui->casilla60->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 61:
+            lb->setGeometry(ui->casilla61->x()+25,ui->casilla61->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 62:
+            lb->setGeometry(ui->casilla62->x()+25,ui->casilla62->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 63:
+            lb->setGeometry(ui->casilla63->x()+25,ui->casilla63->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 64:
+            lb->setGeometry(ui->casilla64->x()+25,ui->casilla64->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 65:
+            lb->setGeometry(ui->casilla65->x()+25,ui->casilla65->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 66:
+            lb->setGeometry(ui->casilla66->x()+25,ui->casilla66->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 67:
+            lb->setGeometry(ui->casilla67->x()+25,ui->casilla67->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 68:
+            lb->setGeometry(ui->casilla68->x()+25,ui->casilla68->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 69:
+            lb->setGeometry(ui->casilla69->x()+25,ui->casilla69->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 70:
+            lb->setGeometry(ui->casilla70->x()+25,ui->casilla70->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 71:
+            lb->setGeometry(ui->casilla71->x()+25,ui->casilla71->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 72:
+            lb->setGeometry(ui->casilla72->x()+25,ui->casilla72->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 73:
+            lb->setGeometry(ui->casilla73->x()+25,ui->casilla73->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 74:
+            lb->setGeometry(ui->casilla74->x()+25,ui->casilla74->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 75:
+            lb->setGeometry(ui->casilla75->x()+25,ui->casilla75->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 76:
+            lb->setGeometry(ui->casilla76->x()+25,ui->casilla76->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 77:
+            lb->setGeometry(ui->casilla77->x()+25,ui->casilla77->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 78:
+            lb->setGeometry(ui->casilla78->x()+25,ui->casilla78->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 79:
+            lb->setGeometry(ui->casilla79->x()+25,ui->casilla79->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+
+        }
+    }
+    if(casillaEstudiante - casillaTorre==-21){
+        QLabel *lb = new QLabel;
+        lb->setVisible(false);
+        lb->setPixmap(signoPregunta);
+
+        switch (casillaEstudiante) {
+
+        case 0:
+            lb->setGeometry(ui->casilla00->x()+25,ui->casilla00->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 1:
+            lb->setGeometry(ui->casilla01->x()+25,ui->casilla01->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 2:
+            lb->setGeometry(ui->casilla02->x()+25,ui->casilla02->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 3:
+            lb->setGeometry(ui->casilla03->x()+25,ui->casilla03->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 4:
+            lb->setGeometry(ui->casilla04->x()+25,ui->casilla04->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 5:
+            lb->setGeometry(ui->casilla05->x()+25,ui->casilla05->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 6:
+            lb->setGeometry(ui->casilla06->x()+25,ui->casilla06->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 7:
+            lb->setGeometry(ui->casilla07->x()+25,ui->casilla07->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 8:
+            lb->setGeometry(ui->casilla08->x()+25,ui->casilla08->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 10:
+            lb->setGeometry(ui->casilla10->x()+25,ui->casilla10->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 11:
+            lb->setGeometry(ui->casilla11->x()+25,ui->casilla11->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 12:
+            lb->setGeometry(ui->casilla12->x()+25,ui->casilla12->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 13:
+            lb->setGeometry(ui->casilla13->x()+25,ui->casilla13->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 14:
+            lb->setGeometry(ui->casilla14->x()+25,ui->casilla14->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 15:
+            lb->setGeometry(ui->casilla15->x()+25,ui->casilla15->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 16:
+            lb->setGeometry(ui->casilla16->x()+25,ui->casilla16->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 17:
+            lb->setGeometry(ui->casilla17->x()+25,ui->casilla17->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 18:
+            lb->setGeometry(ui->casilla18->x()+25,ui->casilla18->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 20:
+            lb->setGeometry(ui->casilla20->x()+25,ui->casilla20->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 21:
+            lb->setGeometry(ui->casilla21->x()+25,ui->casilla21->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 22:
+            lb->setGeometry(ui->casilla22->x()+25,ui->casilla22->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 23:
+            lb->setGeometry(ui->casilla23->x()+25,ui->casilla23->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 24:
+            lb->setGeometry(ui->casilla24->x()+25,ui->casilla24->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 25:
+            lb->setGeometry(ui->casilla25->x()+25,ui->casilla25->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 26:
+            lb->setGeometry(ui->casilla26->x()+25,ui->casilla26->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 27:
+            lb->setGeometry(ui->casilla27->x()+25,ui->casilla27->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 28:
+            lb->setGeometry(ui->casilla28->x()+25,ui->casilla28->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 30:
+            lb->setGeometry(ui->casilla30->x()+25,ui->casilla30->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 31:
+            lb->setGeometry(ui->casilla31->x()+25,ui->casilla31->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 32:
+            lb->setGeometry(ui->casilla32->x()+25,ui->casilla32->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 33:
+            lb->setGeometry(ui->casilla33->x()+25,ui->casilla33->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 34:
+            lb->setGeometry(ui->casilla34->x()+25,ui->casilla34->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 35:
+            lb->setGeometry(ui->casilla35->x()+25,ui->casilla35->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 36:
+            lb->setGeometry(ui->casilla36->x()+25,ui->casilla36->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 37:
+            lb->setGeometry(ui->casilla37->x()+25,ui->casilla37->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 38:
+            lb->setGeometry(ui->casilla38->x()+25,ui->casilla38->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 40:
+            lb->setGeometry(ui->casilla40->x()+25,ui->casilla40->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 41:
+            lb->setGeometry(ui->casilla41->x()+25,ui->casilla41->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 42:
+            lb->setGeometry(ui->casilla42->x()+25,ui->casilla42->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 43:
+            lb->setGeometry(ui->casilla43->x()+25,ui->casilla43->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 44:
+            lb->setGeometry(ui->casilla44->x()+25,ui->casilla44->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 45:
+            lb->setGeometry(ui->casilla45->x()+25,ui->casilla45->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 46:
+            lb->setGeometry(ui->casilla46->x()+25,ui->casilla46->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 47:
+            lb->setGeometry(ui->casilla47->x()+25,ui->casilla47->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 48:
+            lb->setGeometry(ui->casilla48->x()+25,ui->casilla48->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 50:
+            lb->setGeometry(ui->casilla50->x()+25,ui->casilla50->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 51:
+            lb->setGeometry(ui->casilla51->x()+25,ui->casilla51->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 52:
+            lb->setGeometry(ui->casilla52->x()+25,ui->casilla52->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 53:
+            lb->setGeometry(ui->casilla53->x()+25,ui->casilla53->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 54:
+            lb->setGeometry(ui->casilla54->x()+25,ui->casilla54->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 55:
+            lb->setGeometry(ui->casilla55->x()+25,ui->casilla55->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 56:
+            lb->setGeometry(ui->casilla56->x()+25,ui->casilla56->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 57:
+            lb->setGeometry(ui->casilla57->x()+25,ui->casilla57->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 58:
+            lb->setGeometry(ui->casilla58->x()+25,ui->casilla58->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 60:
+            lb->setGeometry(ui->casilla60->x()+25,ui->casilla60->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 61:
+            lb->setGeometry(ui->casilla61->x()+25,ui->casilla61->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 62:
+            lb->setGeometry(ui->casilla62->x()+25,ui->casilla62->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 63:
+            lb->setGeometry(ui->casilla63->x()+25,ui->casilla63->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 64:
+            lb->setGeometry(ui->casilla64->x()+25,ui->casilla64->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 65:
+            lb->setGeometry(ui->casilla65->x()+25,ui->casilla65->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 66:
+            lb->setGeometry(ui->casilla66->x()+25,ui->casilla66->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 67:
+            lb->setGeometry(ui->casilla67->x()+25,ui->casilla67->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 68:
+            lb->setGeometry(ui->casilla68->x()+25,ui->casilla68->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 70:
+            lb->setGeometry(ui->casilla70->x()+25,ui->casilla70->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 71:
+            lb->setGeometry(ui->casilla71->x()+25,ui->casilla71->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 72:
+            lb->setGeometry(ui->casilla72->x()+25,ui->casilla72->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 73:
+            lb->setGeometry(ui->casilla73->x()+25,ui->casilla73->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 74:
+            lb->setGeometry(ui->casilla74->x()+25,ui->casilla74->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 75:
+            lb->setGeometry(ui->casilla75->x()+25,ui->casilla75->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 76:
+            lb->setGeometry(ui->casilla76->x()+25,ui->casilla76->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 77:
+            lb->setGeometry(ui->casilla77->x()+25,ui->casilla77->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 78:
+            lb->setGeometry(ui->casilla78->x()+25,ui->casilla78->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+
+        }
+    }
+    if(casillaEstudiante - casillaTorre==-22){
+        QLabel *lb = new QLabel;
+        lb->setVisible(false);
+        lb->setPixmap(signoPregunta);
+
+        switch (casillaEstudiante) {
+
+        case 0:
+            lb->setGeometry(ui->casilla00->x()+25,ui->casilla00->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 1:
+            lb->setGeometry(ui->casilla01->x()+25,ui->casilla01->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 2:
+            lb->setGeometry(ui->casilla02->x()+25,ui->casilla02->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 3:
+            lb->setGeometry(ui->casilla03->x()+25,ui->casilla03->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 4:
+            lb->setGeometry(ui->casilla04->x()+25,ui->casilla04->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 5:
+            lb->setGeometry(ui->casilla05->x()+25,ui->casilla05->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 6:
+            lb->setGeometry(ui->casilla06->x()+25,ui->casilla06->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 7:
+            lb->setGeometry(ui->casilla07->x()+25,ui->casilla07->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 10:
+            lb->setGeometry(ui->casilla10->x()+25,ui->casilla10->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 11:
+            lb->setGeometry(ui->casilla11->x()+25,ui->casilla11->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 12:
+            lb->setGeometry(ui->casilla12->x()+25,ui->casilla12->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 13:
+            lb->setGeometry(ui->casilla13->x()+25,ui->casilla13->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 14:
+            lb->setGeometry(ui->casilla14->x()+25,ui->casilla14->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 15:
+            lb->setGeometry(ui->casilla15->x()+25,ui->casilla15->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 16:
+            lb->setGeometry(ui->casilla16->x()+25,ui->casilla16->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 17:
+            lb->setGeometry(ui->casilla17->x()+25,ui->casilla17->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 20:
+            lb->setGeometry(ui->casilla20->x()+25,ui->casilla20->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 21:
+            lb->setGeometry(ui->casilla21->x()+25,ui->casilla21->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 22:
+            lb->setGeometry(ui->casilla22->x()+25,ui->casilla22->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 23:
+            lb->setGeometry(ui->casilla23->x()+25,ui->casilla23->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 24:
+            lb->setGeometry(ui->casilla24->x()+25,ui->casilla24->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 25:
+            lb->setGeometry(ui->casilla25->x()+25,ui->casilla25->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 26:
+            lb->setGeometry(ui->casilla26->x()+25,ui->casilla26->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 27:
+            lb->setGeometry(ui->casilla27->x()+25,ui->casilla27->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 30:
+            lb->setGeometry(ui->casilla30->x()+25,ui->casilla30->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 31:
+            lb->setGeometry(ui->casilla31->x()+25,ui->casilla31->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 32:
+            lb->setGeometry(ui->casilla32->x()+25,ui->casilla32->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 33:
+            lb->setGeometry(ui->casilla33->x()+25,ui->casilla33->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 34:
+            lb->setGeometry(ui->casilla34->x()+25,ui->casilla34->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 35:
+            lb->setGeometry(ui->casilla35->x()+25,ui->casilla35->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 36:
+            lb->setGeometry(ui->casilla36->x()+25,ui->casilla36->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 37:
+            lb->setGeometry(ui->casilla37->x()+25,ui->casilla37->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 40:
+            lb->setGeometry(ui->casilla40->x()+25,ui->casilla40->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 41:
+            lb->setGeometry(ui->casilla41->x()+25,ui->casilla41->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 42:
+            lb->setGeometry(ui->casilla42->x()+25,ui->casilla42->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 43:
+            lb->setGeometry(ui->casilla43->x()+25,ui->casilla43->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 44:
+            lb->setGeometry(ui->casilla44->x()+25,ui->casilla44->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 45:
+            lb->setGeometry(ui->casilla45->x()+25,ui->casilla45->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 46:
+            lb->setGeometry(ui->casilla46->x()+25,ui->casilla46->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 47:
+            lb->setGeometry(ui->casilla47->x()+25,ui->casilla47->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 50:
+            lb->setGeometry(ui->casilla50->x()+25,ui->casilla50->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 51:
+            lb->setGeometry(ui->casilla51->x()+25,ui->casilla51->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 52:
+            lb->setGeometry(ui->casilla52->x()+25,ui->casilla52->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 53:
+            lb->setGeometry(ui->casilla53->x()+25,ui->casilla53->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 54:
+            lb->setGeometry(ui->casilla54->x()+25,ui->casilla54->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 55:
+            lb->setGeometry(ui->casilla55->x()+25,ui->casilla55->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 56:
+            lb->setGeometry(ui->casilla56->x()+25,ui->casilla56->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 57:
+            lb->setGeometry(ui->casilla57->x()+25,ui->casilla57->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 60:
+            lb->setGeometry(ui->casilla60->x()+25,ui->casilla60->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 61:
+            lb->setGeometry(ui->casilla61->x()+25,ui->casilla61->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 62:
+            lb->setGeometry(ui->casilla62->x()+25,ui->casilla62->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 63:
+            lb->setGeometry(ui->casilla63->x()+25,ui->casilla63->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 64:
+            lb->setGeometry(ui->casilla64->x()+25,ui->casilla64->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 65:
+            lb->setGeometry(ui->casilla65->x()+25,ui->casilla65->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 66:
+            lb->setGeometry(ui->casilla66->x()+25,ui->casilla66->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 67:
+            lb->setGeometry(ui->casilla67->x()+25,ui->casilla67->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 70:
+            lb->setGeometry(ui->casilla70->x()+25,ui->casilla70->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 71:
+            lb->setGeometry(ui->casilla71->x()+25,ui->casilla71->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 72:
+            lb->setGeometry(ui->casilla72->x()+25,ui->casilla72->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 73:
+            lb->setGeometry(ui->casilla73->x()+25,ui->casilla73->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 74:
+            lb->setGeometry(ui->casilla74->x()+25,ui->casilla74->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 75:
+            lb->setGeometry(ui->casilla75->x()+25,ui->casilla75->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 76:
+            lb->setGeometry(ui->casilla76->x()+25,ui->casilla76->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        case 77:
+            lb->setGeometry(ui->casilla77->x()+25,ui->casilla77->y()+25,20,20);
+            lb->setVisible(true);
+            break;
+        }
+    }
+}
+
+void MainWindow::moverEstudiante(int casillaActual, int casillaSiguiente,int numZombie)
+{
+    if(casillaActual==90||casillaActual==91|| casillaActual == 92||casillaActual==93||casillaActual==94|| casillaActual == 95||casillaActual==96||casillaActual==97|| casillaActual == 98||casillaActual == 99){
+        switch (casillaActual) {
+            case 90:
+                if(numZombie==0){
+                    ui->zombie00->setGeometry(ui->casilla90->x()+25,ui->casilla90->y()+25,35,35);
+                }
+                if(numZombie==1){
+                    ui->zombie01->setGeometry(ui->casilla90->x()+25,ui->casilla90->y()+25,35,35);
+                }
+                if(numZombie==2){
+                    ui->zombie02->setGeometry(ui->casilla90->x()+25,ui->casilla90->y()+25,35,35);
+                }
+                if(numZombie==3){
+                    ui->zombie03->setGeometry(ui->casilla90->x()+25,ui->casilla90->y()+25,35,35);
+                }
+                if(numZombie==4){
+                    ui->zombie04->setGeometry(ui->casilla90->x()+25,ui->casilla90->y()+25,35,35);
+                }
+                if(numZombie==5){
+                    ui->zombie05->setGeometry(ui->casilla90->x()+25,ui->casilla90->y()+25,35,35);
+                }
+                if(numZombie==6){
+                    ui->zombie06->setGeometry(ui->casilla90->x()+25,ui->casilla90->y()+25,35,35);
+                }
+                if(numZombie==7){
+                    ui->zombie07->setGeometry(ui->casilla90->x()+25,ui->casilla90->y()+25,35,35);
+                }
+                if(numZombie==8){
+                    ui->zombie08->setGeometry(ui->casilla90->x()+25,ui->casilla90->y()+25,35,35);
+                }
+                if(numZombie==9){
+                    ui->zombie09->setGeometry(ui->casilla90->x()+25,ui->casilla90->y()+25,35,35);
+                }
+                if(numZombie==10){
+                    ui->zombie10->setGeometry(ui->casilla90->x()+25,ui->casilla90->y()+25,35,35);
+                }
+                if(numZombie==11){
+                    ui->zombie11->setGeometry(ui->casilla90->x()+25,ui->casilla90->y()+25,35,35);
+                }
+                if(numZombie==12){
+                    ui->zombie12->setGeometry(ui->casilla90->x()+25,ui->casilla90->y()+25,35,35);
+                }
+                if(numZombie==13){
+                    ui->zombie13->setGeometry(ui->casilla90->x()+25,ui->casilla90->y()+25,35,35);
+                }
+                if(numZombie==14){
+                    ui->zombie14->setGeometry(ui->casilla90->x()+25,ui->casilla90->y()+25,35,35);
+                }
+                if(numZombie==15){
+                    ui->zombie15->setGeometry(ui->casilla90->x()+25,ui->casilla90->y()+25,35,35);
+                }
+                if(numZombie==16){
+                    ui->zombie16->setGeometry(ui->casilla90->x()+25,ui->casilla90->y()+25,35,35);
+                }
+                if(numZombie==17){
+                    ui->zombie17->setGeometry(ui->casilla90->x()+25,ui->casilla90->y()+25,35,35);
+                }
+                if(numZombie==18){
+                    ui->zombie18->setGeometry(ui->casilla90->x()+25,ui->casilla90->y()+25,35,35);
+                }
+                if(numZombie==19){
+                    ui->zombie19->setGeometry(ui->casilla90->x()+25,ui->casilla90->y()+25,35,35);
+                }
+            break;
+        case 91:
+            if(numZombie==0){
+                ui->zombie00->setGeometry(ui->casilla91->x()+25,ui->casilla91->y()+25,35,35);
+            }
+            if(numZombie==1){
+                ui->zombie01->setGeometry(ui->casilla91->x()+25,ui->casilla91->y()+25,35,35);
+            }
+            if(numZombie==2){
+                ui->zombie02->setGeometry(ui->casilla91->x()+25,ui->casilla91->y()+25,35,35);
+            }
+            if(numZombie==3){
+                ui->zombie03->setGeometry(ui->casilla91->x()+25,ui->casilla91->y()+25,35,35);
+            }
+            if(numZombie==4){
+                ui->zombie04->setGeometry(ui->casilla91->x()+25,ui->casilla91->y()+25,35,35);
+            }
+            if(numZombie==5){
+                ui->zombie05->setGeometry(ui->casilla91->x()+25,ui->casilla91->y()+25,35,35);
+            }
+            if(numZombie==6){
+                ui->zombie06->setGeometry(ui->casilla91->x()+25,ui->casilla91->y()+25,35,35);
+            }
+            if(numZombie==7){
+                ui->zombie07->setGeometry(ui->casilla91->x()+25,ui->casilla91->y()+25,35,35);
+            }
+            if(numZombie==8){
+                ui->zombie08->setGeometry(ui->casilla91->x()+25,ui->casilla91->y()+25,35,35);
+            }
+            if(numZombie==9){
+                ui->zombie09->setGeometry(ui->casilla91->x()+25,ui->casilla91->y()+25,35,35);
+            }
+            if(numZombie==10){
+                ui->zombie10->setGeometry(ui->casilla91->x()+25,ui->casilla91->y()+25,35,35);
+            }
+            if(numZombie==11){
+                ui->zombie11->setGeometry(ui->casilla91->x()+25,ui->casilla91->y()+25,35,35);
+            }
+            if(numZombie==12){
+                ui->zombie12->setGeometry(ui->casilla91->x()+25,ui->casilla91->y()+25,35,35);
+            }
+            if(numZombie==13){
+                ui->zombie13->setGeometry(ui->casilla91->x()+25,ui->casilla91->y()+25,35,35);
+            }
+            if(numZombie==14){
+                ui->zombie14->setGeometry(ui->casilla91->x()+25,ui->casilla91->y()+25,35,35);
+            }
+            if(numZombie==15){
+                ui->zombie15->setGeometry(ui->casilla91->x()+25,ui->casilla91->y()+25,35,35);
+            }
+            if(numZombie==16){
+                ui->zombie16->setGeometry(ui->casilla91->x()+25,ui->casilla91->y()+25,35,35);
+            }
+            if(numZombie==17){
+                ui->zombie17->setGeometry(ui->casilla91->x()+25,ui->casilla91->y()+25,35,35);
+            }
+            if(numZombie==18){
+                ui->zombie18->setGeometry(ui->casilla91->x()+25,ui->casilla91->y()+25,35,35);
+            }
+            if(numZombie==19){
+                ui->zombie19->setGeometry(ui->casilla91->x()+25,ui->casilla91->y()+25,35,35);
+            }
+        break;
+        case 92:
+            if(numZombie==0){
+                ui->zombie00->setGeometry(ui->casilla92->x()+25,ui->casilla92->y()+25,35,35);
+            }
+            if(numZombie==1){
+                ui->zombie01->setGeometry(ui->casilla92->x()+25,ui->casilla92->y()+25,35,35);
+            }
+            if(numZombie==2){
+                ui->zombie02->setGeometry(ui->casilla92->x()+25,ui->casilla92->y()+25,35,35);
+            }
+            if(numZombie==3){
+                ui->zombie03->setGeometry(ui->casilla92->x()+25,ui->casilla92->y()+25,35,35);
+            }
+            if(numZombie==4){
+                ui->zombie04->setGeometry(ui->casilla92->x()+25,ui->casilla92->y()+25,35,35);
+            }
+            if(numZombie==5){
+                ui->zombie05->setGeometry(ui->casilla92->x()+25,ui->casilla92->y()+25,35,35);
+            }
+            if(numZombie==6){
+                ui->zombie06->setGeometry(ui->casilla92->x()+25,ui->casilla92->y()+25,35,35);
+            }
+            if(numZombie==7){
+                ui->zombie07->setGeometry(ui->casilla92->x()+25,ui->casilla92->y()+25,35,35);
+            }
+            if(numZombie==8){
+                ui->zombie08->setGeometry(ui->casilla92->x()+25,ui->casilla92->y()+25,35,35);
+            }
+            if(numZombie==9){
+                ui->zombie09->setGeometry(ui->casilla92->x()+25,ui->casilla92->y()+25,35,35);
+            }
+            if(numZombie==10){
+                ui->zombie10->setGeometry(ui->casilla92->x()+25,ui->casilla92->y()+25,35,35);
+            }
+            if(numZombie==11){
+                ui->zombie11->setGeometry(ui->casilla92->x()+25,ui->casilla92->y()+25,35,35);
+            }
+            if(numZombie==12){
+                ui->zombie12->setGeometry(ui->casilla92->x()+25,ui->casilla92->y()+25,35,35);
+            }
+            if(numZombie==13){
+                ui->zombie13->setGeometry(ui->casilla92->x()+25,ui->casilla92->y()+25,35,35);
+            }
+            if(numZombie==14){
+                ui->zombie14->setGeometry(ui->casilla92->x()+25,ui->casilla92->y()+25,35,35);
+            }
+            if(numZombie==15){
+                ui->zombie15->setGeometry(ui->casilla92->x()+25,ui->casilla92->y()+25,35,35);
+            }
+            if(numZombie==16){
+                ui->zombie16->setGeometry(ui->casilla92->x()+25,ui->casilla92->y()+25,35,35);
+            }
+            if(numZombie==17){
+                ui->zombie17->setGeometry(ui->casilla92->x()+25,ui->casilla92->y()+25,35,35);
+            }
+            if(numZombie==18){
+                ui->zombie18->setGeometry(ui->casilla92->x()+25,ui->casilla92->y()+25,35,35);
+            }
+            if(numZombie==19){
+                ui->zombie19->setGeometry(ui->casilla92->x()+25,ui->casilla92->y()+25,35,35);
+            }
+        break;
+        case 93:
+            if(numZombie==0){
+                ui->zombie00->setGeometry(ui->casilla93->x()+25,ui->casilla93->y()+25,35,35);
+            }
+            if(numZombie==1){
+                ui->zombie01->setGeometry(ui->casilla93->x()+25,ui->casilla93->y()+25,35,35);
+            }
+            if(numZombie==2){
+                ui->zombie02->setGeometry(ui->casilla93->x()+25,ui->casilla93->y()+25,35,35);
+            }
+            if(numZombie==3){
+                ui->zombie03->setGeometry(ui->casilla93->x()+25,ui->casilla93->y()+25,35,35);
+            }
+            if(numZombie==4){
+                ui->zombie04->setGeometry(ui->casilla93->x()+25,ui->casilla93->y()+25,35,35);
+            }
+            if(numZombie==5){
+                ui->zombie05->setGeometry(ui->casilla93->x()+25,ui->casilla93->y()+25,35,35);
+            }
+            if(numZombie==6){
+                ui->zombie06->setGeometry(ui->casilla93->x()+25,ui->casilla93->y()+25,35,35);
+            }
+            if(numZombie==7){
+                ui->zombie07->setGeometry(ui->casilla93->x()+25,ui->casilla93->y()+25,35,35);
+            }
+            if(numZombie==8){
+                ui->zombie08->setGeometry(ui->casilla93->x()+25,ui->casilla93->y()+25,35,35);
+            }
+            if(numZombie==9){
+                ui->zombie09->setGeometry(ui->casilla93->x()+25,ui->casilla93->y()+25,35,35);
+            }
+            if(numZombie==10){
+                ui->zombie10->setGeometry(ui->casilla93->x()+25,ui->casilla93->y()+25,35,35);
+            }
+            if(numZombie==11){
+                ui->zombie11->setGeometry(ui->casilla93->x()+25,ui->casilla93->y()+25,35,35);
+            }
+            if(numZombie==12){
+                ui->zombie12->setGeometry(ui->casilla93->x()+25,ui->casilla93->y()+25,35,35);
+            }
+            if(numZombie==13){
+                ui->zombie13->setGeometry(ui->casilla93->x()+25,ui->casilla93->y()+25,35,35);
+            }
+            if(numZombie==14){
+                ui->zombie14->setGeometry(ui->casilla93->x()+25,ui->casilla93->y()+25,35,35);
+            }
+            if(numZombie==15){
+                ui->zombie15->setGeometry(ui->casilla93->x()+25,ui->casilla93->y()+25,35,35);
+            }
+            if(numZombie==16){
+                ui->zombie16->setGeometry(ui->casilla93->x()+25,ui->casilla93->y()+25,35,35);
+            }
+            if(numZombie==17){
+                ui->zombie17->setGeometry(ui->casilla93->x()+25,ui->casilla93->y()+25,35,35);
+            }
+            if(numZombie==18){
+                ui->zombie18->setGeometry(ui->casilla93->x()+25,ui->casilla93->y()+25,35,35);
+            }
+            if(numZombie==19){
+                ui->zombie19->setGeometry(ui->casilla93->x()+25,ui->casilla93->y()+25,35,35);
+            }
+        break;
+        case 94:
+            if(numZombie==0){
+                ui->zombie00->setGeometry(ui->casilla94->x()+25,ui->casilla94->y()+25,35,35);
+            }
+            if(numZombie==1){
+                ui->zombie01->setGeometry(ui->casilla94->x()+25,ui->casilla94->y()+25,35,35);
+            }
+            if(numZombie==2){
+                ui->zombie02->setGeometry(ui->casilla94->x()+25,ui->casilla94->y()+25,35,35);
+            }
+            if(numZombie==3){
+                ui->zombie03->setGeometry(ui->casilla94->x()+25,ui->casilla94->y()+25,35,35);
+            }
+            if(numZombie==4){
+                ui->zombie04->setGeometry(ui->casilla94->x()+25,ui->casilla94->y()+25,35,35);
+            }
+            if(numZombie==5){
+                ui->zombie05->setGeometry(ui->casilla94->x()+25,ui->casilla94->y()+25,35,35);
+            }
+            if(numZombie==6){
+                ui->zombie06->setGeometry(ui->casilla94->x()+25,ui->casilla94->y()+25,35,35);
+            }
+            if(numZombie==7){
+                ui->zombie07->setGeometry(ui->casilla94->x()+25,ui->casilla94->y()+25,35,35);
+            }
+            if(numZombie==8){
+                ui->zombie08->setGeometry(ui->casilla94->x()+25,ui->casilla94->y()+25,35,35);
+            }
+            if(numZombie==9){
+                ui->zombie09->setGeometry(ui->casilla94->x()+25,ui->casilla94->y()+25,35,35);
+            }
+            if(numZombie==10){
+                ui->zombie10->setGeometry(ui->casilla94->x()+25,ui->casilla94->y()+25,35,35);
+            }
+            if(numZombie==11){
+                ui->zombie11->setGeometry(ui->casilla94->x()+25,ui->casilla94->y()+25,35,35);
+            }
+            if(numZombie==12){
+                ui->zombie12->setGeometry(ui->casilla94->x()+25,ui->casilla94->y()+25,35,35);
+            }
+            if(numZombie==13){
+                ui->zombie13->setGeometry(ui->casilla94->x()+25,ui->casilla94->y()+25,35,35);
+            }
+            if(numZombie==14){
+                ui->zombie14->setGeometry(ui->casilla94->x()+25,ui->casilla94->y()+25,35,35);
+            }
+            if(numZombie==15){
+                ui->zombie15->setGeometry(ui->casilla94->x()+25,ui->casilla94->y()+25,35,35);
+            }
+            if(numZombie==16){
+                ui->zombie16->setGeometry(ui->casilla94->x()+25,ui->casilla94->y()+25,35,35);
+            }
+            if(numZombie==17){
+                ui->zombie17->setGeometry(ui->casilla94->x()+25,ui->casilla94->y()+25,35,35);
+            }
+            if(numZombie==18){
+                ui->zombie18->setGeometry(ui->casilla94->x()+25,ui->casilla94->y()+25,35,35);
+            }
+            if(numZombie==19){
+                ui->zombie19->setGeometry(ui->casilla94->x()+25,ui->casilla94->y()+25,35,35);
+            }
+        break;
+        case 95:
+            if(numZombie==0){
+                ui->zombie00->setGeometry(ui->casilla95->x()+25,ui->casilla95->y()+25,35,35);
+            }
+            if(numZombie==1){
+                ui->zombie01->setGeometry(ui->casilla95->x()+25,ui->casilla95->y()+25,35,35);
+            }
+            if(numZombie==2){
+                ui->zombie02->setGeometry(ui->casilla95->x()+25,ui->casilla95->y()+25,35,35);
+            }
+            if(numZombie==3){
+                ui->zombie03->setGeometry(ui->casilla95->x()+25,ui->casilla95->y()+25,35,35);
+            }
+            if(numZombie==4){
+                ui->zombie04->setGeometry(ui->casilla95->x()+25,ui->casilla95->y()+25,35,35);
+            }
+            if(numZombie==5){
+                ui->zombie05->setGeometry(ui->casilla95->x()+25,ui->casilla95->y()+25,35,35);
+            }
+            if(numZombie==6){
+                ui->zombie06->setGeometry(ui->casilla95->x()+25,ui->casilla95->y()+25,35,35);
+            }
+            if(numZombie==7){
+                ui->zombie07->setGeometry(ui->casilla95->x()+25,ui->casilla95->y()+25,35,35);
+            }
+            if(numZombie==8){
+                ui->zombie08->setGeometry(ui->casilla95->x()+25,ui->casilla95->y()+25,35,35);
+            }
+            if(numZombie==9){
+                ui->zombie09->setGeometry(ui->casilla95->x()+25,ui->casilla95->y()+25,35,35);
+            }
+            if(numZombie==10){
+                ui->zombie10->setGeometry(ui->casilla95->x()+25,ui->casilla95->y()+25,35,35);
+            }
+            if(numZombie==11){
+                ui->zombie11->setGeometry(ui->casilla95->x()+25,ui->casilla95->y()+25,35,35);
+            }
+            if(numZombie==12){
+                ui->zombie12->setGeometry(ui->casilla95->x()+25,ui->casilla95->y()+25,35,35);
+            }
+            if(numZombie==13){
+                ui->zombie13->setGeometry(ui->casilla95->x()+25,ui->casilla95->y()+25,35,35);
+            }
+            if(numZombie==14){
+                ui->zombie14->setGeometry(ui->casilla95->x()+25,ui->casilla95->y()+25,35,35);
+            }
+            if(numZombie==15){
+                ui->zombie15->setGeometry(ui->casilla95->x()+25,ui->casilla95->y()+25,35,35);
+            }
+            if(numZombie==16){
+                ui->zombie16->setGeometry(ui->casilla95->x()+25,ui->casilla95->y()+25,35,35);
+            }
+            if(numZombie==17){
+                ui->zombie17->setGeometry(ui->casilla95->x()+25,ui->casilla95->y()+25,35,35);
+            }
+            if(numZombie==18){
+                ui->zombie18->setGeometry(ui->casilla95->x()+25,ui->casilla95->y()+25,35,35);
+            }
+            if(numZombie==19){
+                ui->zombie19->setGeometry(ui->casilla95->x()+25,ui->casilla95->y()+25,35,35);
+            }
+            break;
+        case 96:
+            if(numZombie==0){
+                ui->zombie00->setGeometry(ui->casilla96->x()+25,ui->casilla96->y()+25,35,35);
+            }
+            if(numZombie==1){
+                ui->zombie01->setGeometry(ui->casilla96->x()+25,ui->casilla96->y()+25,35,35);
+            }
+            if(numZombie==2){
+                ui->zombie02->setGeometry(ui->casilla96->x()+25,ui->casilla96->y()+25,35,35);
+            }
+            if(numZombie==3){
+                ui->zombie03->setGeometry(ui->casilla96->x()+25,ui->casilla96->y()+25,35,35);
+            }
+            if(numZombie==4){
+                ui->zombie04->setGeometry(ui->casilla96->x()+25,ui->casilla96->y()+25,35,35);
+            }
+            if(numZombie==5){
+                ui->zombie05->setGeometry(ui->casilla96->x()+25,ui->casilla96->y()+25,35,35);
+            }
+            if(numZombie==6){
+                ui->zombie06->setGeometry(ui->casilla96->x()+25,ui->casilla96->y()+25,35,35);
+            }
+            if(numZombie==7){
+                ui->zombie07->setGeometry(ui->casilla96->x()+25,ui->casilla96->y()+25,35,35);
+            }
+            if(numZombie==8){
+                ui->zombie08->setGeometry(ui->casilla96->x()+25,ui->casilla96->y()+25,35,35);
+            }
+            if(numZombie==9){
+                ui->zombie09->setGeometry(ui->casilla96->x()+25,ui->casilla96->y()+25,35,35);
+            }
+            if(numZombie==10){
+                ui->zombie10->setGeometry(ui->casilla96->x()+25,ui->casilla96->y()+25,35,35);
+            }
+            if(numZombie==11){
+                ui->zombie11->setGeometry(ui->casilla96->x()+25,ui->casilla96->y()+25,35,35);
+            }
+            if(numZombie==12){
+                ui->zombie12->setGeometry(ui->casilla96->x()+25,ui->casilla96->y()+25,35,35);
+            }
+            if(numZombie==13){
+                ui->zombie13->setGeometry(ui->casilla96->x()+25,ui->casilla96->y()+25,35,35);
+            }
+            if(numZombie==14){
+                ui->zombie14->setGeometry(ui->casilla96->x()+25,ui->casilla96->y()+25,35,35);
+            }
+            if(numZombie==15){
+                ui->zombie15->setGeometry(ui->casilla96->x()+25,ui->casilla96->y()+25,35,35);
+            }
+            if(numZombie==16){
+                ui->zombie16->setGeometry(ui->casilla96->x()+25,ui->casilla96->y()+25,35,35);
+            }
+            if(numZombie==17){
+                ui->zombie17->setGeometry(ui->casilla96->x()+25,ui->casilla96->y()+25,35,35);
+            }
+            if(numZombie==18){
+                ui->zombie18->setGeometry(ui->casilla96->x()+25,ui->casilla96->y()+25,35,35);
+            }
+            if(numZombie==19){
+                ui->zombie19->setGeometry(ui->casilla96->x()+25,ui->casilla96->y()+25,35,35);
+            }
+            break;
+        case 97:
+            if(numZombie==0){
+                ui->zombie00->setGeometry(ui->casilla97->x()+25,ui->casilla97->y()+25,35,35);
+            }
+            if(numZombie==1){
+                ui->zombie01->setGeometry(ui->casilla97->x()+25,ui->casilla97->y()+25,35,35);
+            }
+            if(numZombie==2){
+                ui->zombie02->setGeometry(ui->casilla97->x()+25,ui->casilla97->y()+25,35,35);
+            }
+            if(numZombie==3){
+                ui->zombie03->setGeometry(ui->casilla97->x()+25,ui->casilla97->y()+25,35,35);
+            }
+            if(numZombie==4){
+                ui->zombie04->setGeometry(ui->casilla97->x()+25,ui->casilla97->y()+25,35,35);
+            }
+            if(numZombie==5){
+                ui->zombie05->setGeometry(ui->casilla97->x()+25,ui->casilla97->y()+25,35,35);
+            }
+            if(numZombie==6){
+                ui->zombie06->setGeometry(ui->casilla97->x()+25,ui->casilla97->y()+25,35,35);
+            }
+            if(numZombie==7){
+                ui->zombie07->setGeometry(ui->casilla97->x()+25,ui->casilla97->y()+25,35,35);
+            }
+            if(numZombie==8){
+                ui->zombie08->setGeometry(ui->casilla97->x()+25,ui->casilla97->y()+25,35,35);
+            }
+            if(numZombie==9){
+                ui->zombie09->setGeometry(ui->casilla97->x()+25,ui->casilla97->y()+25,35,35);
+            }
+            if(numZombie==10){
+                ui->zombie10->setGeometry(ui->casilla97->x()+25,ui->casilla97->y()+25,35,35);
+            }
+            if(numZombie==11){
+                ui->zombie11->setGeometry(ui->casilla97->x()+25,ui->casilla97->y()+25,35,35);
+            }
+            if(numZombie==12){
+                ui->zombie12->setGeometry(ui->casilla97->x()+25,ui->casilla97->y()+25,35,35);
+            }
+            if(numZombie==13){
+                ui->zombie13->setGeometry(ui->casilla97->x()+25,ui->casilla97->y()+25,35,35);
+            }
+            if(numZombie==14){
+                ui->zombie14->setGeometry(ui->casilla97->x()+25,ui->casilla97->y()+25,35,35);
+            }
+            if(numZombie==15){
+                ui->zombie15->setGeometry(ui->casilla97->x()+25,ui->casilla97->y()+25,35,35);
+            }
+            if(numZombie==16){
+                ui->zombie16->setGeometry(ui->casilla97->x()+25,ui->casilla97->y()+25,35,35);
+            }
+            if(numZombie==17){
+                ui->zombie17->setGeometry(ui->casilla97->x()+25,ui->casilla97->y()+25,35,35);
+            }
+            if(numZombie==18){
+                ui->zombie18->setGeometry(ui->casilla97->x()+25,ui->casilla97->y()+25,35,35);
+            }
+            if(numZombie==19){
+                ui->zombie19->setGeometry(ui->casilla97->x()+25,ui->casilla97->y()+25,35,35);
+            }
+        break;
+        case 98:
+            if(numZombie==0){
+                ui->zombie00->setGeometry(ui->casilla98->x()+25,ui->casilla98->y()+25,35,35);
+            }
+            if(numZombie==1){
+                ui->zombie01->setGeometry(ui->casilla98->x()+25,ui->casilla98->y()+25,35,35);
+            }
+            if(numZombie==2){
+                ui->zombie02->setGeometry(ui->casilla98->x()+25,ui->casilla98->y()+25,35,35);
+            }
+            if(numZombie==3){
+                ui->zombie03->setGeometry(ui->casilla98->x()+25,ui->casilla98->y()+25,35,35);
+            }
+            if(numZombie==4){
+                ui->zombie04->setGeometry(ui->casilla98->x()+25,ui->casilla98->y()+25,35,35);
+            }
+            if(numZombie==5){
+                ui->zombie05->setGeometry(ui->casilla98->x()+25,ui->casilla98->y()+25,35,35);
+            }
+            if(numZombie==6){
+                ui->zombie06->setGeometry(ui->casilla98->x()+25,ui->casilla98->y()+25,35,35);
+            }
+            if(numZombie==7){
+                ui->zombie07->setGeometry(ui->casilla98->x()+25,ui->casilla98->y()+25,35,35);
+            }
+            if(numZombie==8){
+                ui->zombie08->setGeometry(ui->casilla98->x()+25,ui->casilla98->y()+25,35,35);
+            }
+            if(numZombie==9){
+                ui->zombie09->setGeometry(ui->casilla98->x()+25,ui->casilla98->y()+25,35,35);
+            }
+            if(numZombie==10){
+                ui->zombie10->setGeometry(ui->casilla98->x()+25,ui->casilla98->y()+25,35,35);
+            }
+            if(numZombie==11){
+                ui->zombie11->setGeometry(ui->casilla98->x()+25,ui->casilla98->y()+25,35,35);
+            }
+            if(numZombie==12){
+                ui->zombie12->setGeometry(ui->casilla98->x()+25,ui->casilla98->y()+25,35,35);
+            }
+            if(numZombie==13){
+                ui->zombie13->setGeometry(ui->casilla98->x()+25,ui->casilla98->y()+25,35,35);
+            }
+            if(numZombie==14){
+                ui->zombie14->setGeometry(ui->casilla98->x()+25,ui->casilla98->y()+25,35,35);
+            }
+            if(numZombie==15){
+                ui->zombie15->setGeometry(ui->casilla98->x()+25,ui->casilla98->y()+25,35,35);
+            }
+            if(numZombie==16){
+                ui->zombie16->setGeometry(ui->casilla98->x()+25,ui->casilla98->y()+25,35,35);
+            }
+            if(numZombie==17){
+                ui->zombie17->setGeometry(ui->casilla98->x()+25,ui->casilla98->y()+25,35,35);
+            }
+            if(numZombie==18){
+                ui->zombie18->setGeometry(ui->casilla98->x()+25,ui->casilla98->y()+25,35,35);
+            }
+            if(numZombie==19){
+                ui->zombie19->setGeometry(ui->casilla98->x()+25,ui->casilla98->y()+25,35,35);
+            }
+        break;
+        case 99:
+            if(numZombie==0){
+                ui->zombie00->setGeometry(ui->casilla99->x()+25,ui->casilla99->y()+25,35,35);
+            }
+            if(numZombie==1){
+                ui->zombie01->setGeometry(ui->casilla99->x()+25,ui->casilla99->y()+25,35,35);
+            }
+            if(numZombie==2){
+                ui->zombie02->setGeometry(ui->casilla99->x()+25,ui->casilla99->y()+25,35,35);
+            }
+            if(numZombie==3){
+                ui->zombie03->setGeometry(ui->casilla99->x()+25,ui->casilla99->y()+25,35,35);
+            }
+            if(numZombie==4){
+                ui->zombie04->setGeometry(ui->casilla99->x()+25,ui->casilla99->y()+25,35,35);
+            }
+            if(numZombie==5){
+                ui->zombie05->setGeometry(ui->casilla99->x()+25,ui->casilla99->y()+25,35,35);
+            }
+            if(numZombie==6){
+                ui->zombie06->setGeometry(ui->casilla99->x()+25,ui->casilla99->y()+25,35,35);
+            }
+            if(numZombie==7){
+                ui->zombie07->setGeometry(ui->casilla99->x()+25,ui->casilla99->y()+25,35,35);
+            }
+            if(numZombie==8){
+                ui->zombie08->setGeometry(ui->casilla99->x()+25,ui->casilla99->y()+25,35,35);
+            }
+            if(numZombie==9){
+                ui->zombie09->setGeometry(ui->casilla99->x()+25,ui->casilla99->y()+25,35,35);
+            }
+            if(numZombie==10){
+                ui->zombie10->setGeometry(ui->casilla99->x()+25,ui->casilla99->y()+25,35,35);
+            }
+            if(numZombie==11){
+                ui->zombie11->setGeometry(ui->casilla99->x()+25,ui->casilla99->y()+25,35,35);
+            }
+            if(numZombie==12){
+                ui->zombie12->setGeometry(ui->casilla99->x()+25,ui->casilla99->y()+25,35,35);
+            }
+            if(numZombie==13){
+                ui->zombie13->setGeometry(ui->casilla99->x()+25,ui->casilla99->y()+25,35,35);
+            }
+            if(numZombie==14){
+                ui->zombie14->setGeometry(ui->casilla99->x()+25,ui->casilla99->y()+25,35,35);
+            }
+            if(numZombie==15){
+                ui->zombie15->setGeometry(ui->casilla99->x()+25,ui->casilla99->y()+25,35,35);
+            }
+            if(numZombie==16){
+                ui->zombie16->setGeometry(ui->casilla99->x()+25,ui->casilla99->y()+25,35,35);
+            }
+            if(numZombie==17){
+                ui->zombie17->setGeometry(ui->casilla99->x()+25,ui->casilla99->y()+25,35,35);
+            }
+            if(numZombie==18){
+                ui->zombie18->setGeometry(ui->casilla99->x()+25,ui->casilla99->y()+25,35,35);
+            }
+            if(numZombie==19){
+                ui->zombie19->setGeometry(ui->casilla99->x()+25,ui->casilla99->y()+25,35,35);
+            }
+        break;
+
+        }
+    }
+    if(casillaActual-casillaSiguiente == 11){
+        if(numZombie == 0){
+            ui->zombie00->setGeometry(ui->zombie00->x()-35,ui->zombie00->y()-35,35,35);
+        }
+        if(numZombie == 1){
+            ui->zombie01->setGeometry(ui->zombie01->x()-35,ui->zombie01->y()-35,35,35);
+        }
+        if(numZombie == 2){
+            ui->zombie02->setGeometry(ui->zombie02->x()-35,ui->zombie02->y()-35,35,35);
+        }
+        if(numZombie == 3){
+            ui->zombie03->setGeometry(ui->zombie03->x()-35,ui->zombie03->y()-35,35,35);
+        }
+        if(numZombie == 4){
+            ui->zombie04->setGeometry(ui->zombie04->x()-35,ui->zombie04->y()-35,35,35);
+        }
+        if(numZombie == 5){
+            ui->zombie05->setGeometry(ui->zombie05->x()-35,ui->zombie05->y()-35,35,35);
+        }
+        if(numZombie == 6){
+            ui->zombie06->setGeometry(ui->zombie06->x()-35,ui->zombie06->y()-35,35,35);
+        }
+        if(numZombie == 7){
+            ui->zombie07->setGeometry(ui->zombie07->x()-35,ui->zombie07->y()-35,35,35);
+        }
+        if(numZombie == 8){
+            ui->zombie08->setGeometry(ui->zombie08->x()-35,ui->zombie08->y()-35,35,35);
+        }
+        if(numZombie == 9){
+            ui->zombie09->setGeometry(ui->zombie09->x()-35,ui->zombie09->y()-35,35,35);
+        }
+        if(numZombie == 10){
+            ui->zombie10->setGeometry(ui->zombie10->x()-35,ui->zombie10->y()-35,35,35);
+        }
+        if(numZombie == 11){
+            ui->zombie11->setGeometry(ui->zombie11->x()-35,ui->zombie11->y()-35,35,35);
+        }
+        if(numZombie == 12){
+            ui->zombie12->setGeometry(ui->zombie12->x()-35,ui->zombie12->y()-35,35,35);
+        }
+        if(numZombie == 13){
+            ui->zombie13->setGeometry(ui->zombie13->x()-35,ui->zombie13->y()-35,35,35);
+        }
+        if(numZombie == 14){
+            ui->zombie14->setGeometry(ui->zombie14->x()-35,ui->zombie14->y()-35,35,35);
+        }
+        if(numZombie == 15){
+            ui->zombie15->setGeometry(ui->zombie15->x()-35,ui->zombie15->y()-35,35,35);
+        }
+        if(numZombie == 16){
+            ui->zombie16->setGeometry(ui->zombie16->x()-35,ui->zombie16->y()-35,35,35);
+        }
+        if(numZombie == 17){
+            ui->zombie17->setGeometry(ui->zombie17->x()-35,ui->zombie17->y()-35,35,35);
+        }
+        if(numZombie == 18){
+            ui->zombie18->setGeometry(ui->zombie18->x()-35,ui->zombie18->y()-35,35,35);
+        }
+        if(numZombie == 19){
+            ui->zombie19->setGeometry(ui->zombie19->x()-35,ui->zombie19->y()-35,35,35);
+        }
+    }
+    if(casillaActual-casillaSiguiente == 10){
+        if(numZombie == 0){
+            ui->zombie00->setGeometry(ui->zombie00->x(),ui->zombie00->y()-35,35,35);
+        }
+        if(numZombie == 1){
+            ui->zombie01->setGeometry(ui->zombie01->x(),ui->zombie01->y()-35,35,35);
+        }
+        if(numZombie == 2){
+            ui->zombie02->setGeometry(ui->zombie02->x(),ui->zombie02->y()-35,35,35);
+        }
+        if(numZombie == 3){
+            ui->zombie03->setGeometry(ui->zombie03->x(),ui->zombie03->y()-35,35,35);
+        }
+        if(numZombie == 4){
+            ui->zombie04->setGeometry(ui->zombie04->x(),ui->zombie04->y()-35,35,35);
+        }
+        if(numZombie == 5){
+            ui->zombie05->setGeometry(ui->zombie05->x(),ui->zombie05->y()-35,35,35);
+        }
+        if(numZombie == 6){
+            ui->zombie06->setGeometry(ui->zombie06->x(),ui->zombie06->y()-35,35,35);
+        }
+        if(numZombie == 7){
+            ui->zombie07->setGeometry(ui->zombie07->x(),ui->zombie07->y()-35,35,35);
+        }
+        if(numZombie == 8){
+            ui->zombie08->setGeometry(ui->zombie08->x(),ui->zombie08->y()-35,35,35);
+        }
+        if(numZombie == 9){
+            ui->zombie09->setGeometry(ui->zombie09->x(),ui->zombie09->y()-35,35,35);
+        }
+        if(numZombie == 10){
+            ui->zombie10->setGeometry(ui->zombie10->x(),ui->zombie10->y()-35,35,35);
+        }
+        if(numZombie == 11){
+            ui->zombie11->setGeometry(ui->zombie11->x(),ui->zombie11->y()-35,35,35);
+        }
+        if(numZombie == 12){
+            ui->zombie12->setGeometry(ui->zombie12->x(),ui->zombie12->y()-35,35,35);
+        }
+        if(numZombie == 13){
+            ui->zombie13->setGeometry(ui->zombie13->x(),ui->zombie13->y()-35,35,35);
+        }
+        if(numZombie == 14){
+            ui->zombie14->setGeometry(ui->zombie14->x(),ui->zombie14->y()-35,35,35);
+        }
+        if(numZombie == 15){
+            ui->zombie15->setGeometry(ui->zombie15->x(),ui->zombie15->y()-35,35,35);
+        }
+        if(numZombie == 16){
+            ui->zombie16->setGeometry(ui->zombie16->x(),ui->zombie16->y()-35,35,35);
+        }
+        if(numZombie == 17){
+            ui->zombie17->setGeometry(ui->zombie17->x(),ui->zombie17->y()-35,35,35);
+        }
+        if(numZombie == 18){
+            ui->zombie18->setGeometry(ui->zombie18->x(),ui->zombie18->y()-35,35,35);
+        }
+        if(numZombie == 19){
+            ui->zombie19->setGeometry(ui->zombie19->x(),ui->zombie19->y()-35,35,35);
+        }
+    }
+    if(casillaActual-casillaSiguiente == 9){
+        if(numZombie == 0){
+            ui->zombie00->setGeometry(ui->zombie00->x()+35,ui->zombie00->y()-35,35,35);
+        }
+        if(numZombie == 1){
+            ui->zombie01->setGeometry(ui->zombie01->x()+35,ui->zombie01->y()-35,35,35);
+        }
+        if(numZombie == 2){
+            ui->zombie02->setGeometry(ui->zombie02->x()+35,ui->zombie02->y()-35,35,35);
+        }
+        if(numZombie == 3){
+            ui->zombie03->setGeometry(ui->zombie03->x()+35,ui->zombie03->y()-35,35,35);
+        }
+        if(numZombie == 4){
+            ui->zombie04->setGeometry(ui->zombie04->x()+35,ui->zombie04->y()-35,35,35);
+        }
+        if(numZombie == 5){
+            ui->zombie05->setGeometry(ui->zombie05->x()+35,ui->zombie05->y()-35,35,35);
+        }
+        if(numZombie == 6){
+            ui->zombie06->setGeometry(ui->zombie06->x()+35,ui->zombie06->y()-35,35,35);
+        }
+        if(numZombie == 7){
+            ui->zombie07->setGeometry(ui->zombie07->x()+35,ui->zombie07->y()-35,35,35);
+        }
+        if(numZombie == 8){
+            ui->zombie08->setGeometry(ui->zombie08->x()+35,ui->zombie08->y()-35,35,35);
+        }
+        if(numZombie == 9){
+            ui->zombie09->setGeometry(ui->zombie09->x()+35,ui->zombie09->y()-35,35,35);
+        }
+        if(numZombie == 10){
+            ui->zombie10->setGeometry(ui->zombie10->x()+35,ui->zombie10->y()-35,35,35);
+        }
+        if(numZombie == 11){
+            ui->zombie11->setGeometry(ui->zombie11->x()+35,ui->zombie11->y()-35,35,35);
+        }
+        if(numZombie == 12){
+            ui->zombie12->setGeometry(ui->zombie12->x()+35,ui->zombie12->y()-35,35,35);
+        }
+        if(numZombie == 13){
+            ui->zombie13->setGeometry(ui->zombie13->x()+35,ui->zombie13->y()-35,35,35);
+        }
+        if(numZombie == 14){
+            ui->zombie14->setGeometry(ui->zombie14->x()+35,ui->zombie14->y()-35,35,35);
+        }
+        if(numZombie == 15){
+            ui->zombie15->setGeometry(ui->zombie15->x()+35,ui->zombie15->y()-35,35,35);
+        }
+        if(numZombie == 16){
+            ui->zombie16->setGeometry(ui->zombie16->x()+35,ui->zombie16->y()-35,35,35);
+        }
+        if(numZombie == 17){
+            ui->zombie17->setGeometry(ui->zombie17->x()+35,ui->zombie17->y()-35,35,35);
+        }
+        if(numZombie == 18){
+            ui->zombie18->setGeometry(ui->zombie18->x()+35,ui->zombie18->y()-35,35,35);
+        }
+        if(numZombie == 19){
+            ui->zombie19->setGeometry(ui->zombie19->x()+35,ui->zombie19->y()-35,35,35);
+        }
+    }
+    if(casillaActual-casillaSiguiente == 1){
+        if(numZombie == 0){
+            ui->zombie00->setGeometry(ui->zombie00->x()-35,ui->zombie00->y(),35,35);
+        }
+        if(numZombie == 1){
+            ui->zombie01->setGeometry(ui->zombie01->x()-35,ui->zombie01->y(),35,35);
+        }
+        if(numZombie == 2){
+            ui->zombie02->setGeometry(ui->zombie02->x()-35,ui->zombie02->y(),35,35);
+        }
+        if(numZombie == 3){
+            ui->zombie03->setGeometry(ui->zombie03->x()-35,ui->zombie03->y(),35,35);
+        }
+        if(numZombie == 4){
+            ui->zombie04->setGeometry(ui->zombie04->x()-35,ui->zombie04->y(),35,35);
+        }
+        if(numZombie == 5){
+            ui->zombie05->setGeometry(ui->zombie05->x()-35,ui->zombie05->y(),35,35);
+        }
+        if(numZombie == 6){
+            ui->zombie06->setGeometry(ui->zombie06->x()-35,ui->zombie06->y(),35,35);
+        }
+        if(numZombie == 7){
+            ui->zombie07->setGeometry(ui->zombie07->x()-35,ui->zombie07->y(),35,35);
+        }
+        if(numZombie == 8){
+            ui->zombie08->setGeometry(ui->zombie08->x()-35,ui->zombie08->y(),35,35);
+        }
+        if(numZombie == 9){
+            ui->zombie09->setGeometry(ui->zombie09->x()-35,ui->zombie09->y(),35,35);
+        }
+        if(numZombie == 10){
+            ui->zombie10->setGeometry(ui->zombie10->x()-35,ui->zombie10->y(),35,35);
+        }
+        if(numZombie == 11){
+            ui->zombie11->setGeometry(ui->zombie11->x()-35,ui->zombie11->y(),35,35);
+        }
+        if(numZombie == 12){
+            ui->zombie12->setGeometry(ui->zombie12->x()-35,ui->zombie12->y(),35,35);
+        }
+        if(numZombie == 13){
+            ui->zombie13->setGeometry(ui->zombie13->x()-35,ui->zombie13->y(),35,35);
+        }
+        if(numZombie == 14){
+            ui->zombie14->setGeometry(ui->zombie14->x()-35,ui->zombie14->y(),35,35);
+        }
+        if(numZombie == 15){
+            ui->zombie15->setGeometry(ui->zombie15->x()-35,ui->zombie15->y(),35,35);
+        }
+        if(numZombie == 16){
+            ui->zombie16->setGeometry(ui->zombie16->x()-35,ui->zombie16->y(),35,35);
+        }
+        if(numZombie == 17){
+            ui->zombie17->setGeometry(ui->zombie17->x()-35,ui->zombie17->y(),35,35);
+        }
+        if(numZombie == 18){
+            ui->zombie18->setGeometry(ui->zombie18->x()-35,ui->zombie18->y(),35,35);
+        }
+        if(numZombie == 19){
+            ui->zombie19->setGeometry(ui->zombie19->x()-35,ui->zombie19->y(),35,35);
+        }
+    }
+    if(casillaActual-casillaSiguiente == -1){
+        if(numZombie == 0){
+            ui->zombie00->setGeometry(ui->zombie00->x()+35,ui->zombie00->y(),35,35);
+        }
+        if(numZombie == 1){
+            ui->zombie01->setGeometry(ui->zombie01->x()+35,ui->zombie01->y(),35,35);
+        }
+        if(numZombie == 2){
+            ui->zombie02->setGeometry(ui->zombie02->x()+35,ui->zombie02->y(),35,35);
+        }
+        if(numZombie == 3){
+            ui->zombie03->setGeometry(ui->zombie03->x()+35,ui->zombie03->y(),35,35);
+        }
+        if(numZombie == 4){
+            ui->zombie04->setGeometry(ui->zombie04->x()+35,ui->zombie04->y(),35,35);
+        }
+        if(numZombie == 5){
+            ui->zombie05->setGeometry(ui->zombie05->x()+35,ui->zombie05->y(),35,35);
+        }
+        if(numZombie == 6){
+            ui->zombie06->setGeometry(ui->zombie06->x()+35,ui->zombie06->y(),35,35);
+        }
+        if(numZombie == 7){
+            ui->zombie07->setGeometry(ui->zombie07->x()+35,ui->zombie07->y(),35,35);
+        }
+        if(numZombie == 8){
+            ui->zombie08->setGeometry(ui->zombie08->x()+35,ui->zombie08->y(),35,35);
+        }
+        if(numZombie == 9){
+            ui->zombie09->setGeometry(ui->zombie09->x()+35,ui->zombie09->y(),35,35);
+        }
+        if(numZombie == 10){
+            ui->zombie10->setGeometry(ui->zombie10->x()+35,ui->zombie10->y(),35,35);
+        }
+        if(numZombie == 11){
+            ui->zombie11->setGeometry(ui->zombie11->x()+35,ui->zombie11->y(),35,35);
+        }
+        if(numZombie == 12){
+            ui->zombie12->setGeometry(ui->zombie12->x()+35,ui->zombie12->y(),35,35);
+        }
+        if(numZombie == 13){
+            ui->zombie13->setGeometry(ui->zombie13->x()+35,ui->zombie13->y(),35,35);
+        }
+        if(numZombie == 14){
+            ui->zombie14->setGeometry(ui->zombie14->x()+35,ui->zombie14->y(),35,35);
+        }
+        if(numZombie == 15){
+            ui->zombie15->setGeometry(ui->zombie15->x()+35,ui->zombie15->y(),35,35);
+        }
+        if(numZombie == 16){
+            ui->zombie16->setGeometry(ui->zombie16->x()+35,ui->zombie16->y(),35,35);
+        }
+        if(numZombie == 17){
+            ui->zombie17->setGeometry(ui->zombie17->x()+35,ui->zombie17->y(),35,35);
+        }
+        if(numZombie == 18){
+            ui->zombie18->setGeometry(ui->zombie18->x()+35,ui->zombie18->y(),35,35);
+        }
+        if(numZombie == 19){
+            ui->zombie19->setGeometry(ui->zombie19->x()+35,ui->zombie19->y(),35,35);
+        }
+    }
+    if(casillaActual-casillaSiguiente == -9){
+        if(numZombie == 0){
+            ui->zombie00->setGeometry(ui->zombie00->x()-35,ui->zombie00->y()+35,35,35);
+        }
+        if(numZombie == 1){
+            ui->zombie01->setGeometry(ui->zombie01->x()-35,ui->zombie01->y()+35,35,35);
+        }
+        if(numZombie == 2){
+            ui->zombie02->setGeometry(ui->zombie02->x()-35,ui->zombie02->y()+35,35,35);
+        }
+        if(numZombie == 3){
+            ui->zombie03->setGeometry(ui->zombie03->x()-35,ui->zombie03->y()+35,35,35);
+        }
+        if(numZombie == 4){
+            ui->zombie04->setGeometry(ui->zombie04->x()-35,ui->zombie04->y()+35,35,35);
+        }
+        if(numZombie == 5){
+            ui->zombie05->setGeometry(ui->zombie05->x()-35,ui->zombie05->y()+35,35,35);
+        }
+        if(numZombie == 6){
+            ui->zombie06->setGeometry(ui->zombie06->x()-35,ui->zombie06->y()+35,35,35);
+        }
+        if(numZombie == 7){
+            ui->zombie07->setGeometry(ui->zombie07->x()-35,ui->zombie07->y()+35,35,35);
+        }
+        if(numZombie == 8){
+            ui->zombie08->setGeometry(ui->zombie08->x()-35,ui->zombie08->y()+35,35,35);
+        }
+        if(numZombie == 9){
+            ui->zombie09->setGeometry(ui->zombie09->x()-35,ui->zombie09->y()+35,35,35);
+        }
+        if(numZombie == 10){
+            ui->zombie10->setGeometry(ui->zombie10->x()-35,ui->zombie10->y()+35,35,35);
+        }
+        if(numZombie == 11){
+            ui->zombie11->setGeometry(ui->zombie11->x()-35,ui->zombie11->y()+35,35,35);
+        }
+        if(numZombie == 12){
+            ui->zombie12->setGeometry(ui->zombie12->x()-35,ui->zombie12->y()+35,35,35);
+        }
+        if(numZombie == 13){
+            ui->zombie13->setGeometry(ui->zombie13->x()-35,ui->zombie13->y()+35,35,35);
+        }
+        if(numZombie == 14){
+            ui->zombie14->setGeometry(ui->zombie14->x()-35,ui->zombie14->y()+35,35,35);
+        }
+        if(numZombie == 15){
+            ui->zombie15->setGeometry(ui->zombie15->x()-35,ui->zombie15->y()+35,35,35);
+        }
+        if(numZombie == 16){
+            ui->zombie16->setGeometry(ui->zombie16->x()-35,ui->zombie16->y()+35,35,35);
+        }
+        if(numZombie == 17){
+            ui->zombie17->setGeometry(ui->zombie17->x()-35,ui->zombie17->y()+35,35,35);
+        }
+        if(numZombie == 18){
+            ui->zombie18->setGeometry(ui->zombie18->x()-35,ui->zombie18->y()+35,35,35);
+        }
+        if(numZombie == 19){
+            ui->zombie19->setGeometry(ui->zombie19->x()-35,ui->zombie19->y()+35,35,35);
+        }
+    }
+    if(casillaActual-casillaSiguiente == -10){
+        if(numZombie == 0){
+            ui->zombie00->setGeometry(ui->zombie00->x(),ui->zombie00->y()+35,35,35);
+        }
+        if(numZombie == 1){
+            ui->zombie01->setGeometry(ui->zombie01->x(),ui->zombie01->y()+35,35,35);
+        }
+        if(numZombie == 2){
+            ui->zombie02->setGeometry(ui->zombie02->x(),ui->zombie02->y()+35,35,35);
+        }
+        if(numZombie == 3){
+            ui->zombie03->setGeometry(ui->zombie03->x(),ui->zombie03->y()+35,35,35);
+        }
+        if(numZombie == 4){
+            ui->zombie04->setGeometry(ui->zombie04->x(),ui->zombie04->y()+35,35,35);
+        }
+        if(numZombie == 5){
+            ui->zombie05->setGeometry(ui->zombie05->x(),ui->zombie05->y()+35,35,35);
+        }
+        if(numZombie == 6){
+            ui->zombie06->setGeometry(ui->zombie06->x(),ui->zombie06->y()+35,35,35);
+        }
+        if(numZombie == 7){
+            ui->zombie07->setGeometry(ui->zombie07->x(),ui->zombie07->y()+35,35,35);
+        }
+        if(numZombie == 8){
+            ui->zombie08->setGeometry(ui->zombie08->x(),ui->zombie08->y()+35,35,35);
+        }
+        if(numZombie == 9){
+            ui->zombie09->setGeometry(ui->zombie09->x(),ui->zombie09->y()+35,35,35);
+        }
+        if(numZombie == 10){
+            ui->zombie10->setGeometry(ui->zombie10->x(),ui->zombie10->y()+35,35,35);
+        }
+        if(numZombie == 11){
+            ui->zombie11->setGeometry(ui->zombie11->x(),ui->zombie11->y()+35,35,35);
+        }
+        if(numZombie == 12){
+            ui->zombie12->setGeometry(ui->zombie12->x(),ui->zombie12->y()+35,35,35);
+        }
+        if(numZombie == 13){
+            ui->zombie13->setGeometry(ui->zombie13->x(),ui->zombie13->y()+35,35,35);
+        }
+        if(numZombie == 14){
+            ui->zombie14->setGeometry(ui->zombie14->x(),ui->zombie14->y()+35,35,35);
+        }
+        if(numZombie == 15){
+            ui->zombie15->setGeometry(ui->zombie15->x(),ui->zombie15->y()+35,35,35);
+        }
+        if(numZombie == 16){
+            ui->zombie16->setGeometry(ui->zombie16->x(),ui->zombie16->y()+35,35,35);
+        }
+        if(numZombie == 17){
+            ui->zombie17->setGeometry(ui->zombie17->x(),ui->zombie17->y()+35,35,35);
+        }
+        if(numZombie == 18){
+            ui->zombie18->setGeometry(ui->zombie18->x(),ui->zombie18->y()+35,35,35);
+        }
+        if(numZombie == 19){
+            ui->zombie19->setGeometry(ui->zombie19->x(),ui->zombie19->y()+35,35,35);
+        }
+    }
+    if(casillaActual-casillaSiguiente == -11){
+        if(numZombie == 0){
+            ui->zombie00->setGeometry(ui->zombie00->x()+35,ui->zombie00->y()+35,35,35);
+        }
+        if(numZombie == 1){
+            ui->zombie01->setGeometry(ui->zombie01->x()+35,ui->zombie01->y()+35,35,35);
+        }
+        if(numZombie == 2){
+            ui->zombie02->setGeometry(ui->zombie02->x()+35,ui->zombie02->y()+35,35,35);
+        }
+        if(numZombie == 3){
+            ui->zombie03->setGeometry(ui->zombie03->x()+35,ui->zombie03->y()+35,35,35);
+        }
+        if(numZombie == 4){
+            ui->zombie04->setGeometry(ui->zombie04->x()+35,ui->zombie04->y()+35,35,35);
+        }
+        if(numZombie == 5){
+            ui->zombie05->setGeometry(ui->zombie05->x()+35,ui->zombie05->y()+35,35,35);
+        }
+        if(numZombie == 6){
+            ui->zombie06->setGeometry(ui->zombie06->x()+35,ui->zombie06->y()+35,35,35);
+        }
+        if(numZombie == 7){
+            ui->zombie07->setGeometry(ui->zombie07->x()+35,ui->zombie07->y()+35,35,35);
+        }
+        if(numZombie == 8){
+            ui->zombie08->setGeometry(ui->zombie08->x()+35,ui->zombie08->y()+35,35,35);
+        }
+        if(numZombie == 9){
+            ui->zombie09->setGeometry(ui->zombie09->x()+35,ui->zombie09->y()+35,35,35);
+        }
+        if(numZombie == 10){
+            ui->zombie10->setGeometry(ui->zombie10->x()+35,ui->zombie10->y()+35,35,35);
+        }
+        if(numZombie == 11){
+            ui->zombie11->setGeometry(ui->zombie11->x()+35,ui->zombie11->y()+35,35,35);
+        }
+        if(numZombie == 12){
+            ui->zombie12->setGeometry(ui->zombie12->x()+35,ui->zombie12->y()+35,35,35);
+        }
+        if(numZombie == 13){
+            ui->zombie13->setGeometry(ui->zombie13->x()+35,ui->zombie13->y()+35,35,35);
+        }
+        if(numZombie == 14){
+            ui->zombie14->setGeometry(ui->zombie14->x()+35,ui->zombie14->y()+35,35,35);
+        }
+        if(numZombie == 15){
+            ui->zombie15->setGeometry(ui->zombie15->x()+35,ui->zombie15->y()+35,35,35);
+        }
+        if(numZombie == 16){
+            ui->zombie16->setGeometry(ui->zombie16->x()+35,ui->zombie16->y()+35,35,35);
+        }
+        if(numZombie == 17){
+            ui->zombie17->setGeometry(ui->zombie17->x()+35,ui->zombie17->y()+35,35,35);
+        }
+        if(numZombie == 18){
+            ui->zombie18->setGeometry(ui->zombie18->x()+35,ui->zombie18->y()+35,35,35);
+        }
+        if(numZombie == 19){
+            ui->zombie19->setGeometry(ui->zombie19->x()+35,ui->zombie19->y()+35,35,35);
+        }
+    }
+}
+
 
 
 
