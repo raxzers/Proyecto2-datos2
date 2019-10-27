@@ -14,6 +14,7 @@ public:
     Creaturas();
     Creaturas(std::string nm);
     Creaturas(std::string nm,std::string gen);
+    Creaturas(std::string nm,int Rart,int Rarq,int Rm,int Rf,int vel);
     std::string display();
 
     int atributos=0;
@@ -25,6 +26,8 @@ public:
     std::string txt[5]={"Rart","Rarq","Rm","Rf","vel"};
     float calcFitn();
 };
+
+
 
 
 #endif //PARTESPARAPROJ2_CREATURAS_H

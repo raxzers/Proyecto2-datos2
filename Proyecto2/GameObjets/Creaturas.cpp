@@ -8,60 +8,96 @@
 Creaturas::Creaturas(std::string nm) {
     this->unTag=nm;
 
-//"Rart","Rarq","Rm","Rf","vel"
-    this->gen =1;
-    std::bitset<6> Rart((unsigned)Utilities::random(1, 10));
-    std::bitset<6> Rarq((unsigned)Utilities::random(1, 10));
-    std::bitset<6> Rf((unsigned)Utilities::random(1, 10));
-    std::bitset<6> vel((unsigned)Utilities::random(1,10));
-    std::bitset<6> Rm((unsigned)Utilities::random(1,10));
-
-    atributo[4]=Rart.to_ulong();
-    atributo[3]=Rarq.to_ulong();
-    atributo[2]=Rf.to_ulong();
-    atributo[1]=Rm.to_ulong();
-    atributo[0]=vel.to_ulong();
+    //"Rart","Rarq","Rm","Rf","vel"
+        this->gen =1;
+        std::bitset<6> Rart((unsigned)Utilities::random(1, 10));
+        std::bitset<6> Rarq((unsigned)Utilities::random(1, 10));
+        std::bitset<6> Rf((unsigned)Utilities::random(1, 10));
+        std::bitset<6> vel((unsigned)Utilities::random(1,10));
+        std::bitset<6> Rm((unsigned)Utilities::random(1,10));
 
 
 
+        std::string mystring =vel.to_string();
+        mystring.append(Rf.to_string());
+        mystring.append( Rm.to_string());
+        mystring.append(Rarq.to_string());
+        mystring.append( Rart.to_string());
 
 
-    std::string mystring =Rart.to_string();
-    mystring.append( vel.to_string());
-    mystring.append(Rf.to_string());
-    mystring.append(Rarq.to_string());
-    mystring.append( Rm.to_string());
-    std::bitset<30> set18(mystring);
 
+        std::bitset<30> set18(mystring);
 
-    this->atributos =(int)set18.to_ulong();
-    this->vida = calcFitn()*5;
+        atributo[0]=Rart.to_ulong();
+        atributo[1]=Rarq.to_ulong();
+        atributo[2]=Rm.to_ulong();
+        atributo[3]=Rf.to_ulong();
+        atributo[4]=vel.to_ulong();
+
+        this->atributos =(int)set18.to_ulong();
+        this->vida = calcFitn()*5;
 
 }
 
 Creaturas::Creaturas(std::string nm, std::string gen) {
     this->unTag=nm;
 
-//"Rart","Rarq","Rm","Rf","vel"
-    this->gen = std::stoi(gen);
-    std::bitset<6> Rart((unsigned)Utilities::random(1, 10));
-    std::bitset<6> Rarq((unsigned)Utilities::random(1, 10));
-    std::bitset<6> Rf((unsigned)Utilities::random(1, 10));
-    std::bitset<6> vel((unsigned)Utilities::random(1,10));
-    std::bitset<6> Rm((unsigned)Utilities::random(1,10));
+    //"Rart","Rarq","Rm","Rf","vel"
+        this->gen = std::stoi(gen);
+        std::bitset<6> Rart((unsigned)Utilities::random(1, 10));
+        std::bitset<6> Rarq((unsigned)Utilities::random(1, 10));
+        std::bitset<6> Rf((unsigned)Utilities::random(1, 10));
+        std::bitset<6> vel((unsigned)Utilities::random(1,10));
+        std::bitset<6> Rm((unsigned)Utilities::random(1,10));
 
 
 
-    std::string mystring =Rart.to_string();
-    mystring.append( vel.to_string());
-    mystring.append(Rf.to_string());
-    mystring.append(Rarq.to_string());
-    mystring.append( Rm.to_string());
+        std::string mystring =vel.to_string();
+        mystring.append(Rf.to_string());
+        mystring.append( Rm.to_string());
+        mystring.append(Rarq.to_string());
+        mystring.append( Rart.to_string());
+        std::bitset<30> set18(mystring);
+        atributo[0]=Rart.to_ulong();
+        atributo[1]=Rarq.to_ulong();
+        atributo[2]=Rm.to_ulong();
+        atributo[3]=Rf.to_ulong();
+        atributo[4]=vel.to_ulong();
+
+
+        this->atributos =(int)set18.to_ulong();
+        this->vida = calcFitn()*5;
+}
+
+Creaturas::Creaturas(std::string nm, int Rart, int Rarq, int Rm, int Rf, int vel)
+{
+    this->unTag=nm;
+    std::bitset<6> RartBin(Rart);
+    std::bitset<6> RarqBin(Rarq);
+    std::bitset<6> RfBin(Rf);
+    std::bitset<6> velBin(vel);
+    std::bitset<6> RmBin(Rm);
+
+
+    std::string mystring =velBin.to_string();
+    mystring.append(RfBin.to_string());
+    mystring.append( RmBin.to_string());
+    mystring.append(RarqBin.to_string());
+    mystring.append( RartBin.to_string());
     std::bitset<30> set18(mystring);
+    atributo[0]=RartBin.to_ulong();
+    atributo[1]=RarqBin.to_ulong();
+    atributo[2]=RmBin.to_ulong();
+    atributo[3]=RfBin.to_ulong();
+    atributo[4]=velBin.to_ulong();
+
+
 
 
     this->atributos =(int)set18.to_ulong();
     this->vida = calcFitn()*5;
+
+
 }
 
 std::string Creaturas::display() {
@@ -100,8 +136,7 @@ std::string Creaturas::display() {
 
 
 void Creaturas::fillSPECIAL() {
-    std::bitset<30> set18(this->atributos);
-
+    std::bitset<30> set18((unsigned)this->atributos);
 
     int j=0, caract=0;
     std::bitset<6> tmp;
