@@ -16,7 +16,7 @@ public:
     Creaturas(std::string nm,std::string gen);
     Creaturas(std::string nm,int Rart,int Rarq,int Rm,int Rf,int vel);
     std::string display();
-
+    std::string ruta="";
     int atributos=0;
     int vida=0;
     int gen;
