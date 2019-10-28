@@ -15,7 +15,7 @@ public:
      std::string lcreat2XML(LinkedList<Creaturas> * lc);
      void createPob();
      LinkedList<Creaturas> *pob= new LinkedList<Creaturas>();
-     LinkedList<Creaturas> *lcreat2XML(std::string  lc);
+     LinkedList<Creaturas> *XML2lcreat(std::string  lc);
 };
 
 #endif // XMLPARSER_H
