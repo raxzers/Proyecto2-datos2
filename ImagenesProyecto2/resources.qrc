@@ -7,5 +7,9 @@
         <file>torreLanzaFuego.png</file>
         <file>torreMago.png</file>
         <file>signoPregunta.png</file>
+        <file>elfo.jpg</file>
+        <file>harpia.jpg</file>
+        <file>mercenario.jpg</file>
+        <file>ogro.jpg</file>
     </qresource>
 </RCC>
