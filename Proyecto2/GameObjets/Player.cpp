@@ -30,3 +30,10 @@ std::string Player::verMapa()
     }
     return mp;
 }
+LinkedList<Torre> *Player::getTorr() const {
+    return Torr;
+}
+
+void Player::setTorr(LinkedList<Torre> *torr) {
+    Torr = torr;
+}

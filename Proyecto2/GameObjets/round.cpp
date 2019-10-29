@@ -19,7 +19,7 @@ void Round::Nextround(int maze[10][10])
 void Round::setRutaLista(int maze[10][10])
 {
     for(int i=0;i<pob->getSize();i++){
-
+        //if(){}
         aPath.aStarSearch(maze,90,0);
         pob->getElement(i)->getData().ruta=aPath.getRoute();
     }

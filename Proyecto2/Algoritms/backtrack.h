@@ -7,7 +7,7 @@
 #include "../sturctures/LinkedList.h"
 #include <string>
 #include <cstring>
-#include <stack>"
+#include <stack>
 
 class node {
 public:
@@ -27,7 +27,6 @@ public:
 
 class Backtrack
 {
-public:
 public:
     Backtrack();
     bool isReachable(int maze[N][M],int x, int y,int fx, int fy);

@@ -18,21 +18,77 @@ typedef pair<double, pair<int, int>> pPair;
 class Astar
 {
 public:
+    /**
+    *
+    * @brief constructor del busca caminos a*
+    **/
     Astar();
+    /**
+    * @brief metodo para encontrar un camino
+    * @param grid mapa del juego
+    * @param src lugar de origen
+    * @param dest salida
+    **/
     void aStarSearch(int grid[][COL], int src, int dest);
-
-        const string &getRoute() const;
-
-        void setRoute(const string &route);
-
-    private:
-        void aStarSearch(int grid[][COL], Pair src, Pair dest);
-        std::string route="";
-        bool isValid(int row, int col);
-        bool isUnBlocked(int grid[][COL], int row, int col);
-        bool isDestination(int row, int col, Pair dest);
-        double calculateHValue(int row, int col, Pair dest);
-        void tracePath(cell cellDetails[][COL], Pair dest);
+    /**
+    *
+    * @brief encapsulacion para la variable route
+    **/
+    const string &getRoute() const;
+    /**
+    *
+    * @brief encapsulacion para la variable route
+    **/
+   void setRoute(const string &route);
+private:
+   /**
+   * @brief metodo interno para encontrar un camino
+    * @param grid mapa del juego
+    * @param src coordenada lugar de origen
+    * @param dest coordenada salida
+   **/
+    void aStarSearch(int grid[][COL], Pair src, Pair dest);
+    /**
+    *
+    * @brief variable de la ruta
+    **/
+     std::string route="";
+     /**
+     * @brief busca si es valido
+     * @param row fila en la matriz
+     * @param col columna en la matriz
+     * @return si es valido
+     **/
+     bool isValid(int row, int col);
+     /**
+     * @brief busca si esta bloqueado
+     * @param row fila en la matriz
+     * @param col columna en la matriz
+     * @return si esta bloqueado
+     **/
+     bool isUnBlocked(int grid[][COL], int row, int col);
+     /**
+     * @brief busca si es destino
+     * @param row fila en la matriz
+     * @param col columna en la matriz
+     * @param dest coordenada destino
+     * @return si es destino
+     **/
+     bool isDestination(int row, int col, Pair dest);
+     /**
+     * @brief calcula h
+     * @param row fila en la matriz
+     * @param col columna en la matriz
+     * @param dest coordenada destino
+     * @return h
+     **/
+     double calculateHValue(int row, int col, Pair dest);
+     /**
+     * @brief traza la ruta
+     * @param cellDetails matriza del mapa
+     * @param dest coordenada destino
+     **/
+     void tracePath(cell cellDetails[][COL], Pair dest);
 };
 
 #endif // ASTAR_H

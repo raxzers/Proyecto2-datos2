@@ -10,7 +10,16 @@
 class XMLParser
 {
 public:
+
+    /**
+    *
+    *
+    **/
     XMLParser();
+    /**
+    *
+    *
+    **/
     std::string xmlPobl;
      std::string lcreat2XML(LinkedList<Creaturas> * lc);
      void createPob();

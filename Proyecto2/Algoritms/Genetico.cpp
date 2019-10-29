@@ -67,10 +67,10 @@ void Genetico::cruzarPoblacion(LinkedList<Creaturas> *listacreat) {
         Creaturas creat1 = LPadres->getFirst()->getData();
         Creaturas creat2 = LPadres->getFirst()->getNext()->getData();
         LPadres->getFirst()->setNext(LPadres->getFirst()->getNext()->getNext())  ;
-        int manu = LPadres->getSize();
-        manu--;
-        manu--;
-        LPadres->setSize(manu);
+        int cicloVida = LPadres->getSize();
+        cicloVida--;
+        cicloVida--;
+        LPadres->setSize(cicloVida);
 
         std::bitset<30> btG1(creat1.atributos);
         std::bitset<30> btG2(creat2.atributos);
