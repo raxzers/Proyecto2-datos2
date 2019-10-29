@@ -12,13 +12,36 @@ class Round
 {
 public:
     Round();
+    /**
+     * @brief Nextround
+     * @param maze
+     */
     void Nextround(int maze[10][10]);
+    /**
+     * @brief setRutaLista
+     * @param maze
+     */
     void setRutaLista(int maze[10][10]);
 private:
+    /**
+     * @brief pob
+     */
     LinkedList<Creaturas> *pob= new LinkedList<Creaturas>();
+    /**
+     * @brief vida
+     */
     Genetico vida=Genetico();
+    /**
+      * @brief xml1
+      */
      XMLParser xml1=XMLParser();
+     /**
+      * @brief aPath
+      */
      Astar aPath= Astar();
+     /**
+      * @brief bPath
+      */
      Backtrack bPath=Backtrack();
 };
 

@@ -29,12 +29,33 @@ class Backtrack
 {
 public:
     Backtrack();
+    /**
+     * @brief isReachable
+     * @param maze
+     * @param x
+     * @param y
+     * @param fx
+     * @param fy
+     * @return
+     */
     bool isReachable(int maze[N][M],int x, int y,int fx, int fy);
+    /**
+     * @brief ruta
+     */
     std::string ruta;
+    /**
+     * @brief lruta
+     */
     LinkedList<int> *lruta= new LinkedList<int>();
 private:
 
+    /**
+     * @brief n
+     */
     int n = N, m = M;
+    /**
+     * @brief visited
+     */
     bool visited[N][M];
 };
 

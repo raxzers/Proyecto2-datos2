@@ -12,10 +12,29 @@
 
 class Genetico {
 public:
+    /**
+     * @brief swap
+     * @param a
+     * @param b
+     */
     void swap(Node<Creaturas> *a, Node<Creaturas> *b);
+    /**
+     * @brief bubbleSort
+     * @param start
+     */
     void bubbleSort(LinkedList<Creaturas> *start);
+    /**
+     * @brief cruzarPoblacion
+     * @param listacreat
+     */
     void cruzarPoblacion(LinkedList<Creaturas>* listacreat);
+    /**
+     * @brief Lc
+     */
     LinkedList<Creaturas>* Lc;
+    /**
+     * @brief Generation
+     */
     int Generation;
 };
 

@@ -18,17 +18,65 @@ class MainWindow : public QMainWindow
 public:
     MainWindow(QWidget *parent = nullptr);
     ~MainWindow();
+    /**
+     * @brief armarTableroCasillasNegras
+     */
     void armarTableroCasillasNegras();
+    /**
+     * @brief armarTableroCasillasBlancas
+     */
     void armarTableroCasillasBlancas();
+    /**
+     * @brief asignarTorres
+     */
     void asignarTorres();
+    /**
+     * @brief habilitatTorres
+     */
     void habilitatTorres();
+    /**
+     * @brief desabilitarTorres
+     */
     void desabilitarTorres();
+    /**
+     * @brief evaluarEstuduante
+     * @param casillaTorre
+     * @param casillaEstudiante
+     * @param tipoTorre
+     */
     void evaluarEstuduante(int casillaTorre, int casillaEstudiante, QString tipoTorre);
+    /**
+     * @brief ataqueTorreArquera
+     * @param casillaTorre
+     * @param casillaEstudiante
+     */
     void ataqueTorreArquera(int casillaTorre, int casillaEstudiante);
+    /**
+     * @brief ataqueTorreMago
+     * @param casillaTorre
+     * @param casillaEstudiante
+     */
     void ataqueTorreMago(int casillaTorre, int casillaEstudiante);
+    /**
+     * @brief ataqueTorreArtillero
+     * @param casillaTorre
+     * @param casillaEstudiante
+     */
     void ataqueTorreArtillero(int casillaTorre, int casillaEstudiante);
+    /**
+     * @brief moverEstudiante
+     * @param casillaActual
+     * @param casillaSiguiente
+     * @param numZombie
+     */
     void moverEstudiante(int casillaActual, int casillaSiguiente, int numZombie);
+    /**
+     * @brief torreSeleccionada
+     */
     QString torreSeleccionada;
+    /**
+     * @brief casillaSeleccionada
+     */
     QString casillaSeleccionada;
     Player p1=Player();
     int casSelec;
@@ -36,6 +84,9 @@ public:
     XMLParser xml1=XMLParser();
 
 private slots:
+    /**
+     * @brief on_casilla00_clicked
+     */
     void on_casilla00_clicked();
 
     void on_casilla01_clicked();
@@ -236,16 +287,31 @@ private slots:
 
     void on_casilla99_clicked();
 
+    /**
+     * @brief on_torreArqueraButton_clicked
+     */
     void on_torreArqueraButton_clicked();
 
+    /**
+     * @brief on_torreMagoButton_clicked
+     */
     void on_torreMagoButton_clicked();
 
+    /**
+     * @brief on_torreArtilleraButton_clicked
+     */
     void on_torreArtilleraButton_clicked();
-
+    /**
+     * @brief on_torreFuegoButton_clicked
+     */
     void on_torreFuegoButton_clicked();
-
+    /**
+     * @brief on_eliminarCursoButton_clicked
+     */
     void on_eliminarCursoButton_clicked();
-
+    /**
+     * @brief on_IniciarButton_clicked
+     */
     void on_IniciarButton_clicked();
 
 private:

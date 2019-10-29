@@ -10,15 +10,29 @@
 template <class T>
 class LinkedList {
 private:
+    /**
+     * @brief first
+     */
     Node<T> *first;
 public:
+    /**
+     * @brief getFirst
+     * @return
+     */
     Node<T> *getFirst() const {
         return first;
     }
 
 private:
+    /**
+     * @brief size
+     */
     int size;
 public:
+    /**
+     * @brief setSize
+     * @param size
+     */
     void setSize(int size) {
         LinkedList::size = size;
     }

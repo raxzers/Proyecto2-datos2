@@ -12,11 +12,39 @@
 class Creaturas {
 public:
     Creaturas();
+    /**
+     * @brief Creaturas
+     * @param nm
+     */
     Creaturas(std::string nm);
+    /**
+     * @brief Creaturas
+     * @param nm
+     * @param gen
+     */
     Creaturas(std::string nm,std::string gen);
+    /**
+     * @brief Creaturas
+     * @param nm
+     * @param Rart
+     * @param Rarq
+     * @param Rm
+     * @param Rf
+     * @param vel
+     */
     Creaturas(std::string nm,int Rart,int Rarq,int Rm,int Rf,int vel);
+    /**
+     * @brief display
+     * @return
+     */
     std::string display();
+    /**
+     * @brief ruta
+     */
     std::string ruta="";
+    /**
+     * @brief atributos
+     */
     int atributos=0;
     int vida=0;
     int gen;
