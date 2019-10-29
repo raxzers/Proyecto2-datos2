@@ -51,7 +51,7 @@ void XMLParser::createPob()
     this->xmlPobl= lcreat2XML(pob);
 }
 
-LinkedList<Creaturas> *XMLParser::lcreat2XML(std::string lc)
+LinkedList<Creaturas> *XMLParser::XML2lcreat(std::string lc)
 {
     LinkedList<Creaturas> *pob= new LinkedList<Creaturas>();
     using boost::property_tree::ptree;
