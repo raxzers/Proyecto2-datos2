@@ -19,8 +19,10 @@ void Round::Nextround(int maze[10][10])
 void Round::setRutaLista(int maze[10][10])
 {
     for(int i=0;i<pob->getSize();i++){
-        //if(){}
-        aPath.aStarSearch(maze,90,0);
-        pob->getElement(i)->getData().ruta=aPath.getRoute();
+        if(Utilities::random(0,100)<10){aPath.aStarSearch(maze,90,0);
+            pob->getElement(i)->getData().ruta=aPath.getRoute();}
+        else {bPath.isReachable(maze,9,0,0,5);
+        pob->getElement(i)->getData().ruta=bPath.ruta;
+        }
     }
 }

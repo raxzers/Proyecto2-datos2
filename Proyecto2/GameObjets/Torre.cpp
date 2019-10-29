@@ -9,15 +9,13 @@ std::string Torre::retClin() {
 }
 
 Torre::Torre() {
-    this->idTor= Utilities::random(1,3);
-    this->setTorre();
-    this->pos=Utilities::random(1,100);
+
 
 }
 
-void Torre::setTorre() {
+void Torre::setTorre(int id) {
 
-    switch(this->idTor){
+    switch(id){
         case 1:
             this->tipo="1";
             this->dano=1;
@@ -31,8 +29,13 @@ void Torre::setTorre() {
         case 3:
             this->tipo="3";
             this->dano=4;
-            this->alcance=2;
+            this->alcance=3;
             break;
+    case 4:
+        this->tipo="3";
+        this->dano=5;
+        this->alcance=4;
+        break;
 
 
     }
@@ -48,8 +51,8 @@ const std::string &Torre::getTipo() const {
     return tipo;
 }
 
-void Torre::setPos() {
-
+void Torre::setPos(int pos) {
+ this->pos = pos;
 
 
 }

@@ -34,6 +34,6 @@ LinkedList<Torre> *Player::getTorr() const {
     return Torr;
 }
 
-void Player::setTorr(LinkedList<Torre> *torr) {
-    Torr = torr;
+void Player::setTorr(Torre torr) {
+    Torr->insertAtEnd(torr);
 }

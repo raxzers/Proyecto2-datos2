@@ -65,7 +65,7 @@ public:
     *
     * @brief encapsulacion para la variable Torr
     **/
-    void setTorr(LinkedList<Torre> *torr);
+    void setTorr(Torre torr);
 
 };
 

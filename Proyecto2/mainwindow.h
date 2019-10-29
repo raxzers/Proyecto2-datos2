@@ -81,7 +81,6 @@ public:
     Player p1=Player();
     int casSelec;
     Round r= Round();
-    XMLParser xml1=XMLParser();
 
 private slots:
     /**

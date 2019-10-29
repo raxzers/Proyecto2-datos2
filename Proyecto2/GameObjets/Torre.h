@@ -14,7 +14,7 @@ public:
     /**
      * @brief setTorre
      */
-    void  setTorre();
+    void  setTorre(int id);
     /**
      * @brief retClin
      * @return
@@ -28,7 +28,7 @@ public:
     /**
      * @brief setPos
      */
-    void setPos();
+    void setPos(int pos);
     /**
      * @brief getPos
      * @return
