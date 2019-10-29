@@ -9,10 +9,6 @@ MainWindow::MainWindow(QWidget *parent)
     , ui(new Ui::MainWindow)
 {
     ui->setupUi(this);
-    armarTableroCasillasNegras();
-    armarTableroCasillasBlancas();
-    asignarTorres();
-    ui->cantCreditos->setText(QString::number(p1.getCredits()));
 
     QString mp= QString::fromStdString(xml1.xmlPobl);
    qDebug() << mp;
@@ -22542,4 +22538,13 @@ bool MainWindow::checkCredits()
         return false;
     }
     return true;
+}
+
+void MainWindow::on_IniciarButton_clicked()
+{
+    armarTableroCasillasNegras();
+    armarTableroCasillasBlancas();
+    asignarTorres();
+    ui->cantCreditos->setText(QString::number(p1.getCredits()));
+
 }

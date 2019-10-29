@@ -17,6 +17,8 @@ DEFINES += QT_DEPRECATED_WARNINGS
 
 SOURCES += \
     Algoritms/Genetico.cpp \
+    Algoritms/astar.cpp \
+    Algoritms/backtrack.cpp \
     GameObjets/Creaturas.cpp \
     GameObjets/Player.cpp \
     GameObjets/Torre.cpp \
@@ -27,6 +29,8 @@ SOURCES += \
 
 HEADERS += \
     Algoritms/Genetico.h \
+    Algoritms/astar.h \
+    Algoritms/backtrack.h \
     GameObjets/Creaturas.h \
     GameObjets/Player.h \
     GameObjets/Torre.h \

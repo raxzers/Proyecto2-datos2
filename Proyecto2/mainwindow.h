@@ -246,6 +246,8 @@ private slots:
 
     void on_eliminarCursoButton_clicked();
 
+    void on_IniciarButton_clicked();
+
 private:
     Ui::MainWindow *ui;
     bool checkCredits();
