@@ -11,11 +11,20 @@
 
 class Player {
 private:
+    /**
+    * @brief creditos para las torre
+    *
+    **/
     int credits=100;
     /**
-     * @brief Torr
-     */
+    *@brief lista de torres
+    *
+    **/
     LinkedList<Torre> *Torr= new LinkedList<Torre>();
+    /**
+    * @brief representcion del mapa del juego
+    *
+    **/
     int mapa[10][10]={{ 1 , 1 , 1 , 1 , 1 , 1 , 1 , 1 , 1 , 1 },
                       { 1 , 1 , 1 , 1 , 1 , 1 , 1 , 1 , 1 , 1 },
                       { 1 , 1 , 1 , 1 , 1 , 1 , 1 , 1 , 1 , 1 },
@@ -28,34 +37,34 @@ private:
                       { 1 , 1 , 1 , 1 , 1 , 1 , 1 , 1 , 1 , 1 }};
 public:
     /**
-     * @brief updatemapa
-     * @param P
-     */
+    * @brief actualiza la matriz
+    * @param p poscion
+    **/
     void updatemapa(int P);
     /**
-     * @brief verMapa
-     * @return
-     */
+    * @brief ve el mapa en string
+    * @return el mapa en string
+    **/
     std::string verMapa();
     /**
-     * @brief getCredits
-     * @return
-     */
+    *
+    *@brief encapsulacion para la variable credit
+    **/
     int getCredits() const;
     /**
-     * @brief setCredits
-     * @param value
-     */
+    *
+    * @brief encapsulacion para la variable credit
+    **/
     void setCredits(int value);
     /**
-     * @brief getTorr
-     * @return
-     */
+    *
+    * @brief encapsulacion para la variable Torr
+    **/
     LinkedList<Torre> *getTorr() const;
     /**
-     * @brief setTorr
-     * @param torr
-     */
+    *
+    * @brief encapsulacion para la variable Torr
+    **/
     void setTorr(LinkedList<Torre> *torr);
 
 };

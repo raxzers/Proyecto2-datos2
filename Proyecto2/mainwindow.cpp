@@ -10,8 +10,7 @@ MainWindow::MainWindow(QWidget *parent)
 {
     ui->setupUi(this);
 
-    QString mp= QString::fromStdString(xml1.xmlPobl);
-   qDebug() << mp;
+
 }
 
 MainWindow::~MainWindow()
