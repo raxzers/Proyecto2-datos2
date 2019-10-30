@@ -1,8 +1,7 @@
 #ifndef BACKTRACK_H
 #define BACKTRACK_H
 
-#define N 10
-#define M 10
+
 
 #include "../sturctures/LinkedList.h"
 #include <string>
@@ -38,7 +37,7 @@ public:
      * @param fy
      * @return
      */
-    bool isReachable(int maze[N][M],int x, int y,int fx, int fy);
+    bool isReachable(int maze[10][10],int x, int y,int fx, int fy);
     /**
      * @brief ruta
      */
@@ -52,11 +51,11 @@ private:
     /**
      * @brief n
      */
-    int n = N, m = M;
+    int n = 10, m = 10;
     /**
      * @brief visited
      */
-    bool visited[N][M];
+    bool visited[10][10];
 };
 
 #endif // BACKTRACK_H

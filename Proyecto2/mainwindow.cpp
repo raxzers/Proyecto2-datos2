@@ -20869,7 +20869,7 @@ void MainWindow::on_torreArqueraButton_clicked()
     t1.setPos(casSelec);
     t1.setTorre(1);
     p1.setTorr(t1);
-
+    r.setRutaLista(p1.mapa);
 
 
 }
@@ -21290,7 +21290,7 @@ void MainWindow::on_torreMagoButton_clicked()
     t1.setPos(casSelec);
     t1.setTorre(2);
     p1.setTorr(t1);
-
+    r.setRutaLista(p1.mapa);
 \
 }
 
@@ -21709,6 +21709,7 @@ void MainWindow::on_torreArtilleraButton_clicked()
    t1.setPos(casSelec);
    t1.setTorre(3);
    p1.setTorr(t1);
+   r.setRutaLista(p1.mapa);
 }
 
 void MainWindow::on_torreFuegoButton_clicked()
@@ -22128,6 +22129,8 @@ void MainWindow::on_torreFuegoButton_clicked()
    t1.setPos(casSelec);
    t1.setTorre(4);
    p1.setTorr(t1);
+   r.setRutaLista(p1.mapa);
+
 
 }
 

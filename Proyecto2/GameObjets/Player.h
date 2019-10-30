@@ -21,6 +21,7 @@ private:
     *
     **/
     LinkedList<Torre> *Torr= new LinkedList<Torre>();
+    public:
     /**
     * @brief representcion del mapa del juego
     *
@@ -35,7 +36,7 @@ private:
                       { 1 , 1 , 1 , 1 , 1 , 1 , 1 , 1 , 1 , 1 },
                       { 1 , 1 , 1 , 1 , 1 , 1 , 1 , 1 , 1 , 1 },
                       { 1 , 1 , 1 , 1 , 1 , 1 , 1 , 1 , 1 , 1 }};
-public:
+
     /**
     * @brief actualiza la matriz
     * @param p poscion

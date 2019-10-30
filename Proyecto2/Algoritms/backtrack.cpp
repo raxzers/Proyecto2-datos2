@@ -5,7 +5,7 @@ Backtrack::Backtrack()
     memset(this->visited, true, sizeof(visited));
 }
 
-bool Backtrack::isReachable(int maze[N][M], int x, int y, int fx, int fy)
+bool Backtrack::isReachable(int maze[10][10], int x, int y, int fx, int fy)
 {
     // Initially starting at (0, 0).
         int i = x, j = y;
